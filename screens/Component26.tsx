@@ -16,9 +16,9 @@ import Component387 from "../assets/";
 import Component388 from "../assets/";
 import Component389 from "../assets/";
 import Vector316 from "../assets/vector31";
-import Group73635 from "../assets/group7363";
+import Group73625 from "../assets/group7362";
 import Component390 from "../assets/";
-import Vector146 from "../assets/vector14";
+import Vector145 from "../assets/vector14";
 import Component212 from "../assets/";
 import Vector1526 from "../assets/vector15";
 import Component213 from "../assets/";
@@ -606,7 +606,7 @@ const Component26 = () => {
         </View>
         <View style={styles.group}>
           <Text style={styles.text3}>₱1980.00</Text>
-          <Group73635 style={[styles.instanceChild, styles.iconLayout1]} />
+          <Group73625 style={[styles.instanceChild, styles.iconLayout1]} />
           <Component390 style={[styles.icon24, styles.iconLayout1]} />
         </View>
       </View>
@@ -632,7 +632,7 @@ const Component26 = () => {
           resizeMode="cover"
           source={require("../assets/2333-111.png")}
         />
-        <Vector146 style={[styles.item, styles.itemPosition]} />
+        <Vector145 style={[styles.item, styles.itemPosition]} />
         <Image
           style={[styles.moneyRainIcon, styles.iconPosition3]}
           resizeMode="cover"

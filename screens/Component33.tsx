@@ -17,10 +17,10 @@ import Ellipse1084 from "../assets/ellipse108";
 import Logovideo44 from "../assets/logovideo4";
 import Logovideo34 from "../assets/logovideo3";
 import Logovideo24 from "../assets/logovideo2";
-import Vector446 from "../assets/vector4";
-import Group736142 from "../assets/group7361";
+import Vector4146 from "../assets/vector41";
+import Group7361142 from "../assets/group73611";
 import Component414 from "../assets/";
-import Vector447 from "../assets/vector4";
+import Vector4147 from "../assets/vector41";
 import Ellipse1364 from "../assets/ellipse136";
 import Polygon10111 from "../assets/polygon101";
 import Vector1813 from "../assets/vector18";
@@ -727,7 +727,7 @@ const Component34 = () => {
           useAngle={true}
           angle={180}
         />
-        <Vector446 style={[styles.vectorIcon1, styles.vectorIconLayout]} />
+        <Vector4146 style={[styles.vectorIcon1, styles.vectorIconLayout]} />
         <Text style={[styles.withdrawal, styles.depositTypo1]}>Withdrawal</Text>
         <Image
           style={[styles.logoWj931Icon2, styles.logoWj931Icon2Position]}
@@ -735,9 +735,9 @@ const Component34 = () => {
           source={require("../assets/logowj93-11.png")}
         />
         <Text style={[styles.r198000, styles.hotTypo]}>R$1980.00</Text>
-        <Group736142 style={[styles.groupChild34, styles.iconGroupLayout2]} />
+        <Group7361142 style={[styles.groupChild34, styles.iconGroupLayout2]} />
         <Component414 style={[styles.icon23, styles.iconGroupLayout2]} />
-        <Vector447 style={[styles.vectorIcon2, styles.vectorIconLayout]} />
+        <Vector4147 style={[styles.vectorIcon2, styles.vectorIconLayout]} />
         <Text style={[styles.deposit, styles.depositTypo1]}>Deposit</Text>
         <Image
           style={styles.icon24}

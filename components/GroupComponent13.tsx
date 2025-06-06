@@ -1,6 +1,6 @@
 import React, { useMemo } from "react";
 import { Text, StyleSheet, View } from "react-native";
-import Group736145 from "../assets/group7361";
+import Group7361145 from "../assets/group73611";
 import Component441 from "../assets/";
 import { FontSize, FontFamily, Color } from "../GlobalStyles";
 
@@ -23,7 +23,7 @@ const GroupComponent13 = ({ groupViewBottom }: GroupComponent13Type) => {
   return (
     <View style={[styles.parent, groupViewStyle]}>
       <Text style={styles.text}>₱1980.00</Text>
-      <Group736145 style={[styles.instanceChild, styles.iconLayout]} />
+      <Group7361145 style={[styles.instanceChild, styles.iconLayout]} />
       <Component441 style={[styles.icon, styles.iconLayout]} />
     </View>
   );

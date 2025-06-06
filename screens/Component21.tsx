@@ -5,14 +5,14 @@ import GroupComponent21 from "../components/GroupComponent21";
 import Vector171 from "../assets/vector17";
 import Star11 from "../assets/star11";
 import Component361 from "../assets/";
-import Vector440 from "../assets/vector4";
+import Vector4140 from "../assets/vector41";
 import GroupComponent31 from "../components/GroupComponent31";
 import Polygon101 from "../assets/polygon101";
 import Vector181 from "../assets/vector18";
 import GroupComponent20 from "../components/GroupComponent20";
 import Component68 from "../assets/";
 import GroupComponent110 from "../components/GroupComponent110";
-import Group7361 from "../assets/group7361";
+import Group73611 from "../assets/group73611";
 import Component43 from "../assets/";
 import Component51 from "../components/Component51";
 import Vector110 from "../assets/vector1";
@@ -476,7 +476,7 @@ const Component21 = () => {
           useAngle={true}
           angle={180}
         />
-        <Vector440 style={[styles.vectorIcon, styles.iconLayout1]} />
+        <Vector4140 style={[styles.vectorIcon, styles.iconLayout1]} />
         <Text style={[styles.withdrawal, styles.depositTypo]}>Withdrawal</Text>
         <Image
           style={[styles.logoWj931Icon1, styles.logoWj931Icon1Position]}
@@ -499,7 +499,7 @@ const Component21 = () => {
         <GroupComponent20 prop={<Component68 width={100} height={81} />} />
       </View>
       <GroupComponent110
-        group736={<Group7361 width={12} height={89} />}
+        group736={<Group73611 width={12} height={89} />}
         prop={<Component43 width={13} height={81} />}
       />
       <View style={[styles.child, styles.childPosition]} />

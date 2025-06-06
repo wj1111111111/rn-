@@ -8,13 +8,13 @@ import Star1172 from "../assets/star11";
 import Star1173 from "../assets/star11";
 import Star1174 from "../assets/star11";
 import Component431 from "../assets/";
-import Vector451 from "../assets/vector4";
+import Vector4151 from "../assets/vector41";
 import Polygon10114 from "../assets/polygon101";
 import Vector1816 from "../assets/vector18";
 import GroupComponent20 from "../components/GroupComponent20";
 import Component68 from "../assets/";
 import GroupComponent41 from "../components/GroupComponent41";
-import Group7361 from "../assets/group7361";
+import Group73611 from "../assets/group73611";
 import Component43 from "../assets/";
 import Logo47 from "../assets/logo4";
 import Logo87 from "../assets/logo8";
@@ -501,7 +501,7 @@ const Component37 = () => {
             useAngle={true}
             angle={180}
           />
-          <Vector451 style={[styles.vectorIcon1, styles.vectorIconLayout]} />
+          <Vector4151 style={[styles.vectorIcon1, styles.vectorIconLayout]} />
           <Text style={[styles.withdrawal, styles.depositTypo]}>
             Withdrawal
           </Text>
@@ -558,7 +558,7 @@ const Component37 = () => {
           <GroupComponent20 prop={<Component68 width={100} height={81} />} />
         </View>
         <GroupComponent41
-          group736={<Group7361 width={12} height={89} />}
+          group736={<Group73611 width={12} height={89} />}
           prop={<Component43 width={13} height={81} />}
         />
         <View style={[styles.jdbSlot105Parent, styles.groupChild5Layout]}>

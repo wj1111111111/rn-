@@ -5,10 +5,10 @@ import GroupComponent21 from "../components/GroupComponent21";
 import Vector171 from "../assets/vector17";
 import Star11 from "../assets/star11";
 import Component359 from "../assets/";
-import Vector438 from "../assets/vector4";
-import Group73622 from "../assets/group7362";
+import Vector4138 from "../assets/vector41";
+import Group7365 from "../assets/group736";
 import Component360 from "../assets/";
-import Vector439 from "../assets/vector4";
+import Vector4139 from "../assets/vector41";
 import Ellipse1363 from "../assets/ellipse136";
 import GroupComponent31 from "../components/GroupComponent31";
 import Polygon101 from "../assets/polygon101";
@@ -337,7 +337,7 @@ const Component20 = () => {
           useAngle={true}
           angle={180}
         />
-        <Vector438 style={[styles.vectorIcon, styles.vectorIconLayout]} />
+        <Vector4138 style={[styles.vectorIcon, styles.vectorIconLayout]} />
         <Text style={[styles.withdrawal, styles.depositTypo]}>Withdrawal</Text>
         <Image
           style={[styles.logoWj931Icon1, styles.logoWj931Icon1Position]}
@@ -345,9 +345,9 @@ const Component20 = () => {
           source={require("../assets/logowj93-11.png")}
         />
         <Text style={[styles.r198000, styles.r198000Typo]}>R$1980.00</Text>
-        <Group73622 style={[styles.groupIcon, styles.iconLayout5]} />
+        <Group7365 style={[styles.groupIcon, styles.iconLayout5]} />
         <Component360 style={[styles.icon14, styles.iconLayout5]} />
-        <Vector439 style={[styles.vectorIcon1, styles.vectorIconLayout]} />
+        <Vector4139 style={[styles.vectorIcon1, styles.vectorIconLayout]} />
         <Text style={[styles.deposit, styles.depositTypo]}>Deposit</Text>
         <Image
           style={styles.icon15}

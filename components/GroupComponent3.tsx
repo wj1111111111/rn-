@@ -1,9 +1,9 @@
 import * as React from "react";
 import { StyleSheet, View, Text } from "react-native";
 import Vector1103 from "../assets/vector1";
-import Vector1119 from "../assets/vector11";
 import Vector215 from "../assets/vector2";
 import Vector38 from "../assets/vector3";
+import Vector48 from "../assets/vector4";
 import { Color, FontFamily, FontSize, Border } from "../GlobalStyles";
 
 const GroupComponent3 = () => {
@@ -21,9 +21,9 @@ Record`}</Text>
       <Text style={[styles.accountRecord, styles.recordTypo]}>{`Account
 Record`}</Text>
       <Vector1103 style={[styles.vectorIcon, styles.vectorIconLayout]} />
-      <Vector1119 style={[styles.vectorIcon1, styles.vectorIconLayout]} />
-      <Vector215 style={[styles.vectorIcon2, styles.vectorIconLayout]} />
-      <Vector38 style={[styles.vectorIcon3, styles.vectorIconLayout]} />
+      <Vector215 style={[styles.vectorIcon1, styles.vectorIconLayout]} />
+      <Vector38 style={[styles.vectorIcon2, styles.vectorIconLayout]} />
+      <Vector48 style={[styles.vectorIcon3, styles.vectorIconLayout]} />
     </View>
   );
 };

@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Image, StyleSheet, View, Text } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import Union41 from "../assets/union4";
+import Union51 from "../assets/union5";
 import Ellipse72916 from "../assets/ellipse729";
 import Ellipse75816 from "../assets/ellipse758";
 import Ellipse75817 from "../assets/ellipse758";
@@ -67,7 +67,7 @@ const Component38 = () => {
           resizeMode="cover"
           source={require("../assets/187dtlr3-1.png")}
         />
-        <Union41 style={[styles.unionIcon, styles.iconPosition1]} />
+        <Union51 style={[styles.unionIcon, styles.iconPosition1]} />
         <Image
           style={styles.curveTextIcon}
           resizeMode="cover"

@@ -10,10 +10,10 @@ import Grandesvitoriasrecentes1 from "../assets/grandesvitoriasrecentes";
 import Component405 from "../assets/";
 import Component406 from "../assets/";
 import Group7461 from "../assets/group746";
-import Vector444 from "../assets/vector4";
-import Group736141 from "../assets/group7361";
+import Vector4144 from "../assets/vector41";
+import Group7361141 from "../assets/group73611";
 import Component407 from "../assets/";
-import Vector445 from "../assets/vector4";
+import Vector4145 from "../assets/vector41";
 import Rectangle671 from "../assets/rectangle67";
 import Vector242 from "../assets/vector24";
 import Vector252 from "../assets/vector25";
@@ -28,8 +28,8 @@ import Component410 from "../assets/";
 import Component411 from "../assets/";
 import Group6291 from "../assets/group629";
 import Component412 from "../assets/";
-import Stroke27 from "../assets/stroke2";
-import Stroke32 from "../assets/stroke3";
+import Stroke36 from "../assets/stroke3";
+import Stroke42 from "../assets/stroke4";
 import Group6281 from "../assets/group628";
 import { FontFamily, FontSize, Color, Border } from "../GlobalStyles";
 
@@ -274,7 +274,7 @@ Mouse`}</Text>
               angle={180}
             />
             <View style={[styles.vectorParent, styles.vectorPosition]}>
-              <Vector444
+              <Vector4144
                 style={[styles.vectorIcon, styles.vectorIconPosition]}
               />
               <Text style={[styles.withdrawal, styles.loginTypo]}>
@@ -287,10 +287,10 @@ Mouse`}</Text>
               source={require("../assets/logowj93-12.png")}
             />
             <Text style={[styles.r198000, styles.slotsTypo]}>R$1980.00</Text>
-            <Group736141 style={[styles.instanceItem, styles.iconLayout4]} />
+            <Group7361141 style={[styles.instanceItem, styles.iconLayout4]} />
             <Component407 style={[styles.icon12, styles.iconLayout4]} />
             <View style={[styles.vectorGroup, styles.vectorPosition]}>
-              <Vector445
+              <Vector4145
                 style={[styles.vectorIcon1, styles.vectorIconPosition]}
               />
               <Text style={[styles.deposit, styles.loginTypo]}>Deposit</Text>
@@ -384,7 +384,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
           />
           <View style={[styles.loginParent, styles.loginIconLayout]}>
             <Text style={[styles.login, styles.loginIconLayout]}>Previous</Text>
-            <Stroke27
+            <Stroke36
               style={[styles.strokeIcon, styles.strokeIconLayout]}
               width={8}
               height={13}
@@ -395,7 +395,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum
               <View style={styles.loginPosition}>
                 <Text style={[styles.login1, styles.loginPosition]}>Next</Text>
               </View>
-              <Stroke32
+              <Stroke42
                 style={[styles.strokeIcon1, styles.strokeIconLayout]}
                 width={8}
                 height={13}

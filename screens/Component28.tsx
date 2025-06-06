@@ -13,7 +13,7 @@ import GroupComponent20 from "../components/GroupComponent20";
 import Component197 from "../assets/";
 import Component51 from "../components/Component51";
 import GroupComponent110 from "../components/GroupComponent110";
-import Group7363 from "../assets/group7363";
+import Group7362 from "../assets/group7362";
 import Component202 from "../assets/";
 import { Border, Color, FontFamily, FontSize } from "../GlobalStyles";
 
@@ -579,7 +579,7 @@ const Component28 = () => {
         showIcon={false}
       />
       <GroupComponent110
-        group736={<Group7363 width={12} height={89} />}
+        group736={<Group7362 width={12} height={89} />}
         prop={<Component202 width={13} height={81} />}
       />
     </ScrollView>

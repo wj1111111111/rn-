@@ -11,7 +11,7 @@ import Polygon10 from "../assets/polygon10";
 import Vector2111 from "../assets/vector211";
 import GroupComponent20 from "../components/GroupComponent20";
 import GroupComponent41 from "../components/GroupComponent41";
-import Group7363 from "../assets/group7363";
+import Group7362 from "../assets/group7362";
 import Component202 from "../assets/";
 import GroupComponent5 from "../components/GroupComponent5";
 import GroupComponent6 from "../components/GroupComponent6";
@@ -468,7 +468,7 @@ const Component39 = () => {
           <GroupComponent20 />
         </View>
         <GroupComponent41
-          group736={<Group7363 width={12} height={89} />}
+          group736={<Group7362 width={12} height={89} />}
           prop={<Component202 width={13} height={81} />}
         />
         <View style={[styles.jdbSlot105Parent, styles.groupInnerLayout]}>

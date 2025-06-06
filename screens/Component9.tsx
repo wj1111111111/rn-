@@ -6,18 +6,18 @@ import Ellipse710 from "../assets/ellipse7";
 import Component338 from "../assets/";
 import GroupComponent3 from "../components/GroupComponent3";
 import Component339 from "../assets/";
-import Vector434 from "../assets/vector4";
+import Vector4134 from "../assets/vector41";
 import Component340 from "../assets/";
-import Vector435 from "../assets/vector4";
-import Stroke1190 from "../assets/stroke11";
-import Stroke1191 from "../assets/stroke11";
-import Stroke1192 from "../assets/stroke11";
-import Stroke1193 from "../assets/stroke11";
-import Stroke1194 from "../assets/stroke11";
-import Stroke1195 from "../assets/stroke11";
-import Stroke1196 from "../assets/stroke11";
-import Stroke1197 from "../assets/stroke11";
-import Stroke1198 from "../assets/stroke11";
+import Vector4135 from "../assets/vector41";
+import Stroke290 from "../assets/stroke2";
+import Stroke291 from "../assets/stroke2";
+import Stroke292 from "../assets/stroke2";
+import Stroke293 from "../assets/stroke2";
+import Stroke294 from "../assets/stroke2";
+import Stroke295 from "../assets/stroke2";
+import Stroke296 from "../assets/stroke2";
+import Stroke297 from "../assets/stroke2";
+import Stroke298 from "../assets/stroke2";
 import Vector510 from "../assets/vector5";
 import Vector69 from "../assets/vector6";
 import Vector710 from "../assets/vector7";
@@ -31,8 +31,8 @@ import Component342 from "../assets/";
 import Vector1215 from "../assets/vector12";
 import Component343 from "../assets/";
 import Vector1313 from "../assets/vector13";
-import Union216 from "../assets/union21";
-import Vector1410 from "../assets/vector14";
+import Union35 from "../assets/union3";
+import Vector149 from "../assets/vector14";
 import Component344 from "../assets/";
 import Group84810 from "../assets/group848";
 import Component345 from "../assets/";
@@ -100,7 +100,7 @@ const Component9 = () => {
             width={124}
             height={36}
           />
-          <Vector434
+          <Vector4134
             style={[styles.vectorIcon, styles.vectorIconLayout1]}
             width={16}
             height={12}
@@ -122,7 +122,7 @@ const Component9 = () => {
               Withdrawal
             </Text>
           </View>
-          <Vector435
+          <Vector4135
             style={[styles.vectorIcon1, styles.vectorIconLayout1]}
             width={16}
             height={12}
@@ -148,47 +148,47 @@ const Component9 = () => {
           />
         </View>
         <View style={[styles.rectangleView, styles.groupInnerLayout]} />
-        <Stroke1190
+        <Stroke290
           style={[styles.strokeIcon, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke1191
+        <Stroke291
           style={[styles.strokeIcon1, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke1192
+        <Stroke292
           style={[styles.strokeIcon2, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke1193
+        <Stroke293
           style={[styles.strokeIcon3, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke1194
+        <Stroke294
           style={[styles.strokeIcon4, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke1195
+        <Stroke295
           style={[styles.strokeIcon5, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke1196
+        <Stroke296
           style={[styles.strokeIcon6, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke1197
+        <Stroke297
           style={[styles.strokeIcon7, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke1198
+        <Stroke298
           style={[styles.strokeIcon8, styles.iconLayout2]}
           width={8}
           height={13}
@@ -229,7 +229,7 @@ downloading the official APP`}</Text>
         <Image
           style={[styles.icon4, styles.iconLayout2]}
           resizeMode="cover"
-          source={require("../assets/-1111.png")}
+          source={require("../assets/-14.png")}
         />
         <Image
           style={[styles.group120051, styles.child2Layout]}
@@ -316,8 +316,8 @@ To join`}{" "}
           />
         </View>
         <View style={[styles.unionParent, styles.unionLayout]}>
-          <Union216 style={styles.unionLayout} width={321} height={84} />
-          <Vector1410 style={[styles.vectorIcon10, styles.iconLayout]} />
+          <Union35 style={styles.unionLayout} width={321} height={84} />
+          <Vector149 style={[styles.vectorIcon10, styles.iconLayout]} />
           <Text style={styles.theMobileNumber}>
             The mobile number will be used to check that your money is safe when
             you try to withdraw

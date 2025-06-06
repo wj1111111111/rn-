@@ -1,8 +1,8 @@
 import * as React from "react";
 import { ScrollView, StyleSheet, View, Text, Image } from "react-native";
-import Group736138 from "../assets/group7361";
+import Group7361138 from "../assets/group73611";
 import Component398 from "../assets/";
-import Stroke25 from "../assets/stroke";
+import Stroke34 from "../assets/stroke";
 import Group8271 from "../assets/group827";
 import { Color, FontFamily, FontSize, Border } from "../GlobalStyles";
 
@@ -14,11 +14,11 @@ const Component29 = () => {
           <View style={[styles.groupChild, styles.groupChildPosition]} />
           <View style={styles.r198000Parent}>
             <Text style={styles.r198000}>R$1980.00</Text>
-            <Group736138 style={[styles.groupItem, styles.iconLayout]} />
+            <Group7361138 style={[styles.groupItem, styles.iconLayout]} />
             <Component398 style={[styles.icon, styles.iconLayout]} />
           </View>
         </View>
-        <Stroke25 style={[styles.strokeIcon, styles.iconLayout]} />
+        <Stroke34 style={[styles.strokeIcon, styles.iconLayout]} />
         <Text style={[styles.pgSlots, styles.pgSlotsTypo]}>Notice</Text>
       </View>
       <Image

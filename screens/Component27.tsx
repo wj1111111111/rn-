@@ -16,7 +16,7 @@ import Component393 from "../assets/";
 import Component394 from "../assets/";
 import Component395 from "../assets/";
 import Vector317 from "../assets/vector31";
-import Group73636 from "../assets/group7363";
+import Group73626 from "../assets/group7362";
 import Component396 from "../assets/";
 import Vector1101 from "../assets/vector110";
 import Component224 from "../assets/";
@@ -598,7 +598,7 @@ const Component27 = () => {
       </View>
       <View style={[styles.group, styles.viewPosition]}>
         <Text style={styles.text3}>₱1980.00</Text>
-        <Group73636 style={styles.instanceChild} />
+        <Group73626 style={styles.instanceChild} />
         <Component396 style={[styles.icon24, styles.iconPosition4]} />
       </View>
       <View style={[styles.child, styles.childPosition]} />

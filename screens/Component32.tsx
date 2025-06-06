@@ -1,14 +1,14 @@
 import * as React from "react";
 import { Text, StyleSheet, View, Image } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import Group7366 from "../assets/group736";
+import Group73613 from "../assets/group7361";
 import Component402 from "../assets/";
 import Stroke110 from "../assets/stroke1";
 import Component403 from "../assets/";
 import Vector232 from "../assets/vector23";
 import Ellipse872 from "../assets/ellipse87";
 import Ellipse873 from "../assets/ellipse87";
-import Group736140 from "../assets/group7361";
+import Group7361140 from "../assets/group73611";
 import Component404 from "../assets/";
 import { FontFamily, Color, FontSize, Border } from "../GlobalStyles";
 
@@ -24,7 +24,7 @@ const Component32 = () => {
         <View style={[styles.groupWrapper, styles.groupPosition]}>
           <View style={[styles.r198000Parent, styles.groupChildPosition]}>
             <Text style={[styles.r198000, styles.text2Clr]}>R$1980.00</Text>
-            <Group7366 style={[styles.groupChild, styles.groupChildLayout]} />
+            <Group73613 style={[styles.groupChild, styles.groupChildLayout]} />
             <Component402 style={[styles.icon, styles.iconPosition]} />
           </View>
         </View>
@@ -104,7 +104,7 @@ const Component32 = () => {
       </View>
       <View style={[styles.group, styles.groupPosition]}>
         <Text style={[styles.text2, styles.text2Typo]}>₱1980.00</Text>
-        <Group736140 style={[styles.instanceInner, styles.icon1Position]} />
+        <Group7361140 style={[styles.instanceInner, styles.icon1Position]} />
         <Component404 style={[styles.icon3, styles.iconPosition]} />
       </View>
     </SafeAreaView>

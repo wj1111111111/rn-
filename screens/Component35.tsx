@@ -8,7 +8,7 @@ import Star1167 from "../assets/star11";
 import Star1168 from "../assets/star11";
 import Star1169 from "../assets/star11";
 import Component425 from "../assets/";
-import Vector450 from "../assets/vector4";
+import Vector4150 from "../assets/vector41";
 import Polygon10113 from "../assets/polygon101";
 import Vector1815 from "../assets/vector18";
 import Component426 from "../assets/";
@@ -16,7 +16,7 @@ import Component427 from "../assets/";
 import Component428 from "../assets/";
 import Component429 from "../assets/";
 import Vector1915 from "../assets/vector19";
-import Group73623 from "../assets/group7362";
+import Group7366 from "../assets/group736";
 import Component430 from "../assets/";
 import Logo46 from "../assets/logo4";
 import Logo86 from "../assets/logo8";
@@ -498,7 +498,7 @@ const Component36 = () => {
           useAngle={true}
           angle={180}
         />
-        <Vector450 style={[styles.vectorIcon1, styles.childIconLayout]} />
+        <Vector4150 style={[styles.vectorIcon1, styles.childIconLayout]} />
         <Text style={[styles.withdrawal, styles.depositTypo1]}>Withdrawal</Text>
         <Image
           style={[styles.logoWj931Icon1, styles.logoWj931Icon1Position]}
@@ -568,7 +568,7 @@ const Component36 = () => {
       </View>
       <View style={[styles.r198000Parent, styles.viewPosition]}>
         <Text style={[styles.r198000, styles.hotTypo]}>₱1980.00</Text>
-        <Group73623 style={[styles.instanceChild, styles.childIconLayout]} />
+        <Group7366 style={[styles.instanceChild, styles.childIconLayout]} />
         <Component430 style={[styles.icon24, styles.childIconLayout]} />
       </View>
       <View style={styles.jdbSlot105Parent}>

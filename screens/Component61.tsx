@@ -4,23 +4,23 @@ import LinearGradient from "react-native-linear-gradient";
 import { SafeAreaView } from "react-native-safe-area-context";
 import Ellipse77 from "../assets/ellipse7";
 import Component322 from "../assets/";
-import Vector148 from "../assets/vector1";
-import Vector1117 from "../assets/vector11";
+import Vector147 from "../assets/vector1";
 import Vector210 from "../assets/vector2";
 import Vector37 from "../assets/vector3";
+import Vector47 from "../assets/vector4";
 import Component323 from "../assets/";
-import Vector428 from "../assets/vector4";
+import Vector4128 from "../assets/vector41";
 import Component324 from "../assets/";
-import Vector429 from "../assets/vector4";
-import Stroke1163 from "../assets/stroke11";
-import Stroke1164 from "../assets/stroke11";
-import Stroke1165 from "../assets/stroke11";
-import Stroke1166 from "../assets/stroke11";
-import Stroke1167 from "../assets/stroke11";
-import Stroke1168 from "../assets/stroke11";
-import Stroke1169 from "../assets/stroke11";
-import Stroke1170 from "../assets/stroke11";
-import Stroke1171 from "../assets/stroke11";
+import Vector4129 from "../assets/vector41";
+import Stroke263 from "../assets/stroke2";
+import Stroke264 from "../assets/stroke2";
+import Stroke265 from "../assets/stroke2";
+import Stroke266 from "../assets/stroke2";
+import Stroke267 from "../assets/stroke2";
+import Stroke268 from "../assets/stroke2";
+import Stroke269 from "../assets/stroke2";
+import Stroke270 from "../assets/stroke2";
+import Stroke271 from "../assets/stroke2";
 import Vector57 from "../assets/vector5";
 import Vector66 from "../assets/vector6";
 import Vector77 from "../assets/vector7";
@@ -34,8 +34,8 @@ import Component326 from "../assets/";
 import Vector1214 from "../assets/vector12";
 import Component327 from "../assets/";
 import Vector1312 from "../assets/vector13";
-import Union215 from "../assets/union21";
-import Vector149 from "../assets/vector14";
+import Union34 from "../assets/union3";
+import Vector148 from "../assets/vector14";
 import Component328 from "../assets/";
 import Group8489 from "../assets/group848";
 import Component329 from "../assets/";
@@ -109,10 +109,10 @@ const Component6 = () => {
 Record`}</Text>
           <Text style={[styles.accountRecord, styles.recordTypo]}>{`Account
 Record`}</Text>
-          <Vector148 style={[styles.vectorIcon, styles.iconLayout1]} />
-          <Vector1117 style={[styles.vectorIcon1, styles.iconLayout1]} />
-          <Vector210 style={[styles.vectorIcon2, styles.iconLayout1]} />
-          <Vector37 style={[styles.vectorIcon3, styles.iconLayout1]} />
+          <Vector147 style={[styles.vectorIcon, styles.iconLayout1]} />
+          <Vector210 style={[styles.vectorIcon1, styles.iconLayout1]} />
+          <Vector37 style={[styles.vectorIcon2, styles.iconLayout1]} />
+          <Vector47 style={[styles.vectorIcon3, styles.iconLayout1]} />
         </View>
         <View style={[styles.rectangleContainer, styles.rectangleLayout]}>
           <View style={[styles.rectangleView, styles.rectangleLayout]} />
@@ -123,7 +123,7 @@ Record`}</Text>
             width={124}
             height={36}
           />
-          <Vector428
+          <Vector4128
             style={[styles.vectorIcon4, styles.vectorIconLayout1]}
             width={16}
             height={12}
@@ -145,7 +145,7 @@ Record`}</Text>
               Withdrawal
             </Text>
           </View>
-          <Vector429
+          <Vector4129
             style={[styles.vectorIcon5, styles.vectorIconLayout1]}
             width={16}
             height={12}
@@ -173,47 +173,47 @@ Record`}</Text>
           />
         </View>
         <View style={styles.groupChild1} />
-        <Stroke1163
+        <Stroke263
           style={[styles.strokeIcon, styles.iconLayout]}
           width={8}
           height={13}
         />
-        <Stroke1164
+        <Stroke264
           style={[styles.strokeIcon1, styles.iconLayout]}
           width={8}
           height={13}
         />
-        <Stroke1165
+        <Stroke265
           style={[styles.strokeIcon2, styles.iconLayout]}
           width={8}
           height={13}
         />
-        <Stroke1166
+        <Stroke266
           style={[styles.strokeIcon3, styles.iconLayout]}
           width={8}
           height={13}
         />
-        <Stroke1167
+        <Stroke267
           style={[styles.strokeIcon4, styles.iconLayout]}
           width={8}
           height={13}
         />
-        <Stroke1168
+        <Stroke268
           style={[styles.strokeIcon5, styles.iconLayout]}
           width={8}
           height={13}
         />
-        <Stroke1169
+        <Stroke269
           style={[styles.strokeIcon6, styles.iconLayout]}
           width={8}
           height={13}
         />
-        <Stroke1170
+        <Stroke270
           style={[styles.strokeIcon7, styles.iconLayout]}
           width={8}
           height={13}
         />
-        <Stroke1171
+        <Stroke271
           style={[styles.strokeIcon8, styles.iconLayout]}
           width={8}
           height={13}
@@ -252,7 +252,7 @@ downloading the official APP`}</Text>
         <Image
           style={[styles.icon4, styles.iconLayout]}
           resizeMode="cover"
-          source={require("../assets/-1111.png")}
+          source={require("../assets/-14.png")}
         />
         <Image
           style={[styles.group120051, styles.child2Layout]}
@@ -341,8 +341,8 @@ To join`}{" "}
           />
         </View>
         <View style={[styles.unionParent, styles.unionLayout]}>
-          <Union215 style={styles.unionLayout} width={321} height={84} />
-          <Vector149 style={[styles.vectorIcon14, styles.iconLayout1]} />
+          <Union34 style={styles.unionLayout} width={321} height={84} />
+          <Vector148 style={[styles.vectorIcon14, styles.iconLayout1]} />
           <Text style={styles.theMobileNumber}>
             The mobile number will be used to check that your money is safe when
             you try to withdraw

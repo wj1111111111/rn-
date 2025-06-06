@@ -6,18 +6,18 @@ import Ellipse78 from "../assets/ellipse7";
 import Component331 from "../assets/";
 import GroupComponent3 from "../components/GroupComponent3";
 import Component332 from "../assets/";
-import Vector430 from "../assets/vector4";
+import Vector4130 from "../assets/vector41";
 import Component333 from "../assets/";
-import Vector431 from "../assets/vector4";
-import Stroke1172 from "../assets/stroke11";
-import Stroke1173 from "../assets/stroke11";
-import Stroke1174 from "../assets/stroke11";
-import Stroke1175 from "../assets/stroke11";
-import Stroke1176 from "../assets/stroke11";
-import Stroke1177 from "../assets/stroke11";
-import Stroke1178 from "../assets/stroke11";
-import Stroke1179 from "../assets/stroke11";
-import Stroke1180 from "../assets/stroke11";
+import Vector4131 from "../assets/vector41";
+import Stroke272 from "../assets/stroke2";
+import Stroke273 from "../assets/stroke2";
+import Stroke274 from "../assets/stroke2";
+import Stroke275 from "../assets/stroke2";
+import Stroke276 from "../assets/stroke2";
+import Stroke277 from "../assets/stroke2";
+import Stroke278 from "../assets/stroke2";
+import Stroke279 from "../assets/stroke2";
+import Stroke280 from "../assets/stroke2";
 import Vector58 from "../assets/vector5";
 import Vector67 from "../assets/vector6";
 import Vector78 from "../assets/vector7";
@@ -88,7 +88,7 @@ const Component7 = () => {
             width={124}
             height={36}
           />
-          <Vector430
+          <Vector4130
             style={[styles.vectorIcon, styles.vectorIconLayout1]}
             width={16}
             height={12}
@@ -110,7 +110,7 @@ const Component7 = () => {
               Withdrawal
             </Text>
           </View>
-          <Vector431
+          <Vector4131
             style={[styles.vectorIcon1, styles.vectorIconLayout1]}
             width={16}
             height={12}
@@ -136,47 +136,47 @@ const Component7 = () => {
           />
         </View>
         <View style={[styles.rectangleView, styles.groupInnerLayout]} />
-        <Stroke1172
+        <Stroke272
           style={[styles.strokeIcon, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke1173
+        <Stroke273
           style={[styles.strokeIcon1, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke1174
+        <Stroke274
           style={[styles.strokeIcon2, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke1175
+        <Stroke275
           style={[styles.strokeIcon3, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke1176
+        <Stroke276
           style={[styles.strokeIcon4, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke1177
+        <Stroke277
           style={[styles.strokeIcon5, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke1178
+        <Stroke278
           style={[styles.strokeIcon6, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke1179
+        <Stroke279
           style={[styles.strokeIcon7, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke1180
+        <Stroke280
           style={[styles.strokeIcon8, styles.iconLayout2]}
           width={8}
           height={13}
@@ -215,7 +215,7 @@ downloading the official APP`}</Text>
         <Image
           style={[styles.icon4, styles.iconLayout2]}
           resizeMode="cover"
-          source={require("../assets/-1111.png")}
+          source={require("../assets/-14.png")}
         />
         <Image
           style={[styles.group120051, styles.groupPosition]}

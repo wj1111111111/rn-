@@ -8,7 +8,7 @@ import Star1152 from "../assets/star11";
 import Star1153 from "../assets/star11";
 import Star1154 from "../assets/star11";
 import Component376 from "../assets/";
-import Vector443 from "../assets/vector4";
+import Vector4143 from "../assets/vector41";
 import Polygon10110 from "../assets/polygon101";
 import Vector1812 from "../assets/vector18";
 import Component377 from "../assets/";
@@ -16,7 +16,7 @@ import Component378 from "../assets/";
 import Component379 from "../assets/";
 import Component380 from "../assets/";
 import Vector1912 from "../assets/vector19";
-import Group736137 from "../assets/group7361";
+import Group7361137 from "../assets/group73611";
 import Component381 from "../assets/";
 import Vector1100 from "../assets/vector1";
 import Component382 from "../assets/";
@@ -530,7 +530,7 @@ const Component24 = () => {
           useAngle={true}
           angle={180}
         />
-        <Vector443 style={[styles.vectorIcon1, styles.iconLayout1]} />
+        <Vector4143 style={[styles.vectorIcon1, styles.iconLayout1]} />
         <Text style={[styles.withdrawal, styles.depositTypo1]}>Withdrawal</Text>
         <Image
           style={[styles.logoWj931Icon1, styles.logoWj931Icon1Position]}
@@ -599,7 +599,7 @@ const Component24 = () => {
       </View>
       <View style={styles.group}>
         <Text style={styles.text3}>₱1980.00</Text>
-        <Group736137 style={[styles.instanceChild, styles.iconLayout1]} />
+        <Group7361137 style={[styles.instanceChild, styles.iconLayout1]} />
         <Component381 style={[styles.icon24, styles.iconLayout1]} />
       </View>
       <View style={[styles.child, styles.childPosition]} />

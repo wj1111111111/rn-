@@ -6,7 +6,7 @@ import Vector15110 from "../assets/vector151";
 import Star12 from "../assets/star12";
 import Component400 from "../assets/";
 import Vector16111 from "../assets/vector161";
-import Group73641 from "../assets/group7364";
+import Group73631 from "../assets/group7363";
 import Component401 from "../assets/";
 import GroupComponent31 from "../components/GroupComponent31";
 import Polygon10 from "../assets/polygon10";
@@ -486,7 +486,7 @@ const Component31 = () => {
           source={require("../assets/logowj93-11.png")}
         />
         <Text style={[styles.r198000, styles.r198000Typo]}>R$1980.00</Text>
-        <Group73641 style={[styles.groupIcon, styles.iconLayout2]} />
+        <Group73631 style={[styles.groupIcon, styles.iconLayout2]} />
         <Component401 style={[styles.icon18, styles.iconLayout2]} />
         <Text style={[styles.deposit, styles.depositTypo]}>Deposit</Text>
         <Image

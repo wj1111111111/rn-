@@ -1,8 +1,8 @@
 import * as React from "react";
 import { StyleSheet, View, Text, Image } from "react-native";
-import Group7367 from "../assets/group736";
+import Group73614 from "../assets/group7361";
 import Component442 from "../assets/";
-import Stroke120 from "../assets/stroke1";
+import Stroke111 from "../assets/stroke1";
 import { FontFamily, Color, FontSize } from "../GlobalStyles";
 
 const GroupComponent1 = () => {
@@ -13,7 +13,7 @@ const GroupComponent1 = () => {
       <View style={[styles.groupWrapper, styles.frameItemPosition]}>
         <View style={[styles.r198000Parent, styles.childPosition]}>
           <Text style={[styles.r198000, styles.registerTypo]}>R$1980.00</Text>
-          <Group7367 style={[styles.groupChild, styles.iconLayout]} />
+          <Group73614 style={[styles.groupChild, styles.iconLayout]} />
           <Component442 style={[styles.icon, styles.iconLayout]} />
         </View>
       </View>
@@ -24,7 +24,7 @@ const GroupComponent1 = () => {
         source={require("../assets/-16.png")}
       />
       <View style={[styles.frameItem, styles.frameItemPosition]} />
-      <Stroke120 style={[styles.strokeIcon, styles.iconLayout]} />
+      <Stroke111 style={[styles.strokeIcon, styles.iconLayout]} />
       <Text style={[styles.setting, styles.registerTypo]}>Setting</Text>
     </View>
   );

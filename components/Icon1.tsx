@@ -12,7 +12,7 @@ const Icon1 = ({ variant = "常规" }: Icon1Type) => {
       <Image
         style={styles.unionIcon}
         resizeMode="cover"
-        source={require("../assets/union5.png")}
+        source={require("../assets/union6.png")}
       />
     </View>
   );

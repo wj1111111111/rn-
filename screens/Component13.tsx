@@ -3,7 +3,7 @@ import { ScrollView, StyleSheet, View, Text, Image } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
 import Slot1 from "../assets/slot1";
 import Maskgroup25 from "../assets/maskgroup2";
-import Group736129 from "../assets/group7361";
+import Group7361129 from "../assets/group73611";
 import Component352 from "../assets/";
 import Stroke17 from "../assets/stroke";
 import Group126618 from "../assets/group12661";
@@ -50,7 +50,9 @@ const Component13 = () => {
               <Text style={[styles.r198000, styles.containerFlexBox]}>
                 ₱19800.00
               </Text>
-              <Group736129 style={[styles.groupItem, styles.iconGroupLayout]} />
+              <Group7361129
+                style={[styles.groupItem, styles.iconGroupLayout]}
+              />
               <Component352 style={[styles.icon, styles.iconGroupLayout]} />
             </View>
           </View>
@@ -136,7 +138,7 @@ const Component13 = () => {
         <Image
           style={[styles.unionIcon, styles.unionLayout]}
           resizeMode="cover"
-          source={require("../assets/union3.png")}
+          source={require("../assets/union4.png")}
         />
         <Text style={[styles.text6, styles.dayTypo]}>+₱0.20</Text>
       </View>

@@ -3,9 +3,9 @@ import { ScrollView, StyleSheet, View, Text, Image } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
 import Slot7 from "../assets/slot7";
 import Maskgroup71 from "../assets/maskgroup7";
-import Group736135 from "../assets/group7361";
+import Group7361135 from "../assets/group73611";
 import Component358 from "../assets/";
-import Stroke24 from "../assets/stroke";
+import Stroke33 from "../assets/stroke";
 import Group1264730 from "../assets/group12647";
 import Group1264731 from "../assets/group12647";
 import Group1264815 from "../assets/group12648";
@@ -50,11 +50,13 @@ const Component19 = () => {
               <Text style={[styles.r198000, styles.signContainerTypo]}>
                 ₱19800.00
               </Text>
-              <Group736135 style={[styles.groupItem, styles.iconGroupLayout]} />
+              <Group7361135
+                style={[styles.groupItem, styles.iconGroupLayout]}
+              />
               <Component358 style={[styles.icon, styles.iconGroupLayout]} />
             </View>
           </View>
-          <Stroke24 style={[styles.strokeIcon, styles.iconGroupLayout]} />
+          <Stroke33 style={[styles.strokeIcon, styles.iconGroupLayout]} />
           <Text style={[styles.pgSlots, styles.pgSlotsClr]}>
             Continuous sign-ins
           </Text>
@@ -62,7 +64,7 @@ const Component19 = () => {
         <Image
           style={styles.icon1}
           resizeMode="cover"
-          source={require("../assets/-1111.png")}
+          source={require("../assets/-14.png")}
         />
       </View>
       <Text style={[styles.signInTodayDay, styles.signContainerTypo]}>
@@ -149,7 +151,7 @@ Deposit amount： ₱200 `}</Text>
         <Image
           style={[styles.unionIcon, styles.unionLayout]}
           resizeMode="cover"
-          source={require("../assets/union3.png")}
+          source={require("../assets/union4.png")}
         />
         <Text style={[styles.text6, styles.dayTypo]}>+₱0.20</Text>
       </View>

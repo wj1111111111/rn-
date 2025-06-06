@@ -4,7 +4,7 @@ import Component443 from "../assets/";
 import Component444 from "../assets/";
 import Component445 from "../assets/";
 import Component446 from "../assets/";
-import Vector1118 from "../assets/vector111";
+import Vector1112 from "../assets/vector11";
 import { FontFamily, FontSize, Color } from "../GlobalStyles";
 
 const GroupComponent2 = () => {
@@ -19,7 +19,7 @@ const GroupComponent2 = () => {
       <Text style={[styles.home, styles.depositTypo]}>Teams</Text>
       <Text style={[styles.deposit, styles.depositTypo]}>Deposit</Text>
       <Text style={[styles.deposit1, styles.depositTypo]}>Invite</Text>
-      <Vector1118 style={[styles.vectorIcon, styles.iconPosition]} />
+      <Vector1112 style={[styles.vectorIcon, styles.iconPosition]} />
       <Image
         style={[styles.invite1Icon, styles.iconLayout]}
         resizeMode="cover"

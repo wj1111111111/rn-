@@ -1,7 +1,7 @@
 import * as React from "react";
 import { StyleSheet, View, Text, Image } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import Stroke43 from "../assets/stroke4";
+import Stroke53 from "../assets/stroke5";
 import Component433 from "../assets/";
 import GroupComponent18 from "../components/GroupComponent18";
 import Component434 from "../assets/";
@@ -18,7 +18,7 @@ const Component41 = () => {
   return (
     <SafeAreaView style={styles.safeareaview}>
       <View style={styles.child} />
-      <Stroke43 style={[styles.strokeIcon, styles.iconLayout2]} />
+      <Stroke53 style={[styles.strokeIcon, styles.iconLayout2]} />
       <View style={[styles.parent, styles.iconLayout1]}>
         <Component433
           style={[styles.icon, styles.iconPosition1]}
