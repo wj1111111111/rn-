@@ -1,15 +1,25 @@
 import * as React from "react";
-import { StyleSheet, View, Image, Text } from "react-native";
+import {
+  StyleSheet,
+  View,
+  Image,
+  Text,
+  ImageSourcePropType,
+} from "react-native";
 import LinearGradient from "react-native-linear-gradient";
-import Vector39 from "../assets/vector";
-import Star155 from "../assets/star1";
-import Star156 from "../assets/star1";
-import Star157 from "../assets/star1";
-import Star158 from "../assets/star1";
-import Star159 from "../assets/star1";
+import Vector29 from "../assets/vector";
+import Star145 from "../assets/star1";
+import Star146 from "../assets/star1";
+import Star147 from "../assets/star1";
+import Star148 from "../assets/star1";
+import Star149 from "../assets/star1";
 import { Color } from "../GlobalStyles";
 
-const GroupComponent2 = () => {
+export type GroupComponent2Type = {
+  maskGroup?: ImageSourcePropType;
+};
+
+const GroupComponent2 = ({ maskGroup }: GroupComponent2Type) => {
   return (
     <View style={styles.groupPosition}>
       <View style={styles.groupPosition}>
@@ -23,31 +33,31 @@ const GroupComponent2 = () => {
         <Image
           style={styles.groupPosition}
           resizeMode="cover"
-          source={require("../assets/mask-group.png")}
+          source={maskGroup}
         />
         <View style={styles.groupItem} />
-        <Vector39 style={styles.vectorIcon} />
-        <Star155
+        <Vector29 style={styles.vectorIcon} />
+        <Star145
           style={[styles.groupInner, styles.groupChildLayout]}
           width={15}
           height={15}
         />
-        <Star156
+        <Star146
           style={[styles.starIcon, styles.groupChildLayout]}
           width={15}
           height={15}
         />
-        <Star157
+        <Star147
           style={[styles.groupChild1, styles.groupChildLayout]}
           width={15}
           height={15}
         />
-        <Star158
+        <Star148
           style={[styles.groupChild2, styles.groupChildLayout]}
           width={15}
           height={15}
         />
-        <Star159
+        <Star149
           style={[styles.groupChild3, styles.groupChildLayout]}
           width={15}
           height={15}

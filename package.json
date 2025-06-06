@@ -48,7 +48,7 @@
   "jest": {
     "preset": "react-native"
   },
-  "name": "illywsTeamsProject",
+  "name": "illy_w's_team's_project",
   "private": true,
   "scripts": {
     "android": "react-native run-android",

@@ -6,6 +6,7 @@ import Component59 from "../assets/";
 import Vector117 from "../assets/vector1";
 import GroupComponent3 from "../components/GroupComponent3";
 import GroupComponent from "../components/GroupComponent";
+import Component8 from "../assets/";
 import GroupComponent1 from "../components/GroupComponent1";
 import Component5 from "../components/Component5";
 import { Color } from "../GlobalStyles";
@@ -21,7 +22,7 @@ const Component = () => {
           useAngle={true}
           angle={180}
         />
-        <GroupComponent2 />
+        <GroupComponent2 maskGroup={require("../assets/mask-group.png")} />
         <Image
           style={styles.groupItem}
           resizeMode="cover"
@@ -475,7 +476,7 @@ const Component = () => {
         />
         <Text style={[styles.text2, styles.text2FlexBox]}>14,091,688.88</Text>
         <GroupComponent3 />
-        <GroupComponent />
+        <GroupComponent prop={<Component8 width={100} height={81} />} />
         <GroupComponent1 />
       </View>
       <View style={[styles.child, styles.childPosition]} />
@@ -486,6 +487,10 @@ const Component = () => {
         start="Receive"
         showGroupView
         prop2="2"
+        showVectorIcon={false}
+        next2100="Next 21:00"
+        showNext2100={false}
+        showIcon={false}
       />
       <Image
         style={styles.icon19}
@@ -502,6 +507,10 @@ const Component = () => {
         startLeft="15.7%"
         showGroupView={false}
         prop2="1"
+        showVectorIcon={false}
+        next2100="Next 21:00"
+        showNext2100={false}
+        showIcon={false}
       />
       <Component5
         groupViewTop={737}
@@ -513,6 +522,10 @@ const Component = () => {
         startLeft="28.1%"
         showGroupView={false}
         prop2="1"
+        showVectorIcon={false}
+        next2100="Next 21:00"
+        showNext2100={false}
+        showIcon={false}
       />
     </ScrollView>
   );

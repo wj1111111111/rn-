@@ -17,6 +17,10 @@ export type Component5Type = {
   start?: string;
   showGroupView?: boolean;
   prop2?: string;
+  showVectorIcon?: boolean;
+  next2100?: string;
+  showNext2100?: boolean;
+  showIcon?: boolean;
 
   /** Style props */
   groupViewTop?: number | string;
@@ -38,6 +42,10 @@ const Component5 = ({
   startLeft,
   showGroupView,
   prop2,
+  showVectorIcon,
+  next2100,
+  showNext2100,
+  showIcon,
 }: Component5Type) => {
   const groupViewStyle = useMemo(() => {
     return {
@@ -65,7 +73,9 @@ const Component5 = ({
         source={require("../assets/569114bd57270ff3cddd5d20ff7401e454dc67a1f09dic5q4g-fw1200-2.png")}
       />
       <Image style={styles.icon} resizeMode="cover" source={prop} />
-      <Vector11 style={[styles.instanceChild, styles.iconLayout]} />
+      {!!showVectorIcon && (
+        <Vector11 style={[styles.instanceChild, styles.iconLayout]} />
+      )}
       <Image
         style={[styles.moneyRainIcon, styles.iconLayout]}
         resizeMode="cover"
@@ -77,7 +87,7 @@ const Component5 = ({
         source={prop1}
       />
       <Text style={[styles.start, startStyle]}>{start}</Text>
-      <Text style={styles.next2100}>Next 21:00</Text>
+      {!!showNext2100 && <Text style={styles.next2100}>{next2100}</Text>}
       <View style={[styles.rectangleParent, styles.groupChildLayout]}>
         <View style={[styles.groupChild, styles.groupPosition]} />
         <Text style={[styles.text, styles.textTypo]}>99+</Text>
@@ -88,7 +98,9 @@ const Component5 = ({
           <Text style={[styles.text1, styles.textTypo]}>{prop2}</Text>
         </View>
       )}
-      <Component13 style={[styles.icon2, styles.iconPosition]} />
+      {!!showIcon && (
+        <Component13 style={[styles.icon2, styles.iconPosition]} />
+      )}
     </View>
   );
 };

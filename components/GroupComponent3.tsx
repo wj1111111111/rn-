@@ -1,17 +1,46 @@
-import * as React from "react";
+import React, { useMemo } from "react";
 import { StyleSheet, View, Text, Image } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
-import Polygon1011 from "../assets/polygon10";
-import Vector212 from "../assets/vector2";
+import Polygon109 from "../assets/polygon10";
+import Vector210 from "../assets/vector2";
 import { Color } from "../GlobalStyles";
 
-const GroupComponent3 = () => {
+export type GroupComponent3Type = {
+  /** Style props */
+  rectangleLinearGradientTransform?: string;
+  rectangleLinearGradientTransform1?: string;
+};
+
+const getStyleValue = (key: string, value: string | number | undefined) => {
+  if (value === undefined) return;
+  return { [key]: value === "unset" ? undefined : value };
+};
+const GroupComponent3 = ({
+  rectangleLinearGradientTransform,
+  rectangleLinearGradientTransform1,
+}: GroupComponent3Type) => {
+  const rectangleLinearGradientStyle = useMemo(() => {
+    return {
+      ...getStyleValue("transform", rectangleLinearGradientTransform),
+    };
+  }, [rectangleLinearGradientTransform]);
+
+  const rectangleLinearGradient1Style = useMemo(() => {
+    return {
+      ...getStyleValue("transform", rectangleLinearGradientTransform1),
+    };
+  }, [rectangleLinearGradientTransform1]);
+
   return (
     <View style={[styles.groupParent, styles.parentPosition]}>
       <View style={[styles.polygonParent, styles.parentPosition]}>
-        <Polygon1011 style={styles.groupChild} width={9} height={15} />
+        <Polygon109 style={styles.groupChild} width={9} height={15} />
         <LinearGradient
-          style={[styles.groupItem, styles.groupLayout]}
+          style={[
+            styles.groupItem,
+            styles.groupLayout,
+            rectangleLinearGradientStyle,
+          ]}
           locations={[0, 1]}
           colors={["#373d42", "#2c3136"]}
           useAngle={true}
@@ -19,14 +48,18 @@ const GroupComponent3 = () => {
         />
       </View>
       <LinearGradient
-        style={[styles.groupInner, styles.groupLayout]}
+        style={[
+          styles.groupInner,
+          styles.groupLayout,
+          rectangleLinearGradient1Style,
+        ]}
         locations={[0, 1]}
         colors={["#ffc61e", "#ffa001"]}
         useAngle={true}
         angle={180}
       />
       <View style={styles.vectorParent}>
-        <Vector212 style={styles.vectorIcon} />
+        <Vector210 style={styles.vectorIcon} />
         <Text style={[styles.hot, styles.hotTypo]}>Hot</Text>
       </View>
       <View style={styles.collectParent}>

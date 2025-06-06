@@ -1,25 +1,34 @@
 import * as React from "react";
-import { StyleSheet, Text, Image, View } from "react-native";
-import Component86 from "../assets/";
-import Component87 from "../assets/";
-import Component88 from "../assets/";
-import Component89 from "../assets/";
-import Vector310 from "../assets/vector3";
+import {
+  StyleSheet,
+  Text,
+  Image,
+  View,
+  ImageSourcePropType,
+} from "react-native";
+import Component80 from "../assets/";
+import Component81 from "../assets/";
+import Component82 from "../assets/";
+import Vector38 from "../assets/vector3";
 import { Color } from "../GlobalStyles";
 
-const GroupComponent = () => {
+export type GroupComponentType = {
+  prop?: React.ReactNode;
+};
+
+const GroupComponent = ({ prop }: GroupComponentType) => {
   return (
     <View style={styles.parent}>
-      <Component86 style={[styles.icon, styles.iconLayout]} />
-      <Component87 style={[styles.icon1, styles.iconPosition]} />
-      <Component88 style={[styles.icon2, styles.iconPosition]} />
-      <Component89 style={[styles.icon3, styles.iconPosition]} />
+      <View>{prop && prop}</View>
+      <Component80 style={[styles.icon1, styles.iconPosition]} />
+      <Component81 style={[styles.icon2, styles.iconPosition]} />
+      <Component82 style={[styles.icon3, styles.iconPosition]} />
       <Text style={styles.members}>Home</Text>
       <Text style={[styles.promotion, styles.depositTypo]}>Promotion</Text>
       <Text style={[styles.home, styles.depositTypo]}>Teams</Text>
       <Text style={[styles.deposit, styles.depositTypo]}>Deposit</Text>
       <Text style={[styles.deposit1, styles.depositTypo]}>Invite</Text>
-      <Vector310 style={[styles.vectorIcon, styles.iconPosition]} />
+      <Vector38 style={[styles.vectorIcon, styles.iconPosition]} />
       <Image
         style={[styles.invite1Icon, styles.iconLayout]}
         resizeMode="cover"
@@ -53,14 +62,6 @@ const styles = StyleSheet.create({
     fontSize: 12,
     top: "65.82%",
     position: "absolute",
-  },
-  icon: {
-    height: "81.01%",
-    width: "100%",
-    top: "18.99%",
-    right: "0%",
-    bottom: "0%",
-    left: "0%",
   },
   icon1: {
     width: "5.2%",

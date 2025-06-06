@@ -1,23 +1,23 @@
 import * as React from "react";
 import { ScrollView, StyleSheet, View, Image, Text } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
-import Vector29 from "../assets/vector";
-import Star145 from "../assets/star1";
-import Star146 from "../assets/star1";
-import Star147 from "../assets/star1";
-import Star148 from "../assets/star1";
-import Star149 from "../assets/star1";
-import Component78 from "../assets/";
+import Vector20 from "../assets/vector";
+import Star140 from "../assets/star1";
+import Star141 from "../assets/star1";
+import Star142 from "../assets/star1";
+import Star143 from "../assets/star1";
+import Star144 from "../assets/star1";
+import Component73 from "../assets/";
 import Vector121 from "../assets/vector1";
 import Group73612 from "../assets/group7361";
-import Component79 from "../assets/";
-import Polygon109 from "../assets/polygon10";
-import Vector210 from "../assets/vector2";
-import Component80 from "../assets/";
-import Component81 from "../assets/";
-import Component82 from "../assets/";
-import Component83 from "../assets/";
-import Vector38 from "../assets/vector3";
+import Component74 from "../assets/";
+import Polygon108 from "../assets/polygon10";
+import Vector28 from "../assets/vector2";
+import Component75 from "../assets/";
+import Component76 from "../assets/";
+import Component77 from "../assets/";
+import Component78 from "../assets/";
+import Vector37 from "../assets/vector3";
 import Vector1152 from "../assets/vector115";
 import { Color } from "../GlobalStyles";
 
@@ -47,28 +47,28 @@ const Component4 = () => {
               source={require("../assets/mask-group.png")}
             />
             <View style={styles.groupInner} />
-            <Vector29 style={[styles.vectorIcon, styles.iconGroupLayout2]} />
-            <Star145
+            <Vector20 style={[styles.vectorIcon, styles.iconGroupLayout2]} />
+            <Star140
               style={[styles.starIcon, styles.iconGroupLayout1]}
               width={15}
               height={15}
             />
-            <Star146
+            <Star141
               style={[styles.groupChild1, styles.iconGroupLayout1]}
               width={15}
               height={15}
             />
-            <Star147
+            <Star142
               style={[styles.groupChild2, styles.iconGroupLayout1]}
               width={15}
               height={15}
             />
-            <Star148
+            <Star143
               style={[styles.groupChild3, styles.iconGroupLayout1]}
               width={15}
               height={15}
             />
-            <Star149
+            <Star144
               style={[styles.groupChild4, styles.iconGroupLayout1]}
               width={15}
               height={15}
@@ -101,7 +101,7 @@ const Component4 = () => {
           resizeMode="cover"
           source={require("../assets/3b4bde395738f0c8b07d1baa47c5d48f172c19aa158772swckar-1.png")}
         />
-        <Component78 style={styles.icon} width={16} height={16} />
+        <Component73 style={styles.icon} width={16} height={16} />
         <Image
           style={[styles.icon1, styles.icon1Position]}
           resizeMode="cover"
@@ -533,7 +533,7 @@ const Component4 = () => {
         />
         <Text style={[styles.r198000, styles.text2Layout]}>R$1980.00</Text>
         <Group73612 style={[styles.groupChild29, styles.iconGroupLayout2]} />
-        <Component79 style={[styles.icon18, styles.iconGroupLayout2]} />
+        <Component74 style={[styles.icon18, styles.iconGroupLayout2]} />
         <Text style={[styles.deposit, styles.depositTypo1]}>Deposit</Text>
         <Image
           style={styles.icon19}
@@ -543,7 +543,7 @@ const Component4 = () => {
         <Text style={[styles.text2, styles.text2Typo]}>14,091,688.88</Text>
         <View style={styles.groupParent}>
           <View style={styles.polygonParent}>
-            <Polygon109
+            <Polygon108
               style={[styles.polygonIcon, styles.iconGroupLayout1]}
               width={9}
               height={15}
@@ -564,7 +564,7 @@ const Component4 = () => {
             angle={180}
           />
           <View style={styles.vectorParent}>
-            <Vector210 style={[styles.vectorIcon2, styles.iconGroupPosition]} />
+            <Vector28 style={[styles.vectorIcon2, styles.iconGroupPosition]} />
             <Text style={[styles.hot, styles.hotTypo]}>Hot</Text>
           </View>
           <View style={[styles.collectParent, styles.egamePosition]}>
@@ -577,16 +577,16 @@ const Component4 = () => {
           </View>
         </View>
         <View style={[styles.parent, styles.icon1Position]}>
-          <Component80 style={[styles.icon21, styles.iconGroupPosition]} />
-          <Component81 style={[styles.icon22, styles.iconPosition]} />
-          <Component82 style={[styles.icon23, styles.iconPosition]} />
-          <Component83 style={[styles.icon24, styles.iconPosition]} />
+          <Component75 style={[styles.icon21, styles.iconGroupPosition]} />
+          <Component76 style={[styles.icon22, styles.iconPosition]} />
+          <Component77 style={[styles.icon23, styles.iconPosition]} />
+          <Component78 style={[styles.icon24, styles.iconPosition]} />
           <Text style={[styles.members, styles.depositTypo]}>Home</Text>
           <Text style={[styles.promotion, styles.depositTypo]}>Promotion</Text>
           <Text style={[styles.home, styles.depositTypo]}>Teams</Text>
           <Text style={[styles.deposit1, styles.depositTypo]}>Deposit</Text>
           <Text style={[styles.deposit2, styles.depositTypo]}>Invite</Text>
-          <Vector38 style={[styles.vectorIcon3, styles.iconPosition]} />
+          <Vector37 style={[styles.vectorIcon3, styles.iconPosition]} />
           <Image
             style={[styles.invite1Icon, styles.iconGroupLayout2]}
             resizeMode="cover"
