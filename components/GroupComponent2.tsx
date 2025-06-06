@@ -7,12 +7,12 @@ import {
   ImageSourcePropType,
 } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
-import Vector411 from "../assets/vector4";
-import Star1155 from "../assets/star11";
-import Star1156 from "../assets/star11";
-import Star1157 from "../assets/star11";
-import Star1158 from "../assets/star11";
-import Star1159 from "../assets/star11";
+import Vector249 from "../assets/vector24";
+import Star1240 from "../assets/star12";
+import Star1241 from "../assets/star12";
+import Star1242 from "../assets/star12";
+import Star1243 from "../assets/star12";
+import Star1244 from "../assets/star12";
 import { Color } from "../GlobalStyles";
 
 export type GroupComponent2Type = {
@@ -36,28 +36,28 @@ const GroupComponent2 = ({ maskGroup }: GroupComponent2Type) => {
           source={maskGroup}
         />
         <View style={styles.groupItem} />
-        <Vector411 style={styles.vectorIcon} />
-        <Star1155
+        <Vector249 style={styles.vectorIcon} />
+        <Star1240
           style={[styles.groupInner, styles.groupChildLayout]}
           width={15}
           height={15}
         />
-        <Star1156
+        <Star1241
           style={[styles.starIcon, styles.groupChildLayout]}
           width={15}
           height={15}
         />
-        <Star1157
+        <Star1242
           style={[styles.groupChild1, styles.groupChildLayout]}
           width={15}
           height={15}
         />
-        <Star1158
+        <Star1243
           style={[styles.groupChild2, styles.groupChildLayout]}
           width={15}
           height={15}
         />
-        <Star1159
+        <Star1244
           style={[styles.groupChild3, styles.groupChildLayout]}
           width={15}
           height={15}
@@ -105,7 +105,7 @@ const styles = StyleSheet.create({
   groupItem: {
     top: 4,
     left: 358,
-    backgroundColor: Color.wz,
+    backgroundColor: Color.wz4,
     width: 14,
     height: 14,
     position: "absolute",
@@ -167,7 +167,7 @@ const styles = StyleSheet.create({
     fontSize: 14,
     lineHeight: 16,
     fontFamily: "NotoSans-Bold",
-    color: Color.wz,
+    color: Color.wz4,
   },
 });
 

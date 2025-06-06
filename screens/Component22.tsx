@@ -1,616 +1,1219 @@
 import * as React from "react";
-import { StyleSheet, View, Text, Image } from "react-native";
-import { SafeAreaView } from "react-native-safe-area-context";
-import Stroke33 from "../assets/stroke3";
-import Component278 from "../assets/";
-import Component279 from "../assets/";
-import Component280 from "../assets/";
-import Component281 from "../assets/";
-import Component282 from "../assets/";
-import Component283 from "../assets/";
-import Vector177 from "../assets/vector17";
-import Vector188 from "../assets/vector18";
-import Vector189 from "../assets/vector18";
-import Ellipse1763 from "../assets/ellipse176";
-import Group120243 from "../assets/group12024";
+import { ScrollView, StyleSheet, View, Image, Text } from "react-native";
+import LinearGradient from "react-native-linear-gradient";
+import GroupComponent2 from "../components/GroupComponent2";
+import Component450 from "../assets/";
+import Vector11010 from "../assets/vector110";
+import GroupComponent3 from "../components/GroupComponent3";
+import GroupComponent from "../components/GroupComponent";
+import Component196 from "../assets/";
+import GroupComponent1 from "../components/GroupComponent1";
+import Component51 from "../components/Component5";
 import { Color } from "../GlobalStyles";
 
-const Component22 = () => {
+const Component25 = () => {
   return (
-    <SafeAreaView style={styles.safeareaview}>
-      <View style={[styles.child, styles.childPosition]} />
-      <Stroke33 style={[styles.strokeIcon, styles.iconLayout1]} />
-      <View style={[styles.parent, styles.iconLayout]}>
-        <Component278
-          style={[styles.icon, styles.iconLayout]}
-          width={322}
-          height={50}
+    <ScrollView style={styles.scrollview}>
+      <View style={styles.childPosition}>
+        <LinearGradient
+          style={[styles.groupChild, styles.groupChildLayout1]}
+          locations={[0, 1]}
+          colors={["#373c42", "#2c3135"]}
+          useAngle={true}
+          angle={180}
         />
-        <Text style={[styles.login, styles.passwordTypo]}>Register</Text>
-      </View>
-      <View style={[styles.iHaveAgreedToTheUserAgreWrapper, styles.haveLayout]}>
-        <Text style={[styles.iHaveAgreed, styles.iconPosition1]}>
-          Forgot password
+        <GroupComponent2 maskGroup={require("../assets/mask-group8.png")} />
+        <Image
+          style={styles.groupItem}
+          resizeMode="cover"
+          source={require("../assets/group-753.png")}
+        />
+        <View style={[styles.groupInner, styles.icon1Layout]} />
+        <Text style={[styles.theRechargeOfContainer, styles.text2FlexBox]}>
+          <Text style={styles.text}>🔥</Text>
+          <Text style={styles.text}>The recharge of the</Text>
+          <Text style={styles.text}>🔥</Text>
         </Text>
-      </View>
-      <View style={[styles.view, styles.viewLayout]} />
-      <Text style={[styles.forgotPassword, styles.passwordTypo]}>
-        Forgot password
-      </Text>
-      <View style={[styles.group, styles.groupPosition1]}>
-        <Component279 style={[styles.icon1, styles.iconPosition]} />
-        <Text style={[styles.password, styles.passwordTypo]}>Password</Text>
-        <Component280 style={[styles.icon2, styles.iconLayout1]} />
-        <Component281 style={[styles.icon3, styles.iconLayout1]} />
-      </View>
-      <Component282 style={[styles.icon4, styles.groupPosition1]} />
-      <Text style={[styles.username, styles.usernameTypo]}>1234567890|</Text>
-      <Component283 style={[styles.icon5, styles.iconLayout1]} />
-      <Text style={[styles.username1, styles.usernameTypo]}>+55</Text>
-      <View style={styles.item} />
-      <Vector177 style={[styles.vectorIcon, styles.iconLayout1]} />
-      <Image
-        style={[styles.d62a6059252dd42a1fed252c093b5bIcon, styles.viewLayout]}
-        resizeMode="cover"
-        source={require("../assets/d62a6059252dd42a1fed252c093b5bb5c8eab854-1.png")}
-      />
-      <Image
-        style={[styles.icon6, styles.iconPosition1]}
-        resizeMode="cover"
-        source={require("../assets/84631-1.png")}
-      />
-      <Image
-        style={[styles.image24Icon, styles.iconPosition1]}
-        resizeMode="cover"
-        source={require("../assets/image-24.png")}
-      />
-      <Text style={[styles.register, styles.googleTypo]}>Register</Text>
-      <Text style={styles.forgotPassword1}>Login</Text>
-      <Image
-        style={[styles.inner, styles.iconLayout1]}
-        resizeMode="cover"
-        source={require("../assets/group-12054.png")}
-      />
-      <View style={[styles.groupParent, styles.groupParentLayout]}>
-        <View
-          style={[styles.iHaveAgreedToTheUserAgreContainer, styles.haveLayout]}
+        <Text style={styles.theRecharge}>{`The recharge `}</Text>
+        <Image
+          style={styles.b4bde395738f0c8b07d1baa47c5d48Icon}
+          resizeMode="cover"
+          source={require("../assets/3b4bde395738f0c8b07d1baa47c5d48f172c19aa158772swckar-1.png")}
+        />
+        <Component450 style={styles.icon} width={16} height={16} />
+        <Image
+          style={[styles.icon1, styles.icon1Layout]}
+          resizeMode="cover"
+          source={require("../assets/3.png")}
+        />
+        <Image
+          style={[styles.icon2, styles.iconLayout3]}
+          resizeMode="cover"
+          source={require("../assets/23--1000.png")}
+        />
+        <Image
+          style={[styles.icon3, styles.iconLayout3]}
+          resizeMode="cover"
+          source={require("../assets/49--1000.png")}
+        />
+        <Image
+          style={[styles.icon4, styles.iconLayout3]}
+          resizeMode="cover"
+          source={require("../assets/91--1000.png")}
+        />
+        <Image
+          style={[styles.icon4, styles.iconLayout3]}
+          resizeMode="cover"
+          source={require("../assets/baccarat-1.png")}
+        />
+        <Image
+          style={[styles.jdbSlot092Icon, styles.iconLayout3]}
+          resizeMode="cover"
+          source={require("../assets/jdbslot092.png")}
+        />
+        <Image
+          style={[styles.icon5, styles.iconLayout3]}
+          resizeMode="cover"
+          source={require("../assets/44--1000.png")}
+        />
+        <Image
+          style={[styles.icon6, styles.iconLayout3]}
+          resizeMode="cover"
+          source={require("../assets/21--1000.png")}
+        />
+        <Image
+          style={[styles.icon7, styles.iconLayout3]}
+          resizeMode="cover"
+          source={require("../assets/46--1000.png")}
+        />
+        <Image
+          style={[styles.icon8, styles.iconLayout3]}
+          resizeMode="cover"
+          source={require("../assets/43--1000.png")}
+        />
+        <Image
+          style={[styles.x1000Icon, styles.iconLayout3]}
+          resizeMode="cover"
+          source={require("../assets/102-x-1000.png")}
+        />
+        <Image
+          style={[styles.icon9, styles.iconLayout3]}
+          resizeMode="cover"
+          source={require("../assets/47--1000.png")}
+        />
+        <Image
+          style={[styles.icon10, styles.iconLayout3]}
+          resizeMode="cover"
+          source={require("../assets/27-777-1000.png")}
+        />
+        <Text
+          style={[styles.fortuneOxFortune, styles.fortuneTypo]}
+          numberOfLines={1}
         >
-          <Text style={[styles.iHaveAgreed, styles.iconPosition1]}>
-            Forgot password
-          </Text>
-        </View>
-        <View style={styles.groupChild} />
-        <View
-          style={[
-            styles.lAgreeToTheUserAgreementParent,
-            styles.groupParentLayout,
-          ]}
-        >
-          <Text style={styles.agreeTypo}>
-            l agree to the User Agreement
-            {` & confirm l am at least 18 years old`}
-          </Text>
-          <Vector188 style={[styles.vectorIcon1, styles.iconPosition]} />
-        </View>
-      </View>
-      <View style={[styles.groupContainer, styles.groupParentLayout]}>
-        <View
-          style={[styles.iHaveAgreedToTheUserAgreContainer, styles.haveLayout]}
-        >
-          <Text style={[styles.iHaveAgreed, styles.iconPosition1]}>
-            Forgot password
-          </Text>
-        </View>
-        <View style={styles.groupChild} />
-        <View
-          style={[
-            styles.lAgreeToTheUserAgreementParent,
-            styles.groupParentLayout,
-          ]}
-        >
-          <Text style={[styles.lAgreeTo, styles.agreeTypo]}>
-            l agree to receive marketing promotions from Jbet88
-          </Text>
-          <Vector189 style={[styles.vectorIcon1, styles.iconPosition]} />
-        </View>
-      </View>
-      <View style={[styles.groupView, styles.groupViewLayout]}>
-        <View style={[styles.lineParent, styles.groupViewLayout]}>
-          <View style={[styles.groupInner, styles.lineViewLayout]} />
-          <View style={[styles.lineView, styles.lineViewLayout]} />
-          <Text style={[styles.or, styles.passwordTypo]}>OR</Text>
-        </View>
-        <View style={[styles.frameParent, styles.frameParentFlexBox]}>
-          <View style={styles.frameWrapper}>
-            <View style={[styles.frameView, styles.frameParentFlexBox]}>
-              <View style={styles.ellipseLayout}>
-                <Ellipse1763
-                  style={[styles.ellipseIcon, styles.ellipseLayout]}
-                  width={28}
-                  height={28}
-                />
-                <Image
-                  style={styles.googleLogo98082Icon}
-                  resizeMode="cover"
-                  source={require("../assets/googlelogo9808-2.png")}
-                />
-              </View>
-              <Text style={[styles.google, styles.googleTypo]}>Google</Text>
-            </View>
-          </View>
-          <View style={styles.frameWrapper}>
-            <View style={[styles.frameView, styles.frameParentFlexBox]}>
-              <Group120243
-                style={styles.ellipseLayout}
-                width={28}
-                height={28}
-              />
-              <Text style={[styles.google, styles.googleTypo]}>Telegram</Text>
-            </View>
-          </View>
-        </View>
-      </View>
-      <View
-        style={[styles.enterReferralPromoCodeParent, styles.frameParentFlexBox]}
-      >
-        <Text style={[styles.enterReferral, styles.googleTypo]}>
-          Enter Referral / Promo Code
+          Fortune Ox fortune
         </Text>
-        <View style={styles.icon7}>
+        <Text style={[styles.romaX, styles.romaXTypo]} numberOfLines={1}>
+          Roma x
+        </Text>
+        <Text style={[styles.romaX1, styles.romaX1Typo]} numberOfLines={1}>
+          Roma x
+        </Text>
+        <Text style={[styles.romaX2, styles.romaX2Typo]} numberOfLines={1}>
+          Roma x
+        </Text>
+        <Text style={[styles.superAce, styles.fortuneTypo]} numberOfLines={1}>
+          super Ace
+        </Text>
+        <Text style={[styles.diamondParty, styles.romaXTypo]} numberOfLines={1}>
+          diamond party
+        </Text>
+        <Text
+          style={[styles.diamondParty1, styles.romaX1Typo]}
+          numberOfLines={1}
+        >
+          diamond party
+        </Text>
+        <Image
+          style={[styles.icon6, styles.iconLayout3]}
+          resizeMode="cover"
+          source={require("../assets/baccarat-21.png")}
+        />
+        <Text
+          style={[styles.diamondParty2, styles.romaX2Typo]}
+          numberOfLines={1}
+        >
+          diamond party
+        </Text>
+        <Text
+          style={[styles.moneyComing, styles.fortuneTypo]}
+          numberOfLines={1}
+        >
+          Money Coming
+        </Text>
+        <Image
+          style={[styles.x1000Icon, styles.iconLayout3]}
+          resizeMode="cover"
+          source={require("../assets/1baccarat-11.png")}
+        />
+        <Text style={[styles.luckyComing, styles.romaXTypo]} numberOfLines={1}>
+          lucky coming
+        </Text>
+        <Text
+          style={[styles.luckyComing1, styles.romaX1Typo]}
+          numberOfLines={1}
+        >
+          lucky coming
+        </Text>
+        <Text
+          style={[styles.luckyComing2, styles.romaX2Typo]}
+          numberOfLines={1}
+        >
+          lucky coming
+        </Text>
+        <View style={[styles.rectangleGroup, styles.groupFrameLayout]}>
+          <View style={[styles.rectangleView, styles.groupChildPosition2]} />
           <Image
-            style={styles.unionIcon}
+            style={[styles.platform24Icon, styles.iconLayout2]}
             resizeMode="cover"
-            source={require("../assets/union2.png")}
+            source={require("../assets/platform-24.png")}
           />
         </View>
+        <View style={[styles.rectangleContainer, styles.iconLayout3]}>
+          <View style={[styles.groupChild1, styles.iconLayout3]} />
+          <Image
+            style={[styles.logoWj931Icon, styles.iconLayout1]}
+            resizeMode="cover"
+            source={require("../assets/logowj93-1.png")}
+          />
+        </View>
+        <View style={[styles.rectangleWrapper, styles.groupFrameLayout]}>
+          <View style={[styles.groupChild2, styles.groupChildPosition2]} />
+        </View>
+        <View style={[styles.rectangleFrame, styles.groupFrameLayout]}>
+          <View style={[styles.groupChild3, styles.groupChildPosition1]} />
+        </View>
+        <View style={[styles.groupWrapper, styles.groupFrameLayout]}>
+          <View style={[styles.groupView, styles.groupFrameLayout]}>
+            <LinearGradient
+              style={[
+                styles.rectangleLineargradient,
+                styles.groupChildPosition2,
+              ]}
+              locations={[0, 1]}
+              colors={["#ffab3b", "#eb4136"]}
+              useAngle={true}
+              angle={105.88}
+            />
+            <Image
+              style={styles.fastspinIcon}
+              resizeMode="cover"
+              source={require("../assets/fastspin.png")}
+            />
+          </View>
+        </View>
+        <View style={[styles.groupContainer, styles.groupFrameLayout]}>
+          <View style={[styles.groupView, styles.groupFrameLayout]}>
+            <LinearGradient
+              style={[styles.groupChild4, styles.groupChildPosition2]}
+              locations={[0, 1]}
+              colors={["#ffab3b", "#eb4136"]}
+              useAngle={true}
+              angle={105.88}
+            />
+            <Image
+              style={styles.fastspinIcon}
+              resizeMode="cover"
+              source={require("../assets/fastspin.png")}
+            />
+          </View>
+        </View>
+        <View style={[styles.groupFrame, styles.groupFrameLayout]}>
+          <View style={[styles.groupView, styles.groupFrameLayout]}>
+            <LinearGradient
+              style={[styles.groupChild5, styles.groupChildPosition1]}
+              locations={[0, 1]}
+              colors={["#ffab3b", "#eb4136"]}
+              useAngle={true}
+              angle={105.88}
+            />
+            <Image
+              style={styles.fastspinIcon}
+              resizeMode="cover"
+              source={require("../assets/fastspin.png")}
+            />
+          </View>
+        </View>
+        <View style={[styles.groupWrapper1, styles.groupFrameLayout]}>
+          <View style={[styles.groupView, styles.groupFrameLayout]}>
+            <View style={styles.groupChildPosition} />
+            <Image
+              style={[styles.logoAw1024x459Icon, styles.iconLayout2]}
+              resizeMode="cover"
+              source={require("../assets/logo-aw1024x459.png")}
+            />
+          </View>
+        </View>
+        <View style={[styles.groupWrapper2, styles.groupFrameLayout]}>
+          <View style={[styles.groupView, styles.groupFrameLayout]}>
+            <View style={styles.groupChildPosition} />
+            <Image
+              style={[styles.logoAw1024x459Icon, styles.iconLayout2]}
+              resizeMode="cover"
+              source={require("../assets/logo-aw1024x459.png")}
+            />
+          </View>
+        </View>
+        <View style={[styles.groupWrapper3, styles.groupFrameLayout]}>
+          <View style={[styles.groupView, styles.groupFrameLayout]}>
+            <View style={styles.groupChildPosition} />
+            <Image
+              style={[styles.logoAw1024x459Icon, styles.iconLayout2]}
+              resizeMode="cover"
+              source={require("../assets/logo-aw1024x459.png")}
+            />
+          </View>
+        </View>
+        <View style={[styles.rectangleParent6, styles.groupFrameLayout]}>
+          <LinearGradient
+            style={[styles.groupChild9, styles.groupChildPosition2]}
+            locations={[0, 1]}
+            colors={["#ffd200", "#ff2e39"]}
+            useAngle={true}
+            angle={105.66}
+          />
+          <Image
+            style={[styles.jdbWhiteIcon, styles.whiteIconPosition]}
+            resizeMode="cover"
+            source={require("../assets/jdbwhite.png")}
+          />
+        </View>
+        <View style={[styles.rectangleParent7, styles.groupFrameLayout]}>
+          <LinearGradient
+            style={[styles.groupChild10, styles.groupChildPosition2]}
+            locations={[0, 1]}
+            colors={["#ffd200", "#ff2e39"]}
+            useAngle={true}
+            angle={105.66}
+          />
+          <Image
+            style={[styles.jdbWhiteIcon, styles.whiteIconPosition]}
+            resizeMode="cover"
+            source={require("../assets/jdbwhite.png")}
+          />
+        </View>
+        <View style={[styles.rectangleParent8, styles.groupFrameLayout]}>
+          <LinearGradient
+            style={[styles.groupChild11, styles.groupChildPosition2]}
+            locations={[0, 1]}
+            colors={["#00cdff", "#6313e7"]}
+            useAngle={true}
+            angle={105.88}
+          />
+          <Image
+            style={[styles.pgWhiteIcon, styles.whiteIconPosition]}
+            resizeMode="cover"
+            source={require("../assets/pgwhite.png")}
+          />
+        </View>
+        <View style={[styles.rectangleParent9, styles.rectangleParentPosition]}>
+          <LinearGradient
+            style={[styles.groupChild12, styles.groupChildPosition2]}
+            locations={[0, 1]}
+            colors={["#00cdff", "#6313e7"]}
+            useAngle={true}
+            angle={105.88}
+          />
+          <Image
+            style={[styles.pgWhiteIcon, styles.whiteIconPosition]}
+            resizeMode="cover"
+            source={require("../assets/pgwhite.png")}
+          />
+        </View>
+        <View
+          style={[styles.rectangleParent10, styles.rectangleParentPosition]}
+        >
+          <LinearGradient
+            style={[styles.groupChild13, styles.groupChildPosition2]}
+            locations={[0, 1]}
+            colors={["#00cdff", "#6313e7"]}
+            useAngle={true}
+            angle={105.88}
+          />
+          <Image
+            style={[styles.pgWhiteIcon, styles.whiteIconPosition]}
+            resizeMode="cover"
+            source={require("../assets/pgwhite.png")}
+          />
+        </View>
+        <View
+          style={[styles.rectangleParent11, styles.rectangleParentPosition]}
+        >
+          <LinearGradient
+            style={[styles.groupChild14, styles.groupChildPosition2]}
+            locations={[0, 1]}
+            colors={["#00cdff", "#6313e7"]}
+            useAngle={true}
+            angle={105.88}
+          />
+          <Image
+            style={[styles.pgWhiteIcon, styles.whiteIconPosition]}
+            resizeMode="cover"
+            source={require("../assets/pgwhite.png")}
+          />
+        </View>
+        <LinearGradient
+          style={[styles.groupChild15, styles.groupChildLayout1]}
+          locations={[0, 1]}
+          colors={["#373c42", "#2c3135"]}
+          useAngle={true}
+          angle={180}
+        />
+        <LinearGradient
+          style={[styles.groupChild16, styles.groupChildLayout1]}
+          locations={[0, 1]}
+          colors={["#373c42", "#2c3135"]}
+          useAngle={true}
+          angle={180}
+        />
+        <LinearGradient
+          style={[styles.groupChild17, styles.groupChildLayout1]}
+          locations={[0, 1]}
+          colors={["#373c42", "#2c3135"]}
+          useAngle={true}
+          angle={180}
+        />
+        <LinearGradient
+          style={[styles.groupChild18, styles.groupChildLayout1]}
+          locations={[0, 1]}
+          colors={["#373c42", "#2c3135"]}
+          useAngle={true}
+          angle={180}
+        />
+        <LinearGradient
+          style={[styles.groupChild19, styles.groupChildLayout1]}
+          locations={[0, 1]}
+          colors={["#373c42", "#2c3135"]}
+          useAngle={true}
+          angle={180}
+        />
+        <LinearGradient
+          style={[styles.groupChild20, styles.groupChildLayout1]}
+          locations={[0, 1]}
+          colors={["#373c42", "#2c3135"]}
+          useAngle={true}
+          angle={180}
+        />
+        <Text style={[styles.slot, styles.slotTypo]}>Slot</Text>
+        <Text style={[styles.table, styles.slotTypo]}>Table</Text>
+        <Text style={[styles.fish, styles.slotTypo]}>Fish</Text>
+        <Text style={[styles.egame, styles.slotTypo]}>Egame</Text>
+        <Text style={[styles.sport, styles.slotTypo]}>Sport</Text>
+        <Text style={[styles.live, styles.slotTypo]}>Live</Text>
+        <Image
+          style={[styles.icon11, styles.iconLayout]}
+          resizeMode="cover"
+          source={require("../assets/1.png")}
+        />
+        <Image
+          style={[styles.icon12, styles.iconLayout]}
+          resizeMode="cover"
+          source={require("../assets/7.png")}
+        />
+        <Image
+          style={[styles.icon13, styles.iconLayout]}
+          resizeMode="cover"
+          source={require("../assets/3.png")}
+        />
+        <Image
+          style={[styles.icon14, styles.iconLayout]}
+          resizeMode="cover"
+          source={require("../assets/2.png")}
+        />
+        <Image
+          style={[styles.icon15, styles.iconLayout]}
+          resizeMode="cover"
+          source={require("../assets/6.png")}
+        />
+        <Image
+          style={[styles.icon16, styles.iconLayout]}
+          resizeMode="cover"
+          source={require("../assets/10-733643587.png")}
+        />
+        <Text style={[styles.bingo, styles.slotTypo]}>Bingo</Text>
+        <Image
+          style={[styles.icon17, styles.iconLayout]}
+          resizeMode="cover"
+          source={require("../assets/5.png")}
+        />
+        <View style={[styles.rectangleWrapper1, styles.logoWj931Icon1Position]}>
+          <LinearGradient
+            style={[styles.groupChild21, styles.groupChildLayout]}
+            locations={[0, 1]}
+            colors={["#ffc71e", "#ff9f00"]}
+            useAngle={true}
+            angle={180}
+          />
+        </View>
+        <LinearGradient
+          style={[styles.groupChild22, styles.groupChildLayout]}
+          locations={[0, 1]}
+          colors={["#76cd00", "#478a03"]}
+          useAngle={true}
+          angle={180}
+        />
+        <Vector11010 style={[styles.vectorIcon, styles.iconLayout1]} />
+        <Text style={[styles.withdrawal, styles.depositTypo]}>Withdrawal</Text>
+        <Image
+          style={[styles.logoWj931Icon1, styles.logoWj931Icon1Position]}
+          resizeMode="cover"
+          source={require("../assets/logowj93-11.png")}
+        />
+        <Text style={[styles.deposit, styles.depositTypo]}>Deposit</Text>
+        <Image
+          style={styles.icon18}
+          resizeMode="cover"
+          source={require("../assets/21.png")}
+        />
+        <Text style={[styles.text2, styles.text2FlexBox]}>14,091,688.88</Text>
+        <GroupComponent3 />
+        <GroupComponent prop={<Component196 width={100} height={81} />} />
+        <GroupComponent1 />
       </View>
-    </SafeAreaView>
+      <View style={[styles.child, styles.childPosition]} />
+      <Component51
+        prop={require("../assets/2333-1.png")}
+        moneyRain={require("../assets/1moneyrain.png")}
+        prop1={require("../assets/16.png")}
+        start="Receive"
+        showGroupView
+        prop2="2"
+        showVectorIcon={false}
+        next2100="Next 21:00"
+        showNext2100={false}
+        showIcon={false}
+      />
+      <Image
+        style={styles.icon19}
+        resizeMode="cover"
+        source={require("../assets/4-10.png")}
+      />
+      <Component51
+        groupViewTop={587}
+        groupViewLeft={116}
+        prop={require("../assets/2333-11.png")}
+        moneyRain={require("../assets/1moneyrain1.png")}
+        prop1={require("../assets/161.png")}
+        start="23:00 Start"
+        startLeft="15.7%"
+        showGroupView={false}
+        prop2="1"
+        showVectorIcon={false}
+        next2100="Next 21:00"
+        showNext2100={false}
+        showIcon={false}
+      />
+      <Component51
+        groupViewTop={737}
+        groupViewLeft={238}
+        prop={require("../assets/2333-12.png")}
+        moneyRain={require("../assets/1moneyrain2.png")}
+        prop1={require("../assets/161.png")}
+        start="Details"
+        startLeft="28.1%"
+        showGroupView={false}
+        prop2="1"
+        showVectorIcon={false}
+        next2100="Next 21:00"
+        showNext2100={false}
+        showIcon={false}
+      />
+    </ScrollView>
   );
 };
 
 const styles = StyleSheet.create({
-  childPosition: {
-    left: "50%",
+  groupChildLayout1: {
+    transform: [
+      {
+        rotate: "180deg",
+      },
+    ],
+    height: 64,
+    width: 66,
+    borderBottomLeftRadius: 8,
+    borderTopLeftRadius: 8,
+    left: 66,
+    backgroundColor: "transparent",
     position: "absolute",
   },
-  iconLayout1: {
-    maxHeight: "100%",
-    maxWidth: "100%",
-    overflow: "hidden",
-  },
-  iconLayout: {
-    height: 50,
-    width: 322,
-    position: "absolute",
-  },
-  passwordTypo: {
-    textAlign: "left",
-    fontFamily: "Arial",
-  },
-  haveLayout: {
-    height: 0,
-    width: 0,
-    position: "absolute",
-  },
-  iconPosition1: {
-    display: "none",
-    position: "absolute",
-  },
-  viewLayout: {
-    borderRadius: 2,
-    position: "absolute",
-  },
-  groupPosition1: {
-    right: "5.33%",
-    width: "89.33%",
-    height: "5.91%",
-    left: "5.33%",
-    position: "absolute",
-  },
-  iconPosition: {
-    left: "0%",
-    maxHeight: "100%",
-    maxWidth: "100%",
-    position: "absolute",
-    overflow: "hidden",
-  },
-  usernameTypo: {
-    top: "22.04%",
-    lineHeight: 12,
-    textAlign: "left",
-    fontFamily: "Arial",
-    fontWeight: "700",
-    position: "absolute",
-  },
-  googleTypo: {
-    color: Color.color,
-    textAlign: "left",
-    fontFamily: "Arial",
-  },
-  groupParentLayout: {
-    height: 32,
-    width: 331,
-    position: "absolute",
-  },
-  agreeTypo: {
-    width: 309,
-    left: 22,
-    fontSize: 14,
-    textAlign: "left",
-    fontFamily: "Arial",
-    fontWeight: "700",
-    lineHeight: 16,
-    top: 0,
-    position: "absolute",
-  },
-  groupViewLayout: {
+  icon1Layout: {
     width: 345,
     position: "absolute",
   },
-  lineViewLayout: {
-    height: 1,
-    width: 149,
-    borderTopWidth: 1,
-    top: 6,
-    borderColor: "#455461",
-    borderStyle: "solid",
+  text2FlexBox: {
+    textAlign: "left",
     position: "absolute",
   },
-  frameParentFlexBox: {
-    flexDirection: "row",
-    alignItems: "center",
+  iconLayout3: {
+    height: 88,
+    width: 88,
+    position: "absolute",
   },
-  ellipseLayout: {},
-  child: {
-    marginLeft: -187.5,
-    shadowColor: "rgba(0, 0, 0, 0.25)",
+  fortuneTypo: {
+    textShadowRadius: 2,
+    textShadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    textShadowColor: "rgba(0, 0, 0, 0.25)",
+    textAlign: "center",
+    color: Color.wz1,
+    fontFamily: "NotoSans-Bold",
+    textTransform: "capitalize",
+    lineHeight: 16,
+    fontSize: 13,
+    top: 520,
+    width: 88,
+    overflow: "hidden",
+    fontWeight: "700",
+    position: "absolute",
+  },
+  romaXTypo: {
+    top: 648,
+    textShadowRadius: 2,
+    textShadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    textShadowColor: "rgba(0, 0, 0, 0.25)",
+    textAlign: "center",
+    color: Color.wz1,
+    fontFamily: "NotoSans-Bold",
+    textTransform: "capitalize",
+    lineHeight: 16,
+    fontSize: 13,
+    width: 88,
+    overflow: "hidden",
+    fontWeight: "700",
+    position: "absolute",
+  },
+  romaX1Typo: {
+    top: 776,
+    textShadowRadius: 2,
+    textShadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    textShadowColor: "rgba(0, 0, 0, 0.25)",
+    textAlign: "center",
+    color: Color.wz1,
+    fontFamily: "NotoSans-Bold",
+    textTransform: "capitalize",
+    lineHeight: 16,
+    fontSize: 13,
+    width: 88,
+    overflow: "hidden",
+    fontWeight: "700",
+    position: "absolute",
+  },
+  romaX2Typo: {
+    top: 904,
+    textShadowRadius: 2,
+    textShadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    textShadowColor: "rgba(0, 0, 0, 0.25)",
+    textAlign: "center",
+    color: Color.wz1,
+    fontFamily: "NotoSans-Bold",
+    textTransform: "capitalize",
+    lineHeight: 16,
+    fontSize: 13,
+    width: 88,
+    overflow: "hidden",
+    fontWeight: "700",
+    position: "absolute",
+  },
+  groupFrameLayout: {
+    height: 18,
+    width: 34,
+    position: "absolute",
+  },
+  groupChildPosition2: {
+    borderBottomRightRadius: 6,
+    borderTopLeftRadius: 2,
+    shadowOpacity: 1,
+    elevation: 2,
+    shadowRadius: 2,
     shadowOffset: {
       width: 0,
-      height: 2,
+      height: 1,
     },
-    shadowRadius: 2,
-    elevation: 2,
-    shadowOpacity: 1,
-    backgroundColor: Color.bg1,
-    width: 375,
-    height: 60,
+    shadowColor: "rgba(0, 0, 0, 0.25)",
+    height: 18,
+    width: 34,
+    left: 0,
     top: 0,
+    position: "absolute",
   },
-  strokeIcon: {
-    width: "2.45%",
-    top: "2.71%",
-    right: "92.21%",
-    bottom: "95.32%",
-    left: "5.33%",
+  iconLayout2: {
+    height: 11,
+    top: 4,
+  },
+  iconLayout1: {
+    maxHeight: "100%",
+    overflow: "hidden",
     maxWidth: "100%",
-    height: "1.97%",
+  },
+  groupChildPosition1: {
+    borderTopLeftRadius: 4,
+    borderBottomRightRadius: 6,
+    shadowOpacity: 1,
+    elevation: 2,
+    shadowRadius: 2,
+    height: 18,
+    width: 34,
+    left: 0,
+    top: 0,
+    position: "absolute",
+  },
+  whiteIconPosition: {
+    left: 6,
+    position: "absolute",
+  },
+  rectangleParentPosition: {
+    top: 934,
+    height: 18,
+    width: 34,
+    position: "absolute",
+  },
+  slotTypo: {
+    lineHeight: 12,
+    fontSize: 12,
+    color: Color.wz1,
+    fontWeight: "700",
+    fontFamily: "Arial",
+    textAlign: "left",
+    position: "absolute",
+  },
+  iconLayout: {
+    height: 36,
+    width: 36,
+    left: 15,
+    position: "absolute",
+  },
+  logoWj931Icon1Position: {
+    left: "4%",
+    position: "absolute",
+  },
+  groupChildLayout: {
+    borderRadius: 2,
+    backgroundColor: "transparent",
+    position: "absolute",
+  },
+  depositTypo: {
+    color: Color.color,
+    top: "12.53%",
+    fontWeight: "700",
+    fontFamily: "Arial",
+    textAlign: "left",
+    lineHeight: 14,
+    fontSize: 14,
+    position: "absolute",
+  },
+  childPosition: {
+    height: 958,
+    width: 375,
+    left: 0,
+    top: 0,
+    position: "absolute",
+  },
+  groupChild: {
+    top: 554,
+    backgroundColor: "transparent",
+  },
+  groupItem: {
+    top: 9,
+    left: 12,
+    width: 50,
+    height: 50,
+    position: "absolute",
+  },
+  groupInner: {
+    top: 300,
+    borderRadius: 26,
+    backgroundColor: Color.bg3,
+    height: 34,
+    left: 15,
+    width: 345,
+  },
+  text: {
+    fontFamily: "Arial",
+  },
+  theRechargeOfContainer: {
+    left: 53,
+    color: Color.color3,
+    lineHeight: 14,
+    fontSize: 14,
+    top: 310,
+    textAlign: "left",
+  },
+  theRecharge: {
+    left: 264,
+    fontWeight: "700",
+    fontFamily: "Arial",
+    textAlign: "left",
+    color: Color.color3,
+    lineHeight: 14,
+    fontSize: 14,
+    top: 310,
+    position: "absolute",
+  },
+  b4bde395738f0c8b07d1baa47c5d48Icon: {
+    top: 307,
+    height: 19,
+    width: 24,
+    left: 21,
     position: "absolute",
   },
   icon: {
-    borderRadius: 36,
-    left: 0,
-    top: 0,
-  },
-  login: {
-    marginLeft: -33,
-    top: 17,
-    color: Color.wz1,
-    fontWeight: "700",
-    lineHeight: 16,
-    fontSize: 16,
-    textAlign: "left",
-    left: "50%",
-    position: "absolute",
-  },
-  parent: {
-    top: 424,
-    left: 27,
-  },
-  iHaveAgreed: {
-    color: Color.color7,
-    textAlign: "left",
-    fontFamily: "Arial",
-    fontWeight: "700",
-    lineHeight: 16,
-    fontSize: 16,
-    left: 0,
-    top: 0,
-  },
-  iHaveAgreedToTheUserAgreWrapper: {
-    top: 357,
-    left: 40,
-  },
-  view: {
-    height: "2.22%",
-    width: "7.23%",
-    top: "26.97%",
-    right: "77.84%",
-    bottom: "70.81%",
-    left: "14.93%",
-  },
-  forgotPassword: {
-    top: 490,
-    fontWeight: "900",
-    color: Color.color3,
-    textTransform: "capitalize",
-    lineHeight: 12,
-    fontSize: 12,
-    left: 40,
+    top: 309,
+    left: 243,
+    overflow: "hidden",
     position: "absolute",
   },
   icon1: {
+    marginLeft: -172.5,
+    top: 153,
+    left: "50%",
+    borderRadius: 8,
+    height: 130,
+  },
+  icon2: {
+    borderRadius: 4,
+    left: 77,
+    top: 422,
+  },
+  icon3: {
+    left: 174,
+    borderRadius: 4,
+    top: 422,
+  },
+  icon4: {
+    left: 271,
+    top: 550,
+    borderRadius: 4,
+  },
+  jdbSlot092Icon: {
+    top: 806,
+    left: 271,
+    borderRadius: 4,
+  },
+  icon5: {
+    top: 678,
+    left: 271,
+    borderRadius: 4,
+  },
+  icon6: {
+    top: 550,
+    left: 174,
+    borderRadius: 4,
+  },
+  icon7: {
+    top: 806,
+    left: 174,
+    borderRadius: 4,
+  },
+  icon8: {
+    top: 678,
+    left: 174,
+    borderRadius: 4,
+  },
+  x1000Icon: {
+    top: 550,
+    borderRadius: 4,
+    left: 77,
+  },
+  icon9: {
+    top: 806,
+    borderRadius: 4,
+    left: 77,
+  },
+  icon10: {
+    top: 678,
+    borderRadius: 4,
+    left: 77,
+  },
+  fortuneOxFortune: {
+    left: 77,
+  },
+  romaX: {
+    left: 77,
+  },
+  romaX1: {
+    left: 77,
+  },
+  romaX2: {
+    left: 77,
+  },
+  superAce: {
+    left: 174,
+  },
+  diamondParty: {
+    left: 174,
+  },
+  diamondParty1: {
+    left: 174,
+  },
+  diamondParty2: {
+    left: 174,
+  },
+  moneyComing: {
+    left: 271,
+  },
+  luckyComing: {
+    left: 271,
+  },
+  luckyComing1: {
+    left: 271,
+  },
+  luckyComing2: {
+    left: 271,
+  },
+  rectangleView: {
+    backgroundColor: "#ffd600",
+  },
+  platform24Icon: {
+    left: 5,
+    height: 11,
+    top: 4,
+    position: "absolute",
+    width: 24,
+  },
+  rectangleGroup: {
+    left: 77,
+    top: 422,
+  },
+  groupChild1: {
+    backgroundColor: "#30353a",
+    borderRadius: 4,
+    left: 0,
+    top: 0,
+  },
+  logoWj931Icon: {
+    height: "23.18%",
+    width: "63.64%",
+    top: "38.64%",
+    right: "18.18%",
+    bottom: "38.18%",
+    left: "18.18%",
+    borderRadius: 4,
+    position: "absolute",
+  },
+  rectangleContainer: {
+    left: 271,
+    top: 422,
+  },
+  groupChild2: {
+    backgroundColor: "#41474e",
+  },
+  rectangleWrapper: {
+    left: 174,
+    top: 422,
+  },
+  groupChild3: {
+    shadowColor: "rgba(0, 0, 0, 0.15)",
+    backgroundColor: "#41474e",
+  },
+  rectangleFrame: {
+    left: 271,
+    top: 422,
+  },
+  rectangleLineargradient: {
+    backgroundColor: "transparent",
+  },
+  fastspinIcon: {
+    top: 6,
+    left: 1,
+    width: 30,
+    height: 7,
+    position: "absolute",
+  },
+  groupView: {
+    left: 0,
+    top: 0,
+  },
+  groupWrapper: {
+    top: 550,
+    left: 174,
+  },
+  groupChild4: {
+    backgroundColor: "transparent",
+  },
+  groupContainer: {
+    top: 550,
+    left: 77,
+  },
+  groupChild5: {
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowColor: "rgba(0, 0, 0, 0.25)",
+    borderTopLeftRadius: 4,
+    backgroundColor: "transparent",
+  },
+  groupFrame: {
+    left: 271,
+    top: 550,
+  },
+  groupChildPosition: {
+    backgroundColor: "#ffcc00",
+    borderBottomRightRadius: 6,
+    borderTopLeftRadius: 2,
+    shadowOpacity: 1,
+    elevation: 2,
+    shadowRadius: 2,
+    shadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    shadowColor: "rgba(0, 0, 0, 0.25)",
+    height: 18,
+    width: 34,
+    left: 0,
+    top: 0,
+    position: "absolute",
+  },
+  logoAw1024x459Icon: {
+    width: 26,
+    left: 5,
+    height: 11,
+    top: 4,
+    position: "absolute",
+  },
+  groupWrapper1: {
+    top: 678,
+    left: 77,
+  },
+  groupWrapper2: {
+    top: 678,
+    left: 174,
+  },
+  groupWrapper3: {
+    top: 678,
+    left: 271,
+  },
+  groupChild9: {
+    backgroundColor: "transparent",
+  },
+  jdbWhiteIcon: {
+    width: 20,
+    height: 11,
+    top: 4,
+    left: 6,
+  },
+  rectangleParent6: {
+    top: 806,
+    left: 77,
+  },
+  groupChild10: {
+    backgroundColor: "transparent",
+  },
+  rectangleParent7: {
+    top: 806,
+    left: 174,
+  },
+  groupChild11: {
+    backgroundColor: "transparent",
+  },
+  pgWhiteIcon: {
+    top: 2,
+    width: 22,
+    height: 14,
+  },
+  rectangleParent8: {
+    top: 806,
+    left: 271,
+  },
+  groupChild12: {
+    backgroundColor: "transparent",
+  },
+  rectangleParent9: {
+    left: 271,
+  },
+  groupChild13: {
+    backgroundColor: "transparent",
+  },
+  rectangleParent10: {
+    left: 174,
+  },
+  groupChild14: {
+    backgroundColor: "transparent",
+  },
+  rectangleParent11: {
+    left: 77,
+  },
+  groupChild15: {
+    top: 758,
+    backgroundColor: "transparent",
+  },
+  groupChild16: {
+    top: 622,
+    backgroundColor: "transparent",
+  },
+  groupChild17: {
+    top: 826,
+    backgroundColor: "transparent",
+  },
+  groupChild18: {
+    top: 894,
+    backgroundColor: "transparent",
+  },
+  groupChild19: {
+    top: 486,
+    backgroundColor: "transparent",
+  },
+  groupChild20: {
+    top: 690,
+    backgroundColor: "transparent",
+  },
+  slot: {
+    top: 534,
+    left: 22,
+  },
+  table: {
+    top: 738,
+    left: 18,
+  },
+  fish: {
+    top: 806,
+    left: 21,
+  },
+  egame: {
+    top: 873,
+    left: 13,
+  },
+  sport: {
+    top: 942,
+    left: 17,
+  },
+  live: {
+    top: 602,
+    left: 21,
+  },
+  icon11: {
+    top: 562,
+  },
+  icon12: {
+    top: 766,
+  },
+  icon13: {
+    top: 833,
+  },
+  icon14: {
+    top: 698,
+  },
+  icon15: {
+    top: 902,
+  },
+  icon16: {
+    top: 495,
+  },
+  bingo: {
+    top: 670,
+    left: 16,
+  },
+  icon17: {
+    top: 630,
+  },
+  groupChild21: {
     height: "100%",
     top: "0%",
     right: "0%",
     bottom: "0%",
-    borderRadius: 8,
-    width: "100%",
     left: "0%",
+    width: "100%",
+    borderRadius: 2,
   },
-  password: {
-    width: "22.09%",
-    top: "37.5%",
-    left: "11.04%",
-    fontSize: 14,
-    textTransform: "capitalize",
-    lineHeight: 12,
-    color: Color.wz1,
-    fontWeight: "700",
-    position: "absolute",
+  rectangleWrapper1: {
+    right: "50.67%",
+    shadowColor: "rgba(0, 0, 0, 0.3)",
+    bottom: "84.86%",
+    top: "11.38%",
+    width: "45.33%",
+    height: "3.76%",
+    shadowOpacity: 1,
+    elevation: 2,
+    shadowRadius: 2,
+    left: "4%",
   },
-  icon2: {
-    height: "28.54%",
-    width: "6.21%",
-    top: "35.42%",
-    right: "3.64%",
-    bottom: "36.04%",
-    left: "90.15%",
-    position: "absolute",
-  },
-  icon3: {
-    height: "36.25%",
-    width: "4.48%",
-    top: "31.25%",
-    right: "91.94%",
-    bottom: "32.5%",
-    left: "3.58%",
-    position: "absolute",
-  },
-  group: {
-    top: "27.22%",
-    bottom: "66.87%",
-  },
-  icon4: {
-    top: "19.83%",
-    bottom: "74.26%",
-    borderRadius: 8,
-    maxHeight: "100%",
-    maxWidth: "100%",
-    overflow: "hidden",
-  },
-  username: {
-    width: "33.6%",
-    left: "34.93%",
-    fontSize: 14,
-    textTransform: "capitalize",
-  },
-  icon5: {
-    width: "4.99%",
-    top: "21.8%",
-    right: "8.61%",
-    bottom: "76.23%",
-    left: "86.4%",
-    height: "1.97%",
-    maxWidth: "100%",
-    position: "absolute",
-  },
-  username1: {
-    width: "5.84%",
-    left: "23.84%",
-    fontSize: 12,
-    color: Color.wz1,
-  },
-  item: {
-    height: "3.08%",
-    width: "0.27%",
-    top: "21.24%",
-    right: "67.6%",
-    bottom: "75.68%",
-    left: "32.13%",
-    borderRightWidth: 1,
-    borderColor: "#455461",
-    borderStyle: "solid",
-    position: "absolute",
+  groupChild22: {
+    right: "4%",
+    left: "50.67%",
+    bottom: "84.86%",
+    top: "11.38%",
+    width: "45.33%",
+    height: "3.76%",
   },
   vectorIcon: {
-    height: "2.2%",
-    width: "3.63%",
-    top: "21.67%",
-    right: "87.84%",
-    bottom: "76.12%",
-    left: "8.53%",
+    height: "1.24%",
+    width: "4.27%",
+    top: "12.63%",
+    right: "32.27%",
+    bottom: "86.13%",
+    left: "63.47%",
     position: "absolute",
   },
-  d62a6059252dd42a1fed252c093b5bIcon: {
-    marginTop: -230,
-    top: "50%",
-    left: 57,
-    width: 26,
-    height: 18,
+  withdrawal: {
+    left: "19.73%",
   },
-  icon6: {
-    top: 723,
-    left: 163,
-    width: 48,
-    height: 48,
-  },
-  image24Icon: {
-    top: 360,
-    left: 53,
-    width: 283,
-    height: 156,
-  },
-  register: {
-    marginLeft: -44.5,
-    top: 21,
-    fontSize: 22,
-    lineHeight: 18,
-    fontWeight: "700",
-    left: "50%",
-    position: "absolute",
-  },
-  forgotPassword1: {
-    top: 486,
-    left: 296,
-    color: "#c0c8d2",
-    textAlign: "right",
-    lineHeight: 18,
-    fontSize: 14,
-    fontFamily: "Arial",
-    fontWeight: "700",
-    position: "absolute",
-  },
-  inner: {
-    height: "5.79%",
-    width: "34.59%",
-    top: "10.84%",
-    right: "32.61%",
-    bottom: "83.37%",
-    left: "32.8%",
-    position: "absolute",
-  },
-  iHaveAgreedToTheUserAgreContainer: {
-    top: 14,
-    left: 16,
-  },
-  groupChild: {
-    backgroundColor: Color.bg,
-    borderColor: Color.wz4,
-    borderWidth: 1,
-    width: 16,
-    height: 16,
-    borderStyle: "solid",
-    borderRadius: 2,
-    left: 0,
-    top: 0,
-    position: "absolute",
-  },
-  vectorIcon1: {
-    height: "36.56%",
-    width: "4.83%",
-    top: "6.25%",
-    right: "95.17%",
-    bottom: "57.19%",
-  },
-  lAgreeToTheUserAgreementParent: {
-    left: 0,
-    top: 0,
-  },
-  groupParent: {
-    top: 315,
-    left: 24,
-    height: 32,
-  },
-  lAgreeTo: {
-    color: Color.wz1,
-  },
-  groupContainer: {
-    top: 362,
-    left: 24,
-    height: 32,
-  },
-  groupInner: {
-    left: 0,
-  },
-  lineView: {
-    left: 197,
-  },
-  or: {
-    left: 164,
-    color: Color.color8,
-    lineHeight: 12,
-    fontSize: 12,
-    fontWeight: "700",
-    top: 0,
-    position: "absolute",
-  },
-  lineParent: {
-    height: 12,
-    left: 0,
-    top: 0,
-  },
-  ellipseIcon: {
-    left: 0,
-    top: 0,
-    position: "absolute",
-  },
-  googleLogo98082Icon: {
-    top: 4,
-    left: 4,
-    width: 21,
-    height: 21,
-    position: "absolute",
-  },
-  google: {
-    lineHeight: 12,
-    fontSize: 12,
-    fontWeight: "700",
-  },
-  frameView: {
-    gap: 12,
-    alignItems: "center",
-  },
-  frameWrapper: {
-    backgroundColor: "rgba(255, 255, 255, 0.05)",
-    height: 42,
-    paddingHorizontal: 36,
-    paddingVertical: 7,
-    alignItems: "center",
-    borderRadius: 8,
-    flex: 1,
-  },
-  frameParent: {
-    top: 43,
-    left: 5,
-    width: 335,
-    gap: 10,
-    alignItems: "center",
-    position: "absolute",
-  },
-  groupView: {
-    top: 542,
-    left: 15,
-    height: 85,
-  },
-  enterReferral: {
-    fontWeight: "500",
-    lineHeight: 18,
-    fontSize: 14,
-  },
-  unionIcon: {
-    width: 14,
-    height: 14,
-  },
-  icon7: {
-    width: 20,
-    height: 20,
-  },
-  enterReferralPromoCodeParent: {
-    top: 281,
-    left: 20,
-    gap: 4,
-    alignItems: "center",
-    width: 331,
-    flexDirection: "row",
-    position: "absolute",
-  },
-  safeareaview: {
-    backgroundColor: Color.color2,
-    height: 812,
+  logoWj931Icon1: {
+    height: "2.96%",
+    width: "20.8%",
+    top: "7.93%",
+    right: "75.2%",
+    bottom: "89.1%",
+    maxHeight: "100%",
     overflow: "hidden",
-    width: "100%",
+    maxWidth: "100%",
+  },
+  deposit: {
+    left: "69.33%",
+  },
+  icon18: {
+    top: 350,
+    left: 76,
+    width: 282,
+    height: 58,
+    position: "absolute",
+  },
+  text2: {
+    top: 379,
+    left: 145,
+    fontSize: 24,
+    letterSpacing: 2,
+    lineHeight: 18,
+    fontWeight: "900",
+    fontFamily: "Arial",
+  },
+  child: {
+    backgroundColor: "rgba(0, 0, 0, 0.6)",
+  },
+  icon19: {
+    left: 245,
+    width: 130,
+    height: 150,
+    top: 562,
+    position: "absolute",
+  },
+  scrollview: {
+    backgroundColor: Color.bg,
     flex: 1,
+    maxWidth: "100%",
+    width: "100%",
   },
 });
 
-export default Component22;
+export default Component25;

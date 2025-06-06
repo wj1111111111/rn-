@@ -1,15 +1,15 @@
 import * as React from "react";
 import { Text, StyleSheet, View } from "react-native";
-import Group736111 from "../assets/group7361";
-import Component287 from "../assets/";
+import Group73637 from "../assets/group7363";
+import Component520 from "../assets/";
 import { Color } from "../GlobalStyles";
 
 const GroupComponent1 = () => {
   return (
     <View style={styles.parent}>
       <Text style={styles.text}>₱1980.00</Text>
-      <Group736111 style={[styles.instanceChild, styles.iconLayout]} />
-      <Component287 style={[styles.icon, styles.iconLayout]} />
+      <Group73637 style={[styles.instanceChild, styles.iconLayout]} />
+      <Component520 style={[styles.icon, styles.iconLayout]} />
     </View>
   );
 };
@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     lineHeight: 18,
     fontWeight: "700",
     fontFamily: "Arial",
-    color: Color.wz2,
+    color: Color.wz,
     textAlign: "left",
     position: "absolute",
   },

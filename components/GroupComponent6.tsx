@@ -1,16 +1,16 @@
 import * as React from "react";
 import { StyleSheet, Text, Image, View } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
-import Component155 from "../assets/";
+import Component284 from "../assets/";
 import Ellipse30211 from "../assets/ellipse3021";
 import Ellipse30311 from "../assets/ellipse3031";
-import Vector1610 from "../assets/vector16";
+import Vector371 from "../assets/vector37";
 import { Color } from "../GlobalStyles";
 
 const GroupComponent6 = () => {
   return (
     <View style={styles.parent}>
-      <Component155 style={[styles.icon, styles.iconLayout1]} />
+      <Component284 style={[styles.icon, styles.iconLayout1]} />
       <Text style={[styles.promotion, styles.depositTypo]}>Invite</Text>
       <Text style={[styles.home, styles.homeTypo]}>Teams</Text>
       <Text style={[styles.deposit, styles.depositTypo]}>Promotion</Text>
@@ -38,7 +38,7 @@ const GroupComponent6 = () => {
         source={require("../assets/group-130461.png")}
       />
       <View style={styles.vectorParent}>
-        <Vector1610 style={[styles.vectorIcon, styles.iconLayout1]} />
+        <Vector371 style={[styles.vectorIcon, styles.iconLayout1]} />
         <LinearGradient
           style={styles.rectangleLineargradient}
           locations={[0.1, 1]}

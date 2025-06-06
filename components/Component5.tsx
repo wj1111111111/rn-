@@ -6,11 +6,11 @@ import {
   View,
   ImageSourcePropType,
 } from "react-native";
-import Vector1111 from "../assets/vector11";
-import Component73 from "../assets/";
+import Vector1110 from "../assets/vector11";
+import Component202 from "../assets/";
 import { Color } from "../GlobalStyles";
 
-export type Component5Type = {
+export type Component51Type = {
   prop?: ImageSourcePropType;
   moneyRain?: ImageSourcePropType;
   prop1?: ImageSourcePropType;
@@ -32,7 +32,7 @@ const getStyleValue = (key: string, value: string | number | undefined) => {
   if (value === undefined) return;
   return { [key]: value === "unset" ? undefined : value };
 };
-const Component5 = ({
+const Component51 = ({
   groupViewTop,
   groupViewLeft,
   prop,
@@ -46,7 +46,7 @@ const Component5 = ({
   next2100,
   showNext2100,
   showIcon,
-}: Component5Type) => {
+}: Component51Type) => {
   const groupViewStyle = useMemo(() => {
     return {
       ...getStyleValue("top", groupViewTop),
@@ -74,7 +74,7 @@ const Component5 = ({
       />
       <Image style={styles.icon} resizeMode="cover" source={prop} />
       {!!showVectorIcon && (
-        <Vector1111 style={[styles.instanceChild, styles.iconLayout]} />
+        <Vector1110 style={[styles.instanceChild, styles.iconLayout]} />
       )}
       <Image
         style={[styles.moneyRainIcon, styles.iconLayout]}
@@ -99,7 +99,7 @@ const Component5 = ({
         </View>
       )}
       {!!showIcon && (
-        <Component73 style={[styles.icon2, styles.iconPosition]} />
+        <Component202 style={[styles.icon2, styles.iconPosition]} />
       )}
     </View>
   );
@@ -277,4 +277,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Component5;
+export default Component51;
