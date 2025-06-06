@@ -10,7 +10,7 @@ import Rectangle2655 from "../assets/rectangle265";
 import Rectangle2665 from "../assets/rectangle266";
 import { Color, FontFamily } from "../GlobalStyles";
 
-const Component39 = () => {
+const Component40 = () => {
   return (
     <SafeAreaView style={styles.safeareaview}>
       <ScrollView style={styles.scrollview}>
@@ -327,4 +327,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Component39;
+export default Component40;

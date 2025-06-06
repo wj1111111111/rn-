@@ -4,15 +4,15 @@ import LinearGradient from "react-native-linear-gradient";
 import GroupComponent21 from "../components/GroupComponent21";
 import Vector15110 from "../assets/vector151";
 import Star12 from "../assets/star12";
-import Component396 from "../assets/";
+import Component400 from "../assets/";
 import Vector16111 from "../assets/vector161";
 import Group73641 from "../assets/group7364";
-import Component397 from "../assets/";
+import Component401 from "../assets/";
 import GroupComponent31 from "../components/GroupComponent31";
 import Polygon10 from "../assets/polygon10";
 import Vector2111 from "../assets/vector211";
 import GroupComponent20 from "../components/GroupComponent20";
-import Component196 from "../assets/";
+import Component197 from "../assets/";
 import GroupComponent9 from "../components/GroupComponent9";
 import GroupComponent7 from "../components/GroupComponent7";
 import FrameComponent from "../components/FrameComponent";
@@ -57,7 +57,7 @@ const Component31 = () => {
           resizeMode="cover"
           source={require("../assets/3b4bde395738f0c8b07d1baa47c5d48f172c19aa158772swckar-1.png")}
         />
-        <Component396 style={styles.icon} width={16} height={16} />
+        <Component400 style={styles.icon} width={16} height={16} />
         <Image
           style={styles.icon1}
           resizeMode="cover"
@@ -487,7 +487,7 @@ const Component31 = () => {
         />
         <Text style={[styles.r198000, styles.r198000Typo]}>R$1980.00</Text>
         <Group73641 style={[styles.groupIcon, styles.iconLayout2]} />
-        <Component397 style={[styles.icon18, styles.iconLayout2]} />
+        <Component401 style={[styles.icon18, styles.iconLayout2]} />
         <Text style={[styles.deposit, styles.depositTypo]}>Deposit</Text>
         <Image
           style={styles.icon19}
@@ -501,7 +501,7 @@ const Component31 = () => {
           polygon10={<Polygon10 width={9} height={15} />}
           vector={<Vector2111 width={100} height={71} />}
         />
-        <GroupComponent20 prop={<Component196 width={100} height={81} />} />
+        <GroupComponent20 prop={<Component197 width={100} height={81} />} />
       </View>
       <GroupComponent9 />
       <View style={[styles.frameParent, styles.frameParentLayout]}>

@@ -3,21 +3,21 @@ import { StyleSheet, View, Image, Text } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
 import { SafeAreaView } from "react-native-safe-area-context";
 import Ellipse78 from "../assets/ellipse7";
-import Component327 from "../assets/";
+import Component331 from "../assets/";
 import GroupComponent3 from "../components/GroupComponent3";
-import Component328 from "../assets/";
+import Component332 from "../assets/";
 import Vector430 from "../assets/vector4";
-import Component329 from "../assets/";
+import Component333 from "../assets/";
 import Vector431 from "../assets/vector4";
-import Stroke272 from "../assets/stroke2";
-import Stroke273 from "../assets/stroke2";
-import Stroke274 from "../assets/stroke2";
-import Stroke275 from "../assets/stroke2";
-import Stroke276 from "../assets/stroke2";
-import Stroke277 from "../assets/stroke2";
-import Stroke278 from "../assets/stroke2";
-import Stroke279 from "../assets/stroke2";
-import Stroke280 from "../assets/stroke2";
+import Stroke1172 from "../assets/stroke11";
+import Stroke1173 from "../assets/stroke11";
+import Stroke1174 from "../assets/stroke11";
+import Stroke1175 from "../assets/stroke11";
+import Stroke1176 from "../assets/stroke11";
+import Stroke1177 from "../assets/stroke11";
+import Stroke1178 from "../assets/stroke11";
+import Stroke1179 from "../assets/stroke11";
+import Stroke1180 from "../assets/stroke11";
 import Vector58 from "../assets/vector5";
 import Vector67 from "../assets/vector6";
 import Vector78 from "../assets/vector7";
@@ -72,7 +72,7 @@ const Component7 = () => {
             source={require("../assets/8713-1.png")}
           />
         </View>
-        <Component327 style={styles.icon1} width={10} height={10} />
+        <Component331 style={styles.icon1} width={10} height={10} />
         <Text style={[styles.text, styles.textTypo]}>98955464616</Text>
         <Text style={[styles.userName, styles.vip4Typo]}>User name</Text>
         <Text style={[styles.teamsCenter, styles.text1Text]}>Teams center</Text>
@@ -83,7 +83,7 @@ const Component7 = () => {
           <View style={[styles.groupInner, styles.groupInnerLayout]} />
         </View>
         <View style={[styles.group, styles.groupLayout1]}>
-          <Component328
+          <Component332
             style={[styles.icon2, styles.iconPosition3]}
             width={124}
             height={36}
@@ -100,7 +100,7 @@ const Component7 = () => {
           </View>
         </View>
         <View style={[styles.container, styles.icon3Layout]}>
-          <Component329
+          <Component333
             style={[styles.icon3, styles.icon3Layout]}
             width={136}
             height={36}
@@ -136,47 +136,47 @@ const Component7 = () => {
           />
         </View>
         <View style={[styles.rectangleView, styles.groupInnerLayout]} />
-        <Stroke272
+        <Stroke1172
           style={[styles.strokeIcon, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke273
+        <Stroke1173
           style={[styles.strokeIcon1, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke274
+        <Stroke1174
           style={[styles.strokeIcon2, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke275
+        <Stroke1175
           style={[styles.strokeIcon3, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke276
+        <Stroke1176
           style={[styles.strokeIcon4, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke277
+        <Stroke1177
           style={[styles.strokeIcon5, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke278
+        <Stroke1178
           style={[styles.strokeIcon6, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke279
+        <Stroke1179
           style={[styles.strokeIcon7, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke280
+        <Stroke1180
           style={[styles.strokeIcon8, styles.iconLayout2]}
           width={8}
           height={13}
@@ -215,7 +215,7 @@ downloading the official APP`}</Text>
         <Image
           style={[styles.icon4, styles.iconLayout2]}
           resizeMode="cover"
-          source={require("../assets/-111.png")}
+          source={require("../assets/-1111.png")}
         />
         <Image
           style={[styles.group120051, styles.groupPosition]}

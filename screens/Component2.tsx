@@ -17,7 +17,7 @@ const Component2 = () => {
       <Image
         style={styles.icon}
         resizeMode="cover"
-        source={require("../assets/-11.png")}
+        source={require("../assets/-16.png")}
       />
       <GroupComponent13 groupViewBottom={747} />
       <GroupComponent14 />

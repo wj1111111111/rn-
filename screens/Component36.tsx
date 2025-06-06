@@ -7,15 +7,15 @@ import Star1171 from "../assets/star11";
 import Star1172 from "../assets/star11";
 import Star1173 from "../assets/star11";
 import Star1174 from "../assets/star11";
-import Component424 from "../assets/";
+import Component431 from "../assets/";
 import Vector451 from "../assets/vector4";
 import Polygon10114 from "../assets/polygon101";
 import Vector1816 from "../assets/vector18";
 import GroupComponent20 from "../components/GroupComponent20";
-import Component67 from "../assets/";
+import Component68 from "../assets/";
 import GroupComponent41 from "../components/GroupComponent41";
 import Group7361 from "../assets/group7361";
-import Component42 from "../assets/";
+import Component43 from "../assets/";
 import Logo47 from "../assets/logo4";
 import Logo87 from "../assets/logo8";
 import Ellipse267 from "../assets/ellipse26";
@@ -28,7 +28,7 @@ import Logovideo27 from "../assets/logovideo2";
 import GroupComponent10 from "../components/GroupComponent10";
 import { Border, Color, FontSize, FontFamily } from "../GlobalStyles";
 
-const Component36 = () => {
+const Component37 = () => {
   return (
     <ScrollView style={styles.scrollview}>
       <View style={styles.groupParent}>
@@ -114,7 +114,7 @@ const Component36 = () => {
             resizeMode="cover"
             source={require("../assets/3b4bde395738f0c8b07d1baa47c5d48f172c19aa158772swckar-1.png")}
           />
-          <Component424
+          <Component431
             style={[styles.icon, styles.iconLayout5]}
             width={16}
             height={16}
@@ -555,11 +555,11 @@ const Component36 = () => {
               />
             </View>
           </View>
-          <GroupComponent20 prop={<Component67 width={100} height={81} />} />
+          <GroupComponent20 prop={<Component68 width={100} height={81} />} />
         </View>
         <GroupComponent41
           group736={<Group7361 width={12} height={89} />}
-          prop={<Component42 width={13} height={81} />}
+          prop={<Component43 width={13} height={81} />}
         />
         <View style={[styles.jdbSlot105Parent, styles.groupChild5Layout]}>
           <Image
@@ -2287,4 +2287,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Component36;
+export default Component37;

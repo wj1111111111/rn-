@@ -1,11 +1,11 @@
 import * as React from "react";
 import { StyleSheet, View, Text, Image } from "react-native";
-import Component445 from "../assets/";
-import Component446 from "../assets/";
+import Component452 from "../assets/";
+import Component453 from "../assets/";
 import Vector1219 from "../assets/vector12";
-import Component447 from "../assets/";
+import Component454 from "../assets/";
 import Vector1315 from "../assets/vector13";
-import Component448 from "../assets/";
+import Component455 from "../assets/";
 import Group84815 from "../assets/group848";
 import { FontFamily, FontSize, Color, Border } from "../GlobalStyles";
 
@@ -17,11 +17,11 @@ const GroupComponent12 = () => {
         <Text style={[styles.receiveRewardsAfter, styles.usernameTypo]}>
           Receive rewards after completing mobilephone verification
         </Text>
-        <Component445 style={[styles.icon, styles.iconLayout]} />
+        <Component452 style={[styles.icon, styles.iconLayout]} />
         <Text style={[styles.username, styles.usernamePosition]}>
           1234567890|
         </Text>
-        <Component446 style={[styles.icon1, styles.iconLayout]} />
+        <Component453 style={[styles.icon1, styles.iconLayout]} />
         <Text style={[styles.username1, styles.loginTypo]}>+55</Text>
         <View style={[styles.groupItem, styles.groupBorder]} />
         <Vector1219 style={[styles.vectorIcon, styles.iconLayout]} />
@@ -31,7 +31,7 @@ const GroupComponent12 = () => {
           source={require("../assets/d62a6059252dd42a1fed252c093b5bb5c8eab854-1.png")}
         />
         <View style={[styles.parent, styles.icon2Layout]}>
-          <Component447
+          <Component454
             style={[styles.icon2, styles.iconPosition]}
             width={321}
             height={48}
@@ -45,7 +45,7 @@ const GroupComponent12 = () => {
           source={require("../assets/group-12051.png")}
         />
         <View style={[styles.group, styles.groupLayout]}>
-          <Component448
+          <Component455
             style={[styles.icon3, styles.groupLayout]}
             width={322}
             height={50}

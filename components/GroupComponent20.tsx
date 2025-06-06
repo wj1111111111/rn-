@@ -6,9 +6,9 @@ import {
   View,
   ImageSourcePropType,
 } from "react-native";
-import Component449 from "../assets/";
-import Component450 from "../assets/";
-import Component451 from "../assets/";
+import Component456 from "../assets/";
+import Component457 from "../assets/";
+import Component458 from "../assets/";
 import Vector318 from "../assets/vector31";
 import { Color, FontFamily, FontSize } from "../GlobalStyles";
 
@@ -33,9 +33,9 @@ const GroupComponent20 = ({ prop, groupViewBottom }: GroupComponent20Type) => {
   return (
     <View style={[styles.parent, groupView6Style]}>
       <View>{prop && prop}</View>
-      <Component449 style={[styles.icon1, styles.iconPosition]} />
-      <Component450 style={[styles.icon2, styles.iconPosition]} />
-      <Component451 style={[styles.icon3, styles.iconPosition]} />
+      <Component456 style={[styles.icon1, styles.iconPosition]} />
+      <Component457 style={[styles.icon2, styles.iconPosition]} />
+      <Component458 style={[styles.icon3, styles.iconPosition]} />
       <Text style={styles.members}>Home</Text>
       <Text style={[styles.promotion, styles.depositTypo]}>Promotion</Text>
       <Text style={[styles.home, styles.depositTypo]}>Teams</Text>

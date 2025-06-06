@@ -3,20 +3,20 @@ import { StyleSheet, View, Image, Text } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
 import { SafeAreaView } from "react-native-safe-area-context";
 import Ellipse711 from "../assets/ellipse7";
-import Component344 from "../assets/";
+import Component348 from "../assets/";
 import GroupComponent3 from "../components/GroupComponent3";
-import Component345 from "../assets/";
+import Component349 from "../assets/";
 import Vector436 from "../assets/vector4";
-import Component346 from "../assets/";
+import Component350 from "../assets/";
 import Vector437 from "../assets/vector4";
-import Stroke299 from "../assets/stroke2";
-import Stroke2100 from "../assets/stroke2";
-import Stroke2101 from "../assets/stroke2";
-import Stroke2102 from "../assets/stroke2";
-import Stroke2103 from "../assets/stroke2";
-import Stroke2104 from "../assets/stroke2";
-import Stroke2105 from "../assets/stroke2";
-import Stroke2106 from "../assets/stroke2";
+import Stroke1199 from "../assets/stroke11";
+import Stroke11100 from "../assets/stroke11";
+import Stroke11101 from "../assets/stroke11";
+import Stroke11102 from "../assets/stroke11";
+import Stroke11103 from "../assets/stroke11";
+import Stroke11104 from "../assets/stroke11";
+import Stroke11105 from "../assets/stroke11";
+import Stroke11106 from "../assets/stroke11";
 import Vector511 from "../assets/vector5";
 import Vector711 from "../assets/vector7";
 import Group83011 from "../assets/group830";
@@ -74,7 +74,7 @@ const Component11 = () => {
             source={require("../assets/8713-1.png")}
           />
         </View>
-        <Component344 style={styles.icon1} width={10} height={10} />
+        <Component348 style={styles.icon1} width={10} height={10} />
         <Text style={[styles.text, styles.textFlexBox]}>98955464616</Text>
         <Text style={[styles.userName, styles.vip4Typo]}>User name</Text>
         <Text style={[styles.teamsCenter, styles.text1Text]}>Teams center</Text>
@@ -85,7 +85,7 @@ const Component11 = () => {
           <View style={[styles.groupInner, styles.groupInnerBg]} />
         </View>
         <View style={[styles.group, styles.groupLayout1]}>
-          <Component345
+          <Component349
             style={[styles.icon2, styles.iconPosition3]}
             width={124}
             height={36}
@@ -102,7 +102,7 @@ const Component11 = () => {
           </View>
         </View>
         <View style={[styles.container, styles.icon3Layout]}>
-          <Component346
+          <Component350
             style={[styles.icon3, styles.icon3Layout]}
             width={136}
             height={36}
@@ -138,42 +138,42 @@ const Component11 = () => {
           />
         </View>
         <View style={[styles.rectangleView, styles.groupViewSpaceBlock]} />
-        <Stroke299
+        <Stroke1199
           style={[styles.strokeIcon, styles.iconLayout3]}
           width={8}
           height={13}
         />
-        <Stroke2100
+        <Stroke11100
           style={[styles.strokeIcon1, styles.iconLayout3]}
           width={8}
           height={13}
         />
-        <Stroke2101
+        <Stroke11101
           style={[styles.strokeIcon2, styles.iconLayout3]}
           width={8}
           height={13}
         />
-        <Stroke2102
+        <Stroke11102
           style={[styles.strokeIcon3, styles.iconLayout3]}
           width={8}
           height={13}
         />
-        <Stroke2103
+        <Stroke11103
           style={[styles.strokeIcon4, styles.iconLayout3]}
           width={8}
           height={13}
         />
-        <Stroke2104
+        <Stroke11104
           style={[styles.strokeIcon5, styles.iconLayout3]}
           width={8}
           height={13}
         />
-        <Stroke2105
+        <Stroke11105
           style={[styles.strokeIcon6, styles.iconLayout3]}
           width={8}
           height={13}
         />
-        <Stroke2106
+        <Stroke11106
           style={[styles.strokeIcon7, styles.iconLayout3]}
           width={8}
           height={13}
@@ -209,7 +209,7 @@ downloading the official APP`}</Text>
         <Image
           style={[styles.icon4, styles.iconLayout3]}
           resizeMode="cover"
-          source={require("../assets/-111.png")}
+          source={require("../assets/-1111.png")}
         />
         <Image
           style={[styles.group120051, styles.groupPosition]}

@@ -7,29 +7,29 @@ import Star1231 from "../assets/star12";
 import Star1232 from "../assets/star12";
 import Star1233 from "../assets/star12";
 import Star1234 from "../assets/star12";
-import Component381 from "../assets/";
+import Component385 from "../assets/";
 import Vector1618 from "../assets/vector161";
 import Polygon107 from "../assets/polygon10";
 import Vector2117 from "../assets/vector211";
-import Component382 from "../assets/";
-import Component383 from "../assets/";
-import Component384 from "../assets/";
-import Component385 from "../assets/";
+import Component386 from "../assets/";
+import Component387 from "../assets/";
+import Component388 from "../assets/";
+import Component389 from "../assets/";
 import Vector316 from "../assets/vector31";
 import Group73635 from "../assets/group7363";
-import Component386 from "../assets/";
+import Component390 from "../assets/";
 import Vector146 from "../assets/vector14";
-import Component211 from "../assets/";
-import Vector1526 from "../assets/vector15";
 import Component212 from "../assets/";
-import Vector164 from "../assets/vector16";
+import Vector1526 from "../assets/vector15";
 import Component213 from "../assets/";
-import Vector176 from "../assets/vector17";
+import Vector164 from "../assets/vector16";
 import Component214 from "../assets/";
-import Vector186 from "../assets/vector18";
+import Vector176 from "../assets/vector17";
 import Component215 from "../assets/";
-import Vector196 from "../assets/vector19";
+import Vector186 from "../assets/vector18";
 import Component216 from "../assets/";
+import Vector196 from "../assets/vector19";
+import Component217 from "../assets/";
 import { Border, Color, FontFamily, FontSize } from "../GlobalStyles";
 
 const Component26 = () => {
@@ -115,7 +115,7 @@ const Component26 = () => {
           resizeMode="cover"
           source={require("../assets/3b4bde395738f0c8b07d1baa47c5d48f172c19aa158772swckar-1.png")}
         />
-        <Component381 style={styles.icon} width={16} height={16} />
+        <Component385 style={styles.icon} width={16} height={16} />
         <Image
           style={[styles.icon1, styles.iconPosition3]}
           resizeMode="cover"
@@ -588,10 +588,10 @@ const Component26 = () => {
           </View>
         </View>
         <View style={[styles.parent, styles.iconPosition3]}>
-          <Component382 style={[styles.icon20, styles.icon20Position]} />
-          <Component383 style={[styles.icon21, styles.iconPosition1]} />
-          <Component384 style={[styles.icon22, styles.iconPosition1]} />
-          <Component385 style={[styles.icon23, styles.iconPosition1]} />
+          <Component386 style={[styles.icon20, styles.icon20Position]} />
+          <Component387 style={[styles.icon21, styles.iconPosition1]} />
+          <Component388 style={[styles.icon22, styles.iconPosition1]} />
+          <Component389 style={[styles.icon23, styles.iconPosition1]} />
           <Text style={[styles.members, styles.depositTypo]}>Home</Text>
           <Text style={[styles.promotion, styles.depositTypo]}>Promotion</Text>
           <Text style={[styles.home, styles.depositTypo]}>Teams</Text>
@@ -607,7 +607,7 @@ const Component26 = () => {
         <View style={styles.group}>
           <Text style={styles.text3}>₱1980.00</Text>
           <Group73635 style={[styles.instanceChild, styles.iconLayout1]} />
-          <Component386 style={[styles.icon24, styles.iconLayout1]} />
+          <Component390 style={[styles.icon24, styles.iconLayout1]} />
         </View>
       </View>
       <View style={[styles.child, styles.childPosition]} />
@@ -655,7 +655,7 @@ const Component26 = () => {
           <View style={[styles.groupChild32, styles.groupChildPosition]} />
           <Text style={[styles.text5, styles.textFlexBox]}>1</Text>
         </View>
-        <Component211 style={[styles.icon28, styles.iconPosition]} />
+        <Component212 style={[styles.icon28, styles.iconPosition]} />
       </View>
       <View
         style={[styles.bd57270ff3cddd5d20ff7401e454dcParent, styles.viewLayout]}
@@ -698,7 +698,7 @@ const Component26 = () => {
           <View style={[styles.groupChild32, styles.groupChildPosition]} />
           <Text style={[styles.text5, styles.textFlexBox]}>1</Text>
         </View>
-        <Component212 style={[styles.icon28, styles.iconPosition]} />
+        <Component213 style={[styles.icon28, styles.iconPosition]} />
       </View>
       <View
         style={[
@@ -744,7 +744,7 @@ const Component26 = () => {
           <View style={[styles.groupChild32, styles.groupChildPosition]} />
           <Text style={[styles.text5, styles.textFlexBox]}>1</Text>
         </View>
-        <Component213 style={[styles.icon28, styles.iconPosition]} />
+        <Component214 style={[styles.icon28, styles.iconPosition]} />
       </View>
       <View
         style={[
@@ -788,7 +788,7 @@ const Component26 = () => {
           <View style={[styles.groupChild32, styles.groupChildPosition]} />
           <Text style={[styles.text5, styles.textFlexBox]}>6</Text>
         </View>
-        <Component214 style={styles.iconPosition} />
+        <Component215 style={styles.iconPosition} />
       </View>
       <View
         style={[
@@ -834,7 +834,7 @@ const Component26 = () => {
           <View style={[styles.groupChild32, styles.groupChildPosition]} />
           <Text style={[styles.text5, styles.textFlexBox]}>1</Text>
         </View>
-        <Component215 style={[styles.icon28, styles.iconPosition]} />
+        <Component216 style={[styles.icon28, styles.iconPosition]} />
       </View>
       <View
         style={[
@@ -878,7 +878,7 @@ const Component26 = () => {
           <View style={[styles.groupChild32, styles.groupChildPosition]} />
           <Text style={[styles.text5, styles.textFlexBox]}>2</Text>
         </View>
-        <Component216 style={[styles.icon28, styles.iconPosition]} />
+        <Component217 style={[styles.icon28, styles.iconPosition]} />
       </View>
     </ScrollView>
   );

@@ -3,24 +3,24 @@ import { StyleSheet, View, Image, Text } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
 import { SafeAreaView } from "react-native-safe-area-context";
 import Ellipse77 from "../assets/ellipse7";
-import Component318 from "../assets/";
+import Component322 from "../assets/";
 import Vector148 from "../assets/vector1";
 import Vector1117 from "../assets/vector11";
 import Vector210 from "../assets/vector2";
 import Vector37 from "../assets/vector3";
-import Component319 from "../assets/";
+import Component323 from "../assets/";
 import Vector428 from "../assets/vector4";
-import Component320 from "../assets/";
+import Component324 from "../assets/";
 import Vector429 from "../assets/vector4";
-import Stroke263 from "../assets/stroke2";
-import Stroke264 from "../assets/stroke2";
-import Stroke265 from "../assets/stroke2";
-import Stroke266 from "../assets/stroke2";
-import Stroke267 from "../assets/stroke2";
-import Stroke268 from "../assets/stroke2";
-import Stroke269 from "../assets/stroke2";
-import Stroke270 from "../assets/stroke2";
-import Stroke271 from "../assets/stroke2";
+import Stroke1163 from "../assets/stroke11";
+import Stroke1164 from "../assets/stroke11";
+import Stroke1165 from "../assets/stroke11";
+import Stroke1166 from "../assets/stroke11";
+import Stroke1167 from "../assets/stroke11";
+import Stroke1168 from "../assets/stroke11";
+import Stroke1169 from "../assets/stroke11";
+import Stroke1170 from "../assets/stroke11";
+import Stroke1171 from "../assets/stroke11";
 import Vector57 from "../assets/vector5";
 import Vector66 from "../assets/vector6";
 import Vector77 from "../assets/vector7";
@@ -29,19 +29,19 @@ import Vector87 from "../assets/vector8";
 import Vector97 from "../assets/vector9";
 import Vector107 from "../assets/vector10";
 import GroupComponent2 from "../components/GroupComponent2";
-import Component321 from "../assets/";
-import Component322 from "../assets/";
-import Vector1214 from "../assets/vector12";
-import Component323 from "../assets/";
-import Vector1312 from "../assets/vector13";
-import Union34 from "../assets/union3";
-import Vector149 from "../assets/vector14";
-import Component324 from "../assets/";
-import Group8489 from "../assets/group848";
 import Component325 from "../assets/";
+import Component326 from "../assets/";
+import Vector1214 from "../assets/vector12";
+import Component327 from "../assets/";
+import Vector1312 from "../assets/vector13";
+import Union215 from "../assets/union21";
+import Vector149 from "../assets/vector14";
+import Component328 from "../assets/";
+import Group8489 from "../assets/group848";
+import Component329 from "../assets/";
 import Group121104 from "../assets/group12110";
 import Group121064 from "../assets/group12106";
-import Component326 from "../assets/";
+import Component330 from "../assets/";
 import { FontFamily, Color, Border, FontSize } from "../GlobalStyles";
 
 const Component6 = () => {
@@ -87,7 +87,7 @@ const Component6 = () => {
             source={require("../assets/8713-1.png")}
           />
         </View>
-        <Component318 style={styles.icon1} width={10} height={10} />
+        <Component322 style={styles.icon1} width={10} height={10} />
         <Text style={[styles.text, styles.textTypo]}>98955464616</Text>
         <Text style={[styles.userName, styles.passwordContainerTypo]}>
           User name
@@ -118,7 +118,7 @@ Record`}</Text>
           <View style={[styles.rectangleView, styles.rectangleLayout]} />
         </View>
         <View style={[styles.group, styles.groupLayout3]}>
-          <Component319
+          <Component323
             style={[styles.icon2, styles.iconPosition1]}
             width={124}
             height={36}
@@ -135,7 +135,7 @@ Record`}</Text>
           </View>
         </View>
         <View style={[styles.container, styles.icon3Layout]}>
-          <Component320
+          <Component324
             style={[styles.icon3, styles.icon3Layout]}
             width={136}
             height={36}
@@ -173,47 +173,47 @@ Record`}</Text>
           />
         </View>
         <View style={styles.groupChild1} />
-        <Stroke263
+        <Stroke1163
           style={[styles.strokeIcon, styles.iconLayout]}
           width={8}
           height={13}
         />
-        <Stroke264
+        <Stroke1164
           style={[styles.strokeIcon1, styles.iconLayout]}
           width={8}
           height={13}
         />
-        <Stroke265
+        <Stroke1165
           style={[styles.strokeIcon2, styles.iconLayout]}
           width={8}
           height={13}
         />
-        <Stroke266
+        <Stroke1166
           style={[styles.strokeIcon3, styles.iconLayout]}
           width={8}
           height={13}
         />
-        <Stroke267
+        <Stroke1167
           style={[styles.strokeIcon4, styles.iconLayout]}
           width={8}
           height={13}
         />
-        <Stroke268
+        <Stroke1168
           style={[styles.strokeIcon5, styles.iconLayout]}
           width={8}
           height={13}
         />
-        <Stroke269
+        <Stroke1169
           style={[styles.strokeIcon6, styles.iconLayout]}
           width={8}
           height={13}
         />
-        <Stroke270
+        <Stroke1170
           style={[styles.strokeIcon7, styles.iconLayout]}
           width={8}
           height={13}
         />
-        <Stroke271
+        <Stroke1171
           style={[styles.strokeIcon8, styles.iconLayout]}
           width={8}
           height={13}
@@ -252,7 +252,7 @@ downloading the official APP`}</Text>
         <Image
           style={[styles.icon4, styles.iconLayout]}
           resizeMode="cover"
-          source={require("../assets/-111.png")}
+          source={require("../assets/-1111.png")}
         />
         <Image
           style={[styles.group120051, styles.child2Layout]}
@@ -314,9 +314,9 @@ To join`}{" "}
         <Text style={[styles.receiveRewardsAfter, styles.loginTypo]}>
           Receive rewards after completing mobilephone verification
         </Text>
-        <Component321 style={[styles.icon5, styles.iconLayout1]} />
+        <Component325 style={[styles.icon5, styles.iconLayout1]} />
         <Text style={[styles.username, styles.usernameTypo]}>1234|</Text>
-        <Component322 style={[styles.icon6, styles.iconLayout1]} />
+        <Component326 style={[styles.icon6, styles.iconLayout1]} />
         <Text style={[styles.username1, styles.usernameTypo]}>+55</Text>
         <View style={[styles.groupChild12, styles.groupChildBorder]} />
         <Vector1214 style={[styles.vectorIcon12, styles.iconLayout1]} />
@@ -326,7 +326,7 @@ To join`}{" "}
           source={require("../assets/d62a6059252dd42a1fed252c093b5bb5c8eab854-1.png")}
         />
         <View style={[styles.parent1, styles.icon7Layout]}>
-          <Component323
+          <Component327
             style={[styles.icon7, styles.icon7Layout]}
             width={321}
             height={48}
@@ -341,7 +341,7 @@ To join`}{" "}
           />
         </View>
         <View style={[styles.unionParent, styles.unionLayout]}>
-          <Union34 style={styles.unionLayout} width={321} height={84} />
+          <Union215 style={styles.unionLayout} width={321} height={84} />
           <Vector149 style={[styles.vectorIcon14, styles.iconLayout1]} />
           <Text style={styles.theMobileNumber}>
             The mobile number will be used to check that your money is safe when
@@ -349,7 +349,7 @@ To join`}{" "}
           </Text>
         </View>
         <View style={[styles.parent2, styles.icon8Layout]}>
-          <Component324
+          <Component328
             style={[styles.icon8, styles.icon8Layout]}
             width={322}
             height={50}
@@ -365,7 +365,7 @@ To join`}{" "}
         height={32}
       />
       <View style={styles.parent3}>
-        <Component325 style={[styles.icon9, styles.iconPosition]} />
+        <Component329 style={[styles.icon9, styles.iconPosition]} />
         <Group121104
           style={[styles.groupChild13, styles.vectorIcon13Position]}
         />
@@ -379,7 +379,7 @@ To join`}{" "}
         />
       </View>
       <View style={[styles.parent4, styles.icon10Layout]}>
-        <Component326
+        <Component330
           style={[styles.icon10, styles.icon10Layout]}
           width={77}
           height={34}

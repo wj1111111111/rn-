@@ -4,16 +4,16 @@ import LinearGradient from "react-native-linear-gradient";
 import GroupComponent21 from "../components/GroupComponent21";
 import Vector171 from "../assets/vector17";
 import Star11 from "../assets/star11";
-import Component358 from "../assets/";
+import Component362 from "../assets/";
 import Vector441 from "../assets/vector4";
 import GroupComponent31 from "../components/GroupComponent31";
 import Polygon101 from "../assets/polygon101";
 import Vector181 from "../assets/vector18";
 import GroupComponent20 from "../components/GroupComponent20";
-import Component67 from "../assets/";
+import Component68 from "../assets/";
 import GroupComponent110 from "../components/GroupComponent110";
 import Group7361 from "../assets/group7361";
-import Component42 from "../assets/";
+import Component43 from "../assets/";
 import Component51 from "../components/Component51";
 import Vector110 from "../assets/vector1";
 import { Border, Color, FontFamily, FontSize } from "../GlobalStyles";
@@ -55,7 +55,7 @@ const Component22 = () => {
           resizeMode="cover"
           source={require("../assets/3b4bde395738f0c8b07d1baa47c5d48f172c19aa158772swckar-1.png")}
         />
-        <Component358 style={styles.icon} width={16} height={16} />
+        <Component362 style={styles.icon} width={16} height={16} />
         <Image
           style={[styles.icon1, styles.icon1Layout]}
           resizeMode="cover"
@@ -496,10 +496,10 @@ const Component22 = () => {
           polygon10={<Polygon101 width={9} height={15} />}
           vector={<Vector181 width={100} height={71} />}
         />
-        <GroupComponent20 prop={<Component67 width={100} height={81} />} />
+        <GroupComponent20 prop={<Component68 width={100} height={81} />} />
         <GroupComponent110
           group736={<Group7361 width={12} height={89} />}
-          prop={<Component42 width={13} height={81} />}
+          prop={<Component43 width={13} height={81} />}
         />
       </View>
       <View style={[styles.child, styles.childPosition]} />

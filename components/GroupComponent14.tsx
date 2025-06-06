@@ -1,6 +1,6 @@
 import * as React from "react";
 import { StyleSheet, View, Text, Image } from "react-native";
-import Union4 from "../assets/union";
+import Union3 from "../assets/union";
 import Group127806 from "../assets/group12780";
 import { Border, FontFamily, FontSize, Color } from "../GlobalStyles";
 
@@ -24,7 +24,7 @@ You can try to check whether the network is normal.
 Good luck!`}</Text>
       <View style={[styles.groupInner, styles.groupPosition]} />
       <View style={[styles.unionParent, styles.unionLayout]}>
-        <Union4 style={styles.unionLayout} width={97} height={18} />
+        <Union3 style={styles.unionLayout} width={97} height={18} />
         <Text style={[styles.r, styles.rTypo]}>New reply</Text>
       </View>
       <Image

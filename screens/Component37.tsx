@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Image, StyleSheet, View, Text } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import Union51 from "../assets/union5";
+import Union41 from "../assets/union4";
 import Ellipse72916 from "../assets/ellipse729";
 import Ellipse75816 from "../assets/ellipse758";
 import Ellipse75817 from "../assets/ellipse758";
@@ -47,7 +47,7 @@ import Group213132946319 from "../assets/group2131329463";
 import Group84813 from "../assets/group848";
 import { FontFamily, FontSize, Color, Border } from "../GlobalStyles";
 
-const Component37 = () => {
+const Component38 = () => {
   return (
     <SafeAreaView style={styles.safeareaview}>
       <Image
@@ -67,7 +67,7 @@ const Component37 = () => {
           resizeMode="cover"
           source={require("../assets/187dtlr3-1.png")}
         />
-        <Union51 style={[styles.unionIcon, styles.iconPosition1]} />
+        <Union41 style={[styles.unionIcon, styles.iconPosition1]} />
         <Image
           style={styles.curveTextIcon}
           resizeMode="cover"
@@ -1427,4 +1427,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Component37;
+export default Component38;

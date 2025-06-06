@@ -1,19 +1,19 @@
 import * as React from "react";
 import { StyleSheet, Text, Image, View } from "react-native";
-import Component436 from "../assets/";
-import Component437 from "../assets/";
-import Component438 from "../assets/";
-import Component439 from "../assets/";
+import Component443 from "../assets/";
+import Component444 from "../assets/";
+import Component445 from "../assets/";
+import Component446 from "../assets/";
 import Vector1118 from "../assets/vector111";
 import { FontFamily, FontSize, Color } from "../GlobalStyles";
 
 const GroupComponent2 = () => {
   return (
     <View style={styles.parent}>
-      <Component436 style={[styles.icon, styles.iconLayout]} />
-      <Component437 style={[styles.icon1, styles.iconPosition]} />
-      <Component438 style={[styles.icon2, styles.iconPosition]} />
-      <Component439 style={[styles.icon3, styles.iconPosition]} />
+      <Component443 style={[styles.icon, styles.iconLayout]} />
+      <Component444 style={[styles.icon1, styles.iconPosition]} />
+      <Component445 style={[styles.icon2, styles.iconPosition]} />
+      <Component446 style={[styles.icon3, styles.iconPosition]} />
       <Text style={[styles.members, styles.depositTypo]}>Home</Text>
       <Text style={styles.promotion}>Promotion</Text>
       <Text style={[styles.home, styles.depositTypo]}>Teams</Text>

@@ -7,21 +7,21 @@ import Star1151 from "../assets/star11";
 import Star1152 from "../assets/star11";
 import Star1153 from "../assets/star11";
 import Star1154 from "../assets/star11";
-import Component372 from "../assets/";
+import Component376 from "../assets/";
 import Vector443 from "../assets/vector4";
 import Polygon10110 from "../assets/polygon101";
 import Vector1812 from "../assets/vector18";
-import Component373 from "../assets/";
-import Component374 from "../assets/";
-import Component375 from "../assets/";
-import Component376 from "../assets/";
-import Vector1912 from "../assets/vector19";
-import Group736136 from "../assets/group7361";
 import Component377 from "../assets/";
-import Vector1100 from "../assets/vector1";
 import Component378 from "../assets/";
-import Vector1102 from "../assets/vector1";
 import Component379 from "../assets/";
+import Component380 from "../assets/";
+import Vector1912 from "../assets/vector19";
+import Group736137 from "../assets/group7361";
+import Component381 from "../assets/";
+import Vector1100 from "../assets/vector1";
+import Component382 from "../assets/";
+import Vector1102 from "../assets/vector1";
+import Component383 from "../assets/";
 import { Border, Color, FontFamily, FontSize } from "../GlobalStyles";
 
 const Component24 = () => {
@@ -107,7 +107,7 @@ const Component24 = () => {
           resizeMode="cover"
           source={require("../assets/3b4bde395738f0c8b07d1baa47c5d48f172c19aa158772swckar-1.png")}
         />
-        <Component372 style={styles.icon} width={16} height={16} />
+        <Component376 style={styles.icon} width={16} height={16} />
         <Image
           style={[styles.icon1, styles.iconPosition3]}
           resizeMode="cover"
@@ -580,10 +580,10 @@ const Component24 = () => {
           </View>
         </View>
         <View style={[styles.parent, styles.iconPosition3]}>
-          <Component373 style={[styles.icon20, styles.icon20Position]} />
-          <Component374 style={[styles.icon21, styles.iconPosition1]} />
-          <Component375 style={[styles.icon22, styles.iconPosition1]} />
-          <Component376 style={[styles.icon23, styles.iconPosition1]} />
+          <Component377 style={[styles.icon20, styles.icon20Position]} />
+          <Component378 style={[styles.icon21, styles.iconPosition1]} />
+          <Component379 style={[styles.icon22, styles.iconPosition1]} />
+          <Component380 style={[styles.icon23, styles.iconPosition1]} />
           <Text style={[styles.members, styles.depositTypo]}>Home</Text>
           <Text style={[styles.promotion, styles.depositTypo]}>Promotion</Text>
           <Text style={[styles.home, styles.depositTypo]}>Teams</Text>
@@ -599,8 +599,8 @@ const Component24 = () => {
       </View>
       <View style={styles.group}>
         <Text style={styles.text3}>₱1980.00</Text>
-        <Group736136 style={[styles.instanceChild, styles.iconLayout1]} />
-        <Component377 style={[styles.icon24, styles.iconLayout1]} />
+        <Group736137 style={[styles.instanceChild, styles.iconLayout1]} />
+        <Component381 style={[styles.icon24, styles.iconLayout1]} />
       </View>
       <View style={[styles.child, styles.childPosition]} />
       <View
@@ -649,7 +649,7 @@ const Component24 = () => {
           <View style={[styles.groupChild32, styles.groupChildPosition]} />
           <Text style={[styles.text5, styles.textFlexBox]}>6</Text>
         </View>
-        <Component378 style={styles.iconPosition} />
+        <Component382 style={styles.iconPosition} />
       </View>
       <View
         style={[
@@ -697,7 +697,7 @@ const Component24 = () => {
           <View style={[styles.groupChild32, styles.groupChildPosition]} />
           <Text style={[styles.text5, styles.textFlexBox]}>2</Text>
         </View>
-        <Component379 style={[styles.icon30, styles.iconPosition]} />
+        <Component383 style={[styles.icon30, styles.iconPosition]} />
       </View>
       <Image
         style={styles.icon31}

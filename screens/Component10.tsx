@@ -2,9 +2,9 @@ import * as React from "react";
 import { Text, StyleSheet, View } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import GroupComponent19 from "../components/GroupComponent19";
-import Component127 from "../assets/";
 import Component128 from "../assets/";
-import Component343 from "../assets/";
+import Component129 from "../assets/";
+import Component347 from "../assets/";
 import { Color, FontFamily, FontSize, Border } from "../GlobalStyles";
 
 const Component10 = () => {
@@ -12,7 +12,7 @@ const Component10 = () => {
     <SafeAreaView style={styles.safeareaview}>
       <GroupComponent19
         enterTheGiftCode="Enter the gift code"
-        prop={<Component127 width={78} height={34} />}
+        prop={<Component128 width={78} height={34} />}
       />
       <Text style={[styles.text, styles.textTypo]}>01 未输入-按钮状态</Text>
       <Text style={[styles.text1, styles.textTypo]}>02 输入-按钮状态</Text>
@@ -22,7 +22,7 @@ const Component10 = () => {
         enterTheGiftCode="123456789xxx"
         enterTheGiftColor="#fff"
         enterTheGiftTextTransform="capitalize"
-        prop={<Component128 width={78} height={34} />}
+        prop={<Component129 width={78} height={34} />}
       />
       <View style={[styles.rectangleParent, styles.groupChildLayout]}>
         <View style={[styles.groupChild, styles.groupChildLayout]} />
@@ -31,7 +31,7 @@ const Component10 = () => {
         </Text>
       </View>
       <View style={[styles.parent, styles.iconLayout]}>
-        <Component343
+        <Component347
           style={[styles.icon, styles.iconLayout]}
           width={77}
           height={34}

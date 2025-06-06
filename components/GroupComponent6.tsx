@@ -1,7 +1,7 @@
 import * as React from "react";
 import { StyleSheet, Text, Image, View } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
-import Component284 from "../assets/";
+import Component288 from "../assets/";
 import Ellipse30211 from "../assets/ellipse3021";
 import Ellipse30311 from "../assets/ellipse3031";
 import Vector2412 from "../assets/vector241";
@@ -10,7 +10,7 @@ import { FontFamily, FontSize, Color, Border } from "../GlobalStyles";
 const GroupComponent6 = () => {
   return (
     <View style={styles.parent}>
-      <Component284 style={[styles.icon, styles.iconLayout1]} />
+      <Component288 style={[styles.icon, styles.iconLayout1]} />
       <Text style={[styles.promotion, styles.depositTypo]}>Invite</Text>
       <Text style={[styles.home, styles.homeTypo]}>Teams</Text>
       <Text style={[styles.deposit, styles.depositTypo]}>Promotion</Text>

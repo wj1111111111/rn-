@@ -49,6 +49,7 @@ export const Color = {
   color11: "#25282d",
   fFF500: "#fff500",
   color12: "#fff",
+  wz5: "#478a03",
   color13: "#33c38f",
   color14: "#fff",
   colorGray100: "#809689",

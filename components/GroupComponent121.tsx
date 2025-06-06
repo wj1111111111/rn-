@@ -1,8 +1,8 @@
 import * as React from "react";
 import { StyleSheet, View, Text } from "react-native";
-import Group736142 from "../assets/group7361";
-import Component433 from "../assets/";
-import Stroke36 from "../assets/stroke";
+import Group736144 from "../assets/group7361";
+import Component440 from "../assets/";
+import Stroke28 from "../assets/stroke";
 import { FontFamily, FontSize, Color } from "../GlobalStyles";
 
 const GroupComponent121 = () => {
@@ -12,11 +12,11 @@ const GroupComponent121 = () => {
         <View style={[styles.groupChild, styles.groupPosition]} />
         <View style={styles.r198000Parent}>
           <Text style={[styles.r198000, styles.r198000Typo]}>R$1980.00</Text>
-          <Group736142 style={[styles.groupItem, styles.iconLayout]} />
-          <Component433 style={[styles.icon, styles.iconLayout]} />
+          <Group736144 style={[styles.groupItem, styles.iconLayout]} />
+          <Component440 style={[styles.icon, styles.iconLayout]} />
         </View>
       </View>
-      <Stroke36 style={[styles.strokeIcon, styles.pgSlotsPosition]} />
+      <Stroke28 style={[styles.strokeIcon, styles.pgSlotsPosition]} />
       <Text style={[styles.pgSlots, styles.pgSlotsPosition]}>
         Notifications
       </Text>

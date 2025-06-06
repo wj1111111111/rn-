@@ -1,8 +1,8 @@
 import * as React from "react";
 import { StyleSheet, View, Text, Image } from "react-native";
-import Group7365 from "../assets/group736";
-import Component435 from "../assets/";
-import Stroke110 from "../assets/stroke1";
+import Group7367 from "../assets/group736";
+import Component442 from "../assets/";
+import Stroke120 from "../assets/stroke1";
 import { FontFamily, Color, FontSize } from "../GlobalStyles";
 
 const GroupComponent1 = () => {
@@ -13,18 +13,18 @@ const GroupComponent1 = () => {
       <View style={[styles.groupWrapper, styles.frameItemPosition]}>
         <View style={[styles.r198000Parent, styles.childPosition]}>
           <Text style={[styles.r198000, styles.registerTypo]}>R$1980.00</Text>
-          <Group7365 style={[styles.groupChild, styles.iconLayout]} />
-          <Component435 style={[styles.icon, styles.iconLayout]} />
+          <Group7367 style={[styles.groupChild, styles.iconLayout]} />
+          <Component442 style={[styles.icon, styles.iconLayout]} />
         </View>
       </View>
       <Text style={[styles.register1, styles.registerTypo]}>Bank Account</Text>
       <Image
         style={[styles.icon1, styles.iconLayout]}
         resizeMode="cover"
-        source={require("../assets/-11.png")}
+        source={require("../assets/-16.png")}
       />
       <View style={[styles.frameItem, styles.frameItemPosition]} />
-      <Stroke110 style={[styles.strokeIcon, styles.iconLayout]} />
+      <Stroke120 style={[styles.strokeIcon, styles.iconLayout]} />
       <Text style={[styles.setting, styles.registerTypo]}>Setting</Text>
     </View>
   );

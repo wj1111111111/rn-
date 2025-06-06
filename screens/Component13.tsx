@@ -3,9 +3,9 @@ import { ScrollView, StyleSheet, View, Text, Image } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
 import Slot1 from "../assets/slot1";
 import Maskgroup25 from "../assets/maskgroup2";
-import Group736128 from "../assets/group7361";
-import Component348 from "../assets/";
-import Stroke16 from "../assets/stroke";
+import Group736129 from "../assets/group7361";
+import Component352 from "../assets/";
+import Stroke17 from "../assets/stroke";
 import Group126618 from "../assets/group12661";
 import Group1264718 from "../assets/group12647";
 import Group1264719 from "../assets/group12647";
@@ -50,11 +50,11 @@ const Component13 = () => {
               <Text style={[styles.r198000, styles.containerFlexBox]}>
                 ₱19800.00
               </Text>
-              <Group736128 style={[styles.groupItem, styles.iconGroupLayout]} />
-              <Component348 style={[styles.icon, styles.iconGroupLayout]} />
+              <Group736129 style={[styles.groupItem, styles.iconGroupLayout]} />
+              <Component352 style={[styles.icon, styles.iconGroupLayout]} />
             </View>
           </View>
-          <Stroke16 style={[styles.strokeIcon, styles.iconGroupLayout]} />
+          <Stroke17 style={[styles.strokeIcon, styles.iconGroupLayout]} />
           <Text style={[styles.pgSlots, styles.pgSlotsClr]}>
             Continuous sign-ins
           </Text>
@@ -62,7 +62,7 @@ const Component13 = () => {
         <Image
           style={styles.icon1}
           resizeMode="cover"
-          source={require("../assets/-16.png")}
+          source={require("../assets/-17.png")}
         />
       </View>
       <Text style={[styles.signInTodayDay, styles.containerFlexBox]}>
@@ -136,7 +136,7 @@ const Component13 = () => {
         <Image
           style={[styles.unionIcon, styles.unionLayout]}
           resizeMode="cover"
-          source={require("../assets/union4.png")}
+          source={require("../assets/union3.png")}
         />
         <Text style={[styles.text6, styles.dayTypo]}>+₱0.20</Text>
       </View>

@@ -4,7 +4,7 @@ import LinearGradient from "react-native-linear-gradient";
 import GroupComponent21 from "../components/GroupComponent21";
 import Vector15110 from "../assets/vector151";
 import Star12 from "../assets/star12";
-import Component425 from "../assets/";
+import Component432 from "../assets/";
 import Vector16112 from "../assets/vector161";
 import GroupComponent31 from "../components/GroupComponent31";
 import Polygon10 from "../assets/polygon10";
@@ -12,12 +12,12 @@ import Vector2111 from "../assets/vector211";
 import GroupComponent20 from "../components/GroupComponent20";
 import GroupComponent41 from "../components/GroupComponent41";
 import Group7363 from "../assets/group7363";
-import Component200 from "../assets/";
+import Component202 from "../assets/";
 import GroupComponent5 from "../components/GroupComponent5";
 import GroupComponent6 from "../components/GroupComponent6";
 import { Border, Color, FontFamily, FontSize } from "../GlobalStyles";
 
-const Component38 = () => {
+const Component39 = () => {
   return (
     <ScrollView style={styles.scrollview}>
       <View style={[styles.groupParent, styles.groupPosition]}>
@@ -55,7 +55,7 @@ const Component38 = () => {
             resizeMode="cover"
             source={require("../assets/3b4bde395738f0c8b07d1baa47c5d48f172c19aa158772swckar-1.png")}
           />
-          <Component425
+          <Component432
             style={[styles.icon, styles.iconPosition2]}
             width={16}
             height={16}
@@ -469,7 +469,7 @@ const Component38 = () => {
         </View>
         <GroupComponent41
           group736={<Group7363 width={12} height={89} />}
-          prop={<Component200 width={13} height={81} />}
+          prop={<Component202 width={13} height={81} />}
         />
         <View style={[styles.jdbSlot105Parent, styles.groupInnerLayout]}>
           <Image
@@ -1533,4 +1533,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Component38;
+export default Component39;

@@ -1,8 +1,8 @@
 import * as React from "react";
 import { ScrollView, StyleSheet, View, Text, Image } from "react-native";
-import Group736137 from "../assets/group7361";
-import Component394 from "../assets/";
-import Stroke33 from "../assets/stroke";
+import Group736138 from "../assets/group7361";
+import Component398 from "../assets/";
+import Stroke25 from "../assets/stroke";
 import Group8271 from "../assets/group827";
 import { Color, FontFamily, FontSize, Border } from "../GlobalStyles";
 
@@ -14,17 +14,17 @@ const Component29 = () => {
           <View style={[styles.groupChild, styles.groupChildPosition]} />
           <View style={styles.r198000Parent}>
             <Text style={styles.r198000}>R$1980.00</Text>
-            <Group736137 style={[styles.groupItem, styles.iconLayout]} />
-            <Component394 style={[styles.icon, styles.iconLayout]} />
+            <Group736138 style={[styles.groupItem, styles.iconLayout]} />
+            <Component398 style={[styles.icon, styles.iconLayout]} />
           </View>
         </View>
-        <Stroke33 style={[styles.strokeIcon, styles.iconLayout]} />
+        <Stroke25 style={[styles.strokeIcon, styles.iconLayout]} />
         <Text style={[styles.pgSlots, styles.pgSlotsTypo]}>Notice</Text>
       </View>
       <Image
         style={styles.icon1}
         resizeMode="cover"
-        source={require("../assets/-16.png")}
+        source={require("../assets/-17.png")}
       />
       <View style={[styles.rectangleGroup, styles.rectangleParentLayout]}>
         <View style={[styles.instanceChild, styles.groupChildPosition]} />

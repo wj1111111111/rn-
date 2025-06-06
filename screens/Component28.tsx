@@ -4,17 +4,17 @@ import LinearGradient from "react-native-linear-gradient";
 import GroupComponent21 from "../components/GroupComponent21";
 import Vector15110 from "../assets/vector151";
 import Star12 from "../assets/star12";
-import Component393 from "../assets/";
+import Component397 from "../assets/";
 import Vector16110 from "../assets/vector161";
 import GroupComponent31 from "../components/GroupComponent31";
 import Polygon10 from "../assets/polygon10";
 import Vector2111 from "../assets/vector211";
 import GroupComponent20 from "../components/GroupComponent20";
-import Component196 from "../assets/";
+import Component197 from "../assets/";
 import Component51 from "../components/Component51";
 import GroupComponent110 from "../components/GroupComponent110";
 import Group7363 from "../assets/group7363";
-import Component200 from "../assets/";
+import Component202 from "../assets/";
 import { Border, Color, FontFamily, FontSize } from "../GlobalStyles";
 
 const Component28 = () => {
@@ -54,7 +54,7 @@ const Component28 = () => {
           resizeMode="cover"
           source={require("../assets/3b4bde395738f0c8b07d1baa47c5d48f172c19aa158772swckar-1.png")}
         />
-        <Component393 style={styles.icon} width={16} height={16} />
+        <Component397 style={styles.icon} width={16} height={16} />
         <Image
           style={[styles.icon1, styles.icon1Layout]}
           resizeMode="cover"
@@ -495,7 +495,7 @@ const Component28 = () => {
           polygon10={<Polygon10 width={9} height={15} />}
           vector={<Vector2111 width={100} height={71} />}
         />
-        <GroupComponent20 prop={<Component196 width={100} height={81} />} />
+        <GroupComponent20 prop={<Component197 width={100} height={81} />} />
       </View>
       <View style={[styles.rectangleParent, styles.groupPosition]} />
       <Component51
@@ -580,7 +580,7 @@ const Component28 = () => {
       />
       <GroupComponent110
         group736={<Group7363 width={12} height={89} />}
-        prop={<Component200 width={13} height={81} />}
+        prop={<Component202 width={13} height={81} />}
       />
     </ScrollView>
   );

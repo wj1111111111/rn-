@@ -6,7 +6,7 @@ import {
   View,
   ImageSourcePropType,
 } from "react-native";
-import Component202 from "../assets/";
+import Component203 from "../assets/";
 import { Color, Border, FontSize, FontFamily } from "../GlobalStyles";
 
 export type Component51Type = {
@@ -100,7 +100,7 @@ const Component51 = ({
         </View>
       )}
       {!!showIcon && (
-        <Component202 style={[styles.icon2, styles.iconPosition]} />
+        <Component203 style={[styles.icon2, styles.iconPosition]} />
       )}
     </View>
   );

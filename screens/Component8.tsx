@@ -3,21 +3,21 @@ import { StyleSheet, View, Image, Text } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
 import { SafeAreaView } from "react-native-safe-area-context";
 import Ellipse79 from "../assets/ellipse7";
-import Component330 from "../assets/";
+import Component334 from "../assets/";
 import GroupComponent3 from "../components/GroupComponent3";
-import Component331 from "../assets/";
+import Component335 from "../assets/";
 import Vector432 from "../assets/vector4";
-import Component332 from "../assets/";
+import Component336 from "../assets/";
 import Vector433 from "../assets/vector4";
-import Stroke281 from "../assets/stroke2";
-import Stroke282 from "../assets/stroke2";
-import Stroke283 from "../assets/stroke2";
-import Stroke284 from "../assets/stroke2";
-import Stroke285 from "../assets/stroke2";
-import Stroke286 from "../assets/stroke2";
-import Stroke287 from "../assets/stroke2";
-import Stroke288 from "../assets/stroke2";
-import Stroke289 from "../assets/stroke2";
+import Stroke1181 from "../assets/stroke11";
+import Stroke1182 from "../assets/stroke11";
+import Stroke1183 from "../assets/stroke11";
+import Stroke1184 from "../assets/stroke11";
+import Stroke1185 from "../assets/stroke11";
+import Stroke1186 from "../assets/stroke11";
+import Stroke1187 from "../assets/stroke11";
+import Stroke1188 from "../assets/stroke11";
+import Stroke1189 from "../assets/stroke11";
 import Vector59 from "../assets/vector5";
 import Vector68 from "../assets/vector6";
 import Vector79 from "../assets/vector7";
@@ -27,7 +27,7 @@ import Vector99 from "../assets/vector9";
 import Vector109 from "../assets/vector10";
 import GroupComponent2 from "../components/GroupComponent2";
 import GroupComponent12 from "../components/GroupComponent12";
-import Component333 from "../assets/";
+import Component337 from "../assets/";
 import { FontFamily, FontSize, Color, Border } from "../GlobalStyles";
 
 const Component8 = () => {
@@ -73,7 +73,7 @@ const Component8 = () => {
             source={require("../assets/8713-1.png")}
           />
         </View>
-        <Component330 style={styles.icon1} width={10} height={10} />
+        <Component334 style={styles.icon1} width={10} height={10} />
         <Text style={[styles.text, styles.textTypo]}>98955464616</Text>
         <Text style={[styles.userName, styles.vip4Typo]}>User name</Text>
         <Text style={[styles.teamsCenter, styles.text1Text]}>Teams center</Text>
@@ -84,7 +84,7 @@ const Component8 = () => {
           <View style={[styles.groupInner, styles.groupInnerLayout]} />
         </View>
         <View style={[styles.group, styles.groupLayout1]}>
-          <Component331
+          <Component335
             style={[styles.icon2, styles.iconPosition3]}
             width={124}
             height={36}
@@ -101,7 +101,7 @@ const Component8 = () => {
           </View>
         </View>
         <View style={[styles.container, styles.icon3Layout]}>
-          <Component332
+          <Component336
             style={[styles.icon3, styles.icon3Layout]}
             width={136}
             height={36}
@@ -137,47 +137,47 @@ const Component8 = () => {
           />
         </View>
         <View style={[styles.rectangleView, styles.groupInnerLayout]} />
-        <Stroke281
+        <Stroke1181
           style={[styles.strokeIcon, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke282
+        <Stroke1182
           style={[styles.strokeIcon1, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke283
+        <Stroke1183
           style={[styles.strokeIcon2, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke284
+        <Stroke1184
           style={[styles.strokeIcon3, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke285
+        <Stroke1185
           style={[styles.strokeIcon4, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke286
+        <Stroke1186
           style={[styles.strokeIcon5, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke287
+        <Stroke1187
           style={[styles.strokeIcon6, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke288
+        <Stroke1188
           style={[styles.strokeIcon7, styles.iconLayout2]}
           width={8}
           height={13}
         />
-        <Stroke289
+        <Stroke1189
           style={[styles.strokeIcon8, styles.iconLayout2]}
           width={8}
           height={13}
@@ -216,7 +216,7 @@ downloading the official APP`}</Text>
         <Image
           style={[styles.icon4, styles.iconLayout2]}
           resizeMode="cover"
-          source={require("../assets/-111.png")}
+          source={require("../assets/-1111.png")}
         />
         <Image
           style={[styles.group120051, styles.groupPosition]}
@@ -270,7 +270,7 @@ To join`}{" "}
       <View style={[styles.child1, styles.child1Position]} />
       <GroupComponent12 />
       <View style={[styles.groupView, styles.icon5Layout]}>
-        <Component333
+        <Component337
           style={[styles.icon5, styles.icon5Layout]}
           width={77}
           height={34}

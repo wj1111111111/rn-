@@ -1,8 +1,8 @@
 import * as React from "react";
 import { ScrollView, StyleSheet, View, Text, Image } from "react-native";
-import Group736138 from "../assets/group7361";
-import Component395 from "../assets/";
-import Stroke34 from "../assets/stroke";
+import Group736139 from "../assets/group7361";
+import Component399 from "../assets/";
+import Stroke26 from "../assets/stroke";
 import GroupComponent8 from "../components/GroupComponent8";
 import { FontSize, FontFamily, Color } from "../GlobalStyles";
 
@@ -14,17 +14,17 @@ const Component30 = () => {
           <View style={[styles.groupChild, styles.groupChildPosition]} />
           <View style={styles.r198000Parent}>
             <Text style={[styles.r198000, styles.r198000Typo]}>R$1980.00</Text>
-            <Group736138 style={[styles.groupItem, styles.iconLayout]} />
-            <Component395 style={[styles.icon, styles.iconLayout]} />
+            <Group736139 style={[styles.groupItem, styles.iconLayout]} />
+            <Component399 style={[styles.icon, styles.iconLayout]} />
           </View>
         </View>
-        <Stroke34 style={[styles.strokeIcon, styles.iconLayout]} />
+        <Stroke26 style={[styles.strokeIcon, styles.iconLayout]} />
         <Text style={[styles.pgSlots, styles.noDataTypo]}>Notice</Text>
       </View>
       <Image
         style={styles.icon1}
         resizeMode="cover"
-        source={require("../assets/-16.png")}
+        source={require("../assets/-17.png")}
       />
       <GroupComponent8 />
       <Text style={[styles.noData, styles.noDataTypo]}>No data</Text>

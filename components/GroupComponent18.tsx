@@ -1,17 +1,17 @@
 import * as React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import Component455 from "../assets/";
-import Component456 from "../assets/";
-import Component457 from "../assets/";
+import Component462 from "../assets/";
+import Component463 from "../assets/";
+import Component464 from "../assets/";
 import { Border, FontSize, FontFamily, Color } from "../GlobalStyles";
 
 const GroupComponent18 = () => {
   return (
     <View style={styles.parent}>
-      <Component455 style={[styles.icon, styles.iconLayout]} />
+      <Component462 style={[styles.icon, styles.iconLayout]} />
       <Text style={styles.password}>Password</Text>
-      <Component456 style={[styles.icon1, styles.iconLayout]} />
-      <Component457 style={[styles.icon2, styles.iconLayout]} />
+      <Component463 style={[styles.icon1, styles.iconLayout]} />
+      <Component464 style={[styles.icon2, styles.iconLayout]} />
     </View>
   );
 };

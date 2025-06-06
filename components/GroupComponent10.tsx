@@ -1,7 +1,7 @@
 import * as React from "react";
 import { StyleSheet, Text, Image, View } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
-import Component452 from "../assets/";
+import Component459 from "../assets/";
 import Group130041 from "../assets/group13004";
 import Ellipse3022 from "../assets/ellipse302";
 import Ellipse3032 from "../assets/ellipse303";
@@ -9,16 +9,16 @@ import Vector2012 from "../assets/vector201";
 import Subtract2 from "../assets/subtract";
 import Ellipse3041 from "../assets/ellipse304";
 import Subtract11 from "../assets/subtract1";
-import Component453 from "../assets/";
+import Component460 from "../assets/";
 import Union111 from "../assets/union11";
-import Component454 from "../assets/";
+import Component461 from "../assets/";
 import Vector2212 from "../assets/vector221";
 import { FontFamily, FontSize, Color, Border } from "../GlobalStyles";
 
 const GroupComponent10 = () => {
   return (
     <View style={styles.parent}>
-      <Component452 style={[styles.icon, styles.iconPosition]} />
+      <Component459 style={[styles.icon, styles.iconPosition]} />
       <Text style={[styles.promotion, styles.depositTypo]}>Deposit</Text>
       <Text style={[styles.home, styles.homeTypo]}>Teams</Text>
       <Text style={[styles.deposit, styles.depositTypo]}>Promotion</Text>
@@ -34,9 +34,9 @@ const GroupComponent10 = () => {
       <Subtract2 style={styles.subtractIcon} width={44} height={15} />
       <Ellipse3041 style={styles.ellipseIcon} width={3} height={3} />
       <Subtract11 style={styles.subtractIcon1} width={43} height={14} />
-      <Component453 style={styles.subtractIcon} width={44} height={15} />
+      <Component460 style={styles.subtractIcon} width={44} height={15} />
       <Union111 style={styles.unionIcon} width={33} height={8} />
-      <Component454
+      <Component461
         style={[styles.icon2, styles.icon2Layout]}
         width={46}
         height={31}

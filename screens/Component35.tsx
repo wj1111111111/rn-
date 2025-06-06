@@ -7,17 +7,17 @@ import Star1166 from "../assets/star11";
 import Star1167 from "../assets/star11";
 import Star1168 from "../assets/star11";
 import Star1169 from "../assets/star11";
-import Component418 from "../assets/";
+import Component425 from "../assets/";
 import Vector450 from "../assets/vector4";
 import Polygon10113 from "../assets/polygon101";
 import Vector1815 from "../assets/vector18";
-import Component419 from "../assets/";
-import Component420 from "../assets/";
-import Component421 from "../assets/";
-import Component422 from "../assets/";
+import Component426 from "../assets/";
+import Component427 from "../assets/";
+import Component428 from "../assets/";
+import Component429 from "../assets/";
 import Vector1915 from "../assets/vector19";
 import Group73623 from "../assets/group7362";
-import Component423 from "../assets/";
+import Component430 from "../assets/";
 import Logo46 from "../assets/logo4";
 import Logo86 from "../assets/logo8";
 import Ellipse266 from "../assets/ellipse26";
@@ -31,12 +31,12 @@ import Ellipse2612 from "../assets/ellipse261";
 import Group121441 from "../assets/group12144";
 import Group121451 from "../assets/group12145";
 import Group121461 from "../assets/group12146";
-import Vector291 from "../assets/vector29";
+import Vector301 from "../assets/vector30";
 import Group121481 from "../assets/group12148";
 import Group121491 from "../assets/group12149";
 import { Border, Color, FontFamily, FontSize } from "../GlobalStyles";
 
-const Component35 = () => {
+const Component36 = () => {
   return (
     <ScrollView style={styles.scrollview}>
       <View style={styles.rectangleParent}>
@@ -119,7 +119,7 @@ const Component35 = () => {
           resizeMode="cover"
           source={require("../assets/3b4bde395738f0c8b07d1baa47c5d48f172c19aa158772swckar-1.png")}
         />
-        <Component418
+        <Component425
           style={[styles.icon, styles.iconLayout5]}
           width={16}
           height={16}
@@ -549,10 +549,10 @@ const Component35 = () => {
           </View>
         </View>
         <View style={[styles.parent, styles.icon1Position]}>
-          <Component419 style={[styles.icon20, styles.iconParentPosition1]} />
-          <Component420 style={[styles.icon21, styles.iconPosition2]} />
-          <Component421 style={[styles.icon22, styles.iconPosition2]} />
-          <Component422 style={[styles.icon23, styles.iconPosition2]} />
+          <Component426 style={[styles.icon20, styles.iconParentPosition1]} />
+          <Component427 style={[styles.icon21, styles.iconPosition2]} />
+          <Component428 style={[styles.icon22, styles.iconPosition2]} />
+          <Component429 style={[styles.icon23, styles.iconPosition2]} />
           <Text style={[styles.members, styles.depositTypo]}>Home</Text>
           <Text style={[styles.promotion, styles.depositTypo]}>Promotion</Text>
           <Text style={[styles.home, styles.depositTypo]}>Teams</Text>
@@ -569,7 +569,7 @@ const Component35 = () => {
       <View style={[styles.r198000Parent, styles.viewPosition]}>
         <Text style={[styles.r198000, styles.hotTypo]}>₱1980.00</Text>
         <Group73623 style={[styles.instanceChild, styles.childIconLayout]} />
-        <Component423 style={[styles.icon24, styles.childIconLayout]} />
+        <Component430 style={[styles.icon24, styles.childIconLayout]} />
       </View>
       <View style={styles.jdbSlot105Parent}>
         <Image
@@ -836,7 +836,7 @@ const Component35 = () => {
                 <Group121461 style={[styles.child1, styles.childPosition]} />
                 <View style={[styles.rectangleParent18, styles.childPosition]}>
                   <View style={[styles.groupChild39, styles.groupChild39Bg]} />
-                  <Vector291
+                  <Vector301
                     style={[styles.logovideo5Child, styles.iconParentPosition1]}
                   />
                 </View>
@@ -2567,4 +2567,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Component35;
+export default Component36;

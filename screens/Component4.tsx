@@ -4,10 +4,6 @@ import LinearGradient from "react-native-linear-gradient";
 import { SafeAreaView } from "react-native-safe-area-context";
 import Group4482 from "../assets/group448";
 import Group4483 from "../assets/group448";
-import Component298 from "../assets/";
-import Component299 from "../assets/";
-import Component300 from "../assets/";
-import Component301 from "../assets/";
 import Component302 from "../assets/";
 import Component303 from "../assets/";
 import Component304 from "../assets/";
@@ -15,6 +11,10 @@ import Component305 from "../assets/";
 import Component306 from "../assets/";
 import Component307 from "../assets/";
 import Component308 from "../assets/";
+import Component309 from "../assets/";
+import Component310 from "../assets/";
+import Component311 from "../assets/";
+import Component312 from "../assets/";
 import Group4521 from "../assets/group452";
 import GroupComponent1 from "../components/GroupComponent1";
 import Vector36 from "../assets/vector";
@@ -53,23 +53,23 @@ const Component4 = () => {
       <Text style={[styles.oldPassword, styles.passwordTypo]}>
         Old Password
       </Text>
-      <Component298 style={styles.icon} width={6} height={5} />
-      <Component299
+      <Component302 style={styles.icon} width={6} height={5} />
+      <Component303
         style={[styles.icon1, styles.iconPosition1]}
         width={6}
         height={5}
       />
-      <Component300
+      <Component304
         style={[styles.icon2, styles.iconPosition]}
         width={6}
         height={5}
       />
-      <Component301
+      <Component305
         style={[styles.icon3, styles.iconPosition1]}
         width={6}
         height={5}
       />
-      <Component302
+      <Component306
         style={[styles.icon4, styles.iconPosition]}
         width={6}
         height={5}
@@ -106,32 +106,32 @@ const Component4 = () => {
       <Text style={[styles.confirmNewPassword1, styles.passwordTypo]}>
         Confirm New Password
       </Text>
-      <Component303
+      <Component307
         style={[styles.icon5, styles.iconLayout2]}
         width={321}
         height={48}
       />
-      <Component304
+      <Component308
         style={[styles.icon6, styles.iconLayout1]}
         width={20}
         height={14}
       />
-      <Component305
+      <Component309
         style={[styles.icon7, styles.iconLayout]}
         width={14}
         height={17}
       />
-      <Component306
+      <Component310
         style={[styles.icon8, styles.iconLayout2]}
         width={321}
         height={48}
       />
-      <Component307
+      <Component311
         style={[styles.icon9, styles.iconLayout1]}
         width={20}
         height={14}
       />
-      <Component308
+      <Component312
         style={[styles.icon10, styles.iconLayout]}
         width={14}
         height={17}

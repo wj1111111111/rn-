@@ -7,7 +7,7 @@ import Star1156 from "../assets/star11";
 import Star1157 from "../assets/star11";
 import Star1158 from "../assets/star11";
 import Star1159 from "../assets/star11";
-import Component406 from "../assets/";
+import Component413 from "../assets/";
 import Logo44 from "../assets/logo4";
 import Ellipse264 from "../assets/ellipse26";
 import Logo84 from "../assets/logo8";
@@ -18,26 +18,26 @@ import Logovideo44 from "../assets/logovideo4";
 import Logovideo34 from "../assets/logovideo3";
 import Logovideo24 from "../assets/logovideo2";
 import Vector446 from "../assets/vector4";
-import Group736140 from "../assets/group7361";
-import Component407 from "../assets/";
+import Group736142 from "../assets/group7361";
+import Component414 from "../assets/";
 import Vector447 from "../assets/vector4";
 import Ellipse1364 from "../assets/ellipse136";
 import Polygon10111 from "../assets/polygon101";
 import Vector1813 from "../assets/vector18";
-import Component408 from "../assets/";
-import Component409 from "../assets/";
-import Component410 from "../assets/";
-import Component411 from "../assets/";
+import Component415 from "../assets/";
+import Component416 from "../assets/";
+import Component417 from "../assets/";
+import Component418 from "../assets/";
 import Vector1913 from "../assets/vector19";
 import Group84811 from "../assets/group848";
 import Rectangle6232 from "../assets/rectangle623";
 import Group12642 from "../assets/group1264";
-import Vector272 from "../assets/vector27";
-import Vector281 from "../assets/vector28";
+import Vector282 from "../assets/vector28";
+import Vector291 from "../assets/vector29";
 import Group126634 from "../assets/group12663";
 import { Border, Color, FontSize, FontFamily } from "../GlobalStyles";
 
-const Component33 = () => {
+const Component34 = () => {
   return (
     <ScrollView style={styles.scrollview}>
       <View style={styles.image22Parent}>
@@ -122,7 +122,7 @@ const Component33 = () => {
           resizeMode="cover"
           source={require("../assets/3b4bde395738f0c8b07d1baa47c5d48f172c19aa158772swckar-1.png")}
         />
-        <Component406
+        <Component413
           style={[styles.icon, styles.iconGroupLayout]}
           width={16}
           height={16}
@@ -735,8 +735,8 @@ const Component33 = () => {
           source={require("../assets/logowj93-11.png")}
         />
         <Text style={[styles.r198000, styles.hotTypo]}>R$1980.00</Text>
-        <Group736140 style={[styles.groupChild34, styles.iconGroupLayout2]} />
-        <Component407 style={[styles.icon23, styles.iconGroupLayout2]} />
+        <Group736142 style={[styles.groupChild34, styles.iconGroupLayout2]} />
+        <Component414 style={[styles.icon23, styles.iconGroupLayout2]} />
         <Vector447 style={[styles.vectorIcon2, styles.vectorIconLayout]} />
         <Text style={[styles.deposit, styles.depositTypo1]}>Deposit</Text>
         <Image
@@ -794,10 +794,10 @@ const Component33 = () => {
           source={require("../assets/group-118741.png")}
         />
         <View style={[styles.parent, styles.childLayout]}>
-          <Component408 style={[styles.icon26, styles.iconGroupPosition]} />
-          <Component409 style={[styles.icon27, styles.iconPosition]} />
-          <Component410 style={[styles.icon28, styles.iconPosition]} />
-          <Component411 style={[styles.icon29, styles.iconPosition]} />
+          <Component415 style={[styles.icon26, styles.iconGroupPosition]} />
+          <Component416 style={[styles.icon27, styles.iconPosition]} />
+          <Component417 style={[styles.icon28, styles.iconPosition]} />
+          <Component418 style={[styles.icon29, styles.iconPosition]} />
           <Text style={[styles.members, styles.depositTypo]}>Home</Text>
           <Text style={[styles.promotion, styles.depositTypo]}>Promotion</Text>
           <Text style={[styles.home, styles.depositTypo]}>Teams</Text>
@@ -875,7 +875,7 @@ const Component33 = () => {
           </View>
           <View style={[styles.rectangleParent18, styles.groupChildLayout]}>
             <View style={[styles.groupChild42, styles.groupChildLayout]} />
-            <Vector272 style={[styles.vectorIcon5, styles.iconGroupLayout2]} />
+            <Vector282 style={[styles.vectorIcon5, styles.iconGroupLayout2]} />
           </View>
           <Image
             style={[styles.groupChild43, styles.groupChildLayout]}
@@ -919,7 +919,7 @@ const Component33 = () => {
           <Text style={[styles.receivedSuccessfully, styles.receivedPosition]}>
             Received successfully！
           </Text>
-          <Vector281 style={[styles.vectorIcon6, styles.iconGroupLayout2]} />
+          <Vector291 style={[styles.vectorIcon6, styles.iconGroupLayout2]} />
         </View>
       </View>
       <View style={[styles.rectangleParent20, styles.groupChild46Layout]}>
@@ -2756,4 +2756,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Component33;
+export default Component34;

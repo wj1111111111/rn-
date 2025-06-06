@@ -4,17 +4,17 @@ import LinearGradient from "react-native-linear-gradient";
 import GroupComponent21 from "../components/GroupComponent21";
 import Vector171 from "../assets/vector17";
 import Star11 from "../assets/star11";
-import Component355 from "../assets/";
+import Component359 from "../assets/";
 import Vector438 from "../assets/vector4";
 import Group73622 from "../assets/group7362";
-import Component356 from "../assets/";
+import Component360 from "../assets/";
 import Vector439 from "../assets/vector4";
 import Ellipse1363 from "../assets/ellipse136";
 import GroupComponent31 from "../components/GroupComponent31";
 import Polygon101 from "../assets/polygon101";
 import Vector181 from "../assets/vector18";
 import GroupComponent20 from "../components/GroupComponent20";
-import Component67 from "../assets/";
+import Component68 from "../assets/";
 import Group124881 from "../assets/group12488";
 import GroupComponent16 from "../components/GroupComponent16";
 import Polygon111 from "../assets/polygon11";
@@ -60,7 +60,7 @@ const Component20 = () => {
           resizeMode="cover"
           source={require("../assets/3b4bde395738f0c8b07d1baa47c5d48f172c19aa158772swckar-1.png")}
         />
-        <Component355 style={styles.icon} width={16} height={16} />
+        <Component359 style={styles.icon} width={16} height={16} />
         <Image
           style={[styles.icon1, styles.icon1Layout]}
           resizeMode="cover"
@@ -346,7 +346,7 @@ const Component20 = () => {
         />
         <Text style={[styles.r198000, styles.r198000Typo]}>R$1980.00</Text>
         <Group73622 style={[styles.groupIcon, styles.iconLayout5]} />
-        <Component356 style={[styles.icon14, styles.iconLayout5]} />
+        <Component360 style={[styles.icon14, styles.iconLayout5]} />
         <Vector439 style={[styles.vectorIcon1, styles.vectorIconLayout]} />
         <Text style={[styles.deposit, styles.depositTypo]}>Deposit</Text>
         <Image
@@ -373,7 +373,7 @@ const Component20 = () => {
           source={require("../assets/group-11874.png")}
         />
         <GroupComponent20
-          prop={<Component67 width={100} height={81} />}
+          prop={<Component68 width={100} height={81} />}
           groupViewBottom={90}
         />
         <View style={[styles.groupChild16, styles.groupChild16Position]} />

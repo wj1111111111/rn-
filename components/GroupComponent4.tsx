@@ -1,12 +1,12 @@
 import * as React from "react";
 import { StyleSheet, View, Text, Image } from "react-native";
-import Component440 from "../assets/";
-import Component441 from "../assets/";
+import Component447 from "../assets/";
+import Component448 from "../assets/";
 import Vector1218 from "../assets/vector12";
-import Component442 from "../assets/";
-import Component443 from "../assets/";
+import Component449 from "../assets/";
+import Component450 from "../assets/";
 import Vector1314 from "../assets/vector13";
-import Component444 from "../assets/";
+import Component451 from "../assets/";
 import Group84814 from "../assets/group848";
 import { FontFamily, FontSize, Color, Border } from "../GlobalStyles";
 
@@ -18,9 +18,9 @@ const GroupComponent4 = () => {
         <Text style={[styles.receiveRewardsAfter, styles.usernameTypo1]}>
           Receive rewards after completing mobilephone verification
         </Text>
-        <Component440 style={[styles.icon, styles.iconLayout]} />
+        <Component447 style={[styles.icon, styles.iconLayout]} />
         <Text style={[styles.username, styles.usernameTypo]}>1234|</Text>
-        <Component441 style={[styles.icon1, styles.iconLayout]} />
+        <Component448 style={[styles.icon1, styles.iconLayout]} />
         <Text style={[styles.username1, styles.loginTypo]}>+55</Text>
         <View style={[styles.groupItem, styles.groupBorder]} />
         <Vector1218 style={[styles.vectorIcon, styles.iconLayout]} />
@@ -30,13 +30,13 @@ const GroupComponent4 = () => {
           source={require("../assets/d62a6059252dd42a1fed252c093b5bb5c8eab854-1.png")}
         />
         <View style={[styles.parent, styles.icon2Layout]}>
-          <Component442
+          <Component449
             style={[styles.icon2, styles.iconPosition]}
             width={321}
             height={48}
           />
           <View style={[styles.group, styles.groupLayout]}>
-            <Component443
+            <Component450
               style={[styles.icon3, styles.groupLayout]}
               width={77}
               height={34}
@@ -54,7 +54,7 @@ const GroupComponent4 = () => {
           source={require("../assets/group-12051.png")}
         />
         <View style={[styles.container, styles.icon4Layout]}>
-          <Component444
+          <Component451
             style={[styles.icon4, styles.icon4Layout]}
             width={322}
             height={50}

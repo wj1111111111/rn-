@@ -1,26 +1,26 @@
 import * as React from "react";
 import { StyleSheet, View, Text, Image } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import Stroke53 from "../assets/stroke5";
-import Component426 from "../assets/";
+import Stroke43 from "../assets/stroke4";
+import Component433 from "../assets/";
 import GroupComponent18 from "../components/GroupComponent18";
-import Component427 from "../assets/";
-import Component428 from "../assets/";
+import Component434 from "../assets/";
+import Component435 from "../assets/";
 import Vector1216 from "../assets/vector12";
-import Component429 from "../assets/";
+import Component436 from "../assets/";
 import Frame22 from "../assets/frame2";
-import Vector325 from "../assets/vector32";
-import Vector326 from "../assets/vector32";
+import Vector335 from "../assets/vector33";
+import Vector336 from "../assets/vector33";
 import GroupComponent17 from "../components/GroupComponent17";
 import { FontSize, FontFamily, Color, Border, Gap } from "../GlobalStyles";
 
-const Component40 = () => {
+const Component41 = () => {
   return (
     <SafeAreaView style={styles.safeareaview}>
       <View style={styles.child} />
-      <Stroke53 style={[styles.strokeIcon, styles.iconLayout2]} />
+      <Stroke43 style={[styles.strokeIcon, styles.iconLayout2]} />
       <View style={[styles.parent, styles.iconLayout1]}>
-        <Component426
+        <Component433
           style={[styles.icon, styles.iconPosition1]}
           width={322}
           height={50}
@@ -37,9 +37,9 @@ const Component40 = () => {
         Forgot password
       </Text>
       <GroupComponent18 />
-      <Component427 style={[styles.icon1, styles.icon1Position]} />
+      <Component434 style={[styles.icon1, styles.icon1Position]} />
       <Text style={[styles.username, styles.usernameTypo]}>1234567890|</Text>
-      <Component428 style={[styles.icon2, styles.iconLayout2]} />
+      <Component435 style={[styles.icon2, styles.iconLayout2]} />
       <Text style={[styles.username1, styles.usernameTypo]}>+55</Text>
       <View style={[styles.item, styles.itemBorder]} />
       <Vector1216 style={[styles.vectorIcon, styles.iconLayout2]} />
@@ -59,7 +59,7 @@ const Component40 = () => {
         source={require("../assets/image-24.png")}
       />
       <View style={[styles.group, styles.icon1Position]}>
-        <Component429 style={[styles.icon4, styles.iconPosition]} />
+        <Component436 style={[styles.icon4, styles.iconPosition]} />
         <Text style={[styles.password, styles.passwordText]}>
           Invitation code
         </Text>
@@ -100,7 +100,7 @@ const Component40 = () => {
             l agree to the User Agreement
             {` & confirm l am at least 18 years old`}
           </Text>
-          <Vector325 style={[styles.vectorIcon1, styles.iconPosition]} />
+          <Vector335 style={[styles.vectorIcon1, styles.iconPosition]} />
         </View>
       </View>
       <View style={[styles.groupContainer, styles.groupParentLayout]}>
@@ -121,7 +121,7 @@ const Component40 = () => {
           <Text style={[styles.lAgreeTo, styles.agreeTypo]}>
             l agree to receive marketing promotions from Jbet88
           </Text>
-          <Vector326 style={[styles.vectorIcon1, styles.iconPosition]} />
+          <Vector336 style={[styles.vectorIcon1, styles.iconPosition]} />
         </View>
       </View>
       <GroupComponent17 groupViewTop={596} />
@@ -495,4 +495,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Component40;
+export default Component41;
