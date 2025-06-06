@@ -1,17 +1,24 @@
 import * as React from "react";
 import { ScrollView, StyleSheet, View, Image, Text } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
-import GroupComponent2 from "../components/GroupComponent2";
-import Component450 from "../assets/";
-import Vector11010 from "../assets/vector110";
-import GroupComponent3 from "../components/GroupComponent3";
-import GroupComponent from "../components/GroupComponent";
-import Component196 from "../assets/";
-import GroupComponent1 from "../components/GroupComponent1";
-import Component51 from "../components/Component5";
-import { Color } from "../GlobalStyles";
+import GroupComponent21 from "../components/GroupComponent21";
+import Vector171 from "../assets/vector17";
+import Star11 from "../assets/star11";
+import Component358 from "../assets/";
+import Vector441 from "../assets/vector4";
+import GroupComponent31 from "../components/GroupComponent31";
+import Polygon101 from "../assets/polygon101";
+import Vector181 from "../assets/vector18";
+import GroupComponent20 from "../components/GroupComponent20";
+import Component67 from "../assets/";
+import GroupComponent110 from "../components/GroupComponent110";
+import Group7361 from "../assets/group7361";
+import Component42 from "../assets/";
+import Component51 from "../components/Component51";
+import Vector110 from "../assets/vector1";
+import { Border, Color, FontFamily, FontSize } from "../GlobalStyles";
 
-const Component25 = () => {
+const Component22 = () => {
   return (
     <ScrollView style={styles.scrollview}>
       <View style={styles.childPosition}>
@@ -22,7 +29,15 @@ const Component25 = () => {
           useAngle={true}
           angle={180}
         />
-        <GroupComponent2 maskGroup={require("../assets/mask-group8.png")} />
+        <GroupComponent21
+          maskGroup={require("../assets/mask-group8.png")}
+          vector={<Vector171 width={7} height={38} />}
+          star1={<Star11 width={15} height={15} />}
+          star3={<Star11 width={15} height={15} />}
+          star2={<Star11 width={15} height={15} />}
+          star4={<Star11 width={15} height={15} />}
+          star5={<Star11 width={15} height={15} />}
+        />
         <Image
           style={styles.groupItem}
           resizeMode="cover"
@@ -40,7 +55,7 @@ const Component25 = () => {
           resizeMode="cover"
           source={require("../assets/3b4bde395738f0c8b07d1baa47c5d48f172c19aa158772swckar-1.png")}
         />
-        <Component450 style={styles.icon} width={16} height={16} />
+        <Component358 style={styles.icon} width={16} height={16} />
         <Image
           style={[styles.icon1, styles.icon1Layout]}
           resizeMode="cover"
@@ -461,7 +476,7 @@ const Component25 = () => {
           useAngle={true}
           angle={180}
         />
-        <Vector11010 style={[styles.vectorIcon, styles.iconLayout1]} />
+        <Vector441 style={[styles.vectorIcon, styles.iconLayout1]} />
         <Text style={[styles.withdrawal, styles.depositTypo]}>Withdrawal</Text>
         <Image
           style={[styles.logoWj931Icon1, styles.logoWj931Icon1Position]}
@@ -475,48 +490,40 @@ const Component25 = () => {
           source={require("../assets/21.png")}
         />
         <Text style={[styles.text2, styles.text2FlexBox]}>14,091,688.88</Text>
-        <GroupComponent3 />
-        <GroupComponent prop={<Component196 width={100} height={81} />} />
-        <GroupComponent1 />
+        <GroupComponent31
+          rectangleLinearGradientTransform="[object Object]"
+          rectangleLinearGradientTransform1="[object Object]"
+          polygon10={<Polygon101 width={9} height={15} />}
+          vector={<Vector181 width={100} height={71} />}
+        />
+        <GroupComponent20 prop={<Component67 width={100} height={81} />} />
+        <GroupComponent110
+          group736={<Group7361 width={12} height={89} />}
+          prop={<Component42 width={13} height={81} />}
+        />
       </View>
       <View style={[styles.child, styles.childPosition]} />
       <Component51
+        groupViewTop={323}
+        groupViewLeft={131}
         prop={require("../assets/2333-1.png")}
         moneyRain={require("../assets/1moneyrain.png")}
         prop1={require("../assets/16.png")}
         start="Receive"
+        startLeft="24.79%"
         showGroupView
-        prop2="2"
-        showVectorIcon={false}
-        next2100="Next 21:00"
-        showNext2100={false}
-        showIcon={false}
-      />
-      <Image
-        style={styles.icon19}
-        resizeMode="cover"
-        source={require("../assets/4-10.png")}
+        prop2="6"
+        showVectorIcon
+        next2100="20Day 23:12"
+        showNext2100
+        showIcon
+        vector1={<Vector110 width={84} height={15} />}
       />
       <Component51
-        groupViewTop={587}
-        groupViewLeft={116}
+        groupViewTop={419}
+        groupViewLeft={47}
         prop={require("../assets/2333-11.png")}
         moneyRain={require("../assets/1moneyrain1.png")}
-        prop1={require("../assets/161.png")}
-        start="23:00 Start"
-        startLeft="15.7%"
-        showGroupView={false}
-        prop2="1"
-        showVectorIcon={false}
-        next2100="Next 21:00"
-        showNext2100={false}
-        showIcon={false}
-      />
-      <Component51
-        groupViewTop={737}
-        groupViewLeft={238}
-        prop={require("../assets/2333-12.png")}
-        moneyRain={require("../assets/1moneyrain2.png")}
         prop1={require("../assets/161.png")}
         start="Details"
         startLeft="28.1%"
@@ -526,6 +533,92 @@ const Component25 = () => {
         next2100="Next 21:00"
         showNext2100={false}
         showIcon={false}
+        vector1={<Vector110 width={84} height={15} />}
+      />
+      <Component51
+        groupViewTop={535}
+        groupViewLeft={23}
+        prop={require("../assets/2333-12.png")}
+        moneyRain={require("../assets/1moneyrain2.png")}
+        prop1={require("../assets/16.png")}
+        start="Receive"
+        startLeft="24.79%"
+        showGroupView
+        prop2="2"
+        showVectorIcon={false}
+        next2100="Next 21:00"
+        showNext2100={false}
+        showIcon={false}
+        vector1={<Vector110 width={84} height={15} />}
+      />
+      <Image
+        style={styles.icon19}
+        resizeMode="cover"
+        source={require("../assets/4-10.png")}
+      />
+      <Component51
+        groupViewTop={293}
+        groupViewLeft={252}
+        prop={require("../assets/2333-111.png")}
+        moneyRain={require("../assets/1moneyrain11.png")}
+        prop1={require("../assets/161.png")}
+        start="23:00 Start"
+        startLeft="15.7%"
+        showGroupView={false}
+        prop2="1"
+        showVectorIcon={false}
+        next2100="Next 21:00"
+        showNext2100={false}
+        showIcon={false}
+        vector1={<Vector110 width={84} height={15} />}
+      />
+      <Component51
+        groupViewTop={651}
+        groupViewLeft={47}
+        prop={require("../assets/2333-121.png")}
+        moneyRain={require("../assets/1moneyrain21.png")}
+        prop1={require("../assets/161.png")}
+        start="Details"
+        startLeft="28.1%"
+        showGroupView={false}
+        prop2="1"
+        showVectorIcon={false}
+        next2100="Next 21:00"
+        showNext2100={false}
+        showIcon={false}
+        vector1={<Vector110 width={84} height={15} />}
+      />
+      <Component51
+        groupViewTop={776}
+        groupViewLeft={252}
+        prop={require("../assets/2333-121.png")}
+        moneyRain={require("../assets/1moneyrain21.png")}
+        prop1={require("../assets/161.png")}
+        start="Details"
+        startLeft="28.1%"
+        showGroupView={false}
+        prop2="1"
+        showVectorIcon={false}
+        next2100="Next 21:00"
+        showNext2100={false}
+        showIcon={false}
+        vector1={<Vector110 width={84} height={15} />}
+      />
+      <Component51
+        groupViewTop={746}
+        groupViewLeft={131}
+        prop={require("../assets/2333-121.png")}
+        moneyRain={require("../assets/1moneyrain21.png")}
+        prop1={require("../assets/161.png")}
+        start="Details"
+        startLeft="28.1%"
+        showGroupView={false}
+        prop2="1"
+        showVectorIcon={false}
+        next2100="Next 21:00"
+        showNext2100={false}
+        showIcon={false}
+        vector1={<Vector110 width={84} height={15} />}
       />
     </ScrollView>
   );
@@ -540,8 +633,8 @@ const styles = StyleSheet.create({
     ],
     height: 64,
     width: 66,
-    borderBottomLeftRadius: 8,
-    borderTopLeftRadius: 8,
+    borderBottomLeftRadius: Border.br_8,
+    borderTopLeftRadius: Border.br_8,
     left: 66,
     backgroundColor: "transparent",
     position: "absolute",
@@ -568,7 +661,7 @@ const styles = StyleSheet.create({
     textShadowColor: "rgba(0, 0, 0, 0.25)",
     textAlign: "center",
     color: Color.wz1,
-    fontFamily: "NotoSans-Bold",
+    fontFamily: FontFamily.notoSansBold,
     textTransform: "capitalize",
     lineHeight: 16,
     fontSize: 13,
@@ -588,7 +681,7 @@ const styles = StyleSheet.create({
     textShadowColor: "rgba(0, 0, 0, 0.25)",
     textAlign: "center",
     color: Color.wz1,
-    fontFamily: "NotoSans-Bold",
+    fontFamily: FontFamily.notoSansBold,
     textTransform: "capitalize",
     lineHeight: 16,
     fontSize: 13,
@@ -607,7 +700,7 @@ const styles = StyleSheet.create({
     textShadowColor: "rgba(0, 0, 0, 0.25)",
     textAlign: "center",
     color: Color.wz1,
-    fontFamily: "NotoSans-Bold",
+    fontFamily: FontFamily.notoSansBold,
     textTransform: "capitalize",
     lineHeight: 16,
     fontSize: 13,
@@ -626,7 +719,7 @@ const styles = StyleSheet.create({
     textShadowColor: "rgba(0, 0, 0, 0.25)",
     textAlign: "center",
     color: Color.wz1,
-    fontFamily: "NotoSans-Bold",
+    fontFamily: FontFamily.notoSansBold,
     textTransform: "capitalize",
     lineHeight: 16,
     fontSize: 13,
@@ -641,8 +734,8 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   groupChildPosition2: {
-    borderBottomRightRadius: 6,
-    borderTopLeftRadius: 2,
+    borderBottomRightRadius: Border.br_6,
+    borderTopLeftRadius: Border.br_2,
     shadowOpacity: 1,
     elevation: 2,
     shadowRadius: 2,
@@ -650,7 +743,7 @@ const styles = StyleSheet.create({
       width: 0,
       height: 1,
     },
-    shadowColor: "rgba(0, 0, 0, 0.25)",
+    shadowColor: Color.colorGray2100,
     height: 18,
     width: 34,
     left: 0,
@@ -667,8 +760,8 @@ const styles = StyleSheet.create({
     maxWidth: "100%",
   },
   groupChildPosition1: {
-    borderTopLeftRadius: 4,
-    borderBottomRightRadius: 6,
+    borderTopLeftRadius: Border.br_4,
+    borderBottomRightRadius: Border.br_6,
     shadowOpacity: 1,
     elevation: 2,
     shadowRadius: 2,
@@ -690,10 +783,10 @@ const styles = StyleSheet.create({
   },
   slotTypo: {
     lineHeight: 12,
-    fontSize: 12,
+    fontSize: FontSize.size_12,
     color: Color.wz1,
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
-    fontFamily: "Arial",
     textAlign: "left",
     position: "absolute",
   },
@@ -708,18 +801,18 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   groupChildLayout: {
-    borderRadius: 2,
+    borderRadius: Border.br_2,
     backgroundColor: "transparent",
     position: "absolute",
   },
   depositTypo: {
     color: Color.color,
     top: "12.53%",
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
-    fontFamily: "Arial",
     textAlign: "left",
     lineHeight: 14,
-    fontSize: 14,
+    fontSize: FontSize.size_14,
     position: "absolute",
   },
   childPosition: {
@@ -742,31 +835,31 @@ const styles = StyleSheet.create({
   },
   groupInner: {
     top: 300,
-    borderRadius: 26,
+    borderRadius: Border.br_26,
     backgroundColor: Color.bg3,
     height: 34,
     left: 15,
     width: 345,
   },
   text: {
-    fontFamily: "Arial",
+    fontFamily: FontFamily.arialMT,
   },
   theRechargeOfContainer: {
     left: 53,
     color: Color.color3,
     lineHeight: 14,
-    fontSize: 14,
+    fontSize: FontSize.size_14,
     top: 310,
     textAlign: "left",
   },
   theRecharge: {
     left: 264,
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
-    fontFamily: "Arial",
     textAlign: "left",
     color: Color.color3,
     lineHeight: 14,
-    fontSize: 14,
+    fontSize: FontSize.size_14,
     top: 310,
     position: "absolute",
   },
@@ -787,62 +880,62 @@ const styles = StyleSheet.create({
     marginLeft: -172.5,
     top: 153,
     left: "50%",
-    borderRadius: 8,
+    borderRadius: Border.br_8,
     height: 130,
   },
   icon2: {
-    borderRadius: 4,
+    borderRadius: Border.br_4,
     left: 77,
     top: 422,
   },
   icon3: {
     left: 174,
-    borderRadius: 4,
+    borderRadius: Border.br_4,
     top: 422,
   },
   icon4: {
     left: 271,
     top: 550,
-    borderRadius: 4,
+    borderRadius: Border.br_4,
   },
   jdbSlot092Icon: {
     top: 806,
     left: 271,
-    borderRadius: 4,
+    borderRadius: Border.br_4,
   },
   icon5: {
     top: 678,
     left: 271,
-    borderRadius: 4,
+    borderRadius: Border.br_4,
   },
   icon6: {
     top: 550,
     left: 174,
-    borderRadius: 4,
+    borderRadius: Border.br_4,
   },
   icon7: {
     top: 806,
     left: 174,
-    borderRadius: 4,
+    borderRadius: Border.br_4,
   },
   icon8: {
     top: 678,
     left: 174,
-    borderRadius: 4,
+    borderRadius: Border.br_4,
   },
   x1000Icon: {
     top: 550,
-    borderRadius: 4,
+    borderRadius: Border.br_4,
     left: 77,
   },
   icon9: {
     top: 806,
-    borderRadius: 4,
+    borderRadius: Border.br_4,
     left: 77,
   },
   icon10: {
     top: 678,
-    borderRadius: 4,
+    borderRadius: Border.br_4,
     left: 77,
   },
   fortuneOxFortune: {
@@ -882,7 +975,7 @@ const styles = StyleSheet.create({
     left: 271,
   },
   rectangleView: {
-    backgroundColor: "#ffd600",
+    backgroundColor: Color.colorGold200,
   },
   platform24Icon: {
     left: 5,
@@ -896,8 +989,8 @@ const styles = StyleSheet.create({
     top: 422,
   },
   groupChild1: {
-    backgroundColor: "#30353a",
-    borderRadius: 4,
+    backgroundColor: Color.colorDarkslategray400,
+    borderRadius: Border.br_4,
     left: 0,
     top: 0,
   },
@@ -908,7 +1001,7 @@ const styles = StyleSheet.create({
     right: "18.18%",
     bottom: "38.18%",
     left: "18.18%",
-    borderRadius: 4,
+    borderRadius: Border.br_4,
     position: "absolute",
   },
   rectangleContainer: {
@@ -916,15 +1009,15 @@ const styles = StyleSheet.create({
     top: 422,
   },
   groupChild2: {
-    backgroundColor: "#41474e",
+    backgroundColor: Color.colorDarkslategray200,
   },
   rectangleWrapper: {
     left: 174,
     top: 422,
   },
   groupChild3: {
-    shadowColor: "rgba(0, 0, 0, 0.15)",
-    backgroundColor: "#41474e",
+    shadowColor: Color.colorGray1700,
+    backgroundColor: Color.colorDarkslategray200,
   },
   rectangleFrame: {
     left: 271,
@@ -960,8 +1053,8 @@ const styles = StyleSheet.create({
       width: 0,
       height: 1,
     },
-    shadowColor: "rgba(0, 0, 0, 0.25)",
-    borderTopLeftRadius: 4,
+    shadowColor: Color.colorGray2100,
+    borderTopLeftRadius: Border.br_4,
     backgroundColor: "transparent",
   },
   groupFrame: {
@@ -969,9 +1062,9 @@ const styles = StyleSheet.create({
     top: 550,
   },
   groupChildPosition: {
-    backgroundColor: "#ffcc00",
-    borderBottomRightRadius: 6,
-    borderTopLeftRadius: 2,
+    backgroundColor: Color.colorGold300,
+    borderBottomRightRadius: Border.br_6,
+    borderTopLeftRadius: Border.br_2,
     shadowOpacity: 1,
     elevation: 2,
     shadowRadius: 2,
@@ -979,7 +1072,7 @@ const styles = StyleSheet.create({
       width: 0,
       height: 1,
     },
-    shadowColor: "rgba(0, 0, 0, 0.25)",
+    shadowColor: Color.colorGray2100,
     height: 18,
     width: 34,
     left: 0,
@@ -1135,11 +1228,11 @@ const styles = StyleSheet.create({
     bottom: "0%",
     left: "0%",
     width: "100%",
-    borderRadius: 2,
+    borderRadius: Border.br_2,
   },
   rectangleWrapper1: {
     right: "50.67%",
-    shadowColor: "rgba(0, 0, 0, 0.3)",
+    shadowColor: Color.colorGray1600,
     bottom: "84.86%",
     top: "11.38%",
     width: "45.33%",
@@ -1192,20 +1285,20 @@ const styles = StyleSheet.create({
   text2: {
     top: 379,
     left: 145,
-    fontSize: 24,
+    fontSize: FontSize.size_24,
     letterSpacing: 2,
     lineHeight: 18,
     fontWeight: "900",
-    fontFamily: "Arial",
+    fontFamily: FontFamily.microsoftYaHei,
   },
   child: {
-    backgroundColor: "rgba(0, 0, 0, 0.6)",
+    backgroundColor: Color.colorGray1300,
   },
   icon19: {
     left: 245,
     width: 130,
     height: 150,
-    top: 562,
+    top: 520,
     position: "absolute",
   },
   scrollview: {
@@ -1216,4 +1309,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Component25;
+export default Component22;

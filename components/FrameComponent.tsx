@@ -1,7 +1,7 @@
 import * as React from "react";
 import { StyleSheet, View, Image, Text } from "react-native";
-import Vector19110 from "../assets/vector191";
-import { Color } from "../GlobalStyles";
+import Vector1172 from "../assets/vector117";
+import { FontFamily, Color, FontSize, Border } from "../GlobalStyles";
 
 const FrameComponent = () => {
   return (
@@ -18,7 +18,7 @@ const FrameComponent = () => {
         source={require("../assets/a6c3db9cfb48485ca445ae6ecfac231b1.png")}
       />
       <View style={styles.vectorParent}>
-        <Vector19110 style={[styles.groupChild, styles.groupChildPosition]} />
+        <Vector1172 style={[styles.groupChild, styles.groupChildPosition]} />
         <Text style={[styles.day2312, styles.textFlexBox]}>20Day 23:12</Text>
       </View>
       <View style={[styles.rectangleGroup, styles.groupLayout]}>
@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     alignItems: "center",
     display: "flex",
     textAlign: "center",
-    fontFamily: "Arial",
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
     lineHeight: 29,
     position: "absolute",
@@ -52,9 +52,9 @@ const styles = StyleSheet.create({
   frameChild: {
     left: 5,
     borderRadius: 88,
-    backgroundColor: "rgba(22, 36, 26, 0.9)",
+    backgroundColor: Color.colorGray1200,
     borderStyle: "solid",
-    borderColor: "#70b615",
+    borderColor: Color.colorYellowgreen,
     borderWidth: 2,
     width: 78,
     height: 78,
@@ -91,8 +91,8 @@ const styles = StyleSheet.create({
     width: "91.14%",
     top: "16.67%",
     left: "3.8%",
-    fontSize: 12,
-    color: "#fdffb8",
+    fontSize: FontSize.size_12,
+    color: Color.colorPalegoldenrod100,
   },
   vectorParent: {
     height: "21.95%",
@@ -106,13 +106,13 @@ const styles = StyleSheet.create({
   groupItem: {
     top: 0,
     left: 0,
-    borderRadius: 60,
-    backgroundColor: "#f33636",
+    borderRadius: Border.br_60,
+    backgroundColor: Color.colorCrimson,
   },
   text: {
     top: 5,
     left: 8,
-    fontSize: 14,
+    fontSize: FontSize.size_14,
     color: Color.color,
     width: 5,
     height: 10,

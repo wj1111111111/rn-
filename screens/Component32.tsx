@@ -1,203 +1,83 @@
 import * as React from "react";
-import { ScrollView, StyleSheet, View, Image, Text } from "react-native";
+import { Text, StyleSheet, View, Image } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
-import GroupComponent2 from "../components/GroupComponent2";
-import Component463 from "../assets/";
-import Vector11013 from "../assets/vector110";
-import GroupComponent3 from "../components/GroupComponent3";
-import GroupComponent from "../components/GroupComponent";
-import Component196 from "../assets/";
-import Component51 from "../components/Component5";
-import GroupComponent1 from "../components/GroupComponent1";
-import { Color } from "../GlobalStyles";
+import { SafeAreaView } from "react-native-safe-area-context";
+import Group3171 from "../assets/group317";
+import Group3103 from "../assets/group310";
+import Group3104 from "../assets/group310";
+import Group3105 from "../assets/group310";
+import Grandesvitoriasrecentes1 from "../assets/grandesvitoriasrecentes";
+import Component398 from "../assets/";
+import Component399 from "../assets/";
+import Group7461 from "../assets/group746";
+import Vector444 from "../assets/vector4";
+import Group736139 from "../assets/group7361";
+import Component400 from "../assets/";
+import Vector445 from "../assets/vector4";
+import Rectangle671 from "../assets/rectangle67";
+import Vector232 from "../assets/vector23";
+import Vector242 from "../assets/vector24";
+import Vector252 from "../assets/vector25";
+import Group7601 from "../assets/group760";
+import Group5661 from "../assets/group566";
+import Component401 from "../assets/";
+import Ellipse441 from "../assets/ellipse44";
+import Vector262 from "../assets/vector26";
+import Component402 from "../assets/";
+import Component403 from "../assets/";
+import Component404 from "../assets/";
+import Group6291 from "../assets/group629";
+import Component405 from "../assets/";
+import Stroke35 from "../assets/stroke3";
+import Stroke42 from "../assets/stroke4";
+import Group6281 from "../assets/group628";
+import { FontFamily, FontSize, Color, Border } from "../GlobalStyles";
 
-const Component28 = () => {
+const Component32 = () => {
   return (
-    <ScrollView style={styles.scrollview}>
-      <View style={[styles.rectangleParent, styles.groupPosition]}>
-        <LinearGradient
-          style={[styles.groupChild, styles.groupChildLayout1]}
-          locations={[0, 1]}
-          colors={["#373c42", "#2c3135"]}
-          useAngle={true}
-          angle={180}
-        />
-        <GroupComponent2 maskGroup={require("../assets/mask-group8.png")} />
-        <Image
-          style={styles.groupItem}
-          resizeMode="cover"
-          source={require("../assets/group-753.png")}
-        />
-        <View style={[styles.groupInner, styles.icon1Layout]} />
-        <Text style={[styles.theRechargeOfContainer, styles.text2FlexBox]}>
-          <Text style={styles.text}>🔥</Text>
-          <Text style={styles.text}>The recharge of the</Text>
-          <Text style={styles.text}>🔥</Text>
-        </Text>
-        <Text style={styles.theRecharge}>{`The recharge `}</Text>
-        <Image
-          style={styles.b4bde395738f0c8b07d1baa47c5d48Icon}
-          resizeMode="cover"
-          source={require("../assets/3b4bde395738f0c8b07d1baa47c5d48f172c19aa158772swckar-1.png")}
-        />
-        <Component463 style={styles.icon} width={16} height={16} />
-        <Image
-          style={[styles.icon1, styles.icon1Layout]}
-          resizeMode="cover"
-          source={require("../assets/3.png")}
-        />
-        <Image
-          style={[styles.icon2, styles.iconLayout3]}
-          resizeMode="cover"
-          source={require("../assets/23--1000.png")}
-        />
-        <Image
-          style={[styles.icon3, styles.iconLayout3]}
-          resizeMode="cover"
-          source={require("../assets/49--1000.png")}
-        />
-        <Image
-          style={[styles.icon4, styles.iconLayout3]}
-          resizeMode="cover"
-          source={require("../assets/91--1000.png")}
-        />
-        <Image
-          style={[styles.icon4, styles.iconLayout3]}
-          resizeMode="cover"
-          source={require("../assets/baccarat-1.png")}
-        />
-        <Image
-          style={[styles.jdbSlot092Icon, styles.iconLayout3]}
-          resizeMode="cover"
-          source={require("../assets/jdbslot092.png")}
-        />
-        <Image
-          style={[styles.icon5, styles.iconLayout3]}
-          resizeMode="cover"
-          source={require("../assets/44--1000.png")}
-        />
-        <Image
-          style={[styles.icon6, styles.iconLayout3]}
-          resizeMode="cover"
-          source={require("../assets/21--1000.png")}
-        />
-        <Image
-          style={[styles.icon7, styles.iconLayout3]}
-          resizeMode="cover"
-          source={require("../assets/46--1000.png")}
-        />
-        <Image
-          style={[styles.icon8, styles.iconLayout3]}
-          resizeMode="cover"
-          source={require("../assets/43--1000.png")}
-        />
-        <Image
-          style={[styles.x1000Icon, styles.iconLayout3]}
-          resizeMode="cover"
-          source={require("../assets/102-x-1000.png")}
-        />
-        <Image
-          style={[styles.icon9, styles.iconLayout3]}
-          resizeMode="cover"
-          source={require("../assets/47--1000.png")}
-        />
-        <Image
-          style={[styles.icon10, styles.iconLayout3]}
-          resizeMode="cover"
-          source={require("../assets/27-777-1000.png")}
-        />
-        <Text
-          style={[styles.fortuneOxFortune, styles.fortuneTypo]}
-          numberOfLines={1}
-        >
-          Fortune Ox fortune
-        </Text>
-        <Text style={[styles.romaX, styles.romaXTypo]} numberOfLines={1}>
-          Roma x
-        </Text>
-        <Text style={[styles.romaX1, styles.romaX1Typo]} numberOfLines={1}>
-          Roma x
-        </Text>
-        <Text style={[styles.romaX2, styles.romaX2Typo]} numberOfLines={1}>
-          Roma x
-        </Text>
-        <Text style={[styles.superAce, styles.fortuneTypo]} numberOfLines={1}>
-          super Ace
-        </Text>
-        <Text style={[styles.diamondParty, styles.romaXTypo]} numberOfLines={1}>
-          diamond party
-        </Text>
-        <Text
-          style={[styles.diamondParty1, styles.romaX1Typo]}
-          numberOfLines={1}
-        >
-          diamond party
-        </Text>
-        <Image
-          style={[styles.icon6, styles.iconLayout3]}
-          resizeMode="cover"
-          source={require("../assets/baccarat-21.png")}
-        />
-        <Text
-          style={[styles.diamondParty2, styles.romaX2Typo]}
-          numberOfLines={1}
-        >
-          diamond party
-        </Text>
-        <Text
-          style={[styles.moneyComing, styles.fortuneTypo]}
-          numberOfLines={1}
-        >
-          Money Coming
-        </Text>
-        <Image
-          style={[styles.x1000Icon, styles.iconLayout3]}
-          resizeMode="cover"
-          source={require("../assets/1baccarat-11.png")}
-        />
-        <Text style={[styles.luckyComing, styles.romaXTypo]} numberOfLines={1}>
-          lucky coming
-        </Text>
-        <Text
-          style={[styles.luckyComing1, styles.romaX1Typo]}
-          numberOfLines={1}
-        >
-          lucky coming
-        </Text>
-        <Text
-          style={[styles.luckyComing2, styles.romaX2Typo]}
-          numberOfLines={1}
-        >
-          lucky coming
-        </Text>
-        <View style={[styles.rectangleGroup, styles.groupFrameLayout]}>
-          <View style={[styles.rectangleView, styles.groupChildPosition2]} />
+    <SafeAreaView style={styles.safeareaview}>
+      <View style={[styles.slotsParent, styles.containerLayout]}>
+        <Text style={[styles.slots, styles.slotsTypo]}>Slots</Text>
+        <Group3171 style={[styles.groupChild, styles.iconLayout4]} />
+        <View style={[styles.moreParent, styles.moreLayout]}>
+          <Text style={[styles.more, styles.moreTypo]}>more</Text>
+          <Group3103 style={styles.groupItem} width={18} height={9} />
+        </View>
+        <View style={[styles.parent, styles.groupLayout3]}>
           <Image
-            style={[styles.platform24Icon, styles.iconLayout2]}
+            style={[styles.icon, styles.iconLayout3]}
             resizeMode="cover"
-            source={require("../assets/platform-24.png")}
+            source={require("../assets/138-1.png")}
           />
-        </View>
-        <View style={[styles.rectangleContainer, styles.iconLayout3]}>
-          <View style={[styles.groupChild1, styles.iconLayout3]} />
           <Image
-            style={[styles.logoWj931Icon, styles.iconLayout1]}
+            style={[styles.icon1, styles.iconLayout3]}
             resizeMode="cover"
-            source={require("../assets/logowj93-1.png")}
+            source={require("../assets/104.png")}
           />
-        </View>
-        <View style={[styles.rectangleWrapper, styles.groupFrameLayout]}>
-          <View style={[styles.groupChild2, styles.groupChildPosition2]} />
-        </View>
-        <View style={[styles.rectangleFrame, styles.groupFrameLayout]}>
-          <View style={[styles.groupChild3, styles.groupChildPosition1]} />
-        </View>
-        <View style={[styles.groupWrapper, styles.groupFrameLayout]}>
-          <View style={[styles.groupView, styles.groupFrameLayout]}>
+          <Image
+            style={[styles.icon2, styles.iconLayout3]}
+            resizeMode="cover"
+            source={require("../assets/159-1.png")}
+          />
+          <View style={[styles.rectangleParent, styles.rectangleParentLayout]}>
+            <LinearGradient
+              style={[styles.groupInner, styles.groupChildPosition1]}
+              locations={[0, 1]}
+              colors={["#ffab3b", "#eb4136"]}
+              useAngle={true}
+              angle={105.88}
+            />
+            <Image
+              style={styles.fastspinIcon}
+              resizeMode="cover"
+              source={require("../assets/fastspin.png")}
+            />
+          </View>
+          <View style={[styles.rectangleGroup, styles.rectangleParentLayout]}>
             <LinearGradient
               style={[
                 styles.rectangleLineargradient,
-                styles.groupChildPosition2,
+                styles.groupChildPosition1,
               ]}
               locations={[0, 1]}
               colors={["#ffab3b", "#eb4136"]}
@@ -210,760 +90,613 @@ const Component28 = () => {
               source={require("../assets/fastspin.png")}
             />
           </View>
+          <View
+            style={[styles.rectangleContainer, styles.rectangleParentLayout]}
+          >
+            <View style={styles.groupChild3Position} />
+            <Image
+              style={[styles.logoAw1024x459Icon, styles.iconPosition2]}
+              resizeMode="cover"
+              source={require("../assets/logo-aw1024x459.png")}
+            />
+          </View>
+          <Text style={styles.fortuneTypo3}>{`Fortune
+Tiger`}</Text>
+          <Text style={styles.fortuneTypo2}>{`Fortune
+Ox`}</Text>
+          <Text style={styles.fortuneTypo1}>{`Fortune
+Mouse`}</Text>
         </View>
-        <View style={[styles.groupContainer, styles.groupFrameLayout]}>
-          <View style={[styles.groupView, styles.groupFrameLayout]}>
+        <View style={[styles.groupWrapper, styles.groupLayout3]}>
+          <View style={[styles.group, styles.groupLayout3]}>
+            <Image
+              style={[styles.icon, styles.iconLayout3]}
+              resizeMode="cover"
+              source={require("../assets/138-1.png")}
+            />
+            <Image
+              style={[styles.icon1, styles.iconLayout3]}
+              resizeMode="cover"
+              source={require("../assets/104.png")}
+            />
+            <Image
+              style={[styles.icon2, styles.iconLayout3]}
+              resizeMode="cover"
+              source={require("../assets/159-1.png")}
+            />
+            <View
+              style={[styles.rectangleParent, styles.rectangleParentLayout]}
+            >
+              <LinearGradient
+                style={[styles.groupChild1, styles.groupChildPosition1]}
+                locations={[0, 1]}
+                colors={["#ffab3b", "#eb4136"]}
+                useAngle={true}
+                angle={105.88}
+              />
+              <Image
+                style={styles.fastspinIcon}
+                resizeMode="cover"
+                source={require("../assets/fastspin.png")}
+              />
+            </View>
+            <View style={[styles.rectangleGroup, styles.rectangleParentLayout]}>
+              <LinearGradient
+                style={[styles.groupChild2, styles.groupChildPosition1]}
+                locations={[0, 1]}
+                colors={["#ffab3b", "#eb4136"]}
+                useAngle={true}
+                angle={105.88}
+              />
+              <Image
+                style={styles.fastspinIcon}
+                resizeMode="cover"
+                source={require("../assets/fastspin.png")}
+              />
+            </View>
+            <View
+              style={[styles.rectangleContainer, styles.rectangleParentLayout]}
+            >
+              <View style={styles.groupChild3Position} />
+              <Image
+                style={[styles.logoAw1024x459Icon, styles.iconPosition2]}
+                resizeMode="cover"
+                source={require("../assets/logo-aw1024x459.png")}
+              />
+            </View>
+            <Text style={styles.fortuneTypo3}>{`Fortune
+Tiger`}</Text>
+            <Text style={styles.fortuneTypo2}>{`Fortune
+Ox`}</Text>
+            <Text style={styles.fortuneTypo1}>{`Fortune
+Mouse`}</Text>
+          </View>
+        </View>
+        <View style={[styles.container, styles.containerLayout]}>
+          <Image
+            style={[styles.icon6, styles.iconParentPosition]}
+            resizeMode="cover"
+            source={require("../assets/153-3.png")}
+          />
+          <Image
+            style={[styles.icon7, styles.iconParentPosition]}
+            resizeMode="cover"
+            source={require("../assets/124-3.png")}
+          />
+          <Image
+            style={[styles.icon8, styles.iconParentPosition]}
+            resizeMode="cover"
+            source={require("../assets/122-3.png")}
+          />
+          <View style={[styles.groupChild4, styles.parent2Layout]} />
+          <Text style={[styles.theRechargeOf, styles.loginTypo]}>
+            The recharge of the
+          </Text>
+          <Text
+            style={[styles.theRecharge, styles.loginTypo]}
+          >{`The recharge `}</Text>
+          <Image
+            style={[
+              styles.b4bde395738f0c8b07d1baa47c5d48Icon,
+              styles.iconLayout2,
+            ]}
+            resizeMode="cover"
+            source={require("../assets/3b4bde395738f0c8b07d1baa47c5d48f172c19aa158772swckar-12.png")}
+          />
+          <Text style={[styles.favourites, styles.slotsTypo]}>Favourites</Text>
+          <View style={[styles.moreGroup, styles.moreLayout]}>
+            <Text style={[styles.more, styles.moreTypo]}>more</Text>
+            <Group3104 style={styles.groupItem} width={18} height={9} />
+          </View>
+          <View style={[styles.moreContainer, styles.moreLayout]}>
+            <Text style={[styles.more, styles.moreTypo]}>more</Text>
+            <Group3105 style={styles.groupItem} width={18} height={9} />
+          </View>
+          <Image
+            style={styles.icon9}
+            resizeMode="cover"
+            source={require("../assets/12.png")}
+          />
+          <Text style={[styles.grandesVitoriasRecentes, styles.slotsTypo]}>
+            Grandes Vitorias Recentes
+          </Text>
+          <Grandesvitoriasrecentes1 style={styles.grandesVitoriasRecentes1} />
+          <View style={[styles.rectangleParent3, styles.iconParentPosition]}>
+            <View style={styles.groupChildPosition} />
+            <Image
+              style={[styles.platform24Icon, styles.iconLayout2]}
+              resizeMode="cover"
+              source={require("../assets/platform-24.png")}
+            />
+          </View>
+          <View style={[styles.rectangleParent4, styles.iconParentPosition]}>
+            <View style={styles.groupChildPosition} />
+            <Image
+              style={[styles.platform24Icon, styles.iconLayout2]}
+              resizeMode="cover"
+              source={require("../assets/platform-24.png")}
+            />
+          </View>
+          <View style={[styles.rectangleParent5, styles.iconParentPosition]}>
+            <View style={styles.groupChildPosition} />
+            <Image
+              style={[styles.platform24Icon, styles.iconLayout2]}
+              resizeMode="cover"
+              source={require("../assets/platform-24.png")}
+            />
+          </View>
+          <Component398
+            style={[styles.icon10, styles.loginIconLayout]}
+            width={16}
+            height={16}
+          />
+          <Component399
+            style={[styles.icon11, styles.loginIconLayout]}
+            width={16}
+            height={16}
+          />
+          <Group7461 style={styles.groupChild9} width={46} height={46} />
+          <View style={[styles.groupParent, styles.groupLayout2]}>
+            <View style={[styles.rectangleWrapper, styles.instanceChildLayout]}>
+              <LinearGradient
+                style={[styles.groupChild10, styles.childPosition1]}
+                locations={[0, 1]}
+                colors={["#ffc71e", "#ff9f00"]}
+                useAngle={true}
+                angle={180}
+              />
+            </View>
             <LinearGradient
-              style={[styles.groupChild4, styles.groupChildPosition2]}
+              style={[styles.instanceChild, styles.childPosition1]}
               locations={[0, 1]}
-              colors={["#ffab3b", "#eb4136"]}
+              colors={["#76cd00", "#478a03"]}
               useAngle={true}
-              angle={105.88}
+              angle={180}
             />
+            <View style={[styles.vectorParent, styles.vectorPosition]}>
+              <Vector444
+                style={[styles.vectorIcon, styles.vectorIconPosition]}
+              />
+              <Text style={[styles.withdrawal, styles.loginTypo]}>
+                Withdrawal
+              </Text>
+            </View>
             <Image
-              style={styles.fastspinIcon}
+              style={[styles.logoWj931Icon, styles.iconLayout4]}
               resizeMode="cover"
-              source={require("../assets/fastspin.png")}
+              source={require("../assets/logowj93-12.png")}
             />
+            <Text style={[styles.r198000, styles.slotsTypo]}>R$1980.00</Text>
+            <Group736139 style={[styles.instanceItem, styles.iconLayout4]} />
+            <Component400 style={[styles.icon12, styles.iconLayout4]} />
+            <View style={[styles.vectorGroup, styles.vectorPosition]}>
+              <Vector445
+                style={[styles.vectorIcon1, styles.vectorIconPosition]}
+              />
+              <Text style={[styles.deposit, styles.loginTypo]}>Deposit</Text>
+            </View>
           </View>
-        </View>
-        <View style={[styles.groupFrame, styles.groupFrameLayout]}>
-          <View style={[styles.groupView, styles.groupFrameLayout]}>
+          <View style={[styles.vectorContainer, styles.rectangleIconLayout]}>
+            <Rectangle671
+              style={[styles.rectangleIcon, styles.rectangleIconLayout]}
+              width={345}
+              height={44}
+            />
+            <View style={[styles.groupChild11, styles.groupChildLayout1]} />
             <LinearGradient
-              style={[styles.groupChild5, styles.groupChildPosition1]}
+              style={[styles.groupChild12, styles.groupChildLayout1]}
               locations={[0, 1]}
-              colors={["#ffab3b", "#eb4136"]}
+              colors={["rgba(133, 212, 32, 0.21)", "rgba(133, 212, 32, 0)"]}
               useAngle={true}
-              angle={105.88}
+              angle={90}
             />
-            <Image
-              style={styles.fastspinIcon}
-              resizeMode="cover"
-              source={require("../assets/fastspin.png")}
+            <Text style={[styles.bingo, styles.bingoTypo]}>BINGO</Text>
+            <Text style={[styles.slots1, styles.slots1Typo]}>Slots</Text>
+            <Text style={[styles.popular, styles.bingoTypo]}>Popular</Text>
+            <Text style={[styles.pescaria, styles.slots1Typo]}>Pescaria</Text>
+            <View style={styles.groupChild13} />
+            <Vector232
+              style={[styles.vectorIcon2, styles.loginIconLayout]}
+              width={15}
+              height={16}
             />
-          </View>
-        </View>
-        <View style={[styles.groupWrapper1, styles.groupFrameLayout]}>
-          <View style={[styles.groupView, styles.groupFrameLayout]}>
-            <View style={styles.groupChildPosition} />
-            <Image
-              style={[styles.logoAw1024x459Icon, styles.iconLayout2]}
-              resizeMode="cover"
-              source={require("../assets/logo-aw1024x459.png")}
-            />
-          </View>
-        </View>
-        <View style={[styles.groupWrapper2, styles.groupFrameLayout]}>
-          <View style={[styles.groupView, styles.groupFrameLayout]}>
-            <View style={styles.groupChildPosition} />
-            <Image
-              style={[styles.logoAw1024x459Icon, styles.iconLayout2]}
-              resizeMode="cover"
-              source={require("../assets/logo-aw1024x459.png")}
+            <Vector242 style={[styles.vectorIcon3, styles.vectorIcon3Layout]} />
+            <Vector252 style={[styles.vectorIcon4, styles.iconLayout4]} />
+            <Group7601
+              style={[styles.groupChild14, styles.vectorIcon3Layout]}
             />
           </View>
-        </View>
-        <View style={[styles.groupWrapper3, styles.groupFrameLayout]}>
-          <View style={[styles.groupView, styles.groupFrameLayout]}>
-            <View style={styles.groupChildPosition} />
-            <Image
-              style={[styles.logoAw1024x459Icon, styles.iconLayout2]}
-              resizeMode="cover"
-              source={require("../assets/logo-aw1024x459.png")}
-            />
-          </View>
-        </View>
-        <View style={[styles.rectangleParent6, styles.groupFrameLayout]}>
-          <LinearGradient
-            style={[styles.groupChild9, styles.groupChildPosition2]}
-            locations={[0, 1]}
-            colors={["#ffd200", "#ff2e39"]}
-            useAngle={true}
-            angle={105.66}
-          />
+          <Text style={[styles.fortuneOxFortune, styles.fortuneTypo]}>{`Fortune
+Ox fortune`}</Text>
+          <Text style={[styles.fortuneMouse2, styles.fortuneTypo]}>{`Fortune
+Mouse`}</Text>
+          <Text style={[styles.fortuneMouse3, styles.fortuneTypo]}>{`Fortune
+Mouse`}</Text>
+          <Group5661 style={styles.groupChild15} width={50} height={50} />
           <Image
-            style={[styles.jdbWhiteIcon, styles.whiteIconPosition]}
+            style={styles.icon13}
             resizeMode="cover"
-            source={require("../assets/jdbwhite.png")}
+            source={require("../assets/-110.png")}
           />
         </View>
-        <View style={[styles.rectangleParent7, styles.groupFrameLayout]}>
-          <LinearGradient
-            style={[styles.groupChild10, styles.groupChildPosition2]}
-            locations={[0, 1]}
-            colors={["#ffd200", "#ff2e39"]}
-            useAngle={true}
-            angle={105.66}
-          />
-          <Image
-            style={[styles.jdbWhiteIcon, styles.whiteIconPosition]}
-            resizeMode="cover"
-            source={require("../assets/jdbwhite.png")}
-          />
-        </View>
-        <View style={[styles.rectangleParent8, styles.groupFrameLayout]}>
-          <LinearGradient
-            style={[styles.groupChild11, styles.groupChildPosition2]}
-            locations={[0, 1]}
-            colors={["#00cdff", "#6313e7"]}
-            useAngle={true}
-            angle={105.88}
-          />
-          <Image
-            style={[styles.pgWhiteIcon, styles.whiteIconPosition]}
-            resizeMode="cover"
-            source={require("../assets/pgwhite.png")}
-          />
-        </View>
-        <View style={[styles.rectangleParent9, styles.rectangleParentPosition]}>
-          <LinearGradient
-            style={[styles.groupChild12, styles.groupChildPosition2]}
-            locations={[0, 1]}
-            colors={["#00cdff", "#6313e7"]}
-            useAngle={true}
-            angle={105.88}
-          />
-          <Image
-            style={[styles.pgWhiteIcon, styles.whiteIconPosition]}
-            resizeMode="cover"
-            source={require("../assets/pgwhite.png")}
-          />
-        </View>
-        <View
-          style={[styles.rectangleParent10, styles.rectangleParentPosition]}
-        >
-          <LinearGradient
-            style={[styles.groupChild13, styles.groupChildPosition2]}
-            locations={[0, 1]}
-            colors={["#00cdff", "#6313e7"]}
-            useAngle={true}
-            angle={105.88}
-          />
-          <Image
-            style={[styles.pgWhiteIcon, styles.whiteIconPosition]}
-            resizeMode="cover"
-            source={require("../assets/pgwhite.png")}
-          />
-        </View>
-        <View
-          style={[styles.rectangleParent11, styles.rectangleParentPosition]}
-        >
-          <LinearGradient
-            style={[styles.groupChild14, styles.groupChildPosition2]}
-            locations={[0, 1]}
-            colors={["#00cdff", "#6313e7"]}
-            useAngle={true}
-            angle={105.88}
-          />
-          <Image
-            style={[styles.pgWhiteIcon, styles.whiteIconPosition]}
-            resizeMode="cover"
-            source={require("../assets/pgwhite.png")}
-          />
-        </View>
-        <LinearGradient
-          style={[styles.groupChild15, styles.groupChildLayout1]}
-          locations={[0, 1]}
-          colors={["#373c42", "#2c3135"]}
-          useAngle={true}
-          angle={180}
-        />
-        <LinearGradient
-          style={[styles.groupChild16, styles.groupChildLayout1]}
-          locations={[0, 1]}
-          colors={["#373c42", "#2c3135"]}
-          useAngle={true}
-          angle={180}
-        />
-        <LinearGradient
-          style={[styles.groupChild17, styles.groupChildLayout1]}
-          locations={[0, 1]}
-          colors={["#373c42", "#2c3135"]}
-          useAngle={true}
-          angle={180}
-        />
-        <LinearGradient
-          style={[styles.groupChild18, styles.groupChildLayout1]}
-          locations={[0, 1]}
-          colors={["#373c42", "#2c3135"]}
-          useAngle={true}
-          angle={180}
-        />
-        <LinearGradient
-          style={[styles.groupChild19, styles.groupChildLayout1]}
-          locations={[0, 1]}
-          colors={["#373c42", "#2c3135"]}
-          useAngle={true}
-          angle={180}
-        />
-        <LinearGradient
-          style={[styles.groupChild20, styles.groupChildLayout1]}
-          locations={[0, 1]}
-          colors={["#373c42", "#2c3135"]}
-          useAngle={true}
-          angle={180}
-        />
-        <Text style={[styles.slot, styles.slotTypo]}>Slot</Text>
-        <Text style={[styles.table, styles.slotTypo]}>Table</Text>
-        <Text style={[styles.fish, styles.slotTypo]}>Fish</Text>
-        <Text style={[styles.egame, styles.slotTypo]}>Egame</Text>
-        <Text style={[styles.sport, styles.slotTypo]}>Sport</Text>
-        <Text style={[styles.live, styles.slotTypo]}>Live</Text>
-        <Image
-          style={[styles.icon11, styles.iconLayout]}
-          resizeMode="cover"
-          source={require("../assets/1.png")}
-        />
-        <Image
-          style={[styles.icon12, styles.iconLayout]}
-          resizeMode="cover"
-          source={require("../assets/7.png")}
-        />
-        <Image
-          style={[styles.icon13, styles.iconLayout]}
-          resizeMode="cover"
-          source={require("../assets/3.png")}
-        />
-        <Image
-          style={[styles.icon14, styles.iconLayout]}
-          resizeMode="cover"
-          source={require("../assets/2.png")}
-        />
-        <Image
-          style={[styles.icon15, styles.iconLayout]}
-          resizeMode="cover"
-          source={require("../assets/6.png")}
-        />
-        <Image
-          style={[styles.icon16, styles.iconLayout]}
-          resizeMode="cover"
-          source={require("../assets/10-733643587.png")}
-        />
-        <Text style={[styles.bingo, styles.slotTypo]}>Bingo</Text>
-        <Image
-          style={[styles.icon17, styles.iconLayout]}
-          resizeMode="cover"
-          source={require("../assets/5.png")}
-        />
-        <View style={[styles.rectangleWrapper1, styles.logoWj931Icon1Position]}>
-          <LinearGradient
-            style={[styles.groupChild21, styles.groupChildLayout]}
-            locations={[0, 1]}
-            colors={["#ffc71e", "#ff9f00"]}
-            useAngle={true}
-            angle={180}
-          />
-        </View>
-        <LinearGradient
-          style={[styles.groupChild22, styles.groupChildLayout]}
-          locations={[0, 1]}
-          colors={["#76cd00", "#478a03"]}
-          useAngle={true}
-          angle={180}
-        />
-        <Vector11013 style={[styles.vectorIcon, styles.iconLayout1]} />
-        <Text style={[styles.withdrawal, styles.depositTypo]}>Withdrawal</Text>
-        <Image
-          style={[styles.logoWj931Icon1, styles.logoWj931Icon1Position]}
-          resizeMode="cover"
-          source={require("../assets/logowj93-11.png")}
-        />
-        <Text style={[styles.deposit, styles.depositTypo]}>Deposit</Text>
-        <Image
-          style={styles.icon18}
-          resizeMode="cover"
-          source={require("../assets/21.png")}
-        />
-        <Text style={[styles.text2, styles.text2FlexBox]}>14,091,688.88</Text>
-        <GroupComponent3
-          rectangleLinearGradientTransform="[object Object]"
-          rectangleLinearGradientTransform1="[object Object]"
-        />
-        <GroupComponent prop={<Component196 width={100} height={81} />} />
       </View>
-      <View style={[styles.rectangleParent, styles.groupPosition]} />
-      <Component51
-        groupViewTop={426}
-        groupViewLeft={248}
-        prop={require("../assets/2333-11.png")}
-        moneyRain={require("../assets/1moneyrain1.png")}
-        prop1={require("../assets/16.png")}
-        start="In Progress"
-        startLeft="13.22%"
-        showGroupView={false}
-        prop2="1"
-        showVectorIcon={false}
-        next2100="Next 21:00"
-        showNext2100={false}
-        showIcon={false}
-      />
-      <Component51
-        groupViewTop={748}
-        groupViewLeft={248}
-        prop={require("../assets/2333-12.png")}
-        moneyRain={require("../assets/1moneyrain2.png")}
-        prop1={require("../assets/161.png")}
-        start="Details"
-        startLeft="28.1%"
-        showGroupView={false}
-        prop2="1"
-        showVectorIcon={false}
-        next2100="Next 21:00"
-        showNext2100={false}
-        showIcon={false}
-      />
-      <Component51
-        groupViewTop={465}
-        groupViewLeft={122}
-        prop={require("../assets/2333-13.png")}
-        moneyRain={require("../assets/1moneyrain3.png")}
-        prop1={require("../assets/16.png")}
-        start="Receive"
-        startLeft="24.79%"
-        showGroupView
-        prop2="6"
-        showVectorIcon
-        next2100="20Day 23:12"
-        showNext2100
-        showIcon
-      />
-      <Component51
-        groupViewTop={587}
-        groupViewLeft={63}
-        prop={require("../assets/2333-14.png")}
-        moneyRain={require("../assets/1moneyrain4.png")}
-        prop1={require("../assets/161.png")}
-        start="Details"
-        startLeft="28.1%"
-        showGroupView={false}
-        prop2="1"
-        showVectorIcon={false}
-        next2100="Next 21:00"
-        showNext2100={false}
-        showIcon={false}
-      />
-      <Image
-        style={styles.icon19}
-        resizeMode="cover"
-        source={require("../assets/4-10.png")}
-      />
-      <Component51
-        groupViewTop={710}
-        groupViewLeft={122}
-        prop={require("../assets/2333-1.png")}
-        moneyRain={require("../assets/1moneyrain.png")}
-        prop1={require("../assets/16.png")}
-        start="Receive"
-        startLeft="24.79%"
-        showGroupView
-        prop2="2"
-        showVectorIcon={false}
-        next2100="Next 21:00"
-        showNext2100={false}
-        showIcon={false}
-      />
-      <GroupComponent1 />
-    </ScrollView>
+      <View style={[styles.parent1, styles.childPosition]}>
+        <Component401 style={styles.icon14} />
+        <Ellipse441 style={[styles.instanceInner, styles.iconLayout4]} />
+        <Vector262 style={[styles.vectorIcon5, styles.iconPosition]} />
+        <Component402 style={[styles.icon15, styles.iconLayout]} />
+        <Component403 style={[styles.icon16, styles.iconPosition]} />
+        <Component404 style={[styles.icon17, styles.iconLayout]} />
+        <Text style={[styles.members, styles.homeTypo]}>Menu</Text>
+        <Text style={[styles.promotion, styles.homeTypo]}>Bonus</Text>
+        <Text style={[styles.home, styles.homeTypo]}>Casino</Text>
+        <Text style={[styles.deposit1, styles.homeTypo]}>Invite</Text>
+        <Text style={[styles.services, styles.moreTypo]}>Deposlt</Text>
+        <Image
+          style={[styles.icon18, styles.iconLayout4]}
+          resizeMode="cover"
+          source={require("../assets/-2.png")}
+        />
+      </View>
+      <View style={[styles.child, styles.childPosition]} />
+      <View style={[styles.groupContainer, styles.groupLayout1]}>
+        <View style={[styles.rectangleParent6, styles.groupLayout1]}>
+          <View style={[styles.groupChild16, styles.groupChildLayout]} />
+          <View style={[styles.groupChild17, styles.groupChildLayout]} />
+          <Text
+            style={[styles.loremIpsumDolor, styles.loginTypo]}
+          >{`Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nam fermentum, nulla luctus pharetra vulputate, felis tellus mollis orci, sed rhoncus pronin sapien nunc accuan eget.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar sic tempor. Sociis natoque penatibus et magnis dis parturient montes, nascetur `}</Text>
+        </View>
+        <Group6291
+          style={[styles.groupChild18, styles.icon19Layout]}
+          width={100}
+          height={40}
+        />
+        <View style={[styles.parent2, styles.parent2Layout]}>
+          <Component405
+            style={[styles.icon19, styles.icon19Layout]}
+            width={100}
+            height={40}
+          />
+          <View style={[styles.loginParent, styles.loginIconLayout]}>
+            <Text style={[styles.login, styles.loginIconLayout]}>Previous</Text>
+            <Stroke35
+              style={[styles.strokeIcon, styles.strokeIconLayout]}
+              width={8}
+              height={13}
+            />
+          </View>
+          <View style={[styles.groupFrame, styles.groupLayout]}>
+            <View style={[styles.groupParent1, styles.groupLayout]}>
+              <View style={styles.loginPosition}>
+                <Text style={[styles.login1, styles.loginPosition]}>Next</Text>
+              </View>
+              <Stroke42
+                style={[styles.strokeIcon1, styles.strokeIconLayout]}
+                width={8}
+                height={13}
+              />
+            </View>
+          </View>
+        </View>
+        <Text style={[styles.text, styles.loginTypo]}>2/8</Text>
+      </View>
+      <Group6281 style={styles.item} width={48} height={48} />
+    </SafeAreaView>
   );
 };
 
 const styles = StyleSheet.create({
-  groupPosition: {
-    left: 0,
-    top: 0,
-  },
-  groupChildLayout1: {
-    transform: [
-      {
-        rotate: "180deg",
-      },
-    ],
-    height: 64,
-    width: 66,
-    borderBottomLeftRadius: 8,
-    borderTopLeftRadius: 8,
-    left: 66,
-    backgroundColor: "transparent",
+  containerLayout: {
+    width: 346,
     position: "absolute",
   },
-  icon1Layout: {
-    width: 345,
-    position: "absolute",
-  },
-  text2FlexBox: {
+  slotsTypo: {
     textAlign: "left",
+    lineHeight: 18,
+    fontFamily: FontFamily.microsoftYaHeiBold,
+    fontWeight: "700",
+    position: "absolute",
+  },
+  iconLayout4: {
+    maxHeight: "100%",
+    maxWidth: "100%",
+    position: "absolute",
+    overflow: "hidden",
+  },
+  moreLayout: {
+    height: 12,
+    width: 53,
+    left: 292,
+    position: "absolute",
+  },
+  moreTypo: {
+    lineHeight: 12,
+    fontSize: FontSize.size_12,
+    textAlign: "left",
+    color: Color.color,
+    position: "absolute",
+  },
+  groupLayout3: {
+    height: 138,
+    left: 0,
+    width: 346,
     position: "absolute",
   },
   iconLayout3: {
-    height: 88,
-    width: 88,
-    position: "absolute",
+    width: 110,
+    borderRadius: Border.br_8,
+    height: 138,
   },
-  fortuneTypo: {
-    textShadowRadius: 2,
-    textShadowOffset: {
-      width: 0,
-      height: 1,
-    },
-    textShadowColor: "rgba(0, 0, 0, 0.25)",
-    textAlign: "center",
-    color: Color.wz1,
-    fontFamily: "NotoSans-Bold",
-    textTransform: "capitalize",
-    lineHeight: 16,
-    fontSize: 13,
-    top: 520,
-    width: 88,
-    overflow: "hidden",
-    fontWeight: "700",
-    position: "absolute",
-  },
-  romaXTypo: {
-    top: 648,
-    textShadowRadius: 2,
-    textShadowOffset: {
-      width: 0,
-      height: 1,
-    },
-    textShadowColor: "rgba(0, 0, 0, 0.25)",
-    textAlign: "center",
-    color: Color.wz1,
-    fontFamily: "NotoSans-Bold",
-    textTransform: "capitalize",
-    lineHeight: 16,
-    fontSize: 13,
-    width: 88,
-    overflow: "hidden",
-    fontWeight: "700",
-    position: "absolute",
-  },
-  romaX1Typo: {
-    top: 776,
-    textShadowRadius: 2,
-    textShadowOffset: {
-      width: 0,
-      height: 1,
-    },
-    textShadowColor: "rgba(0, 0, 0, 0.25)",
-    textAlign: "center",
-    color: Color.wz1,
-    fontFamily: "NotoSans-Bold",
-    textTransform: "capitalize",
-    lineHeight: 16,
-    fontSize: 13,
-    width: 88,
-    overflow: "hidden",
-    fontWeight: "700",
-    position: "absolute",
-  },
-  romaX2Typo: {
-    top: 904,
-    textShadowRadius: 2,
-    textShadowOffset: {
-      width: 0,
-      height: 1,
-    },
-    textShadowColor: "rgba(0, 0, 0, 0.25)",
-    textAlign: "center",
-    color: Color.wz1,
-    fontFamily: "NotoSans-Bold",
-    textTransform: "capitalize",
-    lineHeight: 16,
-    fontSize: 13,
-    width: 88,
-    overflow: "hidden",
-    fontWeight: "700",
-    position: "absolute",
-  },
-  groupFrameLayout: {
+  rectangleParentLayout: {
     height: 18,
     width: 34,
-    position: "absolute",
-  },
-  groupChildPosition2: {
-    borderBottomRightRadius: 6,
-    borderTopLeftRadius: 2,
-    shadowOpacity: 1,
-    elevation: 2,
-    shadowRadius: 2,
-    shadowOffset: {
-      width: 0,
-      height: 1,
-    },
-    shadowColor: "rgba(0, 0, 0, 0.25)",
-    height: 18,
-    width: 34,
-    left: 0,
-    top: 0,
-    position: "absolute",
-  },
-  iconLayout2: {
-    height: 11,
-    top: 4,
-  },
-  iconLayout1: {
-    maxHeight: "100%",
-    overflow: "hidden",
-    maxWidth: "100%",
   },
   groupChildPosition1: {
-    borderTopLeftRadius: 4,
-    borderBottomRightRadius: 6,
+    borderBottomRightRadius: Border.br_6,
+    borderTopLeftRadius: Border.br_8,
     shadowOpacity: 1,
-    elevation: 2,
-    shadowRadius: 2,
+    elevation: 4,
+    shadowRadius: 4,
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowColor: Color.colorGray2100,
+    backgroundColor: "transparent",
     height: 18,
     width: 34,
     left: 0,
     top: 0,
     position: "absolute",
   },
-  whiteIconPosition: {
-    left: 6,
+  iconPosition2: {
+    height: 11,
+    left: 5,
+    top: 4,
+  },
+  iconParentPosition: {
+    top: 393,
     position: "absolute",
   },
-  rectangleParentPosition: {
-    top: 934,
-    height: 18,
-    width: 34,
+  parent2Layout: {
+    height: 40,
     position: "absolute",
   },
-  slotTypo: {
-    lineHeight: 12,
-    fontSize: 12,
-    color: Color.wz1,
-    fontWeight: "700",
-    fontFamily: "Arial",
+  loginTypo: {
+    fontSize: FontSize.size_14,
     textAlign: "left",
+    fontFamily: FontFamily.microsoftYaHeiBold,
+    fontWeight: "700",
+  },
+  iconLayout2: {
+    width: 24,
     position: "absolute",
+  },
+  loginIconLayout: {
+    height: 16,
+    position: "absolute",
+  },
+  groupLayout2: {
+    width: 345,
+    left: 0,
+  },
+  instanceChildLayout: {
+    top: "46.27%",
+    width: "49.28%",
+    height: "53.73%",
+  },
+  childPosition1: {
+    borderRadius: Border.br_2,
+    right: "0%",
+    bottom: "0%",
+    backgroundColor: "transparent",
+    position: "absolute",
+  },
+  vectorPosition: {
+    bottom: "16.42%",
+    top: "62.69%",
+    height: "20.9%",
+    position: "absolute",
+  },
+  vectorIconPosition: {
+    bottom: "7.86%",
+    top: "7.14%",
+    height: "85%",
+    left: "0%",
+    maxHeight: "100%",
+    maxWidth: "100%",
+    position: "absolute",
+    overflow: "hidden",
+  },
+  rectangleIconLayout: {
+    height: 44,
+    width: 345,
+    left: 0,
+    position: "absolute",
+  },
+  groupChildLayout1: {
+    height: 29,
+    width: 86,
+    borderRadius: 15,
+    top: 7,
+    left: 5,
+    position: "absolute",
+  },
+  bingoTypo: {
+    top: 16,
+    lineHeight: 12,
+    fontSize: FontSize.size_12,
+    textAlign: "left",
+    fontFamily: FontFamily.microsoftYaHeiBold,
+    fontWeight: "700",
+    position: "absolute",
+  },
+  slots1Typo: {
+    top: 17,
+    color: Color.wz1,
+    lineHeight: 12,
+    fontSize: FontSize.size_12,
+    textAlign: "left",
+    fontFamily: FontFamily.microsoftYaHeiBold,
+    fontWeight: "700",
+    position: "absolute",
+  },
+  vectorIcon3Layout: {
+    top: "36.36%",
+    width: "4.64%",
+    maxHeight: "100%",
+    maxWidth: "100%",
+    position: "absolute",
+    overflow: "hidden",
+  },
+  fortuneTypo: {
+    fontFamily: FontFamily.notoSansBold,
+    top: 498,
+    textShadowRadius: 2,
+    textShadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    textShadowColor: "rgba(0, 0, 0, 0.25)",
+    textAlign: "center",
+    textTransform: "uppercase",
+    lineHeight: 13,
+    fontSize: 13,
+    color: Color.color,
+    fontWeight: "700",
+    position: "absolute",
+  },
+  childPosition: {
+    width: 375,
+    marginLeft: -187.5,
+    left: "50%",
+    position: "absolute",
+  },
+  iconPosition: {
+    bottom: "45.57%",
+    height: "20.25%",
   },
   iconLayout: {
-    height: 36,
-    width: 36,
-    left: 15,
+    width: "4.27%",
+    top: "34.18%",
+    maxHeight: "100%",
+    maxWidth: "100%",
+    position: "absolute",
+    overflow: "hidden",
+  },
+  homeTypo: {
+    fontFamily: FontFamily.notoSansRegular,
+    top: "65.82%",
+    lineHeight: 12,
+    fontSize: FontSize.size_12,
+    textAlign: "left",
     position: "absolute",
   },
-  logoWj931Icon1Position: {
-    left: "4%",
-    position: "absolute",
+  groupLayout1: {
+    height: 529,
+    width: 287,
   },
   groupChildLayout: {
-    borderRadius: 2,
-    backgroundColor: "transparent",
+    borderRadius: Border.br_12,
     position: "absolute",
   },
-  depositTypo: {
-    color: Color.color,
-    top: "12.53%",
-    fontWeight: "700",
-    fontFamily: "Arial",
-    textAlign: "left",
-    lineHeight: 14,
-    fontSize: 14,
+  icon19Layout: {
+    width: 100,
+    height: 40,
     position: "absolute",
+  },
+  strokeIconLayout: {
+    height: 13,
+    width: 8,
+    top: 1,
+    position: "absolute",
+  },
+  groupLayout: {
+    width: 58,
+    height: 16,
+    position: "absolute",
+  },
+  loginPosition: {
+    width: 32,
+    height: 16,
+    left: 0,
+    top: 0,
+    position: "absolute",
+  },
+  slots: {
+    top: 752,
+    color: Color.color,
+    fontSize: FontSize.size_18,
+    left: 30,
+    lineHeight: 18,
   },
   groupChild: {
-    top: 554,
-    backgroundColor: "transparent",
+    height: "1.95%",
+    width: "5.23%",
+    top: "81.47%",
+    right: "93.61%",
+    bottom: "16.58%",
+    left: "1.16%",
+    maxWidth: "100%",
+  },
+  more: {
+    textTransform: "capitalize",
+    left: 0,
+    top: 0,
+    fontFamily: FontFamily.microsoftYaHeiBold,
+    fontWeight: "700",
+    lineHeight: 12,
+    fontSize: FontSize.size_12,
   },
   groupItem: {
-    top: 9,
-    left: 12,
-    width: 50,
-    height: 50,
+    left: 35,
+    top: 1,
     position: "absolute",
   },
-  groupInner: {
-    top: 300,
-    borderRadius: 26,
-    backgroundColor: Color.bg3,
-    height: 34,
-    left: 15,
-    width: 345,
-  },
-  text: {
-    fontFamily: "Arial",
-  },
-  theRechargeOfContainer: {
-    left: 53,
-    color: Color.color3,
-    lineHeight: 14,
-    fontSize: 14,
-    top: 310,
-    textAlign: "left",
-  },
-  theRecharge: {
-    left: 264,
-    fontWeight: "700",
-    fontFamily: "Arial",
-    textAlign: "left",
-    color: Color.color3,
-    lineHeight: 14,
-    fontSize: 14,
-    top: 310,
-    position: "absolute",
-  },
-  b4bde395738f0c8b07d1baa47c5d48Icon: {
-    top: 307,
-    height: 19,
-    width: 24,
-    left: 21,
-    position: "absolute",
+  moreParent: {
+    top: 755,
   },
   icon: {
-    top: 309,
-    left: 243,
-    overflow: "hidden",
+    left: 118,
+    top: 0,
     position: "absolute",
   },
   icon1: {
-    marginLeft: -172.5,
-    top: 153,
-    left: "50%",
-    borderRadius: 8,
-    height: 130,
+    left: 236,
+    top: 0,
+    position: "absolute",
   },
   icon2: {
-    borderRadius: 4,
-    left: 77,
-    top: 422,
-  },
-  icon3: {
-    left: 174,
-    borderRadius: 4,
-    top: 422,
-  },
-  icon4: {
-    left: 271,
-    top: 550,
-    borderRadius: 4,
-  },
-  jdbSlot092Icon: {
-    top: 806,
-    left: 271,
-    borderRadius: 4,
-  },
-  icon5: {
-    top: 678,
-    left: 271,
-    borderRadius: 4,
-  },
-  icon6: {
-    top: 550,
-    left: 174,
-    borderRadius: 4,
-  },
-  icon7: {
-    top: 806,
-    left: 174,
-    borderRadius: 4,
-  },
-  icon8: {
-    top: 678,
-    left: 174,
-    borderRadius: 4,
-  },
-  x1000Icon: {
-    top: 550,
-    borderRadius: 4,
-    left: 77,
-  },
-  icon9: {
-    top: 806,
-    borderRadius: 4,
-    left: 77,
-  },
-  icon10: {
-    top: 678,
-    borderRadius: 4,
-    left: 77,
-  },
-  fortuneOxFortune: {
-    left: 77,
-  },
-  romaX: {
-    left: 77,
-  },
-  romaX1: {
-    left: 77,
-  },
-  romaX2: {
-    left: 77,
-  },
-  superAce: {
-    left: 174,
-  },
-  diamondParty: {
-    left: 174,
-  },
-  diamondParty1: {
-    left: 174,
-  },
-  diamondParty2: {
-    left: 174,
-  },
-  moneyComing: {
-    left: 271,
-  },
-  luckyComing: {
-    left: 271,
-  },
-  luckyComing1: {
-    left: 271,
-  },
-  luckyComing2: {
-    left: 271,
-  },
-  rectangleView: {
-    backgroundColor: "#ffd600",
-  },
-  platform24Icon: {
-    left: 5,
-    height: 11,
-    top: 4,
-    position: "absolute",
-    width: 24,
-  },
-  rectangleGroup: {
-    left: 77,
-    top: 422,
-  },
-  groupChild1: {
-    backgroundColor: "#30353a",
-    borderRadius: 4,
     left: 0,
     top: 0,
-  },
-  logoWj931Icon: {
-    height: "23.18%",
-    width: "63.64%",
-    top: "38.64%",
-    right: "18.18%",
-    bottom: "38.18%",
-    left: "18.18%",
-    borderRadius: 4,
     position: "absolute",
   },
-  rectangleContainer: {
-    left: 271,
-    top: 422,
-  },
-  groupChild2: {
-    backgroundColor: "#41474e",
-  },
-  rectangleWrapper: {
-    left: 174,
-    top: 422,
-  },
-  groupChild3: {
-    shadowColor: "rgba(0, 0, 0, 0.15)",
-    backgroundColor: "#41474e",
-  },
-  rectangleFrame: {
-    left: 271,
-    top: 422,
-  },
-  rectangleLineargradient: {
+  groupInner: {
     backgroundColor: "transparent",
   },
   fastspinIcon: {
@@ -973,46 +706,31 @@ const styles = StyleSheet.create({
     height: 7,
     position: "absolute",
   },
-  groupView: {
-    left: 0,
+  rectangleParent: {
+    left: 236,
     top: 0,
+    position: "absolute",
   },
-  groupWrapper: {
-    top: 550,
-    left: 174,
-  },
-  groupChild4: {
+  rectangleLineargradient: {
     backgroundColor: "transparent",
   },
-  groupContainer: {
-    top: 550,
-    left: 77,
+  rectangleGroup: {
+    left: 118,
+    top: 0,
+    position: "absolute",
   },
-  groupChild5: {
-    shadowOffset: {
-      width: 0,
-      height: 1,
-    },
-    shadowColor: "rgba(0, 0, 0, 0.25)",
-    borderTopLeftRadius: 4,
-    backgroundColor: "transparent",
-  },
-  groupFrame: {
-    left: 271,
-    top: 550,
-  },
-  groupChildPosition: {
-    backgroundColor: "#ffcc00",
-    borderBottomRightRadius: 6,
-    borderTopLeftRadius: 2,
+  groupChild3Position: {
+    backgroundColor: Color.colorGold300,
+    borderBottomRightRadius: Border.br_6,
+    borderTopLeftRadius: Border.br_8,
     shadowOpacity: 1,
-    elevation: 2,
-    shadowRadius: 2,
+    elevation: 4,
+    shadowRadius: 4,
     shadowOffset: {
       width: 0,
-      height: 1,
+      height: 2,
     },
-    shadowColor: "rgba(0, 0, 0, 0.25)",
+    shadowColor: Color.colorGray2100,
     height: 18,
     width: 34,
     left: 0,
@@ -1021,234 +739,608 @@ const styles = StyleSheet.create({
   },
   logoAw1024x459Icon: {
     width: 26,
-    left: 5,
-    height: 11,
-    top: 4,
     position: "absolute",
   },
-  groupWrapper1: {
-    top: 678,
-    left: 77,
+  rectangleContainer: {
+    left: 0,
+    top: 0,
+    position: "absolute",
   },
-  groupWrapper2: {
-    top: 678,
-    left: 174,
+  fortuneTypo3: {
+    textShadowRadius: 2,
+    textShadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    textShadowColor: "rgba(0, 0, 0, 0.25)",
+    textAlign: "center",
+    fontFamily: FontFamily.notoSansBlack,
+    fontWeight: "900",
+    textTransform: "uppercase",
+    lineHeight: 13,
+    fontSize: 13,
+    left: 24,
+    top: 105,
+    color: Color.color,
+    position: "absolute",
   },
-  groupWrapper3: {
-    top: 678,
-    left: 271,
+  fortuneTypo2: {
+    left: 142,
+    textShadowRadius: 2,
+    textShadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    textShadowColor: "rgba(0, 0, 0, 0.25)",
+    textAlign: "center",
+    fontFamily: FontFamily.notoSansBlack,
+    fontWeight: "900",
+    textTransform: "uppercase",
+    lineHeight: 13,
+    fontSize: 13,
+    top: 105,
+    color: Color.color,
+    position: "absolute",
   },
-  groupChild9: {
+  fortuneTypo1: {
+    fontFamily: FontFamily.notoSansExtraBold,
+    fontWeight: "800",
+    left: 260,
+    top: 103,
+    lineHeight: 14,
+    textShadowRadius: 2,
+    textShadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    textShadowColor: "rgba(0, 0, 0, 0.25)",
+    textAlign: "center",
+    textTransform: "uppercase",
+    fontSize: 13,
+    color: Color.color,
+    position: "absolute",
+  },
+  parent: {
+    top: 589,
+  },
+  groupChild1: {
     backgroundColor: "transparent",
   },
-  jdbWhiteIcon: {
-    width: 20,
-    height: 11,
-    top: 4,
+  groupChild2: {
+    backgroundColor: "transparent",
+  },
+  group: {
+    top: 0,
+  },
+  groupWrapper: {
+    top: 785,
+  },
+  icon6: {
+    width: 110,
+    borderRadius: Border.br_8,
+    height: 138,
+    left: 0,
+  },
+  icon7: {
+    width: 110,
+    borderRadius: Border.br_8,
+    height: 138,
+    left: 118,
+  },
+  icon8: {
+    left: 236,
+    width: 110,
+    borderRadius: Border.br_8,
+    height: 138,
+  },
+  groupChild4: {
+    top: 243,
+    borderRadius: Border.br_26,
+    width: 345,
+    left: 0,
+    backgroundColor: Color.bg3,
+  },
+  theRechargeOf: {
+    left: 64,
+    color: Color.color3,
+    top: 256,
+    fontSize: FontSize.size_14,
+    lineHeight: 14,
+    position: "absolute",
+  },
+  theRecharge: {
+    left: 249,
+    color: Color.color3,
+    top: 256,
+    fontSize: FontSize.size_14,
+    lineHeight: 14,
+    position: "absolute",
+  },
+  b4bde395738f0c8b07d1baa47c5d48Icon: {
+    top: 254,
+    height: 19,
     left: 6,
   },
-  rectangleParent6: {
-    top: 806,
-    left: 77,
+  favourites: {
+    top: 358,
+    color: Color.color,
+    fontSize: FontSize.size_18,
+    left: 30,
+    lineHeight: 18,
+  },
+  moreGroup: {
+    top: 361,
+  },
+  moreContainer: {
+    top: 559,
+  },
+  icon9: {
+    top: 359,
+    left: 3,
+    height: 15,
+    width: 16,
+    position: "absolute",
+  },
+  grandesVitoriasRecentes: {
+    top: 556,
+    color: Color.color,
+    fontSize: FontSize.size_18,
+    left: 30,
+    lineHeight: 18,
+  },
+  grandesVitoriasRecentes1: {
+    height: "3.14%",
+    width: "5.12%",
+    top: "96.86%",
+    right: "93.73%",
+    bottom: "0%",
+    maxHeight: "100%",
+    maxWidth: "100%",
+    left: "1.16%",
+    position: "absolute",
+    overflow: "hidden",
+  },
+  groupChildPosition: {
+    backgroundColor: Color.colorGold200,
+    elevation: 2,
+    shadowRadius: 2,
+    borderBottomRightRadius: Border.br_6,
+    borderTopLeftRadius: Border.br_8,
+    shadowOpacity: 1,
+    shadowColor: Color.colorGray2100,
+    height: 18,
+    width: 34,
+    left: 0,
+    top: 0,
+    position: "absolute",
+  },
+  platform24Icon: {
+    height: 11,
+    left: 5,
+    top: 4,
+  },
+  rectangleParent3: {
+    height: 18,
+    width: 34,
+    left: 0,
+  },
+  rectangleParent4: {
+    height: 18,
+    width: 34,
+    left: 118,
+  },
+  rectangleParent5: {
+    height: 18,
+    width: 34,
+    left: 236,
+  },
+  icon10: {
+    left: 42,
+    top: 255,
+    overflow: "hidden",
+  },
+  icon11: {
+    left: 227,
+    top: 255,
+    overflow: "hidden",
+  },
+  groupChild9: {
+    top: 235,
+    left: 299,
+    position: "absolute",
   },
   groupChild10: {
-    backgroundColor: "transparent",
+    height: "100%",
+    top: "0%",
+    left: "0%",
+    width: "100%",
+    borderRadius: Border.br_2,
   },
-  rectangleParent7: {
-    top: 806,
-    left: 174,
+  rectangleWrapper: {
+    right: "50.72%",
+    shadowColor: Color.colorGray1600,
+    left: "0%",
+    elevation: 2,
+    shadowRadius: 2,
+    width: "49.28%",
+    height: "53.73%",
+    bottom: "0%",
+    shadowOpacity: 1,
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    position: "absolute",
+  },
+  instanceChild: {
+    left: "50.72%",
+    top: "46.27%",
+    width: "49.28%",
+    height: "53.73%",
+  },
+  vectorIcon: {
+    width: "16.49%",
+    right: "83.51%",
+  },
+  withdrawal: {
+    left: "22.68%",
+    top: "0%",
+    lineHeight: 14,
+    fontSize: FontSize.size_14,
+    color: Color.color,
+    position: "absolute",
+  },
+  vectorParent: {
+    width: "28.12%",
+    right: "61.16%",
+    left: "10.72%",
+  },
+  logoWj931Icon: {
+    height: "37.61%",
+    width: "31.88%",
+    right: "68.12%",
+    bottom: "62.39%",
+    top: "0%",
+    left: "0%",
+  },
+  r198000: {
+    top: "5.97%",
+    left: "68.7%",
+    fontSize: FontSize.size_16,
+    color: Color.colorOrange100,
+  },
+  instanceItem: {
+    height: "23.88%",
+    width: "4.52%",
+    top: "7.46%",
+    right: "33.16%",
+    bottom: "68.66%",
+    left: "62.32%",
+  },
+  icon12: {
+    height: "21.79%",
+    width: "4.78%",
+    top: "8.96%",
+    right: "0.72%",
+    bottom: "69.25%",
+    left: "94.49%",
+  },
+  vectorIcon1: {
+    width: "21.62%",
+    right: "78.38%",
+  },
+  deposit: {
+    left: "29.73%",
+    top: "0%",
+    lineHeight: 14,
+    fontSize: FontSize.size_14,
+    color: Color.color,
+    position: "absolute",
+  },
+  vectorGroup: {
+    width: "21.45%",
+    right: "13.91%",
+    left: "64.64%",
+  },
+  groupParent: {
+    height: 67,
+    top: 0,
+    position: "absolute",
+  },
+  rectangleIcon: {
+    borderRadius: Border.br_8,
+    top: 0,
   },
   groupChild11: {
-    backgroundColor: "transparent",
-  },
-  pgWhiteIcon: {
-    top: 2,
-    width: 22,
-    height: 14,
-  },
-  rectangleParent8: {
-    top: 806,
-    left: 271,
+    backgroundColor: Color.bg,
   },
   groupChild12: {
     backgroundColor: "transparent",
   },
-  rectangleParent9: {
-    left: 271,
+  bingo: {
+    left: 203,
+    color: Color.wz1,
+  },
+  slots1: {
+    left: 129,
+  },
+  popular: {
+    left: 35,
+    color: Color.color,
+  },
+  pescaria: {
+    left: 284,
   },
   groupChild13: {
-    backgroundColor: "transparent",
+    top: 41,
+    borderRadius: Border.br_6,
+    backgroundColor: Color.bg1,
+    width: 113,
+    height: 3,
+    left: 6,
+    position: "absolute",
   },
-  rectangleParent10: {
-    left: 174,
-  },
-  groupChild14: {
-    backgroundColor: "transparent",
-  },
-  rectangleParent11: {
-    left: 77,
-  },
-  groupChild15: {
-    top: 758,
-    backgroundColor: "transparent",
-  },
-  groupChild16: {
-    top: 622,
-    backgroundColor: "transparent",
-  },
-  groupChild17: {
-    top: 826,
-    backgroundColor: "transparent",
-  },
-  groupChild18: {
-    top: 894,
-    backgroundColor: "transparent",
-  },
-  groupChild19: {
-    top: 486,
-    backgroundColor: "transparent",
-  },
-  groupChild20: {
-    top: 690,
-    backgroundColor: "transparent",
-  },
-  slot: {
-    top: 534,
-    left: 22,
-  },
-  table: {
-    top: 738,
-    left: 18,
-  },
-  fish: {
-    top: 806,
-    left: 21,
-  },
-  egame: {
-    top: 873,
-    left: 13,
-  },
-  sport: {
-    top: 942,
-    left: 17,
-  },
-  live: {
-    top: 602,
-    left: 21,
-  },
-  icon11: {
-    top: 562,
-  },
-  icon12: {
-    top: 766,
-  },
-  icon13: {
-    top: 833,
-  },
-  icon14: {
-    top: 698,
-  },
-  icon15: {
-    top: 902,
-  },
-  icon16: {
-    top: 495,
-  },
-  bingo: {
-    top: 670,
+  vectorIcon2: {
+    top: 14,
     left: 16,
   },
-  icon17: {
-    top: 630,
+  vectorIcon3: {
+    height: "31.14%",
+    right: "19.13%",
+    bottom: "32.5%",
+    left: "76.23%",
   },
-  groupChild21: {
-    height: "100%",
-    top: "0%",
-    right: "0%",
-    bottom: "0%",
-    left: "0%",
-    width: "100%",
-    borderRadius: 2,
+  vectorIcon4: {
+    height: "36.36%",
+    width: "4.41%",
+    top: "31.82%",
+    right: "42.55%",
+    bottom: "31.82%",
+    left: "53.04%",
   },
-  rectangleWrapper1: {
-    right: "50.67%",
-    shadowColor: "rgba(0, 0, 0, 0.3)",
-    bottom: "84.86%",
-    top: "11.38%",
-    width: "45.33%",
-    height: "3.76%",
-    shadowOpacity: 1,
-    elevation: 2,
-    shadowRadius: 2,
-    left: "4%",
+  groupChild14: {
+    height: "30.23%",
+    right: "63.77%",
+    bottom: "33.41%",
+    left: "31.59%",
   },
-  groupChild22: {
-    right: "4%",
-    left: "50.67%",
-    bottom: "84.86%",
-    top: "11.38%",
-    width: "45.33%",
-    height: "3.76%",
+  vectorContainer: {
+    top: 291,
   },
-  vectorIcon: {
-    height: "1.24%",
-    width: "4.27%",
-    top: "12.63%",
-    right: "32.27%",
-    bottom: "86.13%",
-    left: "63.47%",
+  fortuneOxFortune: {
+    left: 134,
+  },
+  fortuneMouse2: {
+    left: 262,
+  },
+  fortuneMouse3: {
+    left: 26,
+  },
+  groupChild15: {
+    top: 524,
+    left: 294,
     position: "absolute",
   },
-  withdrawal: {
-    left: "19.73%",
+  icon13: {
+    marginLeft: -173,
+    top: 75,
+    height: 160,
+    left: "50%",
+    width: 345,
+    borderRadius: Border.br_8,
+    position: "absolute",
   },
-  logoWj931Icon1: {
-    height: "2.96%",
-    width: "20.8%",
-    top: "7.93%",
-    right: "75.2%",
-    bottom: "89.1%",
+  container: {
+    height: 574,
+    left: 0,
+    top: 0,
+  },
+  slotsParent: {
+    top: 10,
+    height: 923,
+    left: 15,
+  },
+  icon14: {
+    height: "81.01%",
+    top: "18.99%",
+    right: "0%",
+    left: "0%",
+    bottom: "0%",
     maxHeight: "100%",
-    overflow: "hidden",
     maxWidth: "100%",
+    position: "absolute",
+    overflow: "hidden",
+    width: "100%",
   },
-  deposit: {
-    left: "69.33%",
+  instanceInner: {
+    height: "92.41%",
+    width: "19.47%",
+    right: "40.27%",
+    bottom: "7.59%",
+    left: "40.27%",
+    top: "0%",
+  },
+  vectorIcon5: {
+    width: "4.24%",
+    right: "27.76%",
+    left: "68%",
+    top: "34.18%",
+    bottom: "45.57%",
+    height: "20.25%",
+    maxHeight: "100%",
+    maxWidth: "100%",
+    position: "absolute",
+    overflow: "hidden",
+  },
+  icon15: {
+    right: "88%",
+    left: "7.73%",
+    bottom: "45.57%",
+    height: "20.25%",
+    width: "4.27%",
+  },
+  icon16: {
+    width: "4.21%",
+    right: "8.05%",
+    left: "87.73%",
+    top: "34.18%",
+    bottom: "45.57%",
+    height: "20.25%",
+    maxHeight: "100%",
+    maxWidth: "100%",
+    position: "absolute",
+    overflow: "hidden",
+  },
+  icon17: {
+    height: "20.13%",
+    right: "68.27%",
+    bottom: "45.7%",
+    left: "27.47%",
+  },
+  members: {
+    left: "5.6%",
+    color: Color.wz1,
+  },
+  promotion: {
+    left: "25.07%",
+    color: Color.wz1,
+  },
+  home: {
+    left: "84.53%",
+    color: Color.color3,
+  },
+  deposit1: {
+    left: "65.87%",
+    color: Color.wz1,
+  },
+  services: {
+    top: "56.96%",
+    left: "44%",
+    fontWeight: "500",
+    fontFamily: FontFamily.notoSansMedium,
   },
   icon18: {
-    top: 350,
-    left: 76,
-    width: 282,
-    height: 58,
+    height: "30.38%",
+    width: "6.4%",
+    top: "21.52%",
+    right: "46.93%",
+    bottom: "48.1%",
+    left: "46.67%",
+  },
+  parent1: {
+    bottom: 0,
+    height: 79,
+  },
+  child: {
+    backgroundColor: Color.colorGray1100,
+    top: 1,
+    height: 1005,
+    marginLeft: -187.5,
+  },
+  groupChild16: {
+    height: 529,
+    width: 287,
+    left: 0,
+    top: 0,
+    backgroundColor: Color.bg,
+  },
+  groupChild17: {
+    top: 13,
+    left: 9,
+    width: 270,
+    height: 456,
+    backgroundColor: Color.bg3,
+  },
+  loremIpsumDolor: {
+    top: 23,
+    left: 18,
+    lineHeight: 16,
+    width: 252,
+    height: 434,
+    color: Color.wz1,
     position: "absolute",
   },
-  text2: {
-    top: 379,
-    left: 145,
-    fontSize: 24,
-    letterSpacing: 2,
-    lineHeight: 18,
-    fontWeight: "900",
-    fontFamily: "Arial",
-  },
-  rectangleParent: {
-    width: 375,
-    height: 958,
+  rectangleParent6: {
+    left: 0,
+    top: 0,
     position: "absolute",
+  },
+  groupChild18: {
+    top: 489,
+    left: 0,
   },
   icon19: {
-    left: 245,
-    width: 130,
-    height: 150,
-    top: 562,
+    left: 174,
+    top: 0,
+  },
+  login: {
+    width: 61,
+    fontSize: FontSize.size_14,
+    textAlign: "left",
+    fontFamily: FontFamily.microsoftYaHeiBold,
+    fontWeight: "700",
+    lineHeight: 14,
+    color: Color.color,
+    top: 0,
+    left: 15,
+  },
+  strokeIcon: {
+    left: 0,
+  },
+  loginParent: {
+    width: 76,
+    top: 12,
+    left: 0,
+  },
+  login1: {
+    fontSize: FontSize.size_14,
+    textAlign: "left",
+    fontFamily: FontFamily.microsoftYaHeiBold,
+    fontWeight: "700",
+    lineHeight: 14,
+    color: Color.color,
+  },
+  strokeIcon1: {
+    left: 50,
+  },
+  groupParent1: {
+    left: 0,
+    top: 0,
+  },
+  groupFrame: {
+    left: 208,
+    top: 12,
+  },
+  parent2: {
+    left: 13,
+    width: 274,
+    top: 489,
+  },
+  text: {
+    top: 504,
+    left: 131,
+    lineHeight: 14,
+    fontSize: FontSize.size_14,
+    color: Color.color,
     position: "absolute",
   },
-  scrollview: {
-    backgroundColor: Color.bg,
+  groupContainer: {
+    top: 145,
+    left: 44,
+    position: "absolute",
+  },
+  item: {
+    top: 691,
+    left: 163,
+    position: "absolute",
+  },
+  safeareaview: {
     flex: 1,
-    maxWidth: "100%",
+    overflow: "hidden",
+    height: 1005,
     width: "100%",
+    backgroundColor: Color.bg,
   },
 });
 
-export default Component28;
+export default Component32;

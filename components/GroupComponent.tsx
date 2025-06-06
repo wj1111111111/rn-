@@ -1,129 +1,192 @@
-import * as React from "react";
+import React, { useMemo } from "react";
 import {
   StyleSheet,
+  View,
   Text,
   Image,
-  View,
   ImageSourcePropType,
 } from "react-native";
-import Component517 from "../assets/";
-import Component518 from "../assets/";
-import Component519 from "../assets/";
-import Vector3112 from "../assets/vector31";
-import { Color } from "../GlobalStyles";
+import { Border, FontFamily, Color, FontSize } from "../GlobalStyles";
 
 export type GroupComponentType = {
-  prop?: React.ReactNode;
+  group12780?: React.ReactNode;
+
+  /** Style props */
+  groupViewTop?: number | string;
 };
 
-const GroupComponent = ({ prop }: GroupComponentType) => {
+const getStyleValue = (key: string, value: string | number | undefined) => {
+  if (value === undefined) return;
+  return { [key]: value === "unset" ? undefined : value };
+};
+const GroupComponent = ({ groupViewTop, group12780 }: GroupComponentType) => {
+  const groupView3Style = useMemo(() => {
+    return {
+      ...getStyleValue("top", groupViewTop),
+    };
+  }, [groupViewTop]);
+
   return (
-    <View style={styles.parent}>
-      <View>{prop && prop}</View>
-      <Component517 style={[styles.icon1, styles.iconPosition]} />
-      <Component518 style={[styles.icon2, styles.iconPosition]} />
-      <Component519 style={[styles.icon3, styles.iconPosition]} />
-      <Text style={styles.members}>Home</Text>
-      <Text style={[styles.promotion, styles.depositTypo]}>Promotion</Text>
-      <Text style={[styles.home, styles.depositTypo]}>Teams</Text>
-      <Text style={[styles.deposit, styles.depositTypo]}>Deposit</Text>
-      <Text style={[styles.deposit1, styles.depositTypo]}>Invite</Text>
-      <Vector3112 style={[styles.vectorIcon, styles.iconPosition]} />
+    <View style={[styles.rectangleParent, groupView3Style]}>
+      <View style={[styles.groupChild, styles.groupPosition]} />
+      <View style={[styles.groupItem, styles.groupPosition]} />
+      <Text
+        style={[styles.failedToEnter, styles.gameIssuesTypo]}
+      >{`Failed to enter the gameFailed to enter the game
+Failed to enter the gameFailed to enter the game
+Failed to enter the gameFailed to enter the gameFailed to enter the game`}</Text>
+      <Text
+        style={[styles.dearTeamsWe, styles.gameIssuesTypo]}
+      >{`Dear Teams, we have received your question!
+We have not found any abnormalities in the game.
+You can try to check whether the network is normal.
+Good luck!`}</Text>
+      <View style={[styles.groupInner, styles.groupShadowBox]} />
       <Image
-        style={[styles.invite1Icon, styles.iconLayout]}
+        style={styles.component7Icon}
         resizeMode="cover"
-        source={require("../assets/invite-11.png")}
+        source={require("../assets/component-71.png")}
       />
+      <Text style={[styles.text, styles.textTypo]}>2024-01-27 01:00:00</Text>
+      <Text style={[styles.text1, styles.textTypo]}>2024-04-15 16:59:59</Text>
+      <Text style={[styles.automaticallyDeleteWithin, styles.textTypo]}>
+        Automatically delete within 30 days
+      </Text>
+      <Text style={[styles.gameIssues, styles.gameIssuesTypo]}>
+        Game issues
+      </Text>
+      <View>{group12780 && group12780}</View>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
-  iconLayout: {
-    maxHeight: "100%",
-    overflow: "hidden",
-    maxWidth: "100%",
+  groupPosition: {
+    borderBottomLeftRadius: Border.br_10,
+    borderBottomRightRadius: Border.br_10,
+    borderTopRightRadius: Border.br_8,
+    borderTopLeftRadius: Border.br_8,
+    left: 0,
+    top: 0,
+    width: 345,
     position: "absolute",
   },
-  iconPosition: {
-    bottom: "40.51%",
-    top: "34.18%",
-    height: "25.32%",
-    maxHeight: "100%",
-    overflow: "hidden",
-    maxWidth: "100%",
+  gameIssuesTypo: {
+    width: 315,
+    fontFamily: FontFamily.arialMT,
+    textAlign: "left",
     position: "absolute",
   },
-  depositTypo: {
+  groupShadowBox: {
+    shadowOpacity: 1,
+    elevation: 4,
+    shadowRadius: 4,
+    shadowColor: Color.colorGray2100,
+    height: 288,
+  },
+  textTypo: {
+    color: Color.wz2,
+    fontFamily: FontFamily.microsoftYaHeiBold,
+    fontWeight: "700",
+    lineHeight: 12,
+    fontSize: FontSize.size_12,
+    position: "absolute",
+  },
+  groupChild: {
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    backgroundColor: Color.bg,
+    shadowOpacity: 1,
+    elevation: 4,
+    shadowRadius: 4,
+    shadowColor: Color.colorGray2100,
+    height: 288,
+  },
+  groupItem: {
+    backgroundColor: Color.bg3,
+    height: 136,
+  },
+  failedToEnter: {
+    top: 60,
     color: Color.wz1,
-    fontFamily: "Arial",
-    fontWeight: "700",
-    lineHeight: 12,
-    fontSize: 12,
-    top: "65.82%",
-    position: "absolute",
+    fontSize: FontSize.size_14,
+    fontFamily: FontFamily.arialMT,
+    left: 15,
   },
-  icon1: {
-    width: "5.2%",
-    right: "7.33%",
-    left: "87.47%",
-  },
-  icon2: {
-    width: "5.28%",
-    right: "26.72%",
-    left: "68%",
-  },
-  icon3: {
-    width: "5.36%",
-    right: "67.71%",
-    left: "26.93%",
-  },
-  members: {
-    left: "5.33%",
-    color: Color.color3,
-    textAlign: "left",
-    fontFamily: "Arial",
-    fontWeight: "700",
-    lineHeight: 12,
-    fontSize: 12,
-    top: "65.82%",
-    position: "absolute",
-  },
-  promotion: {
-    left: "21.6%",
-    textAlign: "center",
-  },
-  home: {
-    left: "83.73%",
-    textAlign: "left",
-  },
-  deposit: {
-    left: "64.53%",
-    textAlign: "left",
-  },
-  deposit1: {
-    left: "45.87%",
-    textAlign: "left",
-  },
-  vectorIcon: {
-    width: "6.32%",
-    right: "87.01%",
-    left: "6.67%",
-  },
-  invite1Icon: {
-    height: "68.35%",
-    width: "14.4%",
-    top: "-6.33%",
-    right: "42.67%",
-    bottom: "37.97%",
-    left: "42.93%",
-  },
-  parent: {
-    marginLeft: -187.5,
-    bottom: 0,
+  dearTeamsWe: {
+    marginLeft: -157.5,
+    top: 182,
     left: "50%",
-    width: 375,
-    height: 79,
+    lineHeight: 18,
+    color: Color.color7,
+    fontSize: FontSize.size_14,
+    fontFamily: FontFamily.arialMT,
+  },
+  groupInner: {
+    shadowOffset: {
+      width: 0,
+      height: 4,
+    },
+    borderRadius: Border.br_8,
+    borderStyle: "solid",
+    borderColor: Color.colorDarkslategray300,
+    borderWidth: 1.2,
+    left: 0,
+    top: 0,
+    shadowOpacity: 1,
+    elevation: 4,
+    shadowRadius: 4,
+    shadowColor: Color.colorGray2100,
+    width: 345,
+    position: "absolute",
+  },
+  component7Icon: {
+    top: 37,
+    left: 313,
+    width: 20,
+    height: 20,
+    position: "absolute",
+  },
+  text: {
+    top: 12,
+    color: Color.wz2,
+    fontFamily: FontFamily.microsoftYaHeiBold,
+    fontWeight: "700",
+    lineHeight: 12,
+    fontSize: FontSize.size_12,
+    textAlign: "left",
+    left: 15,
+  },
+  text1: {
+    top: 154,
+    left: 46,
+    textAlign: "left",
+  },
+  automaticallyDeleteWithin: {
+    left: 127,
+    textAlign: "right",
+    top: 12,
+    color: Color.wz2,
+    fontFamily: FontFamily.microsoftYaHeiBold,
+    fontWeight: "700",
+    lineHeight: 12,
+    fontSize: FontSize.size_12,
+  },
+  gameIssues: {
+    top: 36,
+    fontSize: FontSize.size_16,
+    lineHeight: 14,
+    textTransform: "capitalize",
+    color: Color.color,
+    left: 15,
+  },
+  rectangleParent: {
+    top: 402,
+    height: 288,
+    width: 345,
+    left: 15,
     position: "absolute",
   },
 });

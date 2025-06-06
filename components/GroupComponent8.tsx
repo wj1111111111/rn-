@@ -3,10 +3,11 @@ import { StyleSheet, View } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
 import Ellipse271 from "../assets/ellipse27";
 import Ellipse281 from "../assets/ellipse28";
-import Vector18110 from "../assets/vector181";
+import Vector1162 from "../assets/vector116";
 import Group2711 from "../assets/group271";
-import Vector220 from "../assets/vector2";
+import Vector216 from "../assets/vector2";
 import Polygon31 from "../assets/polygon3";
+import { Border } from "../GlobalStyles";
 
 const GroupComponent8 = () => {
   return (
@@ -60,7 +61,7 @@ const GroupComponent8 = () => {
         width={89}
         height={16}
       />
-      <Vector18110
+      <Vector1162
         style={[styles.vectorIcon, styles.iconLayout]}
         width={139}
         height={46}
@@ -70,7 +71,7 @@ const GroupComponent8 = () => {
         width={75}
         height={46}
       />
-      <Vector220 style={styles.groupChild3} width={24} height={32} />
+      <Vector216 style={styles.groupChild3} width={24} height={32} />
       <Polygon31
         style={[styles.polygonIcon, styles.iconLayout1]}
         width={18}
@@ -87,7 +88,7 @@ const styles = StyleSheet.create({
   },
   groupChildBg: {
     backgroundColor: "transparent",
-    borderRadius: 16,
+    borderRadius: Border.br_16,
     position: "absolute",
   },
   iconLayout1: {

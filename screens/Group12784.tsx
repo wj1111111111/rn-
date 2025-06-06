@@ -2,6 +2,7 @@ import * as React from "react";
 import { StyleSheet, View } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
 import { SafeAreaView } from "react-native-safe-area-context";
+import { Border } from "../GlobalStyles";
 
 const Group12784 = () => {
   return (
@@ -22,7 +23,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     top: 0,
     left: 0,
-    borderRadius: 6,
+    borderRadius: Border.br_6,
     width: 52,
     backgroundColor: "transparent",
     height: 32,

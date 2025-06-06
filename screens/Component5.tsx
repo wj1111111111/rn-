@@ -3,15 +3,12 @@ import { StyleSheet, View, Image, Text } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
 import { SafeAreaView } from "react-native-safe-area-context";
 import Ellipse76 from "../assets/ellipse7";
-import Component319 from "../assets/";
-import Vector150 from "../assets/vector1";
-import Vector210 from "../assets/vector2";
-import Vector310 from "../assets/vector3";
-import Vector46 from "../assets/vector4";
-import Component320 from "../assets/";
-import Vector526 from "../assets/vector5";
-import Component321 from "../assets/";
-import Vector527 from "../assets/vector5";
+import Component309 from "../assets/";
+import GroupComponent3 from "../components/GroupComponent3";
+import Component310 from "../assets/";
+import Vector426 from "../assets/vector4";
+import Component311 from "../assets/";
+import Vector427 from "../assets/vector4";
 import Stroke254 from "../assets/stroke2";
 import Stroke255 from "../assets/stroke2";
 import Stroke256 from "../assets/stroke2";
@@ -21,37 +18,33 @@ import Stroke259 from "../assets/stroke2";
 import Stroke260 from "../assets/stroke2";
 import Stroke261 from "../assets/stroke2";
 import Stroke262 from "../assets/stroke2";
-import Vector66 from "../assets/vector6";
-import Vector75 from "../assets/vector7";
-import Vector86 from "../assets/vector8";
+import Vector56 from "../assets/vector5";
+import Vector65 from "../assets/vector6";
+import Vector76 from "../assets/vector7";
 import Group8306 from "../assets/group830";
+import Vector86 from "../assets/vector8";
 import Vector96 from "../assets/vector9";
 import Vector106 from "../assets/vector10";
-import Vector1112 from "../assets/vector11";
-import Component322 from "../assets/";
-import Component323 from "../assets/";
-import Component324 from "../assets/";
-import Component325 from "../assets/";
-import Vector1211 from "../assets/vector12";
-import Component326 from "../assets/";
-import Component327 from "../assets/";
-import Vector1313 from "../assets/vector13";
-import Component328 from "../assets/";
-import Vector1410 from "../assets/vector14";
+import GroupComponent2 from "../components/GroupComponent2";
+import Component312 from "../assets/";
+import Component313 from "../assets/";
+import Vector1213 from "../assets/vector12";
+import Component314 from "../assets/";
+import Vector1311 from "../assets/vector13";
 import Union33 from "../assets/union3";
-import Vector154 from "../assets/vector15";
-import Component329 from "../assets/";
+import Vector147 from "../assets/vector14";
+import Component315 from "../assets/";
 import Group8488 from "../assets/group848";
-import Component330 from "../assets/";
+import Component316 from "../assets/";
 import Group121103 from "../assets/group12110";
 import Group121063 from "../assets/group12106";
-import Component331 from "../assets/";
-import { Color } from "../GlobalStyles";
+import Component317 from "../assets/";
+import { FontFamily, Border, Color, FontSize } from "../GlobalStyles";
 
 const Component5 = () => {
   return (
     <SafeAreaView style={styles.safeareaview}>
-      <View style={[styles.groupParent, styles.parentLayout]}>
+      <View style={[styles.groupParent, styles.child1Position]}>
         <View style={styles.itemPosition}>
           <View style={styles.itemPosition}>
             <LinearGradient
@@ -86,45 +79,29 @@ const Component5 = () => {
             height={40}
           />
           <Image
-            style={[styles.icon, styles.iconLayout2]}
+            style={[styles.icon, styles.iconLayout3]}
             resizeMode="cover"
             source={require("../assets/8713-1.png")}
           />
         </View>
-        <Component319 style={styles.icon1} width={10} height={10} />
-        <Text style={[styles.text, styles.textTypo]}>98955464616</Text>
-        <Text style={[styles.userName, styles.textTypo]}>User name</Text>
-        <Text style={[styles.teamsCenter, styles.text1Typo]}>Teams center</Text>
-        <Text style={[styles.text1, styles.text1Typo]}>₱ 1324.00</Text>
-        <Text style={styles.balance}>Balance</Text>
-        <View style={[styles.rectangleParent, styles.groupInnerLayout]}>
-          <View style={[styles.groupInner, styles.groupInnerPosition]} />
-          <Text style={[styles.depositRecord, styles.recordFlexBox]}>
-            Deposit Record
-          </Text>
-          <Text style={[styles.withdrawalRecord, styles.recordFlexBox]}>
-            Withdrawal Record
-          </Text>
-          <Text style={[styles.bettingRecord, styles.recordFlexBox]}>{`Betting
-Record`}</Text>
-          <Text style={[styles.accountRecord, styles.recordFlexBox]}>{`Account
-Record`}</Text>
-          <Vector150 style={[styles.vectorIcon, styles.iconLayout1]} />
-          <Vector210 style={[styles.vectorIcon1, styles.iconLayout1]} />
-          <Vector310 style={[styles.vectorIcon2, styles.iconLayout1]} />
-          <Vector46 style={[styles.vectorIcon3, styles.iconLayout1]} />
-        </View>
-        <View style={[styles.rectangleContainer, styles.rectangleLayout]}>
-          <View style={[styles.rectangleView, styles.rectangleLayout]} />
+        <Component309 style={styles.icon1} width={10} height={10} />
+        <Text style={[styles.text, styles.textFlexBox]}>98955464616</Text>
+        <Text style={[styles.userName, styles.vip4Typo]}>User name</Text>
+        <Text style={[styles.teamsCenter, styles.text1Text]}>Teams center</Text>
+        <Text style={[styles.text1, styles.text1Text]}>₱ 1324.00</Text>
+        <Text style={[styles.balance, styles.vip4Typo]}>Balance</Text>
+        <GroupComponent3 />
+        <View style={styles.rectangleContainer}>
+          <View style={styles.groupInner} />
         </View>
         <View style={[styles.group, styles.groupLayout3]}>
-          <Component320
+          <Component310
             style={[styles.icon2, styles.iconPosition3]}
             width={124}
             height={36}
           />
-          <Vector526
-            style={[styles.vectorIcon4, styles.vectorIconLayout1]}
+          <Vector426
+            style={[styles.vectorIcon, styles.vectorIconLayout1]}
             width={16}
             height={12}
           />
@@ -135,7 +112,7 @@ Record`}</Text>
           </View>
         </View>
         <View style={[styles.container, styles.icon3Layout]}>
-          <Component321
+          <Component311
             style={[styles.icon3, styles.icon3Layout]}
             width={136}
             height={36}
@@ -145,93 +122,95 @@ Record`}</Text>
               Withdrawal
             </Text>
           </View>
-          <Vector527
-            style={[styles.vectorIcon5, styles.vectorIconLayout1]}
+          <Vector427
+            style={[styles.vectorIcon1, styles.vectorIconLayout1]}
             width={16}
             height={12}
           />
         </View>
-        <View style={[styles.groupContainer, styles.groupLayout2]}>
-          <View style={[styles.rectangleGroup, styles.groupLayout2]}>
+        <View style={[styles.groupContainer, styles.rectangleLayout]}>
+          <View style={[styles.rectangleParent, styles.rectangleLayout]}>
             <LinearGradient
-              style={[styles.rectangleLineargradient, styles.groupLayout2]}
+              style={[styles.rectangleLineargradient, styles.rectangleLayout]}
               locations={[0, 1]}
               colors={["#373c42", "#2c3135"]}
               useAngle={true}
               angle={180}
             />
             <View style={styles.vip4Wrapper}>
-              <Text style={[styles.vip4, styles.iconGroupPosition]}>VIP 4</Text>
+              <Text style={[styles.vip4, styles.vip4Typo]}>VIP 4</Text>
             </View>
           </View>
           <Image
-            style={[styles.v4Icon, styles.iconLayout2]}
+            style={[styles.v4Icon, styles.iconLayout3]}
             resizeMode="cover"
             source={require("../assets/v4.png")}
           />
         </View>
-        <View style={styles.groupChild1} />
+        <View style={styles.rectangleView} />
         <Stroke254
-          style={[styles.strokeIcon, styles.iconLayout]}
+          style={[styles.strokeIcon, styles.iconLayout2]}
           width={8}
           height={13}
         />
         <Stroke255
-          style={[styles.strokeIcon1, styles.iconLayout]}
+          style={[styles.strokeIcon1, styles.iconLayout2]}
           width={8}
           height={13}
         />
         <Stroke256
-          style={[styles.strokeIcon2, styles.iconLayout]}
+          style={[styles.strokeIcon2, styles.iconLayout2]}
           width={8}
           height={13}
         />
         <Stroke257
-          style={[styles.strokeIcon3, styles.iconLayout]}
+          style={[styles.strokeIcon3, styles.iconLayout2]}
           width={8}
           height={13}
         />
         <Stroke258
-          style={[styles.strokeIcon4, styles.iconLayout]}
+          style={[styles.strokeIcon4, styles.iconLayout2]}
           width={8}
           height={13}
         />
         <Stroke259
-          style={[styles.strokeIcon5, styles.iconLayout]}
+          style={[styles.strokeIcon5, styles.iconLayout2]}
           width={8}
           height={13}
         />
         <Stroke260
-          style={[styles.strokeIcon6, styles.iconLayout]}
+          style={[styles.strokeIcon6, styles.iconLayout2]}
           width={8}
           height={13}
         />
         <Stroke261
-          style={[styles.strokeIcon7, styles.iconLayout]}
+          style={[styles.strokeIcon7, styles.iconLayout2]}
           width={8}
           height={13}
         />
         <Stroke262
-          style={[styles.strokeIcon8, styles.iconLayout]}
+          style={[styles.strokeIcon8, styles.iconLayout2]}
           width={8}
           height={13}
         />
         <View style={[styles.lineView, styles.groupChildLayout]} />
+        <View style={[styles.groupChild1, styles.groupChildLayout]} />
         <View style={[styles.groupChild2, styles.groupChildLayout]} />
         <View style={[styles.groupChild3, styles.groupChildLayout]} />
         <View style={[styles.groupChild4, styles.groupChildLayout]} />
         <View style={[styles.groupChild5, styles.groupChildLayout]} />
-        <View style={[styles.groupChild6, styles.groupChildLayout]} />
-        <Text style={[styles.promotion, styles.vipTypo]}>Promotion</Text>
-        <Text style={[styles.vip, styles.vipTypo]}>VIP</Text>
+        <Text style={[styles.promotion, styles.vipPosition]}>Promotion</Text>
+        <Text style={[styles.vip, styles.passwordContainerTypo]}>VIP</Text>
         <View style={[styles.settingParent, styles.parentPosition]}>
           <Text style={[styles.setting, styles.settingTypo]}>Setting</Text>
-          <Vector66 style={[styles.vectorIcon6, styles.iconPosition2]} />
+          <Vector56 style={[styles.vectorIcon2, styles.iconLayout]} />
         </View>
-        <Text style={[styles.logout, styles.vipTypo]}>Logout</Text>
-        <Vector75 style={[styles.vectorIcon7, styles.vectorIconPosition]} />
+        <Text style={[styles.logout, styles.passwordContainerTypo]}>
+          Logout
+        </Text>
+        <Vector65 style={[styles.vectorIcon3, styles.vectorIconPosition]} />
         <View style={styles.vectorParent}>
-          <Vector86 style={[styles.vectorIcon8, styles.iconPosition2]} />
+          <Vector76 style={[styles.vectorIcon4, styles.iconLayout]} />
           <Text style={[styles.liveSupport, styles.settingTypo]}>
             Live Support
           </Text>
@@ -240,17 +219,17 @@ Record`}</Text>
           <Text style={[styles.notification, styles.settingTypo]}>
             Notification
           </Text>
-          <Group8306 style={[styles.groupIcon, styles.iconPosition2]} />
+          <Group8306 style={[styles.groupIcon, styles.iconLayout]} />
         </View>
         <Text
-          style={[styles.free28Bonus, styles.groupLayout1]}
+          style={[styles.free28Bonus, styles.groupLayout2]}
         >{`Free ₱28 bonus by
 downloading the official APP`}</Text>
-        <Vector96 style={[styles.vectorIcon9, styles.vectorIconPosition]} />
+        <Vector86 style={[styles.vectorIcon5, styles.vectorIconPosition]} />
         <Image
-          style={[styles.icon4, styles.iconLayout]}
+          style={[styles.icon4, styles.iconLayout2]}
           resizeMode="cover"
-          source={require("../assets/-16.png")}
+          source={require("../assets/-111.png")}
         />
         <Image
           style={[styles.group120051, styles.child2Layout]}
@@ -258,24 +237,24 @@ downloading the official APP`}</Text>
           source={require("../assets/group-12005-1.png")}
         />
         <Image
-          style={[styles.groupChild7, styles.groupLayout]}
+          style={[styles.groupChild6, styles.groupLayout1]}
           resizeMode="cover"
           source={require("../assets/group-12097.png")}
         />
         <Image
-          style={[styles.invite1Icon, styles.iconLayout1]}
+          style={[styles.invite1Icon, styles.iconLayout]}
           resizeMode="cover"
           source={require("../assets/invite-1.png")}
         />
+        <View style={[styles.groupChild7, styles.groupChildLayout]} />
         <View style={[styles.groupChild8, styles.groupChildLayout]} />
-        <View style={[styles.groupChild9, styles.groupChildLayout]} />
         <Text style={[styles.invite, styles.spinTypo]}>Invite -</Text>
         <Text style={[styles.spin, styles.spinTypo]}>Spin -</Text>
         <Text style={[styles.cashback, styles.spinTypo]}>Cashback -</Text>
         <Text
           style={[
             styles.reconnendFriendsToContainer,
-            styles.passwordContainerLayout,
+            styles.passwordContainerTypo,
           ]}
         >
           {`Reconnend friends
@@ -283,88 +262,70 @@ To join`}{" "}
           jbet88 and Earn money
         </Text>
         <Text
-          style={[styles.winRealMoneyContainer, styles.passwordContainerLayout]}
+          style={[styles.winRealMoneyContainer, styles.passwordContainerTypo]}
         >
           {`Win real money `}₱500
         </Text>
-        <Text style={[styles.weeklyMax20, styles.passwordContainerLayout]}>
+        <Text style={[styles.weeklyMax20, styles.passwordContainerTypo]}>
           {`Weekly `}Max:20%
         </Text>
-        <Vector106 style={[styles.vectorIcon10, styles.vectorIconLayout]} />
-        <View style={[styles.groupView, styles.groupLayout1]}>
+        <Vector96 style={[styles.vectorIcon6, styles.vectorIconLayout]} />
+        <View style={[styles.rectangleGroup, styles.groupLayout2]}>
           <LinearGradient
-            style={[styles.groupChild10, styles.icon14Position]}
+            style={[styles.groupChild9, styles.icon10Position]}
             locations={[0, 1]}
             colors={["#76cd01", "#498d03"]}
             useAngle={true}
             angle={180}
           />
-          <Text style={[styles.instalall, styles.passwordContainerLayout]}>
+          <Text style={[styles.instalall, styles.passwordContainerTypo]}>
             INSTALALL
           </Text>
         </View>
-        <Vector1112 style={[styles.vectorIcon11, styles.vectorIconLayout]} />
-        <View style={[styles.parent1, styles.parentLayout]}>
-          <Component322 style={[styles.icon5, styles.iconPosition1]} />
-          <Component323 style={[styles.icon6, styles.iconPosition]} />
-          <Component324 style={[styles.icon7, styles.iconPosition]} />
-          <Component325 style={[styles.icon8, styles.iconPosition]} />
-          <Text style={[styles.members, styles.depositTypo]}>Home</Text>
-          <Text style={[styles.promotion1, styles.depositTypo]}>Promotion</Text>
-          <Text style={[styles.home, styles.depositTypo]}>Teams</Text>
-          <Text style={[styles.deposit1, styles.depositTypo]}>Deposit</Text>
-          <Text style={[styles.deposit2, styles.depositTypo]}>Invite</Text>
-          <Vector1211 style={[styles.vectorIcon12, styles.iconPosition]} />
-          <Image
-            style={[styles.invite1Icon1, styles.iconLayout1]}
-            resizeMode="cover"
-            source={require("../assets/invite-11.png")}
-          />
-        </View>
+        <Vector106 style={[styles.vectorIcon7, styles.vectorIconLayout]} />
+        <GroupComponent2 />
       </View>
-      <View style={[styles.child1, styles.parentLayout]} />
-      <View style={[styles.rectangleParent1, styles.groupChild11Layout]}>
-        <View style={[styles.groupChild11, styles.groupChildBorder]} />
+      <View style={[styles.child1, styles.child1Position]} />
+      <View style={[styles.groupView, styles.groupLayout]}>
+        <View style={[styles.groupChild10, styles.groupChildBorder]} />
         <Text style={[styles.receiveRewardsAfter, styles.loginTypo]}>
           Receive rewards after completing mobilephone verification
         </Text>
-        <Component326 style={[styles.icon9, styles.iconLayout1]} />
+        <Component312 style={[styles.icon5, styles.iconLayout]} />
         <Text style={[styles.username, styles.usernameTypo]}>1234567890|</Text>
-        <Component327 style={[styles.icon10, styles.iconLayout1]} />
+        <Component313 style={[styles.icon6, styles.iconLayout]} />
         <Text style={[styles.username1, styles.usernameTypo]}>+55</Text>
-        <View style={[styles.groupChild12, styles.groupChildBorder]} />
-        <Vector1313 style={[styles.vectorIcon13, styles.iconLayout1]} />
+        <View style={[styles.groupChild11, styles.groupChildBorder]} />
+        <Vector1213 style={[styles.vectorIcon8, styles.iconLayout]} />
         <Image
           style={styles.d62a6059252dd42a1fed252c093b5bIcon}
           resizeMode="cover"
           source={require("../assets/d62a6059252dd42a1fed252c093b5bb5c8eab854-1.png")}
         />
-        <View style={[styles.parent2, styles.icon11Layout]}>
-          <Component328
-            style={[styles.icon11, styles.icon11Layout]}
+        <View style={[styles.parent1, styles.icon7Layout]}>
+          <Component314
+            style={[styles.icon7, styles.icon7Layout]}
             width={321}
             height={48}
           />
-          <Text
-            style={[styles.confirmPassword, styles.passwordContainerLayout]}
-          >
+          <Text style={[styles.confirmPassword, styles.passwordContainerTypo]}>
             SMS
           </Text>
-          <Vector1410
-            style={[styles.vectorIcon14, styles.vectorIcon14Position]}
+          <Vector1311
+            style={[styles.vectorIcon9, styles.vectorIcon9Position]}
           />
         </View>
         <View style={[styles.unionParent, styles.unionLayout]}>
           <Union33 style={styles.unionLayout} width={321} height={84} />
-          <Vector154 style={[styles.vectorIcon15, styles.iconLayout1]} />
+          <Vector147 style={[styles.vectorIcon10, styles.iconLayout]} />
           <Text style={styles.theMobileNumber}>
             The mobile number will be used to check that your money is safe when
             you try to withdraw
           </Text>
         </View>
-        <View style={[styles.parent3, styles.icon12Layout]}>
-          <Component329
-            style={[styles.icon12, styles.icon12Layout]}
+        <View style={[styles.parent2, styles.icon8Layout]}>
+          <Component315
+            style={[styles.icon8, styles.icon8Layout]}
             width={322}
             height={50}
           />
@@ -378,27 +339,23 @@ To join`}{" "}
         width={32}
         height={32}
       />
-      <View style={styles.parent4}>
-        <Component330 style={[styles.icon13, styles.iconPosition1]} />
+      <View style={styles.parent3}>
+        <Component316 style={[styles.icon9, styles.iconLayout]} />
         <Group121103
-          style={[styles.groupChild13, styles.vectorIcon14Position]}
+          style={[styles.groupChild12, styles.vectorIcon9Position]}
         />
-        <Text style={[styles.password, styles.passwordContainerLayout]}>
+        <Text style={[styles.password, styles.passwordContainerTypo]}>
           verification code
         </Text>
-        <Group121063
-          style={[styles.groupChild14, styles.icon14Layout]}
-          width={86}
-          height={34}
-        />
+        <Group121063 style={styles.groupChild13} width={86} height={34} />
       </View>
-      <View style={[styles.parent5, styles.icon14Layout]}>
-        <Component331
-          style={[styles.icon14, styles.icon14Layout]}
+      <View style={[styles.parent4, styles.icon10Layout]}>
+        <Component317
+          style={[styles.icon10, styles.icon10Layout]}
           width={77}
           height={34}
         />
-        <Text style={[styles.confirmPassword1, styles.passwordContainerLayout]}>
+        <Text style={[styles.confirmPassword1, styles.passwordContainerTypo]}>
           Get code
         </Text>
       </View>
@@ -407,8 +364,10 @@ To join`}{" "}
 };
 
 const styles = StyleSheet.create({
-  parentLayout: {
+  child1Position: {
     width: 375,
+    left: 0,
+    top: 0,
     position: "absolute",
   },
   itemPosition: {
@@ -423,20 +382,20 @@ const styles = StyleSheet.create({
     width: 40,
     position: "absolute",
   },
-  iconLayout2: {
+  iconLayout3: {
     height: 24,
     width: 24,
     position: "absolute",
   },
-  textTypo: {
-    left: 76,
+  textFlexBox: {
     textAlign: "left",
-    fontFamily: "Arial",
     lineHeight: 14,
-    fontSize: 14,
-    position: "absolute",
   },
-  text1Typo: {
+  vip4Typo: {
+    fontFamily: FontFamily.microsoftYaHeiBold,
+    fontWeight: "700",
+  },
+  text1Text: {
     textShadowRadius: 2,
     textShadowOffset: {
       width: 0,
@@ -445,33 +404,6 @@ const styles = StyleSheet.create({
     textShadowColor: "rgba(0, 0, 0, 0.25)",
     lineHeight: 18,
     textAlign: "left",
-    fontFamily: "Arial",
-    position: "absolute",
-  },
-  groupInnerLayout: {
-    height: 81,
-    width: 345,
-    position: "absolute",
-  },
-  groupInnerPosition: {
-    backgroundColor: Color.bg3,
-    borderRadius: 8,
-    left: 0,
-    top: 0,
-  },
-  recordFlexBox: {
-    textAlign: "center",
-    color: Color.wz1,
-  },
-  iconLayout1: {
-    maxHeight: "100%",
-    maxWidth: "100%",
-    position: "absolute",
-    overflow: "hidden",
-  },
-  rectangleLayout: {
-    height: 168,
-    width: 345,
     position: "absolute",
   },
   groupLayout3: {
@@ -479,7 +411,7 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   iconPosition3: {
-    borderRadius: 30,
+    borderRadius: Border.br_30,
     left: 0,
     top: 0,
   },
@@ -498,16 +430,12 @@ const styles = StyleSheet.create({
     height: 36,
     position: "absolute",
   },
-  groupLayout2: {
+  rectangleLayout: {
     height: 28,
     width: 79,
     position: "absolute",
   },
-  iconGroupPosition: {
-    left: 0,
-    top: 0,
-  },
-  iconLayout: {
+  iconLayout2: {
     height: 13,
     position: "absolute",
   },
@@ -516,18 +444,22 @@ const styles = StyleSheet.create({
     width: 316,
     borderTopWidth: 1,
     borderRadius: 0.001,
-    borderColor: "#292f36",
+    borderColor: Color.colorDarkslategray700,
     borderStyle: "dashed",
     left: 30,
     position: "absolute",
   },
-  vipTypo: {
+  vipPosition: {
     left: 65,
     color: Color.wz1,
+    fontSize: FontSize.size_14,
+  },
+  passwordContainerTypo: {
+    lineHeight: 12,
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
     textAlign: "left",
-    fontFamily: "Arial",
-    fontSize: 14,
+    position: "absolute",
   },
   parentPosition: {
     left: 33,
@@ -535,20 +467,16 @@ const styles = StyleSheet.create({
   },
   settingTypo: {
     left: 32,
-    color: Color.wz1,
     lineHeight: 12,
+    color: Color.wz1,
     textTransform: "capitalize",
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
     textAlign: "left",
-    fontFamily: "Arial",
-    fontSize: 14,
+    fontSize: FontSize.size_14,
     position: "absolute",
   },
-  iconPosition2: {
-    left: "0%",
-    bottom: "0%",
-    top: "0%",
-    height: "100%",
+  iconLayout: {
     maxHeight: "100%",
     maxWidth: "100%",
     position: "absolute",
@@ -561,7 +489,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     overflow: "hidden",
   },
-  groupLayout1: {
+  groupLayout2: {
     height: 30,
     position: "absolute",
   },
@@ -569,22 +497,18 @@ const styles = StyleSheet.create({
     height: 32,
     position: "absolute",
   },
-  groupLayout: {
+  groupLayout1: {
     width: 36,
     left: 24,
   },
   spinTypo: {
     left: 70,
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
     textAlign: "left",
     color: Color.color,
-    fontFamily: "Arial",
     lineHeight: 14,
-    fontSize: 14,
-    position: "absolute",
-  },
-  passwordContainerLayout: {
-    lineHeight: 12,
+    fontSize: FontSize.size_14,
     position: "absolute",
   },
   vectorIconLayout: {
@@ -594,39 +518,12 @@ const styles = StyleSheet.create({
     position: "absolute",
     overflow: "hidden",
   },
-  icon14Position: {
-    borderRadius: 4,
+  icon10Position: {
+    borderRadius: Border.br_4,
     left: 0,
     top: 0,
   },
-  iconPosition1: {
-    right: "0%",
-    left: "0%",
-    bottom: "0%",
-    maxHeight: "100%",
-    maxWidth: "100%",
-    position: "absolute",
-    overflow: "hidden",
-    width: "100%",
-  },
-  iconPosition: {
-    bottom: "40.51%",
-    top: "34.18%",
-    height: "25.32%",
-    maxHeight: "100%",
-    maxWidth: "100%",
-    position: "absolute",
-    overflow: "hidden",
-  },
-  depositTypo: {
-    top: "65.82%",
-    lineHeight: 12,
-    fontSize: 12,
-    fontWeight: "700",
-    fontFamily: "Arial",
-    position: "absolute",
-  },
-  groupChild11Layout: {
+  groupLayout: {
     height: 428,
     left: "50%",
     marginLeft: -172.5,
@@ -639,25 +536,25 @@ const styles = StyleSheet.create({
   loginTypo: {
     lineHeight: 16,
     textTransform: "capitalize",
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
     textAlign: "left",
-    fontFamily: "Arial",
     position: "absolute",
   },
   usernameTypo: {
     top: "18.22%",
     lineHeight: 12,
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
     textAlign: "left",
-    fontFamily: "Arial",
     position: "absolute",
   },
-  icon11Layout: {
+  icon7Layout: {
     height: 48,
     width: 321,
     position: "absolute",
   },
-  vectorIcon14Position: {
+  vectorIcon9Position: {
     left: "3.74%",
     maxHeight: "100%",
     maxWidth: "100%",
@@ -665,12 +562,13 @@ const styles = StyleSheet.create({
     overflow: "hidden",
   },
   unionLayout: {},
-  icon12Layout: {
+  icon8Layout: {
     height: 50,
     width: 322,
     position: "absolute",
   },
-  icon14Layout: {
+  icon10Layout: {
+    width: 77,
     height: 34,
     position: "absolute",
   },
@@ -681,10 +579,10 @@ const styles = StyleSheet.create({
     opacity: 0.4,
   },
   maskGroupIcon: {
+    top: 45,
     height: 192,
     width: 345,
     left: 15,
-    top: 45,
     position: "absolute",
   },
   groupItem: {
@@ -707,161 +605,85 @@ const styles = StyleSheet.create({
   },
   text: {
     top: 82,
-    textAlign: "left",
     color: Color.color,
-    fontFamily: "Arial",
+    fontFamily: FontFamily.microsoftYaHei,
     fontWeight: "900",
+    fontSize: FontSize.size_14,
+    left: 76,
     lineHeight: 14,
-    fontSize: 14,
+    position: "absolute",
   },
   userName: {
     top: 65,
-    color: "#e7e7e7",
-    fontWeight: "700",
+    color: Color.colorGainsboro100,
     textAlign: "left",
-    fontFamily: "Arial",
     lineHeight: 14,
-    fontSize: 14,
+    fontSize: FontSize.size_14,
+    left: 76,
+    position: "absolute",
   },
   teamsCenter: {
     top: 256,
     textTransform: "capitalize",
-    fontSize: 16,
+    fontSize: FontSize.size_16,
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
     color: Color.color,
     left: 15,
+    textShadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    textShadowColor: "rgba(0, 0, 0, 0.25)",
   },
   text1: {
     top: 146,
-    fontSize: 24,
+    fontSize: FontSize.size_24,
     color: Color.color9,
+    fontFamily: FontFamily.microsoftYaHei,
     fontWeight: "900",
     left: 30,
   },
   balance: {
     top: 124,
-    fontWeight: "700",
     textAlign: "left",
-    color: Color.color,
-    fontFamily: "Arial",
     lineHeight: 14,
-    fontSize: 14,
+    color: Color.color,
+    fontSize: FontSize.size_14,
     left: 30,
     position: "absolute",
   },
   groupInner: {
-    height: 81,
-    width: 345,
-    position: "absolute",
-  },
-  depositRecord: {
-    width: 63,
-    lineHeight: 12,
-    position: "absolute",
-    fontSize: 12,
-    left: 176,
-    fontWeight: "700",
-    fontFamily: "Arial",
-    top: 45,
-    textAlign: "center",
-  },
-  withdrawalRecord: {
-    left: 252,
-    width: 77,
-    lineHeight: 12,
-    position: "absolute",
-    fontSize: 12,
-    fontWeight: "700",
-    fontFamily: "Arial",
-    top: 45,
-    textAlign: "center",
-  },
-  bettingRecord: {
-    left: 21,
-    lineHeight: 12,
-    position: "absolute",
-    fontSize: 12,
-    fontWeight: "700",
-    fontFamily: "Arial",
-    top: 45,
-    textAlign: "center",
-  },
-  accountRecord: {
-    left: 100,
-    lineHeight: 12,
-    position: "absolute",
-    fontSize: 12,
-    fontWeight: "700",
-    fontFamily: "Arial",
-    top: 45,
-    textAlign: "center",
-  },
-  vectorIcon: {
-    right: "84.06%",
-    left: "8.41%",
-    bottom: "51.85%",
-    height: "32.1%",
-    maxWidth: "100%",
-    top: "16.05%",
-    width: "7.54%",
-  },
-  vectorIcon1: {
-    width: "5.97%",
-    right: "60.99%",
-    left: "33.04%",
-    bottom: "51.85%",
-    height: "32.1%",
-    maxWidth: "100%",
-    top: "16.05%",
-  },
-  vectorIcon2: {
-    height: "31.98%",
-    right: "36.52%",
-    bottom: "51.98%",
-    left: "55.94%",
-    borderRadius: 6,
-    top: "16.05%",
-    maxWidth: "100%",
-    width: "7.54%",
-  },
-  vectorIcon3: {
-    width: "7.07%",
-    right: "12.35%",
-    left: "80.58%",
-    bottom: "51.85%",
-    height: "32.1%",
-    maxWidth: "100%",
-    top: "16.05%",
-  },
-  rectangleParent: {
-    top: 284,
-    left: 15,
-  },
-  rectangleView: {
     backgroundColor: Color.bg3,
-    borderRadius: 8,
+    borderRadius: Border.br_8,
+    height: 168,
+    width: 345,
     left: 0,
     top: 0,
+    position: "absolute",
   },
   rectangleContainer: {
     top: 375,
+    height: 168,
+    width: 345,
     left: 15,
+    position: "absolute",
   },
   icon2: {
     position: "absolute",
   },
-  vectorIcon4: {
+  vectorIcon: {
     left: 22,
   },
   deposit: {
     width: 59,
     height: 16,
     textAlign: "left",
-    color: Color.color,
-    fontFamily: "Arial",
-    fontWeight: "900",
     lineHeight: 14,
-    fontSize: 14,
+    color: Color.color,
+    fontFamily: FontFamily.microsoftYaHei,
+    fontWeight: "900",
+    fontSize: FontSize.size_14,
     left: 0,
     top: 0,
   },
@@ -872,24 +694,24 @@ const styles = StyleSheet.create({
     top: 10,
   },
   group: {
+    left: 176,
     width: 124,
     height: 36,
     top: 184,
-    left: 176,
   },
   icon3: {
-    borderRadius: 30,
+    borderRadius: Border.br_30,
     left: 0,
     top: 0,
   },
   withdrawal: {
     width: 87,
     textAlign: "left",
-    color: Color.color,
-    fontFamily: "Arial",
-    fontWeight: "900",
     lineHeight: 14,
-    fontSize: 14,
+    color: Color.color,
+    fontFamily: FontFamily.microsoftYaHei,
+    fontWeight: "900",
+    fontSize: FontSize.size_14,
     left: 0,
     top: 0,
   },
@@ -898,7 +720,7 @@ const styles = StyleSheet.create({
     width: 87,
     top: 10,
   },
-  vectorIcon5: {
+  vectorIcon1: {
     left: 14,
   },
   container: {
@@ -906,18 +728,18 @@ const styles = StyleSheet.create({
     left: 30,
   },
   rectangleLineargradient: {
-    borderRadius: 30,
+    borderRadius: Border.br_30,
     left: 0,
     top: 0,
     backgroundColor: "transparent",
   },
   vip4: {
-    fontWeight: "700",
     textAlign: "left",
-    color: Color.color,
-    fontFamily: "Arial",
     lineHeight: 14,
-    fontSize: 14,
+    color: Color.color,
+    fontSize: FontSize.size_14,
+    left: 0,
+    top: 0,
     position: "absolute",
   },
   vip4Wrapper: {
@@ -927,7 +749,7 @@ const styles = StyleSheet.create({
     top: 7,
     position: "absolute",
   },
-  rectangleGroup: {
+  rectangleParent: {
     left: 0,
     top: 0,
   },
@@ -939,13 +761,13 @@ const styles = StyleSheet.create({
     left: 266,
     top: 60,
   },
-  groupChild1: {
+  rectangleView: {
     top: 553,
     height: 347,
     left: "50%",
     marginLeft: -172.5,
     backgroundColor: Color.bg3,
-    borderRadius: 8,
+    borderRadius: Border.br_8,
     width: 345,
     position: "absolute",
   },
@@ -988,38 +810,48 @@ const styles = StyleSheet.create({
   lineView: {
     top: 651,
   },
-  groupChild2: {
+  groupChild1: {
     top: 603,
   },
-  groupChild3: {
+  groupChild2: {
     top: 699,
   },
-  groupChild4: {
+  groupChild3: {
     top: 747,
   },
-  groupChild5: {
+  groupChild4: {
     top: 797,
   },
-  groupChild6: {
+  groupChild5: {
     top: 845,
   },
   promotion: {
+    color: Color.wz1,
     top: 620,
+    fontFamily: FontFamily.microsoftYaHeiBold,
+    fontWeight: "700",
+    textAlign: "left",
     lineHeight: 14,
     position: "absolute",
   },
   vip: {
     top: 573,
-    lineHeight: 12,
-    position: "absolute",
+    color: Color.wz1,
+    left: 65,
+    fontSize: FontSize.size_14,
     textTransform: "capitalize",
   },
   setting: {
     top: 4,
   },
-  vectorIcon6: {
+  vectorIcon2: {
     width: "25%",
     right: "75%",
+    left: "0%",
+    bottom: "0%",
+    top: "0%",
+    height: "100%",
+    maxWidth: "100%",
   },
   settingParent: {
     top: 762,
@@ -1028,20 +860,26 @@ const styles = StyleSheet.create({
   },
   logout: {
     top: 863,
-    lineHeight: 12,
-    position: "absolute",
+    color: Color.wz1,
+    left: 65,
+    fontSize: FontSize.size_14,
     textTransform: "capitalize",
   },
-  vectorIcon7: {
+  vectorIcon3: {
     width: "5.57%",
     top: "95.44%",
     right: "85.89%",
     bottom: "2.33%",
     height: "2.22%",
   },
-  vectorIcon8: {
+  vectorIcon4: {
     width: "16.81%",
     right: "83.19%",
+    left: "0%",
+    bottom: "0%",
+    top: "0%",
+    height: "100%",
+    maxWidth: "100%",
   },
   liveSupport: {
     top: 4,
@@ -1062,6 +900,11 @@ const styles = StyleSheet.create({
   groupIcon: {
     width: "18.36%",
     right: "81.64%",
+    left: "0%",
+    bottom: "0%",
+    top: "0%",
+    height: "100%",
+    maxWidth: "100%",
   },
   notificationParent: {
     top: 662,
@@ -1072,15 +915,15 @@ const styles = StyleSheet.create({
     width: 215,
     top: 710,
     height: 30,
-    left: 65,
     color: Color.wz1,
+    left: 65,
+    fontSize: FontSize.size_14,
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
     textAlign: "left",
-    fontFamily: "Arial",
-    fontSize: 14,
     lineHeight: 14,
   },
-  vectorIcon9: {
+  vectorIcon5: {
     height: "2%",
     width: "6.11%",
     top: "63.33%",
@@ -1097,7 +940,7 @@ const styles = StyleSheet.create({
     width: 36,
     left: 24,
   },
-  groupChild7: {
+  groupChild6: {
     top: 441,
     height: 36,
     position: "absolute",
@@ -1110,10 +953,10 @@ const styles = StyleSheet.create({
     bottom: "53.22%",
     left: "6.4%",
   },
-  groupChild8: {
+  groupChild7: {
     top: 431,
   },
-  groupChild9: {
+  groupChild8: {
     top: 487,
   },
   invite: {
@@ -1128,35 +971,26 @@ const styles = StyleSheet.create({
   reconnendFriendsToContainer: {
     top: 391,
     left: 126,
-    fontSize: 12,
-    fontWeight: "700",
-    textAlign: "left",
-    fontFamily: "Arial",
+    fontSize: FontSize.size_12,
   },
   winRealMoneyContainer: {
     top: 453,
     left: 119,
-    fontSize: 12,
-    fontWeight: "700",
-    textAlign: "left",
-    fontFamily: "Arial",
+    fontSize: FontSize.size_12,
   },
   weeklyMax20: {
     top: 509,
     left: 155,
-    fontSize: 12,
-    fontWeight: "700",
-    textAlign: "left",
-    fontFamily: "Arial",
+    fontSize: FontSize.size_12,
   },
-  vectorIcon10: {
+  vectorIcon6: {
     height: "1.89%",
     top: "79.33%",
     right: "85.87%",
     bottom: "18.78%",
     left: "8.8%",
   },
-  groupChild10: {
+  groupChild9: {
     height: 30,
     position: "absolute",
     width: 80,
@@ -1165,103 +999,33 @@ const styles = StyleSheet.create({
   instalall: {
     top: 9,
     left: 7,
-    fontSize: 12,
-    fontWeight: "700",
-    textAlign: "left",
+    fontSize: FontSize.size_12,
     color: Color.color,
-    fontFamily: "Arial",
   },
-  groupView: {
+  rectangleGroup: {
     left: 265,
     top: 710,
     height: 30,
     width: 80,
   },
-  vectorIcon11: {
+  vectorIcon7: {
     top: "68.56%",
     right: "85.6%",
     bottom: "29.22%",
     left: "9.07%",
     height: "2.22%",
   },
-  icon5: {
-    height: "81.01%",
-    top: "18.99%",
-  },
-  icon6: {
-    width: "5.2%",
-    right: "7.33%",
-    left: "87.47%",
-  },
-  icon7: {
-    width: "5.28%",
-    right: "26.72%",
-    left: "68%",
-  },
-  icon8: {
-    width: "5.36%",
-    right: "67.71%",
-    left: "26.93%",
-  },
-  members: {
-    left: "5.33%",
-    color: Color.wz1,
-    textAlign: "left",
-  },
-  promotion1: {
-    left: "21.6%",
-    textAlign: "center",
-    color: Color.wz1,
-  },
-  home: {
-    left: "83.73%",
-    color: Color.color3,
-    textAlign: "left",
-  },
-  deposit1: {
-    left: "64.53%",
-    color: Color.wz1,
-    textAlign: "left",
-  },
-  deposit2: {
-    left: "45.87%",
-    color: Color.wz1,
-    textAlign: "left",
-  },
-  vectorIcon12: {
-    width: "6.32%",
-    right: "87.01%",
-    left: "6.67%",
-  },
-  invite1Icon1: {
-    height: "68.35%",
-    width: "14.4%",
-    top: "-6.33%",
-    right: "42.67%",
-    bottom: "37.97%",
-    left: "42.93%",
-  },
-  parent1: {
-    marginLeft: -187.5,
-    bottom: 88,
-    height: 79,
-    left: "50%",
-  },
   groupParent: {
     height: 900,
-    left: 0,
-    top: 0,
   },
   child1: {
-    backgroundColor: "#000",
+    backgroundColor: Color.colorBlack,
     opacity: 0.8,
-    left: 0,
-    top: 0,
     height: 812,
   },
-  groupChild11: {
-    borderRadius: 12,
-    borderColor: "#2c353e",
+  groupChild10: {
+    borderRadius: Border.br_12,
+    borderColor: Color.colorDarkslategray600,
     borderWidth: 1,
     opacity: 0.98,
     height: 428,
@@ -1277,24 +1041,24 @@ const styles = StyleSheet.create({
     left: 16,
     width: 313,
     color: Color.color,
-    fontSize: 14,
+    fontSize: FontSize.size_14,
   },
-  icon9: {
+  icon5: {
     height: "11.21%",
     width: "93.04%",
     top: "14.02%",
     right: "3.48%",
     bottom: "74.77%",
     left: "3.48%",
-    borderRadius: 8,
+    borderRadius: Border.br_8,
   },
   username: {
     width: "36.52%",
     left: "35.65%",
     textTransform: "capitalize",
-    fontSize: 14,
+    fontSize: FontSize.size_14,
   },
-  icon10: {
+  icon6: {
     height: "3.74%",
     width: "5.42%",
     top: "17.76%",
@@ -1305,20 +1069,20 @@ const styles = StyleSheet.create({
   username1: {
     width: "6.35%",
     left: "23.59%",
+    fontSize: FontSize.size_12,
     color: Color.wz1,
-    fontSize: 12,
   },
-  groupChild12: {
+  groupChild11: {
     height: "5.84%",
     width: "0.29%",
     top: "16.71%",
     right: "67.1%",
     bottom: "77.45%",
     left: "32.61%",
-    borderColor: "#455461",
+    borderColor: Color.colorDarkslategray100,
     borderRightWidth: 1,
   },
-  vectorIcon13: {
+  vectorIcon8: {
     height: "4.18%",
     width: "3.94%",
     top: "17.52%",
@@ -1330,13 +1094,13 @@ const styles = StyleSheet.create({
     marginTop: -139,
     top: "50%",
     left: 49,
-    borderRadius: 2,
+    borderRadius: Border.br_2,
     width: 26,
     height: 18,
     position: "absolute",
   },
-  icon11: {
-    borderRadius: 8,
+  icon7: {
+    borderRadius: Border.br_8,
     left: 0,
     top: 0,
   },
@@ -1345,23 +1109,20 @@ const styles = StyleSheet.create({
     left: 37,
     color: Color.wz1,
     textTransform: "capitalize",
-    fontWeight: "700",
-    textAlign: "left",
-    fontFamily: "Arial",
-    fontSize: 14,
+    fontSize: FontSize.size_14,
   },
-  vectorIcon14: {
+  vectorIcon9: {
     height: "35.63%",
     width: "4.74%",
     top: "31.25%",
     right: "91.53%",
     bottom: "33.12%",
   },
-  parent2: {
+  parent1: {
     top: 120,
     left: 12,
   },
-  vectorIcon15: {
+  vectorIcon10: {
     height: "16.67%",
     width: "4.36%",
     top: "25%",
@@ -1375,11 +1136,11 @@ const styles = StyleSheet.create({
     width: 283,
     textTransform: "capitalize",
     lineHeight: 18,
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
     textAlign: "left",
     color: Color.color,
-    fontFamily: "Arial",
-    fontSize: 14,
+    fontSize: FontSize.size_14,
     position: "absolute",
   },
   unionParent: {
@@ -1388,23 +1149,23 @@ const styles = StyleSheet.create({
     left: "50%",
     position: "absolute",
   },
-  icon12: {
-    borderRadius: 36,
+  icon8: {
+    borderRadius: Border.br_36,
     left: 0,
     top: 0,
   },
   login: {
     marginLeft: -81,
     top: 17,
-    left: "50%",
     color: Color.wz1,
-    fontSize: 16,
+    left: "50%",
+    fontSize: FontSize.size_16,
   },
-  parent3: {
+  parent2: {
     top: 358,
     left: 12,
   },
-  rectangleParent1: {
+  groupView: {
     top: 172,
     position: "absolute",
   },
@@ -1412,13 +1173,17 @@ const styles = StyleSheet.create({
     top: 616,
     left: 172,
   },
-  icon13: {
+  icon9: {
+    right: "0%",
+    left: "0%",
+    bottom: "0%",
     top: "0%",
     height: "100%",
-    right: "0%",
-    borderRadius: 8,
+    maxWidth: "100%",
+    borderRadius: Border.br_8,
+    width: "100%",
   },
-  groupChild13: {
+  groupChild12: {
     height: "27.08%",
     width: "4.67%",
     top: "35.42%",
@@ -1430,16 +1195,14 @@ const styles = StyleSheet.create({
     left: "11.53%",
     color: Color.wz1,
     textTransform: "capitalize",
-    fontWeight: "700",
-    textAlign: "left",
-    fontFamily: "Arial",
-    fontSize: 14,
+    fontSize: FontSize.size_14,
   },
-  groupChild14: {
+  groupChild13: {
     left: 223,
     top: 7,
+    position: "absolute",
   },
-  parent4: {
+  parent3: {
     height: "5.91%",
     width: "85.6%",
     top: "43.35%",
@@ -1448,24 +1211,20 @@ const styles = StyleSheet.create({
     left: "7.2%",
     position: "absolute",
   },
-  icon14: {
-    borderRadius: 4,
+  icon10: {
+    borderRadius: Border.br_4,
     left: 0,
     top: 0,
   },
   confirmPassword1: {
     top: 11,
     left: 13,
-    fontSize: 12,
-    fontWeight: "700",
-    textAlign: "left",
+    fontSize: FontSize.size_12,
     color: Color.color,
-    fontFamily: "Arial",
   },
-  parent5: {
+  parent4: {
     top: 299,
     left: 259,
-    width: 77,
   },
   safeareaview: {
     flex: 1,

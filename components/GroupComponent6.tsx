@@ -4,8 +4,8 @@ import LinearGradient from "react-native-linear-gradient";
 import Component284 from "../assets/";
 import Ellipse30211 from "../assets/ellipse3021";
 import Ellipse30311 from "../assets/ellipse3031";
-import Vector371 from "../assets/vector37";
-import { Color } from "../GlobalStyles";
+import Vector2412 from "../assets/vector241";
+import { FontFamily, FontSize, Color, Border } from "../GlobalStyles";
 
 const GroupComponent6 = () => {
   return (
@@ -38,7 +38,7 @@ const GroupComponent6 = () => {
         source={require("../assets/group-130461.png")}
       />
       <View style={styles.vectorParent}>
-        <Vector371 style={[styles.vectorIcon, styles.iconLayout1]} />
+        <Vector2412 style={[styles.vectorIcon, styles.iconLayout1]} />
         <LinearGradient
           style={styles.rectangleLineargradient}
           locations={[0.1, 1]}
@@ -75,17 +75,17 @@ const styles = StyleSheet.create({
   },
   depositTypo: {
     textAlign: "center",
-    fontFamily: "Arial",
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
     lineHeight: 12,
-    fontSize: 12,
+    fontSize: FontSize.size_12,
   },
   homeTypo: {
     textAlign: "left",
-    fontFamily: "Arial",
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
     lineHeight: 12,
-    fontSize: 12,
+    fontSize: FontSize.size_12,
     top: "71.43%",
     position: "absolute",
   },
@@ -112,10 +112,10 @@ const styles = StyleSheet.create({
     left: "25.33%",
     color: Color.wz1,
     top: "71.43%",
-    fontFamily: "Arial",
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
     lineHeight: 12,
-    fontSize: 12,
+    fontSize: FontSize.size_12,
     position: "absolute",
   },
   home: {
@@ -126,10 +126,10 @@ const styles = StyleSheet.create({
     left: "62.4%",
     color: Color.wz1,
     top: "71.43%",
-    fontFamily: "Arial",
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
     lineHeight: 12,
-    fontSize: 12,
+    fontSize: FontSize.size_12,
     position: "absolute",
   },
   groupChild: {
@@ -154,10 +154,10 @@ const styles = StyleSheet.create({
     marginLeft: -17.5,
     top: "59.18%",
     textAlign: "center",
-    fontFamily: "Arial",
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
     lineHeight: 12,
-    fontSize: 12,
+    fontSize: FontSize.size_12,
   },
   members: {
     left: "6.67%",
@@ -183,7 +183,7 @@ const styles = StyleSheet.create({
   rectangleLineargradient: {
     top: 6,
     left: 10,
-    shadowColor: "rgba(0, 0, 0, 0.3)",
+    shadowColor: Color.colorGray1600,
     shadowOffset: {
       width: 0,
       height: 1,
@@ -191,7 +191,7 @@ const styles = StyleSheet.create({
     shadowRadius: 2,
     elevation: 2,
     shadowOpacity: 1,
-    borderRadius: 30,
+    borderRadius: Border.br_30,
     width: 4,
     height: 17,
     backgroundColor: "transparent",

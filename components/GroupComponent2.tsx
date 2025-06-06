@@ -1,173 +1,129 @@
 import * as React from "react";
-import {
-  StyleSheet,
-  View,
-  Image,
-  Text,
-  ImageSourcePropType,
-} from "react-native";
-import LinearGradient from "react-native-linear-gradient";
-import Vector249 from "../assets/vector24";
-import Star1240 from "../assets/star12";
-import Star1241 from "../assets/star12";
-import Star1242 from "../assets/star12";
-import Star1243 from "../assets/star12";
-import Star1244 from "../assets/star12";
-import { Color } from "../GlobalStyles";
+import { StyleSheet, Text, Image, View } from "react-native";
+import Component436 from "../assets/";
+import Component437 from "../assets/";
+import Component438 from "../assets/";
+import Component439 from "../assets/";
+import Vector1118 from "../assets/vector111";
+import { FontFamily, FontSize, Color } from "../GlobalStyles";
 
-export type GroupComponent2Type = {
-  maskGroup?: ImageSourcePropType;
-};
-
-const GroupComponent2 = ({ maskGroup }: GroupComponent2Type) => {
+const GroupComponent2 = () => {
   return (
-    <View style={styles.groupPosition}>
-      <View style={styles.groupPosition}>
-        <LinearGradient
-          style={[styles.groupChild, styles.groupPosition]}
-          locations={[0, 1]}
-          colors={["#76cd00", "#478a03"]}
-          useAngle={true}
-          angle={90}
-        />
-        <Image
-          style={styles.groupPosition}
-          resizeMode="cover"
-          source={maskGroup}
-        />
-        <View style={styles.groupItem} />
-        <Vector249 style={styles.vectorIcon} />
-        <Star1240
-          style={[styles.groupInner, styles.groupChildLayout]}
-          width={15}
-          height={15}
-        />
-        <Star1241
-          style={[styles.starIcon, styles.groupChildLayout]}
-          width={15}
-          height={15}
-        />
-        <Star1242
-          style={[styles.groupChild1, styles.groupChildLayout]}
-          width={15}
-          height={15}
-        />
-        <Star1243
-          style={[styles.groupChild2, styles.groupChildLayout]}
-          width={15}
-          height={15}
-        />
-        <Star1244
-          style={[styles.groupChild3, styles.groupChildLayout]}
-          width={15}
-          height={15}
-        />
-        <Text style={[styles.manyBenefitsFor, styles.downloadTypo]}>
-          Many benefits for newcomers
-        </Text>
-        <View style={[styles.rectangleWrapper, styles.rectangleLayout]}>
-          <View style={[styles.rectangleView, styles.rectangleLayout]} />
-        </View>
-        <Text style={[styles.download, styles.downloadTypo]}>Download</Text>
-      </View>
+    <View style={styles.parent}>
+      <Component436 style={[styles.icon, styles.iconLayout]} />
+      <Component437 style={[styles.icon1, styles.iconPosition]} />
+      <Component438 style={[styles.icon2, styles.iconPosition]} />
+      <Component439 style={[styles.icon3, styles.iconPosition]} />
+      <Text style={[styles.members, styles.depositTypo]}>Home</Text>
+      <Text style={styles.promotion}>Promotion</Text>
+      <Text style={[styles.home, styles.depositTypo]}>Teams</Text>
+      <Text style={[styles.deposit, styles.depositTypo]}>Deposit</Text>
+      <Text style={[styles.deposit1, styles.depositTypo]}>Invite</Text>
+      <Vector1118 style={[styles.vectorIcon, styles.iconPosition]} />
+      <Image
+        style={[styles.invite1Icon, styles.iconLayout]}
+        resizeMode="cover"
+        source={require("../assets/invite-11.png")}
+      />
     </View>
   );
 };
 
 const styles = StyleSheet.create({
-  groupPosition: {
-    height: 68,
-    width: 375,
-    left: 0,
-    top: 0,
+  iconLayout: {
+    maxHeight: "100%",
+    overflow: "hidden",
+    maxWidth: "100%",
     position: "absolute",
   },
-  groupChildLayout: {
-    height: 15,
-    width: 15,
-    borderRadius: 1,
-    top: 41,
+  iconPosition: {
+    bottom: "40.51%",
+    top: "34.18%",
+    height: "25.32%",
+    maxHeight: "100%",
+    overflow: "hidden",
+    maxWidth: "100%",
     position: "absolute",
   },
-  downloadTypo: {
+  depositTypo: {
     textAlign: "left",
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
+    lineHeight: 12,
+    fontSize: FontSize.size_12,
+    top: "65.82%",
     position: "absolute",
   },
-  rectangleLayout: {
-    height: 32,
-    width: 97,
+  icon: {
+    height: "81.01%",
+    width: "100%",
+    top: "18.99%",
+    right: "0%",
+    bottom: "0%",
+    left: "0%",
+  },
+  icon1: {
+    width: "5.2%",
+    right: "7.33%",
+    left: "87.47%",
+  },
+  icon2: {
+    width: "5.28%",
+    right: "26.72%",
+    left: "68%",
+  },
+  icon3: {
+    width: "5.36%",
+    right: "67.71%",
+    left: "26.93%",
+  },
+  members: {
+    left: "5.33%",
+    color: Color.wz1,
+  },
+  promotion: {
+    left: "21.6%",
+    textAlign: "center",
+    color: Color.wz1,
+    fontFamily: FontFamily.microsoftYaHeiBold,
+    fontWeight: "700",
+    lineHeight: 12,
+    fontSize: FontSize.size_12,
+    top: "65.82%",
     position: "absolute",
   },
-  groupChild: {
-    backgroundColor: "transparent",
+  home: {
+    left: "83.73%",
+    color: Color.color3,
   },
-  groupItem: {
-    top: 4,
-    left: 358,
-    backgroundColor: Color.wz4,
-    width: 14,
-    height: 14,
-    position: "absolute",
+  deposit: {
+    left: "64.53%",
+    color: Color.wz1,
+  },
+  deposit1: {
+    left: "45.87%",
+    color: Color.wz1,
   },
   vectorIcon: {
-    height: "38.24%",
-    width: "6.93%",
-    top: "0%",
-    right: "0%",
-    bottom: "61.76%",
-    left: "93.07%",
-    maxWidth: "100%",
-    overflow: "hidden",
-    maxHeight: "100%",
+    width: "6.32%",
+    right: "87.01%",
+    left: "6.67%",
+  },
+  invite1Icon: {
+    height: "68.35%",
+    width: "14.4%",
+    top: "-6.33%",
+    right: "42.67%",
+    bottom: "37.97%",
+    left: "42.93%",
+  },
+  parent: {
+    marginLeft: -187.5,
+    bottom: 88,
+    left: "50%",
+    width: 375,
+    height: 79,
     position: "absolute",
-  },
-  groupInner: {
-    left: 68,
-  },
-  starIcon: {
-    left: 102,
-  },
-  groupChild1: {
-    left: 85,
-  },
-  groupChild2: {
-    left: 119,
-  },
-  groupChild3: {
-    left: 136,
-  },
-  manyBenefitsFor: {
-    top: 13,
-    fontSize: 12,
-    lineHeight: 14,
-    textTransform: "uppercase",
-    fontFamily: "Arial",
-    color: Color.color,
-    display: "flex",
-    alignItems: "center",
-    width: 169,
-    height: 24,
-    left: 68,
-  },
-  rectangleView: {
-    borderRadius: 90,
-    backgroundColor: Color.color,
-    left: 0,
-    top: 0,
-    width: 97,
-  },
-  rectangleWrapper: {
-    top: 18,
-    left: 248,
-  },
-  download: {
-    top: 26,
-    left: 261,
-    fontSize: 14,
-    lineHeight: 16,
-    fontFamily: "NotoSans-Bold",
-    color: Color.wz4,
   },
 });
 

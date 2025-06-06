@@ -3,9 +3,9 @@ import { ScrollView, StyleSheet, View, Text, Image } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
 import Slot7 from "../assets/slot7";
 import Maskgroup71 from "../assets/maskgroup7";
-import Group736143 from "../assets/group7361";
-import Component399 from "../assets/";
-import Stroke37 from "../assets/stroke";
+import Group736134 from "../assets/group7361";
+import Component354 from "../assets/";
+import Stroke32 from "../assets/stroke";
 import Group1264730 from "../assets/group12647";
 import Group1264731 from "../assets/group12647";
 import Group1264815 from "../assets/group12648";
@@ -15,11 +15,11 @@ import Group1265115 from "../assets/group12651";
 import Rectangle7181 from "../assets/rectangle718";
 import Group1266115 from "../assets/group126611";
 import Maskgroup315 from "../assets/maskgroup3";
-import Vector1649 from "../assets/vector16";
-import Vector1650 from "../assets/vector16";
-import Vector1651 from "../assets/vector16";
+import Vector1549 from "../assets/vector15";
+import Vector1550 from "../assets/vector15";
+import Vector1551 from "../assets/vector15";
 import Frame115 from "../assets/frame1";
-import { Color } from "../GlobalStyles";
+import { FontFamily, Color, FontSize, Border } from "../GlobalStyles";
 
 const Component19 = () => {
   return (
@@ -50,11 +50,11 @@ const Component19 = () => {
               <Text style={[styles.r198000, styles.signContainerTypo]}>
                 ₱19800.00
               </Text>
-              <Group736143 style={[styles.groupItem, styles.iconGroupLayout]} />
-              <Component399 style={[styles.icon, styles.iconGroupLayout]} />
+              <Group736134 style={[styles.groupItem, styles.iconGroupLayout]} />
+              <Component354 style={[styles.icon, styles.iconGroupLayout]} />
             </View>
           </View>
-          <Stroke37 style={[styles.strokeIcon, styles.iconGroupLayout]} />
+          <Stroke32 style={[styles.strokeIcon, styles.iconGroupLayout]} />
           <Text style={[styles.pgSlots, styles.pgSlotsClr]}>
             Continuous sign-ins
           </Text>
@@ -62,7 +62,7 @@ const Component19 = () => {
         <Image
           style={styles.icon1}
           resizeMode="cover"
-          source={require("../assets/-16.png")}
+          source={require("../assets/-111.png")}
         />
       </View>
       <Text style={[styles.signInTodayDay, styles.signContainerTypo]}>
@@ -275,9 +275,9 @@ Deposit amount： ₱200 `}</Text>
         resizeMode="cover"
         source={require("../assets/1-733643593.png")}
       />
-      <Vector1649 style={[styles.vectorIcon, styles.vectorIconLayout]} />
-      <Vector1650 style={[styles.vectorIcon1, styles.vectorIconLayout]} />
-      <Vector1651 style={[styles.vectorIcon2, styles.vectorIconLayout]} />
+      <Vector1549 style={[styles.vectorIcon, styles.vectorIconLayout]} />
+      <Vector1550 style={[styles.vectorIcon1, styles.vectorIconLayout]} />
+      <Vector1551 style={[styles.vectorIcon2, styles.vectorIconLayout]} />
       <View style={styles.bonus020Parent}>
         <Text style={[styles.bonus020Container, styles.signContainerTypo]}>
           {`Bonus: `}₱ 0.20
@@ -358,7 +358,7 @@ const styles = StyleSheet.create({
   },
   signContainerTypo: {
     textAlign: "left",
-    fontFamily: "Arial",
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
   },
   iconGroupLayout: {
@@ -399,9 +399,9 @@ const styles = StyleSheet.create({
   signInRulesTypo: {
     alignItems: "center",
     display: "flex",
-    fontSize: 14,
+    fontSize: FontSize.size_14,
     textAlign: "left",
-    fontFamily: "Arial",
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
   },
   groupChildLayout: {
@@ -424,13 +424,13 @@ const styles = StyleSheet.create({
   },
   dayTypo: {
     textAlign: "center",
-    fontFamily: "Arial",
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
   },
   childLayout: {
     height: 62,
     width: 60,
-    borderRadius: 4,
+    borderRadius: Border.br_4,
     top: 259,
     left: "50%",
     position: "absolute",
@@ -438,18 +438,18 @@ const styles = StyleSheet.create({
   textTypo1: {
     top: "31.18%",
     textAlign: "center",
-    fontSize: 12,
+    fontSize: FontSize.size_12,
     lineHeight: 14,
-    fontFamily: "Arial",
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
     left: "50%",
     position: "absolute",
   },
   childBorder: {
-    borderColor: "rgba(255, 199, 0, 0.2)",
+    borderColor: Color.colorGold500,
     height: 62,
     width: 60,
-    borderRadius: 4,
+    borderRadius: Border.br_4,
     top: 259,
     borderWidth: 1,
     borderStyle: "solid",
@@ -476,7 +476,7 @@ const styles = StyleSheet.create({
     left: "50%",
   },
   groupChildPosition1: {
-    borderRadius: 12,
+    borderRadius: Border.br_12,
     marginLeft: -35,
     height: 70,
     width: 70,
@@ -492,10 +492,10 @@ const styles = StyleSheet.create({
     left: "5.8%",
     top: "57.58%",
     textAlign: "center",
-    fontSize: 14,
+    fontSize: FontSize.size_14,
     lineHeight: 14,
     textTransform: "capitalize",
-    fontFamily: "Arial",
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
     position: "absolute",
   },
@@ -514,10 +514,10 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   textTypo: {
-    fontSize: 18,
+    fontSize: FontSize.size_18,
     color: Color.color1,
     textAlign: "left",
-    fontFamily: "Arial",
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
     lineHeight: 18,
     position: "absolute",
@@ -548,14 +548,14 @@ const styles = StyleSheet.create({
   },
   child: {
     top: 178,
-    borderColor: "rgba(216, 217, 8, 0.06)",
+    borderColor: Color.colorYellow200,
     borderWidth: 2,
     height: 447,
     width: 345,
     marginLeft: -172.5,
     borderStyle: "solid",
     backgroundColor: Color.bg3,
-    borderRadius: 6,
+    borderRadius: Border.br_6,
     left: "50%",
     position: "absolute",
   },
@@ -564,12 +564,12 @@ const styles = StyleSheet.create({
     backgroundColor: "transparent",
     borderWidth: 1,
     borderStyle: "solid",
-    borderColor: "#292f36",
-    borderRadius: 8,
+    borderColor: Color.colorDarkslategray700,
+    borderRadius: Border.br_8,
   },
   maskGroupIcon: {},
   groupChild: {
-    shadowColor: "rgba(0, 0, 0, 0.25)",
+    shadowColor: Color.colorGray2100,
     shadowRadius: 2,
     elevation: 2,
     backgroundColor: Color.bg1,
@@ -586,8 +586,8 @@ const styles = StyleSheet.create({
     color: Color.wz,
     lineHeight: 18,
     position: "absolute",
-    fontSize: 16,
-    fontFamily: "Arial",
+    fontSize: FontSize.size_16,
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
     top: "0%",
   },
@@ -635,9 +635,9 @@ const styles = StyleSheet.create({
     lineHeight: 16,
     top: "55.81%",
     textAlign: "left",
-    fontFamily: "Arial",
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
-    fontSize: 16,
+    fontSize: FontSize.size_16,
   },
   instanceParent: {
     width: 375,
@@ -657,8 +657,8 @@ const styles = StyleSheet.create({
     color: Color.color1,
     lineHeight: 14,
     textTransform: "capitalize",
-    fontSize: 16,
-    fontFamily: "Arial",
+    fontSize: FontSize.size_16,
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
     position: "absolute",
   },
@@ -666,7 +666,7 @@ const styles = StyleSheet.create({
     marginLeft: -46.5,
     top: "53.53%",
     color: Color.fFF500,
-    fontSize: 14,
+    fontSize: FontSize.size_14,
     textTransform: "capitalize",
     lineHeight: 16,
     left: "50%",
@@ -677,14 +677,14 @@ const styles = StyleSheet.create({
     marginLeft: -163.5,
     top: "29.06%",
     bottom: "32.71%",
-    borderRadius: 3,
+    borderRadius: Border.br_3,
     transform: [
       {
         rotate: "-90deg",
       },
     ],
     width: 1,
-    backgroundColor: "#2d353c",
+    backgroundColor: Color.colorDarkslategray500,
     left: "50%",
     position: "absolute",
   },
@@ -693,15 +693,15 @@ const styles = StyleSheet.create({
     backgroundColor: "transparent",
     borderWidth: 1,
     borderStyle: "solid",
-    borderColor: "#292f36",
-    borderRadius: 8,
+    borderColor: Color.colorDarkslategray700,
+    borderRadius: Border.br_8,
   },
   logInToContainer: {
     top: 45,
     left: 29,
     width: 304,
     height: 157,
-    fontSize: 14,
+    fontSize: FontSize.size_14,
     lineHeight: 16,
     position: "absolute",
   },
@@ -759,11 +759,11 @@ const styles = StyleSheet.create({
   rectangleView: {
     top: 0,
     backgroundColor: Color.bg3,
-    borderRadius: 6,
+    borderRadius: Border.br_6,
   },
   rectangleIcon: {
     top: 8,
-    borderRadius: 60,
+    borderRadius: Border.br_60,
     marginLeft: -144.5,
     left: "50%",
     position: "absolute",
@@ -799,7 +799,7 @@ const styles = StyleSheet.create({
   },
   day4: {
     left: "63.47%",
-    fontSize: 12,
+    fontSize: FontSize.size_12,
     textAlign: "center",
     color: Color.color1,
     position: "absolute",
@@ -808,7 +808,7 @@ const styles = StyleSheet.create({
   },
   child1: {
     marginLeft: 36.5,
-    backgroundColor: "#009f41",
+    backgroundColor: Color.colorForestgreen,
   },
   dfa96056b444f5e96cae769e22f489Icon: {
     top: 281,
@@ -841,7 +841,7 @@ const styles = StyleSheet.create({
     backgroundColor: Color.bg,
     height: 62,
     width: 60,
-    borderRadius: 4,
+    borderRadius: Border.br_4,
     top: 259,
   },
   text3: {
@@ -850,7 +850,7 @@ const styles = StyleSheet.create({
   },
   day1: {
     left: "10.4%",
-    fontSize: 12,
+    fontSize: FontSize.size_12,
     textAlign: "center",
     color: Color.color1,
     position: "absolute",
@@ -859,7 +859,7 @@ const styles = StyleSheet.create({
   },
   day2: {
     left: "28%",
-    fontSize: 12,
+    fontSize: FontSize.size_12,
     textAlign: "center",
     color: Color.color1,
     position: "absolute",
@@ -868,7 +868,7 @@ const styles = StyleSheet.create({
   },
   day3: {
     left: "45.6%",
-    fontSize: 12,
+    fontSize: FontSize.size_12,
     textAlign: "center",
     color: Color.color1,
     position: "absolute",
@@ -877,7 +877,7 @@ const styles = StyleSheet.create({
   },
   day5: {
     left: "81.07%",
-    fontSize: 12,
+    fontSize: FontSize.size_12,
     textAlign: "center",
     color: Color.color1,
     position: "absolute",
@@ -886,7 +886,7 @@ const styles = StyleSheet.create({
   },
   child5: {
     marginLeft: -162.5,
-    borderColor: "rgba(255, 199, 0, 0.2)",
+    borderColor: Color.colorGold500,
   },
   text4: {
     color: Color.color2,
@@ -903,11 +903,11 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   unionIcon: {
-    borderRadius: 8,
+    borderRadius: Border.br_8,
   },
   text6: {
     left: "8.51%",
-    fontSize: 12,
+    fontSize: FontSize.size_12,
     textAlign: "center",
     color: Color.color1,
     position: "absolute",
@@ -928,12 +928,12 @@ const styles = StyleSheet.create({
     backgroundColor: "transparent",
     borderWidth: 1,
     borderStyle: "solid",
-    borderRadius: 6,
+    borderRadius: Border.br_6,
   },
   reSigning: {
     top: 6,
     left: 6,
-    fontSize: 14,
+    fontSize: FontSize.size_14,
     lineHeight: 16,
     position: "absolute",
   },
@@ -942,13 +942,13 @@ const styles = StyleSheet.create({
     left: 263,
   },
   groupChild6: {
-    backgroundColor: "rgba(255, 160, 49, 0.44)",
+    backgroundColor: Color.colorOrange300,
   },
   groupChild7: {
-    shadowColor: "rgba(255, 243, 139, 0.6)",
+    shadowColor: Color.colorKhaki200,
     shadowRadius: 3,
     elevation: 3,
-    backgroundColor: "rgba(217, 217, 217, 0)",
+    backgroundColor: Color.colorGainsboro300,
     borderColor: Color.color,
     borderWidth: 1.4,
     shadowOpacity: 1,
@@ -957,7 +957,7 @@ const styles = StyleSheet.create({
       height: 2,
     },
     borderStyle: "solid",
-    borderRadius: 12,
+    borderRadius: Border.br_12,
   },
   a65bbb3b63d7cefc212e71be374455Icon: {
     height: 69,
@@ -988,7 +988,7 @@ const styles = StyleSheet.create({
   groupChild8: {
     left: "0%",
     right: "0%",
-    borderRadius: 8,
+    borderRadius: Border.br_8,
     backgroundColor: Color.bg3,
     position: "absolute",
     width: "100%",
@@ -998,7 +998,7 @@ const styles = StyleSheet.create({
   },
   receivedTotalBonus: {
     color: Color.color2,
-    fontSize: 14,
+    fontSize: FontSize.size_14,
     lineHeight: 14,
     textTransform: "capitalize",
     left: "0%",
@@ -1018,7 +1018,7 @@ const styles = StyleSheet.create({
     left: "49.86%",
   },
   groupChild9: {
-    backgroundColor: "#2d353c",
+    backgroundColor: Color.colorDarkslategray500,
     bottom: "12.12%",
     marginLeft: -0.5,
     height: "75.76%",
@@ -1045,7 +1045,7 @@ const styles = StyleSheet.create({
     left: "0%",
     right: "0%",
     backgroundColor: "transparent",
-    borderRadius: 8,
+    borderRadius: Border.br_8,
     position: "absolute",
     width: "100%",
   },
@@ -1062,15 +1062,15 @@ const styles = StyleSheet.create({
   },
   receivedTotalBonus1: {
     textAlign: "center",
-    fontFamily: "Arial",
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
-    fontSize: 14,
+    fontSize: FontSize.size_14,
     color: Color.color1,
     lineHeight: 14,
     textTransform: "capitalize",
   },
   groupChild11: {
-    backgroundColor: "rgba(255, 250, 129, 0.3)",
+    backgroundColor: Color.colorKhaki100,
   },
   text8: {
     left: "0%",
@@ -1127,7 +1127,7 @@ const styles = StyleSheet.create({
   },
   bonus020Container: {
     left: "20.95%",
-    fontSize: 14,
+    fontSize: FontSize.size_14,
     textTransform: "capitalize",
     lineHeight: 16,
     top: "5.56%",
@@ -1159,7 +1159,7 @@ const styles = StyleSheet.create({
   extra020: {
     top: "15%",
     left: "19.8%",
-    fontSize: 14,
+    fontSize: FontSize.size_14,
     color: Color.color1,
     lineHeight: 14,
     textTransform: "capitalize",
@@ -1192,9 +1192,9 @@ const styles = StyleSheet.create({
     height: 20,
     alignItems: "center",
     display: "flex",
-    fontSize: 14,
+    fontSize: FontSize.size_14,
     textAlign: "left",
-    fontFamily: "Arial",
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
   },
   frameIcon: {

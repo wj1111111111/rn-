@@ -1,60 +1,181 @@
 import * as React from "react";
-import { Text, StyleSheet, View } from "react-native";
-import Group73637 from "../assets/group7363";
-import Component520 from "../assets/";
-import { Color } from "../GlobalStyles";
+import { StyleSheet, View, Text, Image } from "react-native";
+import Group7365 from "../assets/group736";
+import Component435 from "../assets/";
+import Stroke110 from "../assets/stroke1";
+import { FontFamily, Color, FontSize } from "../GlobalStyles";
 
 const GroupComponent1 = () => {
   return (
-    <View style={styles.parent}>
-      <Text style={styles.text}>₱1980.00</Text>
-      <Group73637 style={[styles.instanceChild, styles.iconLayout]} />
-      <Component520 style={[styles.icon, styles.iconLayout]} />
+    <View style={styles.rectangleParent}>
+      <View style={[styles.frameChild, styles.childPosition]} />
+      <Text style={[styles.register, styles.registerTypo]}>General</Text>
+      <View style={[styles.groupWrapper, styles.frameItemPosition]}>
+        <View style={[styles.r198000Parent, styles.childPosition]}>
+          <Text style={[styles.r198000, styles.registerTypo]}>R$1980.00</Text>
+          <Group7365 style={[styles.groupChild, styles.iconLayout]} />
+          <Component435 style={[styles.icon, styles.iconLayout]} />
+        </View>
+      </View>
+      <Text style={[styles.register1, styles.registerTypo]}>Bank Account</Text>
+      <Image
+        style={[styles.icon1, styles.iconLayout]}
+        resizeMode="cover"
+        source={require("../assets/-11.png")}
+      />
+      <View style={[styles.frameItem, styles.frameItemPosition]} />
+      <Stroke110 style={[styles.strokeIcon, styles.iconLayout]} />
+      <Text style={[styles.setting, styles.registerTypo]}>Setting</Text>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
+  childPosition: {
+    left: "0%",
+    bottom: "0%",
+    height: "100%",
+    top: "0%",
+  },
+  registerTypo: {
+    textAlign: "left",
+    fontFamily: FontFamily.microsoftYaHeiBold,
+    fontWeight: "700",
+    position: "absolute",
+  },
+  frameItemPosition: {
+    display: "none",
+    position: "absolute",
+  },
   iconLayout: {
     maxHeight: "100%",
     overflow: "hidden",
     maxWidth: "100%",
     position: "absolute",
   },
-  text: {
-    top: "0%",
-    left: "17.25%",
-    fontSize: 16,
-    lineHeight: 18,
-    fontWeight: "700",
-    fontFamily: "Arial",
-    color: Color.wz,
-    textAlign: "left",
+  frameChild: {
+    shadowColor: Color.colorGray2100,
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowRadius: 2,
+    elevation: 2,
+    shadowOpacity: 1,
+    backgroundColor: Color.bg1,
+    right: "0%",
+    width: "100%",
+    bottom: "0%",
+    height: "100%",
     position: "absolute",
   },
-  instanceChild: {
-    height: "88.89%",
-    width: "12.24%",
-    top: "5.56%",
-    right: "87.76%",
-    bottom: "5.56%",
+  register: {
+    left: "8.8%",
+    color: Color.wz1,
+    top: "75.4%",
+    textAlign: "left",
+    fontFamily: FontFamily.microsoftYaHeiBold,
+    fontWeight: "700",
+    lineHeight: 16,
+    fontSize: FontSize.size_16,
+  },
+  r198000: {
+    left: "16.24%",
+    fontSize: FontSize.size_18,
+    lineHeight: 18,
+    color: Color.wz,
+    textAlign: "left",
+    fontFamily: FontFamily.microsoftYaHeiBold,
+    fontWeight: "700",
+    top: "0%",
+  },
+  groupChild: {
+    width: "12.92%",
+    right: "87.08%",
     left: "0%",
+    bottom: "0%",
+    height: "100%",
+    top: "0%",
+    overflow: "hidden",
+    maxWidth: "100%",
   },
   icon: {
     height: "81.11%",
-    width: "12.94%",
+    width: "12.18%",
     top: "11.11%",
-    right: "0%",
     bottom: "7.78%",
-    left: "87.06%",
+    left: "87.82%",
+    right: "0%",
   },
-  parent: {
-    height: "1.88%",
-    width: "34%",
-    top: "8.56%",
-    right: "4.67%",
-    bottom: "89.56%",
-    left: "61.33%",
+  r198000Parent: {
+    right: "0%",
+    width: "100%",
+    bottom: "0%",
+    height: "100%",
+    position: "absolute",
+  },
+  groupWrapper: {
+    height: "14.29%",
+    width: "36.13%",
+    top: "37.3%",
+    right: "5.47%",
+    bottom: "48.41%",
+    left: "58.4%",
+  },
+  register1: {
+    marginLeft: -46.5,
+    fontSize: FontSize.size_14,
+    color: Color.wz1,
+    top: "75.4%",
+    textAlign: "left",
+    fontFamily: FontFamily.microsoftYaHeiBold,
+    fontWeight: "700",
+    lineHeight: 16,
+    left: "50%",
+  },
+  icon1: {
+    height: "10.32%",
+    width: "94.93%",
+    top: "5.56%",
+    right: "2.4%",
+    bottom: "84.13%",
+    left: "2.67%",
+  },
+  frameItem: {
+    height: "1.59%",
+    width: "18.13%",
+    top: "99.21%",
+    right: "74.13%",
+    bottom: "-0.79%",
+    left: "7.73%",
+    borderStyle: "solid",
+    borderColor: Color.color3,
+    borderTopWidth: 2,
+  },
+  strokeIcon: {
+    height: "10.56%",
+    width: "2.05%",
+    top: "38.89%",
+    right: "93.87%",
+    bottom: "50.56%",
+    left: "4.08%",
+  },
+  setting: {
+    top: "38.1%",
+    left: "8.27%",
+    color: Color.color,
+    textAlign: "left",
+    fontFamily: FontFamily.microsoftYaHeiBold,
+    fontWeight: "700",
+    lineHeight: 16,
+    fontSize: FontSize.size_16,
+  },
+  rectangleParent: {
+    marginLeft: -187.5,
+    top: 0,
+    width: 375,
+    height: 126,
+    left: "50%",
     position: "absolute",
   },
 });

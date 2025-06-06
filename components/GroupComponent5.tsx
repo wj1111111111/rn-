@@ -9,7 +9,7 @@ import Ellipse10811 from "../assets/ellipse1081";
 import Logovideo411 from "../assets/logovideo41";
 import Logovideo311 from "../assets/logovideo31";
 import Logovideo211 from "../assets/logovideo21";
-import { Color } from "../GlobalStyles";
+import { FontFamily, FontSize, Color, Border } from "../GlobalStyles";
 
 const GroupComponent5 = () => {
   return (
@@ -180,10 +180,10 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   wjgmailcomTypo: {
-    fontFamily: "Microsoft YaHei",
+    fontFamily: FontFamily.microsoftYaHei,
     lineHeight: 17,
     textAlign: "center",
-    fontSize: 12,
+    fontSize: FontSize.size_12,
     position: "absolute",
   },
   groupWrapperPosition: {
@@ -205,8 +205,8 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   groupLayout: {
-    backgroundColor: "#fe2121",
-    borderRadius: 6,
+    backgroundColor: Color.colorRed100,
+    borderRadius: Border.br_6,
     height: "18.18%",
     width: "100%",
     position: "absolute",
@@ -220,11 +220,11 @@ const styles = StyleSheet.create({
   },
   logovideo5Border: {
     borderWidth: 1,
-    borderColor: "#191e24",
+    borderColor: Color.colorGray700,
     borderStyle: "solid",
   },
   rectangleViewLayout: {
-    borderRadius: 8,
+    borderRadius: Border.br_8,
     position: "absolute",
   },
   iconLayout: {
@@ -310,9 +310,9 @@ const styles = StyleSheet.create({
     letterSpacing: 1,
     lineHeight: 12,
     fontWeight: "500",
-    fontFamily: "NotoSans-Medium",
+    fontFamily: FontFamily.notoSansMedium,
     textAlign: "center",
-    fontSize: 12,
+    fontSize: FontSize.size_12,
     color: Color.wz1,
     top: "0%",
     left: "0%",
@@ -339,11 +339,11 @@ const styles = StyleSheet.create({
   text: {
     top: "25.81%",
     left: "13.33%",
-    fontSize: 16,
+    fontSize: FontSize.size_16,
     lineHeight: 16,
     fontWeight: "700",
-    fontFamily: "Arial",
-    color: "#fe2121",
+    fontFamily: FontFamily.microsoftYaHeiBold,
+    color: Color.colorRed100,
     textAlign: "left",
     position: "absolute",
   },
@@ -407,7 +407,7 @@ const styles = StyleSheet.create({
     right: "23.33%",
     bottom: "23.33%",
     left: "23.33%",
-    borderRadius: 3,
+    borderRadius: Border.br_3,
     position: "absolute",
   },
   logovideo5Inner: {
@@ -418,7 +418,7 @@ const styles = StyleSheet.create({
     bottom: "36.67%",
     left: "36.67%",
     borderWidth: 1,
-    borderColor: "#191e24",
+    borderColor: Color.colorGray700,
     borderStyle: "solid",
   },
   rectangleView: {
@@ -427,7 +427,7 @@ const styles = StyleSheet.create({
     top: "30%",
     right: "30%",
     bottom: "63.33%",
-    backgroundColor: "#191e24",
+    backgroundColor: Color.colorGray700,
     left: "63.33%",
   },
   logovideo5: {

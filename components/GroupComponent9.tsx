@@ -1,7 +1,7 @@
 import * as React from "react";
 import { StyleSheet, View, Image, Text } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
-import { Color } from "../GlobalStyles";
+import { Border, Color, FontSize, FontFamily } from "../GlobalStyles";
 
 const GroupComponent9 = () => {
   return (
@@ -16,7 +16,7 @@ const GroupComponent9 = () => {
         <Image
           style={[styles.icon, styles.iconPosition]}
           resizeMode="cover"
-          source={require("../assets/2333-151.png")}
+          source={require("../assets/2333-16.png")}
         />
         <Image
           style={styles.image213Icon}
@@ -55,14 +55,13 @@ const styles = StyleSheet.create({
   },
   groupPosition: {
     backgroundColor: "transparent",
-    borderRadius: 30,
+    borderRadius: Border.br_30,
     left: "50%",
     top: "50%",
     position: "absolute",
   },
   startPosition: {
     textAlign: "center",
-    fontFamily: "Arial",
     left: "50%",
     top: "50%",
     position: "absolute",
@@ -71,9 +70,9 @@ const styles = StyleSheet.create({
     top: 4,
     left: 5,
     borderRadius: 88,
-    backgroundColor: "rgba(22, 36, 26, 0.9)",
+    backgroundColor: Color.colorGray1200,
     borderStyle: "solid",
-    borderColor: "#70b615",
+    borderColor: Color.colorYellowgreen,
     borderWidth: 2,
     width: 78,
     height: 78,
@@ -113,7 +112,7 @@ const styles = StyleSheet.create({
   groupChild: {
     marginLeft: -45,
     marginTop: -14,
-    borderRadius: 30,
+    borderRadius: Border.br_30,
     height: 28,
     width: 90,
   },
@@ -126,9 +125,10 @@ const styles = StyleSheet.create({
   start: {
     marginTop: -11,
     marginLeft: -36,
-    fontSize: 14,
+    fontSize: FontSize.size_14,
     lineHeight: 22,
     fontWeight: "700",
+    fontFamily: FontFamily.microsoftYaHeiBold,
     color: Color.color,
     textShadowColor: "#1e2024",
     textShadowOffset: {
@@ -157,10 +157,11 @@ const styles = StyleSheet.create({
   moneyRain: {
     marginTop: 6,
     marginLeft: -44,
-    fontSize: 12,
+    fontSize: FontSize.size_12,
     lineHeight: 20,
     textTransform: "uppercase",
     fontWeight: "900",
+    fontFamily: FontFamily.microsoftYaHei,
   },
   frameParent: {
     top: 491,

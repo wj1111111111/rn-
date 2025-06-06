@@ -1,174 +1,124 @@
-import React, { useMemo } from "react";
-import { StyleSheet, View, Text, Image } from "react-native";
-import LinearGradient from "react-native-linear-gradient";
-import Polygon10112 from "../assets/polygon101";
-import Vector259 from "../assets/vector25";
-import { Color } from "../GlobalStyles";
+import * as React from "react";
+import { StyleSheet, View, Text } from "react-native";
+import Vector1103 from "../assets/vector1";
+import Vector1119 from "../assets/vector11";
+import Vector215 from "../assets/vector2";
+import Vector38 from "../assets/vector3";
+import { Color, FontFamily, FontSize, Border } from "../GlobalStyles";
 
-export type GroupComponent3Type = {
-  /** Style props */
-  rectangleLinearGradientTransform?: string;
-  rectangleLinearGradientTransform1?: string;
-};
-
-const getStyleValue = (key: string, value: string | number | undefined) => {
-  if (value === undefined) return;
-  return { [key]: value === "unset" ? undefined : value };
-};
-const GroupComponent3 = ({
-  rectangleLinearGradientTransform,
-  rectangleLinearGradientTransform1,
-}: GroupComponent3Type) => {
-  const rectangleLinearGradientStyle = useMemo(() => {
-    return {
-      ...getStyleValue("transform", rectangleLinearGradientTransform),
-    };
-  }, [rectangleLinearGradientTransform]);
-
-  const rectangleLinearGradient1Style = useMemo(() => {
-    return {
-      ...getStyleValue("transform", rectangleLinearGradientTransform1),
-    };
-  }, [rectangleLinearGradientTransform1]);
-
+const GroupComponent3 = () => {
   return (
-    <View style={[styles.groupParent, styles.parentPosition]}>
-      <View style={[styles.polygonParent, styles.parentPosition]}>
-        <Polygon10112 style={styles.groupChild} width={9} height={15} />
-        <LinearGradient
-          style={[
-            styles.groupItem,
-            styles.groupLayout,
-            rectangleLinearGradientStyle,
-          ]}
-          locations={[0, 1]}
-          colors={["#373d42", "#2c3136"]}
-          useAngle={true}
-          angle={180}
-        />
-      </View>
-      <LinearGradient
-        style={[
-          styles.groupInner,
-          styles.groupLayout,
-          rectangleLinearGradient1Style,
-        ]}
-        locations={[0, 1]}
-        colors={["#ffc61e", "#ffa001"]}
-        useAngle={true}
-        angle={180}
-      />
-      <View style={styles.vectorParent}>
-        <Vector259 style={styles.vectorIcon} />
-        <Text style={[styles.hot, styles.hotTypo]}>Hot</Text>
-      </View>
-      <View style={styles.collectParent}>
-        <Text style={[styles.collect, styles.hotTypo]}>Collect</Text>
-        <Image
-          style={styles.icon}
-          resizeMode="cover"
-          source={require("../assets/11.png")}
-        />
-      </View>
+    <View style={[styles.rectangleParent, styles.groupChildLayout]}>
+      <View style={[styles.groupChild, styles.groupChildLayout]} />
+      <Text style={[styles.depositRecord, styles.recordTypo]}>
+        Deposit Record
+      </Text>
+      <Text style={[styles.withdrawalRecord, styles.recordTypo]}>
+        Withdrawal Record
+      </Text>
+      <Text style={[styles.bettingRecord, styles.recordTypo]}>{`Betting
+Record`}</Text>
+      <Text style={[styles.accountRecord, styles.recordTypo]}>{`Account
+Record`}</Text>
+      <Vector1103 style={[styles.vectorIcon, styles.vectorIconLayout]} />
+      <Vector1119 style={[styles.vectorIcon1, styles.vectorIconLayout]} />
+      <Vector215 style={[styles.vectorIcon2, styles.vectorIconLayout]} />
+      <Vector38 style={[styles.vectorIcon3, styles.vectorIconLayout]} />
     </View>
   );
 };
 
 const styles = StyleSheet.create({
-  parentPosition: {
-    width: 72,
-    left: 0,
+  groupChildLayout: {
+    height: 81,
+    width: 345,
     position: "absolute",
   },
-  groupLayout: {
-    backgroundColor: "transparent",
-    transform: [
-      {
-        rotate: "180deg",
-      },
-    ],
-    height: 64,
-    width: 66,
-    borderBottomLeftRadius: 8,
-    borderTopLeftRadius: 8,
-    left: 66,
-    position: "absolute",
-  },
-  hotTypo: {
-    textAlign: "left",
-    fontFamily: "Arial",
+  recordTypo: {
+    textAlign: "center",
+    color: Color.wz1,
+    fontFamily: FontFamily.microsoftYaHeiBold,
     fontWeight: "700",
     lineHeight: 12,
-    fontSize: 12,
+    fontSize: FontSize.size_12,
+    top: 45,
+    position: "absolute",
+  },
+  vectorIconLayout: {
+    maxHeight: "100%",
+    overflow: "hidden",
+    maxWidth: "100%",
+    top: "16.05%",
     position: "absolute",
   },
   groupChild: {
-    top: 93,
-    left: 63,
-    position: "absolute",
-  },
-  groupItem: {
     top: 0,
+    left: 0,
+    borderRadius: Border.br_8,
+    backgroundColor: Color.bg3,
   },
-  polygonParent: {
-    height: 108,
-    top: 0,
+  depositRecord: {
+    left: 176,
+    width: 63,
   },
-  groupInner: {
-    top: 68,
+  withdrawalRecord: {
+    left: 252,
+    width: 77,
+  },
+  bettingRecord: {
+    left: 21,
+  },
+  accountRecord: {
+    left: 100,
   },
   vectorIcon: {
-    height: "70.59%",
-    width: "100%",
-    top: "0%",
-    right: "0%",
-    bottom: "29.41%",
-    left: "0%",
-    maxWidth: "100%",
-    overflow: "hidden",
+    right: "84.06%",
+    left: "8.41%",
+    bottom: "51.85%",
+    height: "32.1%",
     maxHeight: "100%",
-    position: "absolute",
+    overflow: "hidden",
+    maxWidth: "100%",
+    top: "16.05%",
+    width: "7.54%",
   },
-  hot: {
-    top: 39,
-    left: 5,
+  vectorIcon1: {
+    width: "5.97%",
+    right: "60.99%",
+    left: "33.04%",
+    bottom: "51.85%",
+    height: "32.1%",
+    maxHeight: "100%",
+    overflow: "hidden",
+    maxWidth: "100%",
+    top: "16.05%",
   },
-  vectorParent: {
-    height: "38.64%",
-    width: "42.78%",
-    top: "57.58%",
-    right: "32.22%",
-    bottom: "3.79%",
-    left: "25%",
-    position: "absolute",
+  vectorIcon2: {
+    height: "31.98%",
+    right: "36.52%",
+    bottom: "51.98%",
+    left: "55.94%",
+    borderRadius: Border.br_6,
+    maxHeight: "100%",
+    overflow: "hidden",
+    maxWidth: "100%",
+    top: "16.05%",
+    width: "7.54%",
   },
-  collect: {
-    top: 40,
-    color: Color.wz1,
-    left: 0,
-    textAlign: "left",
-    fontFamily: "Arial",
-    fontWeight: "700",
-    lineHeight: 12,
-    fontSize: 12,
+  vectorIcon3: {
+    width: "7.07%",
+    right: "12.35%",
+    left: "80.58%",
+    bottom: "51.85%",
+    height: "32.1%",
+    maxHeight: "100%",
+    overflow: "hidden",
+    maxWidth: "100%",
+    top: "16.05%",
   },
-  icon: {
-    left: 3,
-    width: 36,
-    height: 36,
-    top: 0,
-    position: "absolute",
-  },
-  collectParent: {
-    top: 7,
-    left: 13,
-    width: 41,
-    height: 52,
-    position: "absolute",
-  },
-  groupParent: {
-    top: 350,
-    height: 132,
+  rectangleParent: {
+    top: 284,
+    left: 15,
   },
 });
 
