@@ -1,8 +1,8 @@
 import React, { useMemo } from "react";
 import { StyleSheet, View, Text, Image } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
-import Polygon109 from "../assets/polygon10";
-import Vector210 from "../assets/vector2";
+import Polygon10111 from "../assets/polygon101";
+import Vector2113 from "../assets/vector21";
 import { Color } from "../GlobalStyles";
 
 export type GroupComponent3Type = {
@@ -34,7 +34,7 @@ const GroupComponent3 = ({
   return (
     <View style={[styles.groupParent, styles.parentPosition]}>
       <View style={[styles.polygonParent, styles.parentPosition]}>
-        <Polygon109 style={styles.groupChild} width={9} height={15} />
+        <Polygon10111 style={styles.groupChild} width={9} height={15} />
         <LinearGradient
           style={[
             styles.groupItem,
@@ -59,7 +59,7 @@ const GroupComponent3 = ({
         angle={180}
       />
       <View style={styles.vectorParent}>
-        <Vector210 style={styles.vectorIcon} />
+        <Vector2113 style={styles.vectorIcon} />
         <Text style={[styles.hot, styles.hotTypo]}>Hot</Text>
       </View>
       <View style={styles.collectParent}>

@@ -1,21 +1,21 @@
 import * as React from "react";
 import { StyleSheet, Text, Image, View } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
-import Component58 from "../assets/";
-import Ellipse3021 from "../assets/ellipse302";
-import Ellipse3031 from "../assets/ellipse303";
-import Vector52 from "../assets/vector5";
+import Component155 from "../assets/";
+import Ellipse30211 from "../assets/ellipse3021";
+import Ellipse30311 from "../assets/ellipse3031";
+import Vector1610 from "../assets/vector16";
 import { Color } from "../GlobalStyles";
 
 const GroupComponent6 = () => {
   return (
     <View style={styles.parent}>
-      <Component58 style={[styles.icon, styles.iconLayout1]} />
+      <Component155 style={[styles.icon, styles.iconLayout1]} />
       <Text style={[styles.promotion, styles.depositTypo]}>Invite</Text>
       <Text style={[styles.home, styles.homeTypo]}>Teams</Text>
       <Text style={[styles.deposit, styles.depositTypo]}>Promotion</Text>
-      <Ellipse3021 style={styles.groupChild} width={56} height={56} />
-      <Ellipse3031 style={styles.groupItem} width={36} height={36} />
+      <Ellipse30211 style={styles.groupChild} width={56} height={56} />
+      <Ellipse30311 style={styles.groupItem} width={36} height={36} />
       <Image
         style={[styles.groupInner, styles.deposit1Position]}
         resizeMode="cover"
@@ -30,15 +30,15 @@ const GroupComponent6 = () => {
       <Image
         style={[styles.groupIcon, styles.iconLayout]}
         resizeMode="cover"
-        source={require("../assets/group-13007.png")}
+        source={require("../assets/group-130071.png")}
       />
       <Image
         style={styles.groupChild1}
         resizeMode="cover"
-        source={require("../assets/group-13046.png")}
+        source={require("../assets/group-130461.png")}
       />
       <View style={styles.vectorParent}>
-        <Vector52 style={[styles.vectorIcon, styles.iconLayout1]} />
+        <Vector1610 style={[styles.vectorIcon, styles.iconLayout1]} />
         <LinearGradient
           style={styles.rectangleLineargradient}
           locations={[0.1, 1]}
@@ -161,7 +161,7 @@ const styles = StyleSheet.create({
   },
   members: {
     left: "6.67%",
-    color: Color.color,
+    color: Color.color3,
   },
   groupIcon: {
     top: 40,

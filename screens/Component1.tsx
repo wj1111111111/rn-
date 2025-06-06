@@ -1,35 +1,37 @@
 import * as React from "react";
 import { ScrollView, StyleSheet, View, Image, Text } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
-import Vector9 from "../assets/vector";
-import Star130 from "../assets/star1";
-import Star131 from "../assets/star1";
-import Star132 from "../assets/star1";
-import Star133 from "../assets/star1";
-import Star134 from "../assets/star1";
-import Component60 from "../assets/";
-import Vector118 from "../assets/vector1";
-import Polygon106 from "../assets/polygon10";
-import Vector26 from "../assets/vector2";
-import Component61 from "../assets/";
-import Component62 from "../assets/";
-import Component63 from "../assets/";
-import Component64 from "../assets/";
-import Vector35 from "../assets/vector3";
-import Group7365 from "../assets/group736";
-import Component65 from "../assets/";
-import Vector131 from "../assets/vector13";
-import Component22 from "../assets/";
-import Vector14 from "../assets/vector14";
-import Component23 from "../assets/";
-import Vector15 from "../assets/vector15";
-import Component24 from "../assets/";
-import Vector16 from "../assets/vector16";
-import Component25 from "../assets/";
-import Vector17 from "../assets/vector17";
-import Component26 from "../assets/";
-import Vector18 from "../assets/vector18";
-import Component27 from "../assets/";
+import Vector39 from "../assets/vector";
+import Star145 from "../assets/star1";
+import Star146 from "../assets/star1";
+import Star147 from "../assets/star1";
+import Star148 from "../assets/star1";
+import Star149 from "../assets/star1";
+import Component179 from "../assets/";
+import Vector140 from "../assets/vector1";
+import Polygon109 from "../assets/polygon10";
+import Vector218 from "../assets/vector2";
+import Component180 from "../assets/";
+import Component181 from "../assets/";
+import Component182 from "../assets/";
+import Component183 from "../assets/";
+import Vector310 from "../assets/vector3";
+import Group73616 from "../assets/group736";
+import Component184 from "../assets/";
+import Vector143 from "../assets/vector1";
+import Component185 from "../assets/";
+import Vector144 from "../assets/vector1";
+import Component186 from "../assets/";
+import Vector145 from "../assets/vector1";
+import Component187 from "../assets/";
+import Vector146 from "../assets/vector1";
+import Component188 from "../assets/";
+import Vector147 from "../assets/vector1";
+import Component189 from "../assets/";
+import Vector148 from "../assets/vector1";
+import Component190 from "../assets/";
+import Vector149 from "../assets/vector1";
+import Component191 from "../assets/";
 import { Color } from "../GlobalStyles";
 
 const Component1 = () => {
@@ -55,31 +57,31 @@ const Component1 = () => {
             <Image
               style={styles.groupPosition}
               resizeMode="cover"
-              source={require("../assets/mask-group.png")}
+              source={require("../assets/mask-group1.png")}
             />
             <View style={[styles.groupInner, styles.groupInnerLayout]} />
-            <Vector9 style={[styles.vectorIcon, styles.iconLayout1]} />
-            <Star130
+            <Vector39 style={[styles.vectorIcon, styles.iconLayout1]} />
+            <Star145
               style={[styles.starIcon, styles.iconGroupLayout1]}
               width={15}
               height={15}
             />
-            <Star131
+            <Star146
               style={[styles.groupChild1, styles.iconGroupLayout1]}
               width={15}
               height={15}
             />
-            <Star132
+            <Star147
               style={[styles.groupChild2, styles.iconGroupLayout1]}
               width={15}
               height={15}
             />
-            <Star133
+            <Star148
               style={[styles.groupChild3, styles.iconGroupLayout1]}
               width={15}
               height={15}
             />
-            <Star134
+            <Star149
               style={[styles.groupChild4, styles.iconGroupLayout1]}
               width={15}
               height={15}
@@ -115,7 +117,7 @@ const Component1 = () => {
           resizeMode="cover"
           source={require("../assets/3b4bde395738f0c8b07d1baa47c5d48f172c19aa158772swckar-1.png")}
         />
-        <Component60 style={styles.icon} width={16} height={16} />
+        <Component179 style={styles.icon} width={16} height={16} />
         <Image
           style={[styles.icon1, styles.iconPosition3]}
           resizeMode="cover"
@@ -182,7 +184,7 @@ const Component1 = () => {
           source={require("../assets/27-777-1000.png")}
         />
         <Text
-          style={[styles.fortuneOxFortune, styles.fortuneTypo]}
+          style={[styles.fortuneOxFortune, styles.comingTypo]}
           numberOfLines={1}
         >
           Fortune Ox fortune
@@ -190,20 +192,20 @@ const Component1 = () => {
         <Text style={[styles.romaX, styles.romaXTypo]} numberOfLines={1}>
           Roma x
         </Text>
-        <Text style={[styles.romaX1, styles.romaX1Typo]} numberOfLines={1}>
+        <Text style={[styles.romaX1, styles.comingTypo]} numberOfLines={1}>
           Roma x
         </Text>
         <Text style={[styles.romaX2, styles.romaX2Typo]} numberOfLines={1}>
           Roma x
         </Text>
-        <Text style={[styles.superAce, styles.fortuneTypo]} numberOfLines={1}>
+        <Text style={[styles.superAce, styles.comingTypo]} numberOfLines={1}>
           super Ace
         </Text>
         <Text style={[styles.diamondParty, styles.romaXTypo]} numberOfLines={1}>
           diamond party
         </Text>
         <Text
-          style={[styles.diamondParty1, styles.romaX1Typo]}
+          style={[styles.diamondParty1, styles.comingTypo]}
           numberOfLines={1}
         >
           diamond party
@@ -219,10 +221,7 @@ const Component1 = () => {
         >
           diamond party
         </Text>
-        <Text
-          style={[styles.moneyComing, styles.fortuneTypo]}
-          numberOfLines={1}
-        >
+        <Text style={[styles.moneyComing, styles.comingTypo]} numberOfLines={1}>
           Money Coming
         </Text>
         <Image
@@ -234,7 +233,7 @@ const Component1 = () => {
           lucky coming
         </Text>
         <Text
-          style={[styles.luckyComing1, styles.romaX1Typo]}
+          style={[styles.luckyComing1, styles.comingTypo]}
           numberOfLines={1}
         >
           lucky coming
@@ -538,7 +537,7 @@ const Component1 = () => {
           useAngle={true}
           angle={180}
         />
-        <Vector118 style={[styles.vectorIcon1, styles.iconLayout1]} />
+        <Vector140 style={[styles.vectorIcon1, styles.iconLayout1]} />
         <Text style={[styles.withdrawal, styles.depositTypo1]}>Withdrawal</Text>
         <Image
           style={[styles.logoWj931Icon1, styles.logoWj931Icon1Position]}
@@ -554,7 +553,7 @@ const Component1 = () => {
         <Text style={styles.text2}>14,091,688.88</Text>
         <View style={[styles.groupParent, styles.parentPosition]}>
           <View style={[styles.polygonParent, styles.parentPosition]}>
-            <Polygon106
+            <Polygon109
               style={[styles.polygonIcon, styles.iconGroupLayout1]}
               width={9}
               height={15}
@@ -575,7 +574,7 @@ const Component1 = () => {
             angle={180}
           />
           <View style={styles.vectorParent}>
-            <Vector26 style={[styles.vectorIcon2, styles.iconLayout1]} />
+            <Vector218 style={[styles.vectorIcon2, styles.iconLayout1]} />
             <Text style={[styles.hot, styles.hotTypo]}>Hot</Text>
           </View>
           <View style={[styles.collectParent, styles.egamePosition]}>
@@ -588,16 +587,16 @@ const Component1 = () => {
           </View>
         </View>
         <View style={[styles.parent, styles.iconPosition3]}>
-          <Component61 style={[styles.icon20, styles.icon20Position]} />
-          <Component62 style={[styles.icon21, styles.iconPosition1]} />
-          <Component63 style={[styles.icon22, styles.iconPosition1]} />
-          <Component64 style={[styles.icon23, styles.iconPosition1]} />
+          <Component180 style={[styles.icon20, styles.icon20Position]} />
+          <Component181 style={[styles.icon21, styles.iconPosition1]} />
+          <Component182 style={[styles.icon22, styles.iconPosition1]} />
+          <Component183 style={[styles.icon23, styles.iconPosition1]} />
           <Text style={[styles.members, styles.depositTypo]}>Home</Text>
           <Text style={[styles.promotion, styles.depositTypo]}>Promotion</Text>
           <Text style={[styles.home, styles.depositTypo]}>Teams</Text>
           <Text style={[styles.deposit1, styles.depositTypo]}>Deposit</Text>
           <Text style={[styles.deposit2, styles.depositTypo]}>Invite</Text>
-          <Vector35 style={[styles.vectorIcon3, styles.iconPosition1]} />
+          <Vector310 style={[styles.vectorIcon3, styles.iconPosition1]} />
           <Image
             style={[styles.invite1Icon, styles.iconLayout1]}
             resizeMode="cover"
@@ -606,104 +605,15 @@ const Component1 = () => {
         </View>
         <View style={styles.group}>
           <Text style={styles.text3}>₱1980.00</Text>
-          <Group7365 style={[styles.instanceChild, styles.iconLayout1]} />
-          <Component65 style={[styles.icon24, styles.iconLayout1]} />
+          <Group73616 style={[styles.instanceChild, styles.iconLayout1]} />
+          <Component184 style={[styles.icon24, styles.iconLayout1]} />
         </View>
       </View>
       <View style={[styles.child, styles.childPosition]} />
-      <Image
-        style={styles.icon25}
-        resizeMode="cover"
-        source={require("../assets/4-10.png")}
-      />
-      <View style={[styles.view, styles.viewLayout]}>
-        <Image
-          style={styles.bd57270ff3cddd5d20ff7401e454dcIcon}
-          resizeMode="cover"
-          source={require("../assets/569114bd57270ff3cddd5d20ff7401e454dc67a1f09dic5q4g-fw1200-1.png")}
-        />
-        <Image
-          style={styles.bd57270ff3cddd5d20ff7401e454dcIcon}
-          resizeMode="cover"
-          source={require("../assets/569114bd57270ff3cddd5d20ff7401e454dc67a1f09dic5q4g-fw1200-2.png")}
-        />
-        <Image
-          style={styles.icon26}
-          resizeMode="cover"
-          source={require("../assets/2333-11.png")}
-        />
-        <Vector131 style={[styles.item, styles.itemPosition]} />
-        <Image
-          style={[styles.moneyRainIcon, styles.iconPosition3]}
-          resizeMode="cover"
-          source={require("../assets/1moneyrain1.png")}
-        />
-        <Image
-          style={styles.icon27}
-          resizeMode="cover"
-          source={require("../assets/16.png")}
-        />
-        <Text style={styles.start}>In Progress</Text>
-        <Text style={[styles.next2100, styles.textFlexBox]}>Next 21:00</Text>
-        <View style={styles.rectangleParent13}>
-          <View style={[styles.groupChild31, styles.groupChildPosition]} />
-          <Text style={[styles.text4, styles.textFlexBox]}>99+</Text>
-        </View>
-        <View
-          style={[styles.rectangleParent14, styles.rectangleParentPosition]}
-        >
-          <View style={[styles.groupChild32, styles.groupChildPosition]} />
-          <Text style={[styles.text5, styles.textFlexBox]}>1</Text>
-        </View>
-        <Component22 style={[styles.icon28, styles.iconPosition]} />
-      </View>
-      <View
-        style={[styles.bd57270ff3cddd5d20ff7401e454dcParent, styles.viewLayout]}
-      >
-        <Image
-          style={styles.bd57270ff3cddd5d20ff7401e454dcIcon}
-          resizeMode="cover"
-          source={require("../assets/569114bd57270ff3cddd5d20ff7401e454dc67a1f09dic5q4g-fw1200-1.png")}
-        />
-        <Image
-          style={styles.bd57270ff3cddd5d20ff7401e454dcIcon}
-          resizeMode="cover"
-          source={require("../assets/569114bd57270ff3cddd5d20ff7401e454dc67a1f09dic5q4g-fw1200-2.png")}
-        />
-        <Image
-          style={styles.icon26}
-          resizeMode="cover"
-          source={require("../assets/2333-12.png")}
-        />
-        <Vector14 style={[styles.item, styles.itemPosition]} />
-        <Image
-          style={[styles.moneyRainIcon, styles.iconPosition3]}
-          resizeMode="cover"
-          source={require("../assets/1moneyrain2.png")}
-        />
-        <Image
-          style={styles.icon27}
-          resizeMode="cover"
-          source={require("../assets/161.png")}
-        />
-        <Text style={styles.startTypo1}>Details</Text>
-        <Text style={[styles.next2100, styles.textFlexBox]}>Next 21:00</Text>
-        <View style={styles.rectangleParent13}>
-          <View style={[styles.groupChild31, styles.groupChildPosition]} />
-          <Text style={[styles.text4, styles.textFlexBox]}>99+</Text>
-        </View>
-        <View
-          style={[styles.rectangleParent14, styles.rectangleParentPosition]}
-        >
-          <View style={[styles.groupChild32, styles.groupChildPosition]} />
-          <Text style={[styles.text5, styles.textFlexBox]}>1</Text>
-        </View>
-        <Component23 style={[styles.icon28, styles.iconPosition]} />
-      </View>
       <View
         style={[
-          styles.bd57270ff3cddd5d20ff7401e454dcGroup,
-          styles.bd57270ff3cddd5d20ff7401e454dcPosition1,
+          styles.bd57270ff3cddd5d20ff7401e454dcParent,
+          styles.bd57270ff3cddd5d20ff7401e454dcParentLayout,
         ]}
       >
         <Image
@@ -717,69 +627,23 @@ const Component1 = () => {
           source={require("../assets/569114bd57270ff3cddd5d20ff7401e454dc67a1f09dic5q4g-fw1200-2.png")}
         />
         <Image
-          style={styles.icon26}
-          resizeMode="cover"
-          source={require("../assets/2333-12.png")}
-        />
-        <Vector15 style={[styles.item, styles.itemPosition]} />
-        <Image
-          style={[styles.moneyRainIcon, styles.iconPosition3]}
-          resizeMode="cover"
-          source={require("../assets/1moneyrain2.png")}
-        />
-        <Image
-          style={styles.icon27}
-          resizeMode="cover"
-          source={require("../assets/161.png")}
-        />
-        <Text style={styles.startTypo1}>Details</Text>
-        <Text style={[styles.next2100, styles.textFlexBox]}>Next 21:00</Text>
-        <View style={styles.rectangleParent13}>
-          <View style={[styles.groupChild31, styles.groupChildPosition]} />
-          <Text style={[styles.text4, styles.textFlexBox]}>99+</Text>
-        </View>
-        <View
-          style={[styles.rectangleParent14, styles.rectangleParentPosition]}
-        >
-          <View style={[styles.groupChild32, styles.groupChildPosition]} />
-          <Text style={[styles.text5, styles.textFlexBox]}>1</Text>
-        </View>
-        <Component24 style={[styles.icon28, styles.iconPosition]} />
-      </View>
-      <View
-        style={[
-          styles.bd57270ff3cddd5d20ff7401e454dcContainer,
-          styles.bd57270ff3cddd5d20ff7401e454dcPosition,
-        ]}
-      >
-        <Image
-          style={styles.bd57270ff3cddd5d20ff7401e454dcIcon}
-          resizeMode="cover"
-          source={require("../assets/569114bd57270ff3cddd5d20ff7401e454dc67a1f09dic5q4g-fw1200-1.png")}
-        />
-        <Image
-          style={styles.bd57270ff3cddd5d20ff7401e454dcIcon}
-          resizeMode="cover"
-          source={require("../assets/569114bd57270ff3cddd5d20ff7401e454dc67a1f09dic5q4g-fw1200-2.png")}
-        />
-        <Image
-          style={styles.icon26}
+          style={styles.icon25}
           resizeMode="cover"
           source={require("../assets/2333-13.png")}
         />
-        <Vector16 style={styles.itemPosition} />
+        <Vector143 style={styles.instancePosition} />
         <Image
           style={[styles.moneyRainIcon, styles.iconPosition3]}
           resizeMode="cover"
           source={require("../assets/1moneyrain3.png")}
         />
         <Image
-          style={styles.icon27}
+          style={styles.icon26}
           resizeMode="cover"
           source={require("../assets/16.png")}
         />
-        <Text style={styles.startTypo}>Receive</Text>
-        <Text style={[styles.next21003, styles.textFlexBox]}>20Day 23:12</Text>
+        <Text style={[styles.start, styles.startTypo1]}>Receive</Text>
+        <Text style={[styles.next2100, styles.textFlexBox]}>20Day 23:12</Text>
         <View style={styles.rectangleParent13}>
           <View style={[styles.groupChild31, styles.groupChildPosition]} />
           <Text style={[styles.text4, styles.textFlexBox]}>99+</Text>
@@ -788,57 +652,11 @@ const Component1 = () => {
           <View style={[styles.groupChild32, styles.groupChildPosition]} />
           <Text style={[styles.text5, styles.textFlexBox]}>6</Text>
         </View>
-        <Component25 style={styles.iconPosition} />
+        <Component185 style={styles.iconPosition} />
       </View>
       <View
         style={[
-          styles.bd57270ff3cddd5d20ff7401e454dcParent1,
-          styles.bd57270ff3cddd5d20ff7401e454dcPosition1,
-        ]}
-      >
-        <Image
-          style={styles.bd57270ff3cddd5d20ff7401e454dcIcon}
-          resizeMode="cover"
-          source={require("../assets/569114bd57270ff3cddd5d20ff7401e454dc67a1f09dic5q4g-fw1200-1.png")}
-        />
-        <Image
-          style={styles.bd57270ff3cddd5d20ff7401e454dcIcon}
-          resizeMode="cover"
-          source={require("../assets/569114bd57270ff3cddd5d20ff7401e454dc67a1f09dic5q4g-fw1200-2.png")}
-        />
-        <Image
-          style={styles.icon26}
-          resizeMode="cover"
-          source={require("../assets/2333-14.png")}
-        />
-        <Vector17 style={[styles.item, styles.itemPosition]} />
-        <Image
-          style={[styles.moneyRainIcon, styles.iconPosition3]}
-          resizeMode="cover"
-          source={require("../assets/1moneyrain4.png")}
-        />
-        <Image
-          style={styles.icon27}
-          resizeMode="cover"
-          source={require("../assets/161.png")}
-        />
-        <Text style={styles.startTypo1}>Details</Text>
-        <Text style={[styles.next2100, styles.textFlexBox]}>Next 21:00</Text>
-        <View style={styles.rectangleParent13}>
-          <View style={[styles.groupChild31, styles.groupChildPosition]} />
-          <Text style={[styles.text4, styles.textFlexBox]}>99+</Text>
-        </View>
-        <View
-          style={[styles.rectangleParent14, styles.rectangleParentPosition]}
-        >
-          <View style={[styles.groupChild32, styles.groupChildPosition]} />
-          <Text style={[styles.text5, styles.textFlexBox]}>1</Text>
-        </View>
-        <Component26 style={[styles.icon28, styles.iconPosition]} />
-      </View>
-      <View
-        style={[
-          styles.bd57270ff3cddd5d20ff7401e454dcParent2,
+          styles.bd57270ff3cddd5d20ff7401e454dcGroup,
           styles.bd57270ff3cddd5d20ff7401e454dcPosition,
         ]}
       >
@@ -853,23 +671,69 @@ const Component1 = () => {
           source={require("../assets/569114bd57270ff3cddd5d20ff7401e454dc67a1f09dic5q4g-fw1200-2.png")}
         />
         <Image
+          style={styles.icon25}
+          resizeMode="cover"
+          source={require("../assets/2333-14.png")}
+        />
+        <Vector144 style={[styles.instanceInner, styles.instancePosition]} />
+        <Image
+          style={[styles.moneyRainIcon, styles.iconPosition3]}
+          resizeMode="cover"
+          source={require("../assets/1moneyrain4.png")}
+        />
+        <Image
           style={styles.icon26}
+          resizeMode="cover"
+          source={require("../assets/161.png")}
+        />
+        <Text style={styles.startTypo}>Details</Text>
+        <Text style={[styles.next21001, styles.textFlexBox]}>Next 21:00</Text>
+        <View style={styles.rectangleParent13}>
+          <View style={[styles.groupChild31, styles.groupChildPosition]} />
+          <Text style={[styles.text4, styles.textFlexBox]}>99+</Text>
+        </View>
+        <View
+          style={[styles.rectangleParent16, styles.rectangleParentPosition]}
+        >
+          <View style={[styles.groupChild32, styles.groupChildPosition]} />
+          <Text style={[styles.text5, styles.textFlexBox]}>1</Text>
+        </View>
+        <Component186 style={[styles.icon30, styles.iconPosition]} />
+      </View>
+      <View
+        style={[
+          styles.bd57270ff3cddd5d20ff7401e454dcContainer,
+          styles.bd57270ff3cddd5d20ff7401e454dcParentLayout,
+        ]}
+      >
+        <Image
+          style={styles.bd57270ff3cddd5d20ff7401e454dcIcon}
+          resizeMode="cover"
+          source={require("../assets/569114bd57270ff3cddd5d20ff7401e454dc67a1f09dic5q4g-fw1200-1.png")}
+        />
+        <Image
+          style={styles.bd57270ff3cddd5d20ff7401e454dcIcon}
+          resizeMode="cover"
+          source={require("../assets/569114bd57270ff3cddd5d20ff7401e454dc67a1f09dic5q4g-fw1200-2.png")}
+        />
+        <Image
+          style={styles.icon25}
           resizeMode="cover"
           source={require("../assets/2333-1.png")}
         />
-        <Vector18 style={[styles.item, styles.itemPosition]} />
+        <Vector145 style={[styles.instanceInner, styles.instancePosition]} />
         <Image
           style={[styles.moneyRainIcon, styles.iconPosition3]}
           resizeMode="cover"
           source={require("../assets/1moneyrain.png")}
         />
         <Image
-          style={styles.icon27}
+          style={styles.icon26}
           resizeMode="cover"
           source={require("../assets/16.png")}
         />
-        <Text style={styles.startTypo}>Receive</Text>
-        <Text style={[styles.next2100, styles.textFlexBox]}>Next 21:00</Text>
+        <Text style={[styles.start2, styles.startTypo1]}>Receive</Text>
+        <Text style={[styles.next21001, styles.textFlexBox]}>Next 21:00</Text>
         <View style={styles.rectangleParent13}>
           <View style={[styles.groupChild31, styles.groupChildPosition]} />
           <Text style={[styles.text4, styles.textFlexBox]}>99+</Text>
@@ -878,7 +742,191 @@ const Component1 = () => {
           <View style={[styles.groupChild32, styles.groupChildPosition]} />
           <Text style={[styles.text5, styles.textFlexBox]}>2</Text>
         </View>
-        <Component27 style={[styles.icon28, styles.iconPosition]} />
+        <Component187 style={[styles.icon30, styles.iconPosition]} />
+      </View>
+      <Image
+        style={styles.icon34}
+        resizeMode="cover"
+        source={require("../assets/4-10.png")}
+      />
+      <View style={[styles.view, styles.viewPosition]}>
+        <Image
+          style={styles.bd57270ff3cddd5d20ff7401e454dcIcon}
+          resizeMode="cover"
+          source={require("../assets/569114bd57270ff3cddd5d20ff7401e454dc67a1f09dic5q4g-fw1200-1.png")}
+        />
+        <Image
+          style={styles.bd57270ff3cddd5d20ff7401e454dcIcon}
+          resizeMode="cover"
+          source={require("../assets/569114bd57270ff3cddd5d20ff7401e454dc67a1f09dic5q4g-fw1200-2.png")}
+        />
+        <Image
+          style={styles.icon25}
+          resizeMode="cover"
+          source={require("../assets/2333-11.png")}
+        />
+        <Vector146 style={[styles.instanceInner, styles.instancePosition]} />
+        <Image
+          style={[styles.moneyRainIcon, styles.iconPosition3]}
+          resizeMode="cover"
+          source={require("../assets/1moneyrain1.png")}
+        />
+        <Image
+          style={styles.icon26}
+          resizeMode="cover"
+          source={require("../assets/161.png")}
+        />
+        <Text style={[styles.start3, styles.startTypo1]}>23:00 Start</Text>
+        <Text style={[styles.next21001, styles.textFlexBox]}>Next 21:00</Text>
+        <View style={styles.rectangleParent13}>
+          <View style={[styles.groupChild31, styles.groupChildPosition]} />
+          <Text style={[styles.text4, styles.textFlexBox]}>99+</Text>
+        </View>
+        <View
+          style={[styles.rectangleParent16, styles.rectangleParentPosition]}
+        >
+          <View style={[styles.groupChild32, styles.groupChildPosition]} />
+          <Text style={[styles.text5, styles.textFlexBox]}>1</Text>
+        </View>
+        <Component188 style={[styles.icon30, styles.iconPosition]} />
+      </View>
+      <View
+        style={[
+          styles.bd57270ff3cddd5d20ff7401e454dcParent1,
+          styles.bd57270ff3cddd5d20ff7401e454dcPosition,
+        ]}
+      >
+        <Image
+          style={styles.bd57270ff3cddd5d20ff7401e454dcIcon}
+          resizeMode="cover"
+          source={require("../assets/569114bd57270ff3cddd5d20ff7401e454dc67a1f09dic5q4g-fw1200-1.png")}
+        />
+        <Image
+          style={styles.bd57270ff3cddd5d20ff7401e454dcIcon}
+          resizeMode="cover"
+          source={require("../assets/569114bd57270ff3cddd5d20ff7401e454dc67a1f09dic5q4g-fw1200-2.png")}
+        />
+        <Image
+          style={styles.icon25}
+          resizeMode="cover"
+          source={require("../assets/2333-12.png")}
+        />
+        <Vector147 style={[styles.instanceInner, styles.instancePosition]} />
+        <Image
+          style={[styles.moneyRainIcon, styles.iconPosition3]}
+          resizeMode="cover"
+          source={require("../assets/1moneyrain2.png")}
+        />
+        <Image
+          style={styles.icon26}
+          resizeMode="cover"
+          source={require("../assets/161.png")}
+        />
+        <Text style={styles.startTypo}>Details</Text>
+        <Text style={[styles.next21001, styles.textFlexBox]}>Next 21:00</Text>
+        <View style={styles.rectangleParent13}>
+          <View style={[styles.groupChild31, styles.groupChildPosition]} />
+          <Text style={[styles.text4, styles.textFlexBox]}>99+</Text>
+        </View>
+        <View
+          style={[styles.rectangleParent16, styles.rectangleParentPosition]}
+        >
+          <View style={[styles.groupChild32, styles.groupChildPosition]} />
+          <Text style={[styles.text5, styles.textFlexBox]}>1</Text>
+        </View>
+        <Component189 style={[styles.icon30, styles.iconPosition]} />
+      </View>
+      <View
+        style={[
+          styles.bd57270ff3cddd5d20ff7401e454dcParent2,
+          styles.viewPosition,
+        ]}
+      >
+        <Image
+          style={styles.bd57270ff3cddd5d20ff7401e454dcIcon}
+          resizeMode="cover"
+          source={require("../assets/569114bd57270ff3cddd5d20ff7401e454dc67a1f09dic5q4g-fw1200-1.png")}
+        />
+        <Image
+          style={styles.bd57270ff3cddd5d20ff7401e454dcIcon}
+          resizeMode="cover"
+          source={require("../assets/569114bd57270ff3cddd5d20ff7401e454dc67a1f09dic5q4g-fw1200-2.png")}
+        />
+        <Image
+          style={styles.icon25}
+          resizeMode="cover"
+          source={require("../assets/2333-12.png")}
+        />
+        <Vector148 style={[styles.instanceInner, styles.instancePosition]} />
+        <Image
+          style={[styles.moneyRainIcon, styles.iconPosition3]}
+          resizeMode="cover"
+          source={require("../assets/1moneyrain2.png")}
+        />
+        <Image
+          style={styles.icon26}
+          resizeMode="cover"
+          source={require("../assets/161.png")}
+        />
+        <Text style={styles.startTypo}>Details</Text>
+        <Text style={[styles.next21001, styles.textFlexBox]}>Next 21:00</Text>
+        <View style={styles.rectangleParent13}>
+          <View style={[styles.groupChild31, styles.groupChildPosition]} />
+          <Text style={[styles.text4, styles.textFlexBox]}>99+</Text>
+        </View>
+        <View
+          style={[styles.rectangleParent16, styles.rectangleParentPosition]}
+        >
+          <View style={[styles.groupChild32, styles.groupChildPosition]} />
+          <Text style={[styles.text5, styles.textFlexBox]}>1</Text>
+        </View>
+        <Component190 style={[styles.icon30, styles.iconPosition]} />
+      </View>
+      <View
+        style={[
+          styles.bd57270ff3cddd5d20ff7401e454dcParent3,
+          styles.bd57270ff3cddd5d20ff7401e454dcParentLayout,
+        ]}
+      >
+        <Image
+          style={styles.bd57270ff3cddd5d20ff7401e454dcIcon}
+          resizeMode="cover"
+          source={require("../assets/569114bd57270ff3cddd5d20ff7401e454dc67a1f09dic5q4g-fw1200-1.png")}
+        />
+        <Image
+          style={styles.bd57270ff3cddd5d20ff7401e454dcIcon}
+          resizeMode="cover"
+          source={require("../assets/569114bd57270ff3cddd5d20ff7401e454dc67a1f09dic5q4g-fw1200-2.png")}
+        />
+        <Image
+          style={styles.icon25}
+          resizeMode="cover"
+          source={require("../assets/2333-12.png")}
+        />
+        <Vector149 style={[styles.instanceInner, styles.instancePosition]} />
+        <Image
+          style={[styles.moneyRainIcon, styles.iconPosition3]}
+          resizeMode="cover"
+          source={require("../assets/1moneyrain2.png")}
+        />
+        <Image
+          style={styles.icon26}
+          resizeMode="cover"
+          source={require("../assets/161.png")}
+        />
+        <Text style={styles.startTypo}>Details</Text>
+        <Text style={[styles.next21001, styles.textFlexBox]}>Next 21:00</Text>
+        <View style={styles.rectangleParent13}>
+          <View style={[styles.groupChild31, styles.groupChildPosition]} />
+          <Text style={[styles.text4, styles.textFlexBox]}>99+</Text>
+        </View>
+        <View
+          style={[styles.rectangleParent16, styles.rectangleParentPosition]}
+        >
+          <View style={[styles.groupChild32, styles.groupChildPosition]} />
+          <Text style={[styles.text5, styles.textFlexBox]}>1</Text>
+        </View>
+        <Component191 style={[styles.icon30, styles.iconPosition]} />
       </View>
     </ScrollView>
   );
@@ -925,7 +973,7 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   theClr: {
-    color: Color.color,
+    color: Color.color3,
     textAlign: "left",
   },
   fishPosition: {
@@ -941,7 +989,7 @@ const styles = StyleSheet.create({
     width: 88,
     position: "absolute",
   },
-  fortuneTypo: {
+  comingTypo: {
     textShadowRadius: 2,
     textShadowOffset: {
       width: 0,
@@ -950,7 +998,6 @@ const styles = StyleSheet.create({
     textShadowColor: "rgba(0, 0, 0, 0.25)",
     textTransform: "capitalize",
     fontSize: 13,
-    top: 520,
     textAlign: "center",
     color: Color.wz1,
     width: 88,
@@ -962,25 +1009,6 @@ const styles = StyleSheet.create({
   },
   romaXTypo: {
     top: 648,
-    textShadowRadius: 2,
-    textShadowOffset: {
-      width: 0,
-      height: 1,
-    },
-    textShadowColor: "rgba(0, 0, 0, 0.25)",
-    textAlign: "center",
-    color: Color.wz1,
-    textTransform: "capitalize",
-    fontSize: 13,
-    width: 88,
-    fontFamily: "NotoSans-Bold",
-    lineHeight: 16,
-    fontWeight: "700",
-    overflow: "hidden",
-    position: "absolute",
-  },
-  romaX1Typo: {
-    top: 776,
     textShadowRadius: 2,
     textShadowOffset: {
       width: 0,
@@ -1091,7 +1119,7 @@ const styles = StyleSheet.create({
     top: "12.53%",
     fontSize: 14,
     textAlign: "left",
-    color: Color.color1,
+    color: Color.color,
     fontFamily: "Arial",
     fontWeight: "700",
     lineHeight: 14,
@@ -1132,23 +1160,26 @@ const styles = StyleSheet.create({
     top: 0,
     position: "absolute",
   },
-  viewLayout: {
+  bd57270ff3cddd5d20ff7401e454dcParentLayout: {
     height: 121,
     width: 121,
-    left: 252,
     position: "absolute",
   },
-  itemPosition: {
-    left: "7.85%",
-    bottom: "40.08%",
-    right: "8.26%",
-    top: "45.12%",
-    width: "83.88%",
-    height: "14.79%",
-    maxHeight: "100%",
-    overflow: "hidden",
+  startTypo1: {
+    textShadowColor: "rgba(0, 0, 0, 0.8)",
+    lineHeight: 29,
+    top: "72.73%",
+    fontSize: 16,
+    textShadowRadius: 2,
+    textShadowOffset: {
+      width: 0,
+      height: 1,
+    },
+    textAlign: "center",
+    color: Color.color,
+    fontFamily: "Arial",
+    fontWeight: "700",
     position: "absolute",
-    maxWidth: "100%",
   },
   textFlexBox: {
     justifyContent: "center",
@@ -1166,6 +1197,24 @@ const styles = StyleSheet.create({
     left: 0,
     top: 0,
     position: "absolute",
+  },
+  bd57270ff3cddd5d20ff7401e454dcPosition: {
+    left: 47,
+    height: 121,
+    width: 121,
+    position: "absolute",
+  },
+  instancePosition: {
+    left: "7.85%",
+    bottom: "40.08%",
+    right: "8.26%",
+    top: "45.12%",
+    width: "83.88%",
+    height: "14.79%",
+    maxHeight: "100%",
+    overflow: "hidden",
+    position: "absolute",
+    maxWidth: "100%",
   },
   rectangleParentPosition: {
     left: 88,
@@ -1186,14 +1235,8 @@ const styles = StyleSheet.create({
     position: "absolute",
     maxWidth: "100%",
   },
-  bd57270ff3cddd5d20ff7401e454dcPosition1: {
-    left: 47,
-    height: 121,
-    width: 121,
-    position: "absolute",
-  },
-  bd57270ff3cddd5d20ff7401e454dcPosition: {
-    left: 131,
+  viewPosition: {
+    left: 252,
     height: 121,
     width: 121,
     position: "absolute",
@@ -1256,7 +1299,7 @@ const styles = StyleSheet.create({
     lineHeight: 14,
     display: "flex",
     textAlign: "left",
-    color: Color.color1,
+    color: Color.color,
     fontFamily: "Arial",
     fontWeight: "700",
     fontSize: 12,
@@ -1265,7 +1308,7 @@ const styles = StyleSheet.create({
   },
   rectangleView: {
     borderRadius: 90,
-    backgroundColor: Color.color1,
+    backgroundColor: Color.color,
     left: 0,
     top: 0,
   },
@@ -1306,7 +1349,7 @@ const styles = StyleSheet.create({
   theRechargeOfContainer: {
     left: 53,
     top: 310,
-    color: Color.color,
+    color: Color.color3,
     fontSize: 14,
     lineHeight: 14,
     position: "absolute",
@@ -1314,7 +1357,7 @@ const styles = StyleSheet.create({
   theRecharge: {
     left: 264,
     top: 310,
-    color: Color.color,
+    color: Color.color3,
     fontSize: 14,
     lineHeight: 14,
     position: "absolute",
@@ -1395,36 +1438,42 @@ const styles = StyleSheet.create({
     left: 77,
   },
   fortuneOxFortune: {
+    top: 520,
     left: 77,
   },
   romaX: {
     left: 77,
   },
   romaX1: {
+    top: 776,
     left: 77,
   },
   romaX2: {
     left: 77,
   },
   superAce: {
+    top: 520,
     left: 174,
   },
   diamondParty: {
     left: 174,
   },
   diamondParty1: {
+    top: 776,
     left: 174,
   },
   diamondParty2: {
     left: 174,
   },
   moneyComing: {
+    top: 520,
     left: 271,
   },
   luckyComing: {
     left: 271,
   },
   luckyComing1: {
+    top: 776,
     left: 271,
   },
   luckyComing2: {
@@ -1852,7 +1901,7 @@ const styles = StyleSheet.create({
   },
   members: {
     left: "5.33%",
-    color: Color.color,
+    color: Color.color3,
     textAlign: "left",
   },
   promotion: {
@@ -1945,13 +1994,6 @@ const styles = StyleSheet.create({
   child: {
     backgroundColor: "rgba(0, 0, 0, 0.6)",
   },
-  icon25: {
-    left: 245,
-    width: 130,
-    height: 150,
-    top: 562,
-    position: "absolute",
-  },
   bd57270ff3cddd5d20ff7401e454dcIcon: {
     height: "99.17%",
     width: "99.17%",
@@ -1964,7 +2006,7 @@ const styles = StyleSheet.create({
     position: "absolute",
     maxWidth: "100%",
   },
-  icon26: {
+  icon25: {
     height: "81.82%",
     top: "2.48%",
     right: "12.4%",
@@ -1976,9 +2018,6 @@ const styles = StyleSheet.create({
     position: "absolute",
     maxWidth: "100%",
   },
-  item: {
-    display: "none",
-  },
   moneyRainIcon: {
     height: "18.18%",
     marginLeft: -59.5,
@@ -1987,7 +2026,7 @@ const styles = StyleSheet.create({
     width: 118,
     maxHeight: "100%",
   },
-  icon27: {
+  icon26: {
     height: "24.79%",
     width: "79.34%",
     top: "74.38%",
@@ -2000,21 +2039,10 @@ const styles = StyleSheet.create({
     maxWidth: "100%",
   },
   start: {
-    left: "13.22%",
+    left: "24.79%",
     textShadowColor: "rgba(0, 0, 0, 0.8)",
     lineHeight: 29,
     top: "72.73%",
-    fontSize: 16,
-    textShadowRadius: 2,
-    textShadowOffset: {
-      width: 0,
-      height: 1,
-    },
-    textAlign: "center",
-    color: Color.color1,
-    fontFamily: "Arial",
-    fontWeight: "700",
-    position: "absolute",
   },
   next2100: {
     color: "#fdffb8",
@@ -2024,7 +2052,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     width: "75.21%",
     fontSize: 14,
-    display: "none",
+    display: "flex",
   },
   groupChild31: {
     width: 32,
@@ -2036,14 +2064,14 @@ const styles = StyleSheet.create({
     top: 2,
     display: "flex",
     justifyContent: "center",
-    color: Color.color1,
+    color: Color.color,
     fontSize: 12,
   },
   rectangleParent13: {
     left: 80,
+    display: "none",
     width: 32,
     top: 11,
-    display: "none",
     height: 16,
     position: "absolute",
   },
@@ -2058,20 +2086,19 @@ const styles = StyleSheet.create({
     left: 6,
     display: "flex",
     justifyContent: "center",
-    color: Color.color1,
+    color: Color.color,
     fontSize: 12,
     top: 4,
   },
-  rectangleParent14: {
+  bd57270ff3cddd5d20ff7401e454dcParent: {
+    top: 323,
+    left: 131,
+    width: 121,
+  },
+  instanceInner: {
     display: "none",
   },
-  icon28: {
-    display: "none",
-  },
-  view: {
-    top: 406,
-  },
-  startTypo1: {
+  startTypo: {
     left: "28.1%",
     textShadowColor: "rgba(0, 0, 0, 0.8)",
     lineHeight: 29,
@@ -2083,35 +2110,13 @@ const styles = StyleSheet.create({
       height: 1,
     },
     textAlign: "center",
-    color: Color.color1,
+    color: Color.color,
     fontFamily: "Arial",
     fontWeight: "700",
     position: "absolute",
   },
-  bd57270ff3cddd5d20ff7401e454dcParent: {
-    top: 768,
-  },
-  bd57270ff3cddd5d20ff7401e454dcGroup: {
-    top: 647,
-  },
-  startTypo: {
-    left: "24.79%",
-    textShadowColor: "rgba(0, 0, 0, 0.8)",
-    lineHeight: 29,
-    top: "72.73%",
-    fontSize: 16,
-    textShadowRadius: 2,
-    textShadowOffset: {
-      width: 0,
-      height: 1,
-    },
-    textAlign: "center",
-    color: Color.color1,
-    fontFamily: "Arial",
-    fontWeight: "700",
-    position: "absolute",
-  },
-  next21003: {
+  next21001: {
+    display: "none",
     color: "#fdffb8",
     left: "17.36%",
     top: "47.11%",
@@ -2119,19 +2124,55 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     width: "75.21%",
     fontSize: 14,
-    display: "flex",
+  },
+  rectangleParent16: {
+    display: "none",
+  },
+  icon30: {
+    display: "none",
+  },
+  bd57270ff3cddd5d20ff7401e454dcGroup: {
+    top: 419,
+  },
+  start2: {
+    left: "24.79%",
+    textShadowColor: "rgba(0, 0, 0, 0.8)",
+    lineHeight: 29,
+    top: "72.73%",
   },
   bd57270ff3cddd5d20ff7401e454dcContainer: {
-    top: 432,
+    top: 535,
+    left: 23,
+  },
+  icon34: {
+    left: 245,
+    width: 130,
+    height: 150,
+    top: 520,
+    position: "absolute",
+  },
+  start3: {
+    left: "15.7%",
+    textShadowColor: "rgba(0, 0, 0, 0.8)",
+    lineHeight: 29,
+    top: "72.73%",
+  },
+  view: {
+    top: 293,
   },
   bd57270ff3cddd5d20ff7401e454dcParent1: {
-    top: 528,
+    top: 651,
   },
   bd57270ff3cddd5d20ff7401e454dcParent2: {
-    top: 741,
+    top: 776,
+  },
+  bd57270ff3cddd5d20ff7401e454dcParent3: {
+    top: 746,
+    left: 131,
+    width: 121,
   },
   scrollview: {
-    backgroundColor: "#1e2024",
+    backgroundColor: Color.bg3,
     flex: 1,
     maxWidth: "100%",
     width: "100%",

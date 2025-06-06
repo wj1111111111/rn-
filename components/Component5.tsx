@@ -6,8 +6,8 @@ import {
   View,
   ImageSourcePropType,
 } from "react-native";
-import Vector11 from "../assets/vector1";
-import Component13 from "../assets/";
+import Vector1111 from "../assets/vector11";
+import Component73 from "../assets/";
 import { Color } from "../GlobalStyles";
 
 export type Component5Type = {
@@ -74,7 +74,7 @@ const Component5 = ({
       />
       <Image style={styles.icon} resizeMode="cover" source={prop} />
       {!!showVectorIcon && (
-        <Vector11 style={[styles.instanceChild, styles.iconLayout]} />
+        <Vector1111 style={[styles.instanceChild, styles.iconLayout]} />
       )}
       <Image
         style={[styles.moneyRainIcon, styles.iconLayout]}
@@ -99,7 +99,7 @@ const Component5 = ({
         </View>
       )}
       {!!showIcon && (
-        <Component13 style={[styles.icon2, styles.iconPosition]} />
+        <Component73 style={[styles.icon2, styles.iconPosition]} />
       )}
     </View>
   );
@@ -134,7 +134,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
     alignItems: "center",
     textAlign: "center",
-    color: Color.color1,
+    color: Color.color,
     fontFamily: "Arial",
     fontWeight: "700",
     lineHeight: 29,
@@ -206,7 +206,7 @@ const styles = StyleSheet.create({
     },
     textShadowRadius: 2,
     textAlign: "center",
-    color: Color.color1,
+    color: Color.color,
     fontFamily: "Arial",
     fontWeight: "700",
     lineHeight: 29,

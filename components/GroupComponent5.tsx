@@ -1,14 +1,14 @@
 import * as React from "react";
 import { Image, StyleSheet, Text, View } from "react-native";
-import Logo4 from "../assets/logo4";
-import Logo8 from "../assets/logo8";
-import Ellipse26 from "../assets/ellipse26";
-import Logovideo7 from "../assets/logovideo7";
-import Logovideo6 from "../assets/logovideo6";
-import Ellipse108 from "../assets/ellipse108";
-import Logovideo4 from "../assets/logovideo4";
-import Logovideo3 from "../assets/logovideo3";
-import Logovideo2 from "../assets/logovideo2";
+import Logo411 from "../assets/logo41";
+import Logo811 from "../assets/logo81";
+import Ellipse2621 from "../assets/ellipse262";
+import Logovideo711 from "../assets/logovideo71";
+import Logovideo611 from "../assets/logovideo61";
+import Ellipse10811 from "../assets/ellipse1081";
+import Logovideo411 from "../assets/logovideo41";
+import Logovideo311 from "../assets/logovideo31";
+import Logovideo211 from "../assets/logovideo21";
 import { Color } from "../GlobalStyles";
 
 const GroupComponent5 = () => {
@@ -17,35 +17,35 @@ const GroupComponent5 = () => {
       <Image
         style={[styles.logo1Icon, styles.iconChildLayout]}
         resizeMode="cover"
-        source={require("../assets/logo1.png")}
+        source={require("../assets/logo11.png")}
       />
       <Image
         style={[styles.logo2Icon, styles.iconChildLayout]}
         resizeMode="cover"
-        source={require("../assets/logo1.png")}
+        source={require("../assets/logo11.png")}
       />
       <Image
         style={[styles.logo7Icon, styles.iconLayout1]}
         resizeMode="cover"
-        source={require("../assets/logo1.png")}
+        source={require("../assets/logo11.png")}
       />
       <Image
         style={[styles.logo3Icon, styles.iconChildLayout]}
         resizeMode="cover"
-        source={require("../assets/logo1.png")}
+        source={require("../assets/logo11.png")}
       />
-      <Logo4 style={[styles.logo4Icon, styles.iconChildLayout]} />
+      <Logo411 style={[styles.logo4Icon, styles.iconChildLayout]} />
       <Image
         style={[styles.logo5Icon, styles.iconChildLayout]}
         resizeMode="cover"
-        source={require("../assets/logo1.png")}
+        source={require("../assets/logo11.png")}
       />
       <Image
         style={[styles.logo6Icon, styles.iconLayout1]}
         resizeMode="cover"
-        source={require("../assets/logo1.png")}
+        source={require("../assets/logo11.png")}
       />
-      <Logo8 style={[styles.logo8Icon, styles.iconLayout1]} />
+      <Logo811 style={[styles.logo8Icon, styles.iconLayout1]} />
       <View
         style={[styles.thisSiteOffersACompleteExParent, styles.parentPosition]}
       >
@@ -64,7 +64,7 @@ const GroupComponent5 = () => {
         <View style={styles.groupParent}>
           <View style={[styles.groupWrapper, styles.groupWrapperPosition]}>
             <View style={[styles.vectorParent, styles.groupWrapperPosition]}>
-              <Ellipse26
+              <Ellipse2621
                 style={[styles.groupChild, styles.groupChildPosition]}
               />
               <Text style={styles.text}>18</Text>
@@ -77,10 +77,14 @@ const GroupComponent5 = () => {
             </View>
           </View>
           <View style={[styles.logovideo7Parent, styles.groupChildPosition]}>
-            <Logovideo7 style={[styles.logovideo7Icon, styles.iconPosition1]} />
-            <Logovideo6 style={[styles.logovideo6Icon, styles.iconPosition1]} />
+            <Logovideo711
+              style={[styles.logovideo7Icon, styles.iconPosition1]}
+            />
+            <Logovideo611
+              style={[styles.logovideo6Icon, styles.iconPosition1]}
+            />
             <View style={[styles.logovideo5, styles.iconPosition1]}>
-              <Ellipse108
+              <Ellipse10811
                 style={[styles.logovideo5Child, styles.groupWrapperPosition]}
               />
               <View style={[styles.logovideo5Item, styles.logovideo5Border]} />
@@ -91,9 +95,15 @@ const GroupComponent5 = () => {
                 style={[styles.rectangleView, styles.rectangleViewLayout]}
               />
             </View>
-            <Logovideo4 style={[styles.logovideo4Icon, styles.iconPosition1]} />
-            <Logovideo3 style={[styles.logovideo3Icon, styles.iconPosition1]} />
-            <Logovideo2 style={[styles.logovideo2Icon, styles.iconPosition1]} />
+            <Logovideo411
+              style={[styles.logovideo4Icon, styles.iconPosition1]}
+            />
+            <Logovideo311
+              style={[styles.logovideo3Icon, styles.iconPosition1]}
+            />
+            <Logovideo211
+              style={[styles.logovideo2Icon, styles.iconPosition1]}
+            />
           </View>
         </View>
       </View>
@@ -105,42 +115,42 @@ const GroupComponent5 = () => {
       <Image
         style={[styles.jdbIcon, styles.iconLayout]}
         resizeMode="cover"
-        source={require("../assets/logo1.png")}
+        source={require("../assets/logo11.png")}
       />
       <Image
         style={[styles.sexybcrtIcon, styles.iconPosition]}
         resizeMode="cover"
-        source={require("../assets/logo1.png")}
+        source={require("../assets/logo11.png")}
       />
       <Image
         style={[styles.fcIcon, styles.iconPosition]}
         resizeMode="cover"
-        source={require("../assets/logo1.png")}
+        source={require("../assets/logo11.png")}
       />
       <Image
         style={[styles.logo2Icon1, styles.iconPosition]}
         resizeMode="cover"
-        source={require("../assets/logo1.png")}
+        source={require("../assets/logo11.png")}
       />
       <Image
         style={[styles.jiliIcon, styles.iconLayout]}
         resizeMode="cover"
-        source={require("../assets/logo1.png")}
+        source={require("../assets/logo11.png")}
       />
       <Image
         style={[styles.pgIcon, styles.iconPosition]}
         resizeMode="cover"
-        source={require("../assets/logo1.png")}
+        source={require("../assets/logo11.png")}
       />
       <Image
         style={[styles.yesbingoIcon, styles.iconLayout]}
         resizeMode="cover"
-        source={require("../assets/logo1.png")}
+        source={require("../assets/logo11.png")}
       />
       <Image
         style={[styles.pp2Icon, styles.iconPosition]}
         resizeMode="cover"
-        source={require("../assets/logo1.png")}
+        source={require("../assets/logo11.png")}
       />
     </View>
   );

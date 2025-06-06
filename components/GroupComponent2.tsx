@@ -7,12 +7,12 @@ import {
   ImageSourcePropType,
 } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
-import Vector29 from "../assets/vector";
-import Star145 from "../assets/star1";
-import Star146 from "../assets/star1";
-import Star147 from "../assets/star1";
-import Star148 from "../assets/star1";
-import Star149 from "../assets/star1";
+import Vector411 from "../assets/vector4";
+import Star1155 from "../assets/star11";
+import Star1156 from "../assets/star11";
+import Star1157 from "../assets/star11";
+import Star1158 from "../assets/star11";
+import Star1159 from "../assets/star11";
 import { Color } from "../GlobalStyles";
 
 export type GroupComponent2Type = {
@@ -36,28 +36,28 @@ const GroupComponent2 = ({ maskGroup }: GroupComponent2Type) => {
           source={maskGroup}
         />
         <View style={styles.groupItem} />
-        <Vector29 style={styles.vectorIcon} />
-        <Star145
+        <Vector411 style={styles.vectorIcon} />
+        <Star1155
           style={[styles.groupInner, styles.groupChildLayout]}
           width={15}
           height={15}
         />
-        <Star146
+        <Star1156
           style={[styles.starIcon, styles.groupChildLayout]}
           width={15}
           height={15}
         />
-        <Star147
+        <Star1157
           style={[styles.groupChild1, styles.groupChildLayout]}
           width={15}
           height={15}
         />
-        <Star148
+        <Star1158
           style={[styles.groupChild2, styles.groupChildLayout]}
           width={15}
           height={15}
         />
-        <Star149
+        <Star1159
           style={[styles.groupChild3, styles.groupChildLayout]}
           width={15}
           height={15}
@@ -143,7 +143,7 @@ const styles = StyleSheet.create({
     lineHeight: 14,
     textTransform: "uppercase",
     fontFamily: "Arial",
-    color: Color.color1,
+    color: Color.color,
     display: "flex",
     alignItems: "center",
     width: 169,
@@ -152,7 +152,7 @@ const styles = StyleSheet.create({
   },
   rectangleView: {
     borderRadius: 90,
-    backgroundColor: Color.color1,
+    backgroundColor: Color.color,
     left: 0,
     top: 0,
     width: 97,

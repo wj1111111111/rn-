@@ -6,10 +6,10 @@ import {
   View,
   ImageSourcePropType,
 } from "react-native";
-import Component80 from "../assets/";
-import Component81 from "../assets/";
-import Component82 from "../assets/";
-import Vector38 from "../assets/vector3";
+import Component284 from "../assets/";
+import Component285 from "../assets/";
+import Component286 from "../assets/";
+import Vector3111 from "../assets/vector31";
 import { Color } from "../GlobalStyles";
 
 export type GroupComponentType = {
@@ -20,15 +20,15 @@ const GroupComponent = ({ prop }: GroupComponentType) => {
   return (
     <View style={styles.parent}>
       <View>{prop && prop}</View>
-      <Component80 style={[styles.icon1, styles.iconPosition]} />
-      <Component81 style={[styles.icon2, styles.iconPosition]} />
-      <Component82 style={[styles.icon3, styles.iconPosition]} />
+      <Component284 style={[styles.icon1, styles.iconPosition]} />
+      <Component285 style={[styles.icon2, styles.iconPosition]} />
+      <Component286 style={[styles.icon3, styles.iconPosition]} />
       <Text style={styles.members}>Home</Text>
       <Text style={[styles.promotion, styles.depositTypo]}>Promotion</Text>
       <Text style={[styles.home, styles.depositTypo]}>Teams</Text>
       <Text style={[styles.deposit, styles.depositTypo]}>Deposit</Text>
       <Text style={[styles.deposit1, styles.depositTypo]}>Invite</Text>
-      <Vector38 style={[styles.vectorIcon, styles.iconPosition]} />
+      <Vector3111 style={[styles.vectorIcon, styles.iconPosition]} />
       <Image
         style={[styles.invite1Icon, styles.iconLayout]}
         resizeMode="cover"
@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
   },
   members: {
     left: "5.33%",
-    color: Color.color,
+    color: Color.color3,
     textAlign: "left",
     fontFamily: "Arial",
     fontWeight: "700",

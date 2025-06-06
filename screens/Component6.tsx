@@ -2,8 +2,8 @@ import * as React from "react";
 import { ScrollView, StyleSheet, View, Image, Text } from "react-native";
 import LinearGradient from "react-native-linear-gradient";
 import GroupComponent2 from "../components/GroupComponent2";
-import Component79 from "../assets/";
-import Vector122 from "../assets/vector1";
+import Component270 from "../assets/";
+import Vector1124 from "../assets/vector11";
 import GroupComponent3 from "../components/GroupComponent3";
 import GroupComponent from "../components/GroupComponent";
 import GroupComponent4 from "../components/GroupComponent4";
@@ -11,7 +11,7 @@ import GroupComponent5 from "../components/GroupComponent5";
 import GroupComponent6 from "../components/GroupComponent6";
 import { Color } from "../GlobalStyles";
 
-const Component6 = () => {
+const Component18 = () => {
   return (
     <ScrollView style={styles.scrollview}>
       <View style={[styles.groupParent, styles.groupPosition]}>
@@ -23,7 +23,7 @@ const Component6 = () => {
             useAngle={true}
             angle={180}
           />
-          <GroupComponent2 maskGroup={require("../assets/mask-group1.png")} />
+          <GroupComponent2 maskGroup={require("../assets/mask-group4.png")} />
           <Image
             style={[styles.groupItem, styles.icon25Layout]}
             resizeMode="cover"
@@ -41,7 +41,7 @@ const Component6 = () => {
             resizeMode="cover"
             source={require("../assets/3b4bde395738f0c8b07d1baa47c5d48f172c19aa158772swckar-1.png")}
           />
-          <Component79
+          <Component270
             style={[styles.icon, styles.iconPosition2]}
             width={16}
             height={16}
@@ -428,7 +428,7 @@ const Component6 = () => {
             useAngle={true}
             angle={180}
           />
-          <Vector122 style={[styles.vectorIcon, styles.iconLayout1]} />
+          <Vector1124 style={[styles.vectorIcon, styles.iconLayout1]} />
           <Text style={[styles.withdrawal, styles.depositTypo]}>
             Withdrawal
           </Text>
@@ -456,32 +456,32 @@ const Component6 = () => {
           <Image
             style={[styles.jdbSlot105Icon, styles.iconLayout3]}
             resizeMode="cover"
-            source={require("../assets/jdbslot105.png")}
+            source={require("../assets/jdbslot1051.png")}
           />
           <Image
             style={[styles.icon19, styles.iconParentPosition]}
             resizeMode="cover"
-            source={require("../assets/jdbslot105.png")}
+            source={require("../assets/jdbslot1051.png")}
           />
           <Image
             style={[styles.icon20, styles.iconLayout3]}
             resizeMode="cover"
-            source={require("../assets/jdbslot105.png")}
+            source={require("../assets/jdbslot1051.png")}
           />
           <Image
             style={[styles.icon21, styles.iconParentPosition]}
             resizeMode="cover"
-            source={require("../assets/jdbslot105.png")}
+            source={require("../assets/jdbslot1051.png")}
           />
           <Image
             style={[styles.icon22, styles.iconParentPosition]}
             resizeMode="cover"
-            source={require("../assets/jdbslot105.png")}
+            source={require("../assets/jdbslot1051.png")}
           />
           <Image
             style={[styles.icon23, styles.groupChildLayout]}
             resizeMode="cover"
-            source={require("../assets/jdbslot105.png")}
+            source={require("../assets/jdbslot1051.png")}
           />
           <Text style={[styles.romaX3, styles.romaX3Typo]} numberOfLines={1}>
             Roma x
@@ -560,7 +560,7 @@ const Component6 = () => {
             <Image
               style={styles.kmWhiteIcon}
               resizeMode="cover"
-              source={require("../assets/kmwhite.png")}
+              source={require("../assets/kmwhite1.png")}
             />
           </View>
           <View style={[styles.rectangleParent13, styles.iconParentPosition]}>
@@ -568,7 +568,7 @@ const Component6 = () => {
             <Image
               style={styles.kmWhiteIcon}
               resizeMode="cover"
-              source={require("../assets/kmwhite.png")}
+              source={require("../assets/kmwhite1.png")}
             />
           </View>
           <View style={[styles.rectangleParent14, styles.iconParentPosition]}>
@@ -576,7 +576,7 @@ const Component6 = () => {
             <Image
               style={styles.kmWhiteIcon}
               resizeMode="cover"
-              source={require("../assets/kmwhite.png")}
+              source={require("../assets/kmwhite1.png")}
             />
           </View>
           <GroupComponent5 />
@@ -802,7 +802,7 @@ const styles = StyleSheet.create({
     position: "absolute",
   },
   depositTypo: {
-    color: Color.color1,
+    color: Color.color,
     top: "7.38%",
     fontWeight: "700",
     fontFamily: "Arial",
@@ -887,7 +887,7 @@ const styles = StyleSheet.create({
   theRechargeOfContainer: {
     left: 53,
     textAlign: "left",
-    color: Color.color,
+    color: Color.color3,
     lineHeight: 14,
     fontSize: 14,
     top: 310,
@@ -898,7 +898,7 @@ const styles = StyleSheet.create({
     fontWeight: "700",
     fontFamily: "Arial",
     textAlign: "left",
-    color: Color.color,
+    color: Color.color3,
     lineHeight: 14,
     fontSize: 14,
     top: 310,
@@ -1513,4 +1513,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Component6;
+export default Component18;
